@@ -1,0 +1,10 @@
+.env
+CLAUDE.md
+data/source/
+data/audio/
+data/tts/
+data/aligned/
+output/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
