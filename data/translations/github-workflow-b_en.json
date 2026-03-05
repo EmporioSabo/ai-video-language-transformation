@@ -1,0 +1,6764 @@
+[
+  {
+    "id": 0,
+    "text_zh": "大家好",
+    "start": 0.0,
+    "end": 0.16,
+    "words": [
+      {
+        "word": "大家好",
+        "start": 0.0,
+        "end": 0.16,
+        "probability": 0.935
+      }
+    ],
+    "text_en_deepl": "Hello, everyone.",
+    "text_en": "Hello, everyone.",
+    "tts_file": "segment_0000.wav",
+    "tts_duration": 1.451
+  },
+  {
+    "id": 1,
+    "text_zh": "我们刚刚看到了怎么在github上",
+    "start": 0.16,
+    "end": 4.36,
+    "words": [
+      {
+        "word": "我们",
+        "start": 0.16,
+        "end": 0.74,
+        "probability": 0.448
+      },
+      {
+        "word": "刚",
+        "start": 0.74,
+        "end": 1.18,
+        "probability": 0.994
+      },
+      {
+        "word": "刚",
+        "start": 1.18,
+        "end": 1.4,
+        "probability": 0.99
+      },
+      {
+        "word": "看到",
+        "start": 1.4,
+        "end": 1.82,
+        "probability": 0.997
+      },
+      {
+        "word": "了",
+        "start": 1.82,
+        "end": 2.16,
+        "probability": 0.993
+      },
+      {
+        "word": "怎么",
+        "start": 2.16,
+        "end": 2.84,
+        "probability": 0.947
+      },
+      {
+        "word": "在",
+        "start": 2.84,
+        "end": 3.38,
+        "probability": 0.985
+      },
+      {
+        "word": "g",
+        "start": 3.38,
+        "end": 3.7,
+        "probability": 0.377
+      },
+      {
+        "word": "ith",
+        "start": 3.7,
+        "end": 3.84,
+        "probability": 0.982
+      },
+      {
+        "word": "ub",
+        "start": 3.84,
+        "end": 4.1,
+        "probability": 0.999
+      },
+      {
+        "word": "上",
+        "start": 4.1,
+        "end": 4.36,
+        "probability": 0.933
+      }
+    ],
+    "text_en_deepl": "We just saw how to github the",
+    "text_en": "We just saw how to github the",
+    "tts_file": "segment_0001.wav",
+    "tts_duration": 2.645
+  },
+  {
+    "id": 2,
+    "text_zh": "在同一个repo里面进行一个协作",
+    "start": 4.36,
+    "end": 7.86,
+    "words": [
+      {
+        "word": "在",
+        "start": 4.36,
+        "end": 4.74,
+        "probability": 0.855
+      },
+      {
+        "word": "同",
+        "start": 4.74,
+        "end": 5.0,
+        "probability": 0.993
+      },
+      {
+        "word": "一个",
+        "start": 5.0,
+        "end": 5.36,
+        "probability": 0.996
+      },
+      {
+        "word": "re",
+        "start": 5.36,
+        "end": 5.6,
+        "probability": 0.527
+      },
+      {
+        "word": "po",
+        "start": 5.6,
+        "end": 5.74,
+        "probability": 0.972
+      },
+      {
+        "word": "里",
+        "start": 5.74,
+        "end": 5.98,
+        "probability": 0.988
+      },
+      {
+        "word": "面",
+        "start": 5.98,
+        "end": 6.24,
+        "probability": 0.998
+      },
+      {
+        "word": "进",
+        "start": 6.24,
+        "end": 6.56,
+        "probability": 0.992
+      },
+      {
+        "word": "行",
+        "start": 6.56,
+        "end": 6.88,
+        "probability": 1.0
+      },
+      {
+        "word": "一个",
+        "start": 6.88,
+        "end": 7.18,
+        "probability": 0.975
+      },
+      {
+        "word": "协",
+        "start": 7.18,
+        "end": 7.64,
+        "probability": 0.998
+      },
+      {
+        "word": "作",
+        "start": 7.64,
+        "end": 7.86,
+        "probability": 0.999
+      }
+    ],
+    "text_en_deepl": "A collaboration inside the same repo",
+    "text_en": "A collaboration inside the same repo",
+    "tts_file": "segment_0002.wav",
+    "tts_duration": 3.285
+  },
+  {
+    "id": 3,
+    "text_zh": "也就是协作者都有对repo的一个",
+    "start": 7.86,
+    "end": 11.88,
+    "words": [
+      {
+        "word": "也",
+        "start": 7.86,
+        "end": 8.24,
+        "probability": 0.948
+      },
+      {
+        "word": "就是",
+        "start": 8.24,
+        "end": 8.52,
+        "probability": 0.999
+      },
+      {
+        "word": "协",
+        "start": 8.52,
+        "end": 9.18,
+        "probability": 0.99
+      },
+      {
+        "word": "作",
+        "start": 9.18,
+        "end": 9.34,
+        "probability": 1.0
+      },
+      {
+        "word": "者",
+        "start": 9.34,
+        "end": 9.54,
+        "probability": 0.999
+      },
+      {
+        "word": "都有",
+        "start": 9.54,
+        "end": 9.9,
+        "probability": 0.993
+      },
+      {
+        "word": "对",
+        "start": 9.9,
+        "end": 10.6,
+        "probability": 0.995
+      },
+      {
+        "word": "re",
+        "start": 10.6,
+        "end": 11.16,
+        "probability": 0.818
+      },
+      {
+        "word": "po",
+        "start": 11.16,
+        "end": 11.32,
+        "probability": 0.999
+      },
+      {
+        "word": "的",
+        "start": 11.32,
+        "end": 11.56,
+        "probability": 0.972
+      },
+      {
+        "word": "一个",
+        "start": 11.56,
+        "end": 11.88,
+        "probability": 0.965
+      }
+    ],
+    "text_en_deepl": "That is, the collaborators all have an understanding of the repo's a",
+    "text_en": "That is, the collaborators all have an understanding of the repo's a",
+    "tts_file": "segment_0003.wav",
+    "tts_duration": 6.229
+  },
+  {
+    "id": 4,
+    "text_zh": "push的一个权限",
+    "start": 11.88,
+    "end": 13.52,
+    "words": [
+      {
+        "word": "p",
+        "start": 11.88,
+        "end": 12.28,
+        "probability": 0.525
+      },
+      {
+        "word": "ush",
+        "start": 12.28,
+        "end": 12.5,
+        "probability": 0.989
+      },
+      {
+        "word": "的",
+        "start": 12.5,
+        "end": 12.7,
+        "probability": 0.979
+      },
+      {
+        "word": "一个",
+        "start": 12.7,
+        "end": 12.88,
+        "probability": 0.914
+      },
+      {
+        "word": "权",
+        "start": 12.88,
+        "end": 13.3,
+        "probability": 0.999
+      },
+      {
+        "word": "限",
+        "start": 13.3,
+        "end": 13.52,
+        "probability": 1.0
+      }
+    ],
+    "text_en_deepl": "One of push's permissions",
+    "text_en": "One of push's permissions",
+    "tts_file": "segment_0004.wav",
+    "tts_duration": 2.283
+  },
+  {
+    "id": 5,
+    "text_zh": "至少push一个新的分支的权限",
+    "start": 13.52,
+    "end": 16.82,
+    "words": [
+      {
+        "word": "至",
+        "start": 13.52,
+        "end": 13.76,
+        "probability": 0.958
+      },
+      {
+        "word": "少",
+        "start": 13.76,
+        "end": 13.96,
+        "probability": 1.0
+      },
+      {
+        "word": "p",
+        "start": 13.96,
+        "end": 14.08,
+        "probability": 0.712
+      },
+      {
+        "word": "ush",
+        "start": 14.08,
+        "end": 14.26,
+        "probability": 0.998
+      },
+      {
+        "word": "一个",
+        "start": 14.26,
+        "end": 14.48,
+        "probability": 0.965
+      },
+      {
+        "word": "新",
+        "start": 14.48,
+        "end": 14.96,
+        "probability": 0.999
+      },
+      {
+        "word": "的",
+        "start": 14.96,
+        "end": 15.2,
+        "probability": 0.998
+      },
+      {
+        "word": "分",
+        "start": 15.2,
+        "end": 15.4,
+        "probability": 0.941
+      },
+      {
+        "word": "支",
+        "start": 15.4,
+        "end": 15.62,
+        "probability": 0.99
+      },
+      {
+        "word": "的",
+        "start": 15.62,
+        "end": 16.08,
+        "probability": 0.992
+      },
+      {
+        "word": "权",
+        "start": 16.08,
+        "end": 16.58,
+        "probability": 0.997
+      },
+      {
+        "word": "限",
+        "start": 16.58,
+        "end": 16.82,
+        "probability": 1.0
+      }
+    ],
+    "text_en_deepl": "Permission to push at least one new branch",
+    "text_en": "Permission to push at least one new branch",
+    "tts_file": "segment_0005.wav",
+    "tts_duration": 3.84
+  },
+  {
+    "id": 6,
+    "text_zh": "但是呢",
+    "start": 16.82,
+    "end": 17.34,
+    "words": [
+      {
+        "word": "但是",
+        "start": 16.82,
+        "end": 17.14,
+        "probability": 0.986
+      },
+      {
+        "word": "呢",
+        "start": 17.14,
+        "end": 17.34,
+        "probability": 0.804
+      }
+    ],
+    "text_en_deepl": "But then?",
+    "text_en": "But then?",
+    "tts_file": "segment_0006.wav",
+    "tts_duration": 2.741
+  },
+  {
+    "id": 7,
+    "text_zh": "其实在开源社区",
+    "start": 17.34,
+    "end": 18.92,
+    "words": [
+      {
+        "word": "其实",
+        "start": 17.34,
+        "end": 17.74,
+        "probability": 0.975
+      },
+      {
+        "word": "在",
+        "start": 17.74,
+        "end": 18.0,
+        "probability": 0.999
+      },
+      {
+        "word": "开",
+        "start": 18.0,
+        "end": 18.32,
+        "probability": 0.994
+      },
+      {
+        "word": "源",
+        "start": 18.32,
+        "end": 18.44,
+        "probability": 0.997
+      },
+      {
+        "word": "社",
+        "start": 18.44,
+        "end": 18.64,
+        "probability": 0.999
+      },
+      {
+        "word": "区",
+        "start": 18.64,
+        "end": 18.92,
+        "probability": 1.0
+      }
+    ],
+    "text_en_deepl": "Actually, in the open source community",
+    "text_en": "Actually, in the open source community",
+    "tts_file": "segment_0007.wav",
+    "tts_duration": 3.477
+  },
+  {
+    "id": 8,
+    "text_zh": "我们很多时候对一个repo是没有push权限的",
+    "start": 18.92,
+    "end": 23.32,
+    "words": [
+      {
+        "word": "我们",
+        "start": 18.92,
+        "end": 19.4,
+        "probability": 0.991
+      },
+      {
+        "word": "很多",
+        "start": 19.4,
+        "end": 19.8,
+        "probability": 1.0
+      },
+      {
+        "word": "时候",
+        "start": 19.8,
+        "end": 20.18,
+        "probability": 1.0
+      },
+      {
+        "word": "对",
+        "start": 20.18,
+        "end": 20.62,
+        "probability": 0.998
+      },
+      {
+        "word": "一个",
+        "start": 20.62,
+        "end": 21.16,
+        "probability": 0.998
+      },
+      {
+        "word": "re",
+        "start": 21.16,
+        "end": 21.4,
+        "probability": 0.981
+      },
+      {
+        "word": "po",
+        "start": 21.4,
+        "end": 21.58,
+        "probability": 0.999
+      },
+      {
+        "word": "是",
+        "start": 21.58,
+        "end": 21.92,
+        "probability": 0.994
+      },
+      {
+        "word": "没有",
+        "start": 21.92,
+        "end": 22.38,
+        "probability": 0.998
+      },
+      {
+        "word": "p",
+        "start": 22.38,
+        "end": 22.54,
+        "probability": 0.94
+      },
+      {
+        "word": "ush",
+        "start": 22.54,
+        "end": 22.64,
+        "probability": 1.0
+      },
+      {
+        "word": "权",
+        "start": 22.64,
+        "end": 22.94,
+        "probability": 0.995
+      },
+      {
+        "word": "限",
+        "start": 22.94,
+        "end": 23.12,
+        "probability": 1.0
+      },
+      {
+        "word": "的",
+        "start": 23.12,
+        "end": 23.32,
+        "probability": 0.998
+      }
+    ],
+    "text_en_deepl": "A lot of times we don't have push access to a repo",
+    "text_en": "A lot of times we don't have push access to a repo",
+    "tts_file": "segment_0008.wav",
+    "tts_duration": 4.576
+  },
+  {
+    "id": 9,
+    "text_zh": "这个时候我想对这样的一个repo进行一个代码的贡献",
+    "start": 23.32,
+    "end": 28.3,
+    "words": [
+      {
+        "word": "这个",
+        "start": 23.32,
+        "end": 23.66,
+        "probability": 0.914
+      },
+      {
+        "word": "时候",
+        "start": 23.66,
+        "end": 24.16,
+        "probability": 1.0
+      },
+      {
+        "word": "我想",
+        "start": 24.16,
+        "end": 24.72,
+        "probability": 0.999
+      },
+      {
+        "word": "对",
+        "start": 24.72,
+        "end": 25.02,
+        "probability": 0.999
+      },
+      {
+        "word": "这样",
+        "start": 25.02,
+        "end": 25.7,
+        "probability": 0.995
+      },
+      {
+        "word": "的",
+        "start": 25.7,
+        "end": 25.86,
+        "probability": 0.997
+      },
+      {
+        "word": "一个",
+        "start": 25.86,
+        "end": 26.04,
+        "probability": 0.999
+      },
+      {
+        "word": "re",
+        "start": 26.04,
+        "end": 26.3,
+        "probability": 0.985
+      },
+      {
+        "word": "po",
+        "start": 26.3,
+        "end": 26.5,
+        "probability": 1.0
+      },
+      {
+        "word": "进",
+        "start": 26.5,
+        "end": 26.82,
+        "probability": 0.999
+      },
+      {
+        "word": "行",
+        "start": 26.82,
+        "end": 27.04,
+        "probability": 1.0
+      },
+      {
+        "word": "一个",
+        "start": 27.04,
+        "end": 27.3,
+        "probability": 1.0
+      },
+      {
+        "word": "代",
+        "start": 27.3,
+        "end": 27.58,
+        "probability": 0.998
+      },
+      {
+        "word": "码",
+        "start": 27.58,
+        "end": 27.74,
+        "probability": 1.0
+      },
+      {
+        "word": "的",
+        "start": 27.74,
+        "end": 27.88,
+        "probability": 1.0
+      },
+      {
+        "word": "贡",
+        "start": 27.88,
+        "end": 28.08,
+        "probability": 0.998
+      },
+      {
+        "word": "献",
+        "start": 28.08,
+        "end": 28.3,
+        "probability": 1.0
+      }
+    ],
+    "text_en_deepl": "At this time I would like to make a code contribution to such a repo",
+    "text_en": "At this time I would like to make a code contribution to such a repo",
+    "tts_file": "segment_0009.wav",
+    "tts_duration": 6.229
+  },
+  {
+    "id": 10,
+    "text_zh": "怎么办呢",
+    "start": 28.3,
+    "end": 29.02,
+    "words": [
+      {
+        "word": "怎么",
+        "start": 28.3,
+        "end": 28.56,
+        "probability": 0.987
+      },
+      {
+        "word": "办",
+        "start": 28.56,
+        "end": 28.78,
+        "probability": 1.0
+      },
+      {
+        "word": "呢",
+        "start": 28.78,
+        "end": 29.02,
+        "probability": 0.993
+      }
+    ],
+    "text_en_deepl": "What to do?",
+    "text_en": "What to do?",
+    "tts_file": "segment_0010.wav",
+    "tts_duration": 0.992
+  },
+  {
+    "id": 11,
+    "text_zh": "有请孙蝴蝶同学帮我们展示一下",
+    "start": 29.02,
+    "end": 31.82,
+    "words": [
+      {
+        "word": "有",
+        "start": 29.02,
+        "end": 29.28,
+        "probability": 0.878
+      },
+      {
+        "word": "请",
+        "start": 29.28,
+        "end": 29.52,
+        "probability": 0.965
+      },
+      {
+        "word": "孙",
+        "start": 29.52,
+        "end": 29.88,
+        "probability": 0.957
+      },
+      {
+        "word": "蝴",
+        "start": 29.88,
+        "end": 30.02,
+        "probability": 0.797
+      },
+      {
+        "word": "蝶",
+        "start": 30.02,
+        "end": 30.1,
+        "probability": 1.0
+      },
+      {
+        "word": "同",
+        "start": 30.1,
+        "end": 30.24,
+        "probability": 0.988
+      },
+      {
+        "word": "学",
+        "start": 30.24,
+        "end": 30.5,
+        "probability": 0.999
+      },
+      {
+        "word": "帮",
+        "start": 30.5,
+        "end": 30.84,
+        "probability": 0.999
+      },
+      {
+        "word": "我们",
+        "start": 30.84,
+        "end": 31.0,
+        "probability": 0.917
+      },
+      {
+        "word": "展",
+        "start": 31.0,
+        "end": 31.3,
+        "probability": 0.913
+      },
+      {
+        "word": "示",
+        "start": 31.3,
+        "end": 31.5,
+        "probability": 1.0
+      },
+      {
+        "word": "一下",
+        "start": 31.5,
+        "end": 31.82,
+        "probability": 0.954
+      }
+    ],
+    "text_en_deepl": "Please ask Sun Butterfly to show us",
+    "text_en": "Please ask Sun Butterfly to show us",
+    "tts_file": "segment_0011.wav",
+    "tts_duration": 3.2
+  },
+  {
+    "id": 12,
+    "text_zh": "使用fork的方式",
+    "start": 31.82,
+    "end": 33.96,
+    "words": [
+      {
+        "word": "使",
+        "start": 31.82,
+        "end": 32.14,
+        "probability": 0.977
+      },
+      {
+        "word": "用",
+        "start": 32.14,
+        "end": 32.56,
+        "probability": 1.0
+      },
+      {
+        "word": "f",
+        "start": 32.56,
+        "end": 32.88,
+        "probability": 0.331
+      },
+      {
+        "word": "ork",
+        "start": 32.88,
+        "end": 33.08,
+        "probability": 0.446
+      },
+      {
+        "word": "的",
+        "start": 33.08,
+        "end": 33.44,
+        "probability": 0.96
+      },
+      {
+        "word": "方",
+        "start": 33.44,
+        "end": 33.68,
+        "probability": 0.999
+      },
+      {
+        "word": "式",
+        "start": 33.68,
+        "end": 33.96,
+        "probability": 1.0
+      }
+    ],
+    "text_en_deepl": "Using the fork",
+    "text_en": "Using the fork",
+    "tts_file": "segment_0012.wav",
+    "tts_duration": 1.269
+  },
+  {
+    "id": 13,
+    "text_zh": "然后提交pull request",
+    "start": 33.96,
+    "end": 35.3,
+    "words": [
+      {
+        "word": "然后",
+        "start": 33.96,
+        "end": 34.3,
+        "probability": 0.961
+      },
+      {
+        "word": "提",
+        "start": 34.3,
+        "end": 34.64,
+        "probability": 0.994
+      },
+      {
+        "word": "交",
+        "start": 34.64,
+        "end": 34.84,
+        "probability": 0.958
+      },
+      {
+        "word": "p",
+        "start": 34.84,
+        "end": 34.98,
+        "probability": 0.109
+      },
+      {
+        "word": "ull",
+        "start": 34.98,
+        "end": 35.08,
+        "probability": 0.176
+      },
+      {
+        "word": "request",
+        "start": 35.08,
+        "end": 35.3,
+        "probability": 0.91
+      }
+    ],
+    "text_en_deepl": "Then submit a pull request",
+    "text_en": "Then submit a pull request",
+    "tts_file": "segment_0013.wav",
+    "tts_duration": 2.368
+  },
+  {
+    "id": 14,
+    "text_zh": "然后现在我是不在这个page.shu里面",
+    "start": 35.3,
+    "end": 39.64,
+    "words": [
+      {
+        "word": "然后",
+        "start": 35.3,
+        "end": 36.04,
+        "probability": 0.846
+      },
+      {
+        "word": "现在",
+        "start": 36.04,
+        "end": 36.4,
+        "probability": 0.995
+      },
+      {
+        "word": "我是",
+        "start": 36.4,
+        "end": 37.04,
+        "probability": 0.821
+      },
+      {
+        "word": "不",
+        "start": 37.04,
+        "end": 37.7,
+        "probability": 0.991
+      },
+      {
+        "word": "在",
+        "start": 37.7,
+        "end": 37.96,
+        "probability": 0.999
+      },
+      {
+        "word": "这个",
+        "start": 37.96,
+        "end": 38.16,
+        "probability": 0.943
+      },
+      {
+        "word": "page.",
+        "start": 38.16,
+        "end": 38.68,
+        "probability": 0.539
+      },
+      {
+        "word": "sh",
+        "start": 38.76,
+        "end": 39.04,
+        "probability": 0.965
+      },
+      {
+        "word": "u",
+        "start": 39.04,
+        "end": 39.2,
+        "probability": 0.951
+      },
+      {
+        "word": "里",
+        "start": 39.2,
+        "end": 39.44,
+        "probability": 0.938
+      },
+      {
+        "word": "面",
+        "start": 39.44,
+        "end": 39.64,
+        "probability": 0.999
+      }
+    ],
+    "text_en_deepl": "And now I am not in this page.shu",
+    "text_en": "And now I am not in this page.shu",
+    "tts_file": "segment_0014.wav",
+    "tts_duration": 3.019
+  },
+  {
+    "id": 15,
+    "text_zh": "然后我想对这个代码进行一些贡献",
+    "start": 39.64,
+    "end": 42.24,
+    "words": [
+      {
+        "word": "然后",
+        "start": 39.64,
+        "end": 39.86,
+        "probability": 0.986
+      },
+      {
+        "word": "我想",
+        "start": 39.86,
+        "end": 40.22,
+        "probability": 1.0
+      },
+      {
+        "word": "对",
+        "start": 40.22,
+        "end": 40.5,
+        "probability": 1.0
+      },
+      {
+        "word": "这个",
+        "start": 40.5,
+        "end": 40.7,
+        "probability": 0.999
+      },
+      {
+        "word": "代",
+        "start": 40.7,
+        "end": 40.86,
+        "probability": 0.992
+      },
+      {
+        "word": "码",
+        "start": 40.86,
+        "end": 41.06,
+        "probability": 1.0
+      },
+      {
+        "word": "进",
+        "start": 41.06,
+        "end": 41.28,
+        "probability": 0.998
+      },
+      {
+        "word": "行",
+        "start": 41.28,
+        "end": 41.48,
+        "probability": 1.0
+      },
+      {
+        "word": "一些",
+        "start": 41.48,
+        "end": 41.6,
+        "probability": 0.99
+      },
+      {
+        "word": "贡",
+        "start": 41.6,
+        "end": 41.96,
+        "probability": 1.0
+      },
+      {
+        "word": "献",
+        "start": 41.96,
+        "end": 42.24,
+        "probability": 1.0
+      }
+    ],
+    "text_en_deepl": "And then I'd like to make some contributions to this code",
+    "text_en": "And then I'd like to make some contributions to this code",
+    "tts_file": "segment_0015.wav",
+    "tts_duration": 5.216
+  },
+  {
+    "id": 16,
+    "text_zh": "我就比如说我要到这个cross team里",
+    "start": 42.24,
+    "end": 44.46,
+    "words": [
+      {
+        "word": "我就",
+        "start": 42.24,
+        "end": 42.6,
+        "probability": 0.524
+      },
+      {
+        "word": "比如",
+        "start": 42.6,
+        "end": 42.86,
+        "probability": 0.997
+      },
+      {
+        "word": "说",
+        "start": 42.86,
+        "end": 43.1,
+        "probability": 1.0
+      },
+      {
+        "word": "我要",
+        "start": 43.1,
+        "end": 43.28,
+        "probability": 0.994
+      },
+      {
+        "word": "到",
+        "start": 43.28,
+        "end": 43.48,
+        "probability": 0.998
+      },
+      {
+        "word": "这个",
+        "start": 43.48,
+        "end": 43.68,
+        "probability": 0.976
+      },
+      {
+        "word": "cross",
+        "start": 43.68,
+        "end": 44.04,
+        "probability": 0.581
+      },
+      {
+        "word": "team",
+        "start": 44.04,
+        "end": 44.32,
+        "probability": 0.912
+      },
+      {
+        "word": "里",
+        "start": 44.32,
+        "end": 44.46,
+        "probability": 0.966
+      }
+    ],
+    "text_en_deepl": "I'm, like, I'm going to be on this cross team.",
+    "text_en": "I'm, like, I'm going to be on this cross team.",
+    "tts_file": "segment_0016.wav",
+    "tts_duration": 4.213
+  },
+  {
+    "id": 17,
+    "text_zh": "然后我要把它poke到我个人的账户下面",
+    "start": 44.46,
+    "end": 48.26,
+    "words": [
+      {
+        "word": "然后",
+        "start": 44.46,
+        "end": 44.68,
+        "probability": 0.898
+      },
+      {
+        "word": "我要",
+        "start": 44.68,
+        "end": 45.5,
+        "probability": 0.991
+      },
+      {
+        "word": "把它",
+        "start": 45.5,
+        "end": 45.86,
+        "probability": 0.995
+      },
+      {
+        "word": "poke",
+        "start": 45.86,
+        "end": 46.32,
+        "probability": 0.399
+      },
+      {
+        "word": "到",
+        "start": 46.32,
+        "end": 46.48,
+        "probability": 0.999
+      },
+      {
+        "word": "我",
+        "start": 46.48,
+        "end": 46.8,
+        "probability": 0.999
+      },
+      {
+        "word": "个",
+        "start": 46.8,
+        "end": 47.02,
+        "probability": 0.999
+      },
+      {
+        "word": "人",
+        "start": 47.02,
+        "end": 47.26,
+        "probability": 1.0
+      },
+      {
+        "word": "的",
+        "start": 47.26,
+        "end": 47.44,
+        "probability": 1.0
+      },
+      {
+        "word": "账",
+        "start": 47.44,
+        "end": 47.88,
+        "probability": 0.997
+      },
+      {
+        "word": "户",
+        "start": 47.88,
+        "end": 48.0,
+        "probability": 0.999
+      },
+      {
+        "word": "下面",
+        "start": 48.0,
+        "end": 48.26,
+        "probability": 0.809
+      }
+    ],
+    "text_en_deepl": "And then I'm gonna poke it under my personal account.",
+    "text_en": "And then I'm gonna poke it under my personal account.",
+    "tts_file": "segment_0017.wav",
+    "tts_duration": 4.853
+  },
+  {
+    "id": 18,
+    "text_zh": "就在我的仓库里面就有了一个新的仓库cross team",
+    "start": 48.26,
+    "end": 52.14,
+    "words": [
+      {
+        "word": "就",
+        "start": 48.26,
+        "end": 48.7,
+        "probability": 0.927
+      },
+      {
+        "word": "在",
+        "start": 48.7,
+        "end": 49.06,
+        "probability": 0.994
+      },
+      {
+        "word": "我的",
+        "start": 49.06,
+        "end": 49.34,
+        "probability": 1.0
+      },
+      {
+        "word": "仓",
+        "start": 49.34,
+        "end": 50.0,
+        "probability": 0.994
+      },
+      {
+        "word": "库",
+        "start": 50.0,
+        "end": 50.14,
+        "probability": 1.0
+      },
+      {
+        "word": "里",
+        "start": 50.14,
+        "end": 50.26,
+        "probability": 1.0
+      },
+      {
+        "word": "面",
+        "start": 50.26,
+        "end": 50.38,
+        "probability": 1.0
+      },
+      {
+        "word": "就",
+        "start": 50.38,
+        "end": 50.48,
+        "probability": 0.999
+      },
+      {
+        "word": "有",
+        "start": 50.48,
+        "end": 50.6,
+        "probability": 1.0
+      },
+      {
+        "word": "了",
+        "start": 50.6,
+        "end": 50.72,
+        "probability": 1.0
+      },
+      {
+        "word": "一个",
+        "start": 50.72,
+        "end": 50.94,
+        "probability": 1.0
+      },
+      {
+        "word": "新",
+        "start": 50.94,
+        "end": 51.28,
+        "probability": 1.0
+      },
+      {
+        "word": "的",
+        "start": 51.28,
+        "end": 51.42,
+        "probability": 1.0
+      },
+      {
+        "word": "仓",
+        "start": 51.42,
+        "end": 51.58,
+        "probability": 0.998
+      },
+      {
+        "word": "库",
+        "start": 51.58,
+        "end": 51.72,
+        "probability": 1.0
+      },
+      {
+        "word": "cross",
+        "start": 51.72,
+        "end": 51.96,
+        "probability": 0.894
+      },
+      {
+        "word": "team",
+        "start": 51.96,
+        "end": 52.14,
+        "probability": 0.997
+      }
+    ],
+    "text_en_deepl": "I've got a new repository, cross team, right here in my repository.",
+    "text_en": "I've got a new repository, cross team, right here in my repository.",
+    "tts_file": "segment_0018.wav",
+    "tts_duration": 6.133
+  },
+  {
+    "id": 19,
+    "text_zh": "然后我把它拉到本地来",
+    "start": 52.14,
+    "end": 54.0,
+    "words": [
+      {
+        "word": "然后",
+        "start": 52.14,
+        "end": 52.46,
+        "probability": 0.993
+      },
+      {
+        "word": "我",
+        "start": 52.46,
+        "end": 52.66,
+        "probability": 0.933
+      },
+      {
+        "word": "把它",
+        "start": 52.66,
+        "end": 52.86,
+        "probability": 0.999
+      },
+      {
+        "word": "拉",
+        "start": 52.86,
+        "end": 53.38,
+        "probability": 0.939
+      },
+      {
+        "word": "到",
+        "start": 53.38,
+        "end": 53.46,
+        "probability": 1.0
+      },
+      {
+        "word": "本",
+        "start": 53.46,
+        "end": 53.64,
+        "probability": 1.0
+      },
+      {
+        "word": "地",
+        "start": 53.64,
+        "end": 53.86,
+        "probability": 1.0
+      },
+      {
+        "word": "来",
+        "start": 53.86,
+        "end": 54.0,
+        "probability": 0.994
+      }
+    ],
+    "text_en_deepl": "Then I pulled it locally.",
+    "text_en": "Then I pulled it locally.",
+    "tts_file": "segment_0019.wav",
+    "tts_duration": 2.283
+  },
+  {
+    "id": 20,
+    "text_zh": "把它克隆下来",
+    "start": 54.0,
+    "end": 55.04,
+    "words": [
+      {
+        "word": "把它",
+        "start": 54.0,
+        "end": 54.24,
+        "probability": 0.985
+      },
+      {
+        "word": "克",
+        "start": 54.24,
+        "end": 54.5,
+        "probability": 0.807
+      },
+      {
+        "word": "隆",
+        "start": 54.5,
+        "end": 54.66,
+        "probability": 0.993
+      },
+      {
+        "word": "下",
+        "start": 54.66,
+        "end": 54.82,
+        "probability": 0.998
+      },
+      {
+        "word": "来",
+        "start": 54.82,
+        "end": 55.04,
+        "probability": 1.0
+      }
+    ],
+    "text_en_deepl": "Clone it.",
+    "text_en": "Clone it.",
+    "tts_file": "segment_0020.wav",
+    "tts_duration": 2.741
+  },
+  {
+    "id": 21,
+    "text_zh": "输入到里面",
+    "start": 55.04,
+    "end": 57.6,
+    "words": [
+      {
+        "word": "输",
+        "start": 55.04,
+        "end": 55.96,
+        "probability": 0.628
+      },
+      {
+        "word": "入",
+        "start": 56.54,
+        "end": 56.72,
+        "probability": 0.992
+      },
+      {
+        "word": "到",
+        "start": 56.72,
+        "end": 57.06,
+        "probability": 1.0
+      },
+      {
+        "word": "里",
+        "start": 57.06,
+        "end": 57.36,
+        "probability": 0.664
+      },
+      {
+        "word": "面",
+        "start": 57.36,
+        "end": 57.6,
+        "probability": 1.0
+      }
+    ],
+    "text_en_deepl": "Type it in.",
+    "text_en": "Type it in.",
+    "tts_file": "segment_0021.wav",
+    "tts_duration": 0.992
+  },
+  {
+    "id": 22,
+    "text_zh": "我们现在在meme上",
+    "start": 57.6,
+    "end": 60.17,
+    "words": [
+      {
+        "word": "我们",
+        "start": 57.6,
+        "end": 58.62,
+        "probability": 0.491
+      },
+      {
+        "word": "现在",
+        "start": 58.81,
+        "end": 59.13,
+        "probability": 0.958
+      },
+      {
+        "word": "在",
+        "start": 59.13,
+        "end": 59.57,
+        "probability": 0.976
+      },
+      {
+        "word": "m",
+        "start": 59.57,
+        "end": 59.79,
+        "probability": 0.152
+      },
+      {
+        "word": "eme",
+        "start": 59.79,
+        "end": 59.93,
+        "probability": 0.666
+      },
+      {
+        "word": "上",
+        "start": 59.93,
+        "end": 60.17,
+        "probability": 0.845
+      }
+    ],
+    "text_en_deepl": "We're on the meme now.",
+    "text_en": "We're on the meme now.",
+    "tts_file": "segment_0022.wav",
+    "tts_duration": 2.005
+  },
+  {
+    "id": 23,
+    "text_zh": "我们新建一个分支",
+    "start": 60.17,
+    "end": 61.95,
+    "words": [
+      {
+        "word": "我们",
+        "start": 60.17,
+        "end": 60.47,
+        "probability": 0.261
+      },
+      {
+        "word": "新",
+        "start": 60.47,
+        "end": 60.73,
+        "probability": 0.936
+      },
+      {
+        "word": "建",
+        "start": 60.73,
+        "end": 60.91,
+        "probability": 0.995
+      },
+      {
+        "word": "一个",
+        "start": 60.91,
+        "end": 61.09,
+        "probability": 0.982
+      },
+      {
+        "word": "分",
+        "start": 61.09,
+        "end": 61.73,
+        "probability": 0.974
+      },
+      {
+        "word": "支",
+        "start": 61.73,
+        "end": 61.95,
+        "probability": 0.968
+      }
+    ],
+    "text_en_deepl": "We create a new branch",
+    "text_en": "We create a new branch",
+    "tts_file": "segment_0023.wav",
+    "tts_duration": 2.005
+  },
+  {
+    "id": 24,
+    "text_zh": "比如叫一个热锈分支",
+    "start": 61.95,
+    "end": 64.79,
+    "words": [
+      {
+        "word": "比如",
+        "start": 61.95,
+        "end": 62.29,
+        "probability": 0.614
+      },
+      {
+        "word": "叫",
+        "start": 62.29,
+        "end": 62.57,
+        "probability": 0.909
+      },
+      {
+        "word": "一个",
+        "start": 62.57,
+        "end": 63.63,
+        "probability": 0.489
+      },
+      {
+        "word": "热",
+        "start": 63.63,
+        "end": 64.13,
+        "probability": 0.992
+      },
+      {
+        "word": "锈",
+        "start": 64.13,
+        "end": 64.33,
+        "probability": 0.578
+      },
+      {
+        "word": "分",
+        "start": 64.33,
+        "end": 64.49,
+        "probability": 0.987
+      },
+      {
+        "word": "支",
+        "start": 64.49,
+        "end": 64.79,
+        "probability": 0.99
+      }
+    ],
+    "text_en_deepl": "Like calling a hot rust branch",
+    "text_en": "Like calling a hot rust branch",
+    "tts_file": "segment_0024.wav",
+    "tts_duration": 2.741
+  },
+  {
+    "id": 25,
+    "text_zh": "我们给它进行一些修改",
+    "start": 64.79,
+    "end": 69.56,
+    "words": [
+      {
+        "word": "我们",
+        "start": 64.79,
+        "end": 65.67,
+        "probability": 0.896
+      },
+      {
+        "word": "给",
+        "start": 67.04,
+        "end": 67.92,
+        "probability": 0.732
+      },
+      {
+        "word": "它",
+        "start": 67.92,
+        "end": 68.2,
+        "probability": 0.538
+      },
+      {
+        "word": "进",
+        "start": 68.2,
+        "end": 68.42,
+        "probability": 0.99
+      },
+      {
+        "word": "行",
+        "start": 68.42,
+        "end": 68.58,
+        "probability": 0.997
+      },
+      {
+        "word": "一些",
+        "start": 68.58,
+        "end": 68.76,
+        "probability": 0.944
+      },
+      {
+        "word": "修",
+        "start": 68.76,
+        "end": 69.42,
+        "probability": 0.997
+      },
+      {
+        "word": "改",
+        "start": 69.42,
+        "end": 69.56,
+        "probability": 0.999
+      }
+    ],
+    "text_en_deepl": "Let's give it some modifications",
+    "text_en": "Let's give it some modifications",
+    "tts_file": "segment_0025.wav",
+    "tts_duration": 2.923
+  },
+  {
+    "id": 26,
+    "text_zh": "我们在这个代码里随便增加点东西",
+    "start": 70.68,
+    "end": 73.82,
+    "words": [
+      {
+        "word": "我们",
+        "start": 70.68,
+        "end": 71.02,
+        "probability": 0.659
+      },
+      {
+        "word": "在",
+        "start": 71.02,
+        "end": 71.42,
+        "probability": 0.993
+      },
+      {
+        "word": "这个",
+        "start": 71.42,
+        "end": 71.8,
+        "probability": 0.804
+      },
+      {
+        "word": "代",
+        "start": 71.8,
+        "end": 72.22,
+        "probability": 0.989
+      },
+      {
+        "word": "码",
+        "start": 72.22,
+        "end": 72.44,
+        "probability": 1.0
+      },
+      {
+        "word": "里",
+        "start": 72.44,
+        "end": 72.66,
+        "probability": 0.997
+      },
+      {
+        "word": "随",
+        "start": 72.66,
+        "end": 73.0,
+        "probability": 0.989
+      },
+      {
+        "word": "便",
+        "start": 73.0,
+        "end": 73.12,
+        "probability": 0.998
+      },
+      {
+        "word": "增",
+        "start": 73.12,
+        "end": 73.3,
+        "probability": 0.963
+      },
+      {
+        "word": "加",
+        "start": 73.3,
+        "end": 73.36,
+        "probability": 0.998
+      },
+      {
+        "word": "点",
+        "start": 73.36,
+        "end": 73.46,
+        "probability": 0.593
+      },
+      {
+        "word": "东",
+        "start": 73.46,
+        "end": 73.66,
+        "probability": 0.997
+      },
+      {
+        "word": "西",
+        "start": 73.66,
+        "end": 73.82,
+        "probability": 1.0
+      }
+    ],
+    "text_en_deepl": "Let's add something random to this code",
+    "text_en": "Let's add something random to this code",
+    "tts_file": "segment_0026.wav",
+    "tts_duration": 3.563
+  },
+  {
+    "id": 27,
+    "text_zh": "然后保存一下",
+    "start": 73.82,
+    "end": 75.02,
+    "words": [
+      {
+        "word": "然后",
+        "start": 73.82,
+        "end": 74.12,
+        "probability": 0.954
+      },
+      {
+        "word": "保",
+        "start": 74.12,
+        "end": 74.62,
+        "probability": 0.954
+      },
+      {
+        "word": "存",
+        "start": 74.62,
+        "end": 74.8,
+        "probability": 0.998
+      },
+      {
+        "word": "一下",
+        "start": 74.8,
+        "end": 75.02,
+        "probability": 0.993
+      }
+    ],
+    "text_en_deepl": "Then save it.",
+    "text_en": "Then save it.",
+    "tts_file": "segment_0027.wav",
+    "tts_duration": 1.173
+  },
+  {
+    "id": 28,
+    "text_zh": "contrast save一下",
+    "start": 75.02,
+    "end": 76.18,
+    "words": [
+      {
+        "word": "cont",
+        "start": 75.02,
+        "end": 75.34,
+        "probability": 0.369
+      },
+      {
+        "word": "rast",
+        "start": 75.34,
+        "end": 75.54,
+        "probability": 0.833
+      },
+      {
+        "word": "save",
+        "start": 75.54,
+        "end": 75.98,
+        "probability": 0.716
+      },
+      {
+        "word": "一下",
+        "start": 75.98,
+        "end": 76.18,
+        "probability": 0.734
+      }
+    ],
+    "text_en_deepl": "Contrast. Save it.",
+    "text_en": "Contrast. Save it.",
+    "tts_file": "segment_0028.wav",
+    "tts_duration": 1.632
+  },
+  {
+    "id": 29,
+    "text_zh": "然后到这边来增加一个remote的一个upstream",
+    "start": 76.18,
+    "end": 80.36,
+    "words": [
+      {
+        "word": "然后",
+        "start": 76.18,
+        "end": 76.6,
+        "probability": 0.95
+      },
+      {
+        "word": "到",
+        "start": 76.6,
+        "end": 77.06,
+        "probability": 0.977
+      },
+      {
+        "word": "这",
+        "start": 77.06,
+        "end": 77.16,
+        "probability": 0.99
+      },
+      {
+        "word": "边",
+        "start": 77.16,
+        "end": 77.34,
+        "probability": 1.0
+      },
+      {
+        "word": "来",
+        "start": 77.34,
+        "end": 77.46,
+        "probability": 0.953
+      },
+      {
+        "word": "增",
+        "start": 77.46,
+        "end": 77.76,
+        "probability": 0.985
+      },
+      {
+        "word": "加",
+        "start": 77.76,
+        "end": 77.92,
+        "probability": 0.999
+      },
+      {
+        "word": "一个",
+        "start": 77.92,
+        "end": 78.16,
+        "probability": 0.99
+      },
+      {
+        "word": "rem",
+        "start": 78.16,
+        "end": 79.0,
+        "probability": 0.956
+      },
+      {
+        "word": "ote",
+        "start": 79.0,
+        "end": 79.2,
+        "probability": 0.971
+      },
+      {
+        "word": "的",
+        "start": 79.2,
+        "end": 79.46,
+        "probability": 0.949
+      },
+      {
+        "word": "一个",
+        "start": 79.46,
+        "end": 79.7,
+        "probability": 0.82
+      },
+      {
+        "word": "up",
+        "start": 79.7,
+        "end": 80.1,
+        "probability": 0.989
+      },
+      {
+        "word": "stream",
+        "start": 80.1,
+        "end": 80.36,
+        "probability": 0.949
+      }
+    ],
+    "text_en_deepl": "Then go over here and add a remote upstream.",
+    "text_en": "Then go over here and add a remote upstream.",
+    "tts_file": "segment_0029.wav",
+    "tts_duration": 4.021
+  },
+  {
+    "id": 30,
+    "text_zh": "为什么需要这个upstream呢",
+    "start": 80.36,
+    "end": 82.93,
+    "words": [
+      {
+        "word": "为什么",
+        "start": 80.36,
+        "end": 81.4,
+        "probability": 0.911
+      },
+      {
+        "word": "需要",
+        "start": 81.49,
+        "end": 81.89,
+        "probability": 0.989
+      },
+      {
+        "word": "这个",
+        "start": 81.89,
+        "end": 82.13,
+        "probability": 0.99
+      },
+      {
+        "word": "up",
+        "start": 82.13,
+        "end": 82.41,
+        "probability": 0.988
+      },
+      {
+        "word": "stream",
+        "start": 82.41,
+        "end": 82.65,
+        "probability": 0.988
+      },
+      {
+        "word": "呢",
+        "start": 82.65,
+        "end": 82.93,
+        "probability": 0.908
+      }
+    ],
+    "text_en_deepl": "Why do you need this upstream?",
+    "text_en": "Why do you need this upstream?",
+    "tts_file": "segment_0030.wav",
+    "tts_duration": 2.741
+  },
+  {
+    "id": 31,
+    "text_zh": "因为就是同样的",
+    "start": 84.15,
+    "end": 85.83,
+    "words": [
+      {
+        "word": "因为",
+        "start": 84.15,
+        "end": 84.67,
+        "probability": 0.913
+      },
+      {
+        "word": "就是",
+        "start": 84.67,
+        "end": 85.07,
+        "probability": 0.926
+      },
+      {
+        "word": "同",
+        "start": 85.07,
+        "end": 85.47,
+        "probability": 0.997
+      },
+      {
+        "word": "样",
+        "start": 85.47,
+        "end": 85.71,
+        "probability": 1.0
+      },
+      {
+        "word": "的",
+        "start": 85.71,
+        "end": 85.83,
+        "probability": 0.998
+      }
+    ],
+    "text_en_deepl": "Because it's the same",
+    "text_en": "Because it's the same",
+    "tts_file": "segment_0031.wav",
+    "tts_duration": 1.909
+  },
+  {
+    "id": 32,
+    "text_zh": "我们要跟page.shu的仓库就是进行一个同步",
+    "start": 85.83,
+    "end": 90.23,
+    "words": [
+      {
+        "word": "我们",
+        "start": 85.83,
+        "end": 86.25,
+        "probability": 0.972
+      },
+      {
+        "word": "要",
+        "start": 86.25,
+        "end": 86.49,
+        "probability": 1.0
+      },
+      {
+        "word": "跟",
+        "start": 86.49,
+        "end": 86.87,
+        "probability": 0.999
+      },
+      {
+        "word": "page.",
+        "start": 86.87,
+        "end": 87.57,
+        "probability": 0.062
+      },
+      {
+        "word": "sh",
+        "start": 87.63,
+        "end": 87.85,
+        "probability": 0.986
+      },
+      {
+        "word": "u",
+        "start": 87.85,
+        "end": 87.99,
+        "probability": 0.961
+      },
+      {
+        "word": "的",
+        "start": 87.99,
+        "end": 88.31,
+        "probability": 0.919
+      },
+      {
+        "word": "仓",
+        "start": 88.31,
+        "end": 88.73,
+        "probability": 0.993
+      },
+      {
+        "word": "库",
+        "start": 88.73,
+        "end": 88.97,
+        "probability": 1.0
+      },
+      {
+        "word": "就是",
+        "start": 88.97,
+        "end": 89.23,
+        "probability": 0.897
+      },
+      {
+        "word": "进",
+        "start": 89.23,
+        "end": 89.47,
+        "probability": 0.999
+      },
+      {
+        "word": "行",
+        "start": 89.47,
+        "end": 89.63,
+        "probability": 0.997
+      },
+      {
+        "word": "一个",
+        "start": 89.63,
+        "end": 89.77,
+        "probability": 0.995
+      },
+      {
+        "word": "同",
+        "start": 89.77,
+        "end": 89.91,
+        "probability": 0.999
+      },
+      {
+        "word": "步",
+        "start": 89.91,
+        "end": 90.23,
+        "probability": 1.0
+      }
+    ],
+    "text_en_deepl": "The repository we're going to use with page.shu is a synchronization",
+    "text_en": "The repository we're going to use with page.shu is a synchronization",
+    "tts_file": "segment_0032.wav",
+    "tts_duration": 6.229
+  },
+  {
+    "id": 33,
+    "text_zh": "就是万一那边的原作者",
+    "start": 90.41,
+    "end": 92.45,
+    "words": [
+      {
+        "word": "就是",
+        "start": 90.41,
+        "end": 90.55,
+        "probability": 0.864
+      },
+      {
+        "word": "万",
+        "start": 90.55,
+        "end": 90.85,
+        "probability": 0.671
+      },
+      {
+        "word": "一",
+        "start": 90.85,
+        "end": 91.07,
+        "probability": 0.998
+      },
+      {
+        "word": "那",
+        "start": 91.07,
+        "end": 91.29,
+        "probability": 0.975
+      },
+      {
+        "word": "边",
+        "start": 91.29,
+        "end": 91.49,
+        "probability": 0.994
+      },
+      {
+        "word": "的",
+        "start": 91.49,
+        "end": 91.73,
+        "probability": 0.996
+      },
+      {
+        "word": "原",
+        "start": 91.73,
+        "end": 91.95,
+        "probability": 0.669
+      },
+      {
+        "word": "作",
+        "start": 91.95,
+        "end": 92.17,
+        "probability": 0.998
+      },
+      {
+        "word": "者",
+        "start": 92.17,
+        "end": 92.45,
+        "probability": 1.0
+      }
+    ],
+    "text_en_deepl": "Just in case the original author over there",
+    "text_en": "Just in case the original author over there",
+    "tts_file": "segment_0033.wav",
+    "tts_duration": 3.936
+  },
+  {
+    "id": 34,
+    "text_zh": "他进行一些修改",
+    "start": 92.45,
+    "end": 93.51,
+    "words": [
+      {
+        "word": "他",
+        "start": 92.45,
+        "end": 92.65,
+        "probability": 0.089
+      },
+      {
+        "word": "进",
+        "start": 92.65,
+        "end": 92.91,
+        "probability": 0.835
+      },
+      {
+        "word": "行",
+        "start": 92.91,
+        "end": 93.01,
+        "probability": 0.924
+      },
+      {
+        "word": "一些",
+        "start": 93.01,
+        "end": 93.15,
+        "probability": 0.174
+      },
+      {
+        "word": "修",
+        "start": 93.15,
+        "end": 93.37,
+        "probability": 1.0
+      },
+      {
+        "word": "改",
+        "start": 93.37,
+        "end": 93.51,
+        "probability": 0.999
+      }
+    ],
+    "text_en_deepl": "He made some changes.",
+    "text_en": "He made some changes.",
+    "tts_file": "segment_0034.wav",
+    "tts_duration": 1.909
+  },
+  {
+    "id": 35,
+    "text_zh": "然后我们就要把他的代码一起拉到本地来",
+    "start": 93.51,
+    "end": 97.07,
+    "words": [
+      {
+        "word": "然后",
+        "start": 93.51,
+        "end": 93.77,
+        "probability": 0.93
+      },
+      {
+        "word": "我们",
+        "start": 93.77,
+        "end": 94.19,
+        "probability": 0.993
+      },
+      {
+        "word": "就",
+        "start": 94.19,
+        "end": 94.37,
+        "probability": 0.996
+      },
+      {
+        "word": "要",
+        "start": 94.37,
+        "end": 94.51,
+        "probability": 0.993
+      },
+      {
+        "word": "把",
+        "start": 94.51,
+        "end": 94.71,
+        "probability": 0.905
+      },
+      {
+        "word": "他的",
+        "start": 94.71,
+        "end": 95.09,
+        "probability": 0.965
+      },
+      {
+        "word": "代",
+        "start": 95.09,
+        "end": 95.63,
+        "probability": 0.972
+      },
+      {
+        "word": "码",
+        "start": 95.63,
+        "end": 95.81,
+        "probability": 1.0
+      },
+      {
+        "word": "一起",
+        "start": 95.81,
+        "end": 96.11,
+        "probability": 0.988
+      },
+      {
+        "word": "拉",
+        "start": 96.11,
+        "end": 96.47,
+        "probability": 0.988
+      },
+      {
+        "word": "到",
+        "start": 96.47,
+        "end": 96.59,
+        "probability": 1.0
+      },
+      {
+        "word": "本",
+        "start": 96.59,
+        "end": 96.77,
+        "probability": 0.997
+      },
+      {
+        "word": "地",
+        "start": 96.77,
+        "end": 96.93,
+        "probability": 0.996
+      },
+      {
+        "word": "来",
+        "start": 96.93,
+        "end": 97.07,
+        "probability": 0.898
+      }
+    ],
+    "text_en_deepl": "Then we'll have to pull his code together locally",
+    "text_en": "Then we'll have to pull his code together locally",
+    "tts_file": "segment_0035.wav",
+    "tts_duration": 4.48
+  },
+  {
+    "id": 36,
+    "text_zh": "就到他这边",
+    "start": 97.07,
+    "end": 98.37,
+    "words": [
+      {
+        "word": "就到",
+        "start": 97.07,
+        "end": 97.35,
+        "probability": 0.803
+      },
+      {
+        "word": "他",
+        "start": 97.35,
+        "end": 97.89,
+        "probability": 0.94
+      },
+      {
+        "word": "这",
+        "start": 97.89,
+        "end": 98.03,
+        "probability": 0.974
+      },
+      {
+        "word": "边",
+        "start": 98.03,
+        "end": 98.37,
+        "probability": 1.0
+      }
+    ],
+    "text_en_deepl": "On his side.",
+    "text_en": "On his side.",
+    "tts_file": "segment_0036.wav",
+    "tts_duration": 1.088
+  },
+  {
+    "id": 37,
+    "text_zh": "这个新的打开一个窗口",
+    "start": 98.37,
+    "end": 100.69,
+    "words": [
+      {
+        "word": "这个",
+        "start": 98.37,
+        "end": 98.93,
+        "probability": 0.553
+      },
+      {
+        "word": "新",
+        "start": 98.93,
+        "end": 99.67,
+        "probability": 0.102
+      },
+      {
+        "word": "的",
+        "start": 99.67,
+        "end": 99.81,
+        "probability": 0.996
+      },
+      {
+        "word": "打",
+        "start": 99.81,
+        "end": 100.07,
+        "probability": 0.969
+      },
+      {
+        "word": "开",
+        "start": 100.07,
+        "end": 100.21,
+        "probability": 0.998
+      },
+      {
+        "word": "一个",
+        "start": 100.21,
+        "end": 100.31,
+        "probability": 0.84
+      },
+      {
+        "word": "窗",
+        "start": 100.31,
+        "end": 100.53,
+        "probability": 0.99
+      },
+      {
+        "word": "口",
+        "start": 100.53,
+        "end": 100.69,
+        "probability": 0.945
+      }
+    ],
+    "text_en_deepl": "This new one opens a window",
+    "text_en": "This new one opens a window",
+    "tts_file": "segment_0037.wav",
+    "tts_duration": 2.464
+  },
+  {
+    "id": 38,
+    "text_zh": "然后把他的拉过来",
+    "start": 100.69,
+    "end": 102.73,
+    "words": [
+      {
+        "word": "然后",
+        "start": 100.69,
+        "end": 100.93,
+        "probability": 0.965
+      },
+      {
+        "word": "把",
+        "start": 100.93,
+        "end": 101.61,
+        "probability": 0.776
+      },
+      {
+        "word": "他的",
+        "start": 101.61,
+        "end": 101.91,
+        "probability": 0.959
+      },
+      {
+        "word": "拉",
+        "start": 101.91,
+        "end": 102.31,
+        "probability": 0.59
+      },
+      {
+        "word": "过",
+        "start": 102.31,
+        "end": 102.49,
+        "probability": 0.998
+      },
+      {
+        "word": "来",
+        "start": 102.49,
+        "end": 102.73,
+        "probability": 0.999
+      }
+    ],
+    "text_en_deepl": "Then pull his over.",
+    "text_en": "Then pull his over.",
+    "tts_file": "segment_0038.wav",
+    "tts_duration": 1.728
+  },
+  {
+    "id": 39,
+    "text_zh": "就是git remote add upstream",
+    "start": 102.73,
+    "end": 104.27,
+    "words": [
+      {
+        "word": "就是",
+        "start": 102.73,
+        "end": 103.01,
+        "probability": 0.376
+      },
+      {
+        "word": "g",
+        "start": 103.01,
+        "end": 103.19,
+        "probability": 0.339
+      },
+      {
+        "word": "it",
+        "start": 103.19,
+        "end": 103.31,
+        "probability": 0.969
+      },
+      {
+        "word": "remote",
+        "start": 103.31,
+        "end": 103.55,
+        "probability": 0.779
+      },
+      {
+        "word": "add",
+        "start": 103.55,
+        "end": 103.89,
+        "probability": 0.626
+      },
+      {
+        "word": "upstream",
+        "start": 103.89,
+        "end": 104.27,
+        "probability": 0.484
+      }
+    ],
+    "text_en_deepl": "is git remote add upstream",
+    "text_en": "is git remote add upstream",
+    "tts_file": "segment_0039.wav",
+    "tts_duration": 2.368
+  },
+  {
+    "id": 40,
+    "text_zh": "然后这边",
+    "start": 104.27,
+    "end": 105.09,
+    "words": [
+      {
+        "word": "然后",
+        "start": 104.27,
+        "end": 104.69,
+        "probability": 0.899
+      },
+      {
+        "word": "这",
+        "start": 104.69,
+        "end": 104.91,
+        "probability": 0.851
+      },
+      {
+        "word": "边",
+        "start": 104.91,
+        "end": 105.09,
+        "probability": 1.0
+      }
+    ],
+    "text_en_deepl": "And then this way.",
+    "text_en": "And then this way.",
+    "tts_file": "segment_0040.wav",
+    "tts_duration": 1.632
+  },
+  {
+    "id": 41,
+    "text_zh": "然后我们看一下有没有添加成功",
+    "start": 105.09,
+    "end": 108.61,
+    "words": [
+      {
+        "word": "然后",
+        "start": 105.09,
+        "end": 105.39,
+        "probability": 0.901
+      },
+      {
+        "word": "我们",
+        "start": 105.39,
+        "end": 106.09,
+        "probability": 0.997
+      },
+      {
+        "word": "看一下",
+        "start": 106.09,
+        "end": 106.71,
+        "probability": 0.998
+      },
+      {
+        "word": "有",
+        "start": 106.71,
+        "end": 107.05,
+        "probability": 0.996
+      },
+      {
+        "word": "没有",
+        "start": 107.05,
+        "end": 107.31,
+        "probability": 1.0
+      },
+      {
+        "word": "添",
+        "start": 107.31,
+        "end": 107.75,
+        "probability": 0.982
+      },
+      {
+        "word": "加",
+        "start": 107.75,
+        "end": 107.97,
+        "probability": 1.0
+      },
+      {
+        "word": "成",
+        "start": 107.97,
+        "end": 108.25,
+        "probability": 0.996
+      },
+      {
+        "word": "功",
+        "start": 108.25,
+        "end": 108.61,
+        "probability": 0.999
+      }
+    ],
+    "text_en_deepl": "Then we'll see if it's been added successfully",
+    "text_en": "Then we'll see if it's been added successfully",
+    "tts_file": "segment_0041.wav",
+    "tts_duration": 4.213
+  },
+  {
+    "id": 42,
+    "text_zh": "看到这边origin是我个人的仓库的那边",
+    "start": 109.63,
+    "end": 113.15,
+    "words": [
+      {
+        "word": "看到",
+        "start": 109.63,
+        "end": 110.07,
+        "probability": 0.49
+      },
+      {
+        "word": "这",
+        "start": 110.07,
+        "end": 110.47,
+        "probability": 0.982
+      },
+      {
+        "word": "边",
+        "start": 110.47,
+        "end": 110.63,
+        "probability": 0.993
+      },
+      {
+        "word": "orig",
+        "start": 110.63,
+        "end": 110.87,
+        "probability": 0.511
+      },
+      {
+        "word": "in",
+        "start": 110.87,
+        "end": 111.05,
+        "probability": 0.955
+      },
+      {
+        "word": "是我",
+        "start": 111.05,
+        "end": 111.37,
+        "probability": 0.955
+      },
+      {
+        "word": "个",
+        "start": 111.37,
+        "end": 111.95,
+        "probability": 0.998
+      },
+      {
+        "word": "人",
+        "start": 111.95,
+        "end": 112.11,
+        "probability": 1.0
+      },
+      {
+        "word": "的",
+        "start": 112.11,
+        "end": 112.21,
+        "probability": 0.995
+      },
+      {
+        "word": "仓",
+        "start": 112.21,
+        "end": 112.53,
+        "probability": 0.975
+      },
+      {
+        "word": "库",
+        "start": 112.53,
+        "end": 112.73,
+        "probability": 1.0
+      },
+      {
+        "word": "的",
+        "start": 112.73,
+        "end": 112.85,
+        "probability": 0.996
+      },
+      {
+        "word": "那",
+        "start": 112.85,
+        "end": 112.97,
+        "probability": 0.997
+      },
+      {
+        "word": "边",
+        "start": 112.97,
+        "end": 113.15,
+        "probability": 0.996
+      }
+    ],
+    "text_en_deepl": "See, this side of Origin is my personal repository over here.",
+    "text_en": "See, this side of Origin is my personal repository over here.",
+    "tts_file": "segment_0042.wav",
+    "tts_duration": 5.589
+  },
+  {
+    "id": 43,
+    "text_zh": "然后这个upstream就是原先的page.shu的仓库的那个链接",
+    "start": 113.15,
+    "end": 117.69,
+    "words": [
+      {
+        "word": "然后",
+        "start": 113.15,
+        "end": 113.53,
+        "probability": 0.917
+      },
+      {
+        "word": "这个",
+        "start": 113.53,
+        "end": 113.77,
+        "probability": 0.966
+      },
+      {
+        "word": "up",
+        "start": 113.77,
+        "end": 113.95,
+        "probability": 0.973
+      },
+      {
+        "word": "stream",
+        "start": 113.95,
+        "end": 114.15,
+        "probability": 0.993
+      },
+      {
+        "word": "就是",
+        "start": 114.15,
+        "end": 114.49,
+        "probability": 0.956
+      },
+      {
+        "word": "原",
+        "start": 114.49,
+        "end": 115.05,
+        "probability": 0.992
+      },
+      {
+        "word": "先",
+        "start": 115.05,
+        "end": 115.33,
+        "probability": 0.996
+      },
+      {
+        "word": "的",
+        "start": 115.33,
+        "end": 115.43,
+        "probability": 0.985
+      },
+      {
+        "word": "page.",
+        "start": 115.43,
+        "end": 115.67,
+        "probability": 0.06
+      },
+      {
+        "word": "sh",
+        "start": 115.69,
+        "end": 115.97,
+        "probability": 0.95
+      },
+      {
+        "word": "u",
+        "start": 115.97,
+        "end": 116.11,
+        "probability": 0.964
+      },
+      {
+        "word": "的",
+        "start": 116.11,
+        "end": 116.51,
+        "probability": 0.911
+      },
+      {
+        "word": "仓",
+        "start": 116.51,
+        "end": 116.79,
+        "probability": 0.953
+      },
+      {
+        "word": "库",
+        "start": 116.79,
+        "end": 116.97,
+        "probability": 1.0
+      },
+      {
+        "word": "的",
+        "start": 116.97,
+        "end": 117.07,
+        "probability": 0.988
+      },
+      {
+        "word": "那个",
+        "start": 117.07,
+        "end": 117.27,
+        "probability": 0.843
+      },
+      {
+        "word": "链",
+        "start": 117.27,
+        "end": 117.49,
+        "probability": 0.963
+      },
+      {
+        "word": "接",
+        "start": 117.49,
+        "end": 117.69,
+        "probability": 1.0
+      }
+    ],
+    "text_en_deepl": "Then this upstream is the link to the original page.shu repository",
+    "text_en": "Then this upstream is the link to the original page.shu repository",
+    "tts_file": "segment_0043.wav",
+    "tts_duration": 6.048
+  },
+  {
+    "id": 44,
+    "text_zh": "然后我们按convert一下",
+    "start": 117.69,
+    "end": 119.17,
+    "words": [
+      {
+        "word": "然后",
+        "start": 117.69,
+        "end": 117.91,
+        "probability": 0.988
+      },
+      {
+        "word": "我们",
+        "start": 117.91,
+        "end": 118.29,
+        "probability": 0.973
+      },
+      {
+        "word": "按",
+        "start": 118.29,
+        "end": 118.45,
+        "probability": 0.562
+      },
+      {
+        "word": "con",
+        "start": 118.45,
+        "end": 118.67,
+        "probability": 0.282
+      },
+      {
+        "word": "vert",
+        "start": 118.67,
+        "end": 118.85,
+        "probability": 0.571
+      },
+      {
+        "word": "一下",
+        "start": 118.85,
+        "end": 119.17,
+        "probability": 0.961
+      }
+    ],
+    "text_en_deepl": "Then we press convert.",
+    "text_en": "Then we press convert.",
+    "tts_file": "segment_0044.wav",
+    "tts_duration": 2.005
+  },
+  {
+    "id": 45,
+    "text_zh": "然后我们check到main这个分支上",
+    "start": 119.17,
+    "end": 122.87,
+    "words": [
+      {
+        "word": "然后",
+        "start": 119.17,
+        "end": 120.07,
+        "probability": 0.056
+      },
+      {
+        "word": "我们",
+        "start": 120.07,
+        "end": 120.45,
+        "probability": 0.97
+      },
+      {
+        "word": "check",
+        "start": 120.45,
+        "end": 121.01,
+        "probability": 0.014
+      },
+      {
+        "word": "到",
+        "start": 121.01,
+        "end": 121.41,
+        "probability": 0.967
+      },
+      {
+        "word": "main",
+        "start": 121.41,
+        "end": 121.85,
+        "probability": 0.309
+      },
+      {
+        "word": "这个",
+        "start": 121.85,
+        "end": 122.11,
+        "probability": 0.94
+      },
+      {
+        "word": "分",
+        "start": 122.11,
+        "end": 122.59,
+        "probability": 0.629
+      },
+      {
+        "word": "支",
+        "start": 122.59,
+        "end": 122.67,
+        "probability": 0.66
+      },
+      {
+        "word": "上",
+        "start": 122.67,
+        "end": 122.87,
+        "probability": 0.932
+      }
+    ],
+    "text_en_deepl": "Then we check into the main branch.",
+    "text_en": "Then we check into the main branch.",
+    "tts_file": "segment_0045.wav",
+    "tts_duration": 3.2
+  },
+  {
+    "id": 46,
+    "text_zh": "check到main这个分支是为了跟什么保持同步",
+    "start": 122.87,
+    "end": 127.59,
+    "words": [
+      {
+        "word": "check",
+        "start": 122.87,
+        "end": 123.55,
+        "probability": 0.639
+      },
+      {
+        "word": "到",
+        "start": 123.55,
+        "end": 123.71,
+        "probability": 0.981
+      },
+      {
+        "word": "main",
+        "start": 123.71,
+        "end": 124.11,
+        "probability": 0.97
+      },
+      {
+        "word": "这个",
+        "start": 124.11,
+        "end": 124.43,
+        "probability": 0.932
+      },
+      {
+        "word": "分",
+        "start": 124.43,
+        "end": 124.67,
+        "probability": 0.963
+      },
+      {
+        "word": "支",
+        "start": 124.67,
+        "end": 124.83,
+        "probability": 0.988
+      },
+      {
+        "word": "是",
+        "start": 124.83,
+        "end": 125.11,
+        "probability": 0.915
+      },
+      {
+        "word": "为",
+        "start": 125.11,
+        "end": 125.33,
+        "probability": 0.995
+      },
+      {
+        "word": "了",
+        "start": 125.33,
+        "end": 125.55,
+        "probability": 0.999
+      },
+      {
+        "word": "跟",
+        "start": 125.55,
+        "end": 125.99,
+        "probability": 0.949
+      },
+      {
+        "word": "什么",
+        "start": 125.99,
+        "end": 126.73,
+        "probability": 0.61
+      },
+      {
+        "word": "保",
+        "start": 126.73,
+        "end": 127.01,
+        "probability": 0.996
+      },
+      {
+        "word": "持",
+        "start": 127.01,
+        "end": 127.15,
+        "probability": 0.994
+      },
+      {
+        "word": "同",
+        "start": 127.15,
+        "end": 127.31,
+        "probability": 0.916
+      },
+      {
+        "word": "步",
+        "start": 127.31,
+        "end": 127.59,
+        "probability": 0.998
+      }
+    ],
+    "text_en_deepl": "The check to main branch is to keep up with what's going on.",
+    "text_en": "The check to main branch is to keep up with what's going on.",
+    "tts_file": "segment_0046.wav",
+    "tts_duration": 5.493
+  },
+  {
+    "id": 47,
+    "text_zh": "是为了跟page.shu的main来保持一个同步",
+    "start": 128.36,
+    "end": 132.52,
+    "words": [
+      {
+        "word": "是",
+        "start": 128.36,
+        "end": 128.6,
+        "probability": 0.531
+      },
+      {
+        "word": "为",
+        "start": 128.6,
+        "end": 128.76,
+        "probability": 0.998
+      },
+      {
+        "word": "了",
+        "start": 128.76,
+        "end": 128.9,
+        "probability": 0.999
+      },
+      {
+        "word": "跟",
+        "start": 128.9,
+        "end": 129.04,
+        "probability": 0.963
+      },
+      {
+        "word": "page.",
+        "start": 129.04,
+        "end": 129.78,
+        "probability": 0.047
+      },
+      {
+        "word": "sh",
+        "start": 129.82,
+        "end": 130.12,
+        "probability": 0.892
+      },
+      {
+        "word": "u",
+        "start": 130.12,
+        "end": 130.24,
+        "probability": 0.952
+      },
+      {
+        "word": "的",
+        "start": 130.24,
+        "end": 130.84,
+        "probability": 0.868
+      },
+      {
+        "word": "main",
+        "start": 130.84,
+        "end": 131.3,
+        "probability": 0.987
+      },
+      {
+        "word": "来",
+        "start": 131.3,
+        "end": 131.6,
+        "probability": 0.827
+      },
+      {
+        "word": "保",
+        "start": 131.6,
+        "end": 131.76,
+        "probability": 0.999
+      },
+      {
+        "word": "持",
+        "start": 131.76,
+        "end": 131.92,
+        "probability": 0.999
+      },
+      {
+        "word": "一个",
+        "start": 131.92,
+        "end": 132.08,
+        "probability": 0.961
+      },
+      {
+        "word": "同",
+        "start": 132.08,
+        "end": 132.22,
+        "probability": 0.958
+      },
+      {
+        "word": "步",
+        "start": 132.22,
+        "end": 132.52,
+        "probability": 1.0
+      }
+    ],
+    "text_en_deepl": "is to maintain a synchronization with the main of page.shu.",
+    "text_en": "is to maintain a synchronization with the main of page.shu.",
+    "tts_file": "segment_0047.wav",
+    "tts_duration": 5.408
+  },
+  {
+    "id": 48,
+    "text_zh": "我们把他的代码拉到本地来",
+    "start": 132.52,
+    "end": 135.64,
+    "words": [
+      {
+        "word": "我们",
+        "start": 132.52,
+        "end": 132.84,
+        "probability": 0.962
+      },
+      {
+        "word": "把",
+        "start": 132.84,
+        "end": 133.08,
+        "probability": 0.269
+      },
+      {
+        "word": "他的",
+        "start": 133.08,
+        "end": 133.36,
+        "probability": 0.924
+      },
+      {
+        "word": "代",
+        "start": 133.36,
+        "end": 133.86,
+        "probability": 0.935
+      },
+      {
+        "word": "码",
+        "start": 133.86,
+        "end": 134.08,
+        "probability": 1.0
+      },
+      {
+        "word": "拉",
+        "start": 134.08,
+        "end": 134.44,
+        "probability": 0.955
+      },
+      {
+        "word": "到",
+        "start": 134.44,
+        "end": 134.7,
+        "probability": 0.998
+      },
+      {
+        "word": "本",
+        "start": 134.7,
+        "end": 135.26,
+        "probability": 0.992
+      },
+      {
+        "word": "地",
+        "start": 135.26,
+        "end": 135.42,
+        "probability": 0.999
+      },
+      {
+        "word": "来",
+        "start": 135.42,
+        "end": 135.64,
+        "probability": 0.987
+      }
+    ],
+    "text_en_deepl": "Let's pull his code locally.",
+    "text_en": "Let's pull his code locally.",
+    "tts_file": "segment_0048.wav",
+    "tts_duration": 2.56
+  },
+  {
+    "id": 49,
+    "text_zh": "对的",
+    "start": 136.94,
+    "end": 137.28,
+    "words": [
+      {
+        "word": "对",
+        "start": 136.94,
+        "end": 137.18,
+        "probability": 0.879
+      },
+      {
+        "word": "的",
+        "start": 137.18,
+        "end": 137.28,
+        "probability": 0.987
+      }
+    ],
+    "text_en_deepl": "right",
+    "text_en": "right",
+    "tts_file": "segment_0049.wav",
+    "tts_duration": 1.515
+  },
+  {
+    "id": 50,
+    "text_zh": "因为在酸蝴蝶同学进行代码修改的期间",
+    "start": 137.28,
+    "end": 140.98,
+    "words": [
+      {
+        "word": "因为",
+        "start": 137.28,
+        "end": 137.64,
+        "probability": 0.756
+      },
+      {
+        "word": "在",
+        "start": 137.64,
+        "end": 138.38,
+        "probability": 0.991
+      },
+      {
+        "word": "酸",
+        "start": 138.38,
+        "end": 138.86,
+        "probability": 0.793
+      },
+      {
+        "word": "蝴",
+        "start": 138.86,
+        "end": 138.96,
+        "probability": 0.859
+      },
+      {
+        "word": "蝶",
+        "start": 138.96,
+        "end": 139.06,
+        "probability": 1.0
+      },
+      {
+        "word": "同",
+        "start": 139.06,
+        "end": 139.26,
+        "probability": 0.972
+      },
+      {
+        "word": "学",
+        "start": 139.26,
+        "end": 139.42,
+        "probability": 0.991
+      },
+      {
+        "word": "进",
+        "start": 139.42,
+        "end": 139.66,
+        "probability": 0.996
+      },
+      {
+        "word": "行",
+        "start": 139.66,
+        "end": 139.88,
+        "probability": 1.0
+      },
+      {
+        "word": "代",
+        "start": 139.88,
+        "end": 140.02,
+        "probability": 0.995
+      },
+      {
+        "word": "码",
+        "start": 140.02,
+        "end": 140.18,
+        "probability": 1.0
+      },
+      {
+        "word": "修",
+        "start": 140.18,
+        "end": 140.42,
+        "probability": 1.0
+      },
+      {
+        "word": "改",
+        "start": 140.42,
+        "end": 140.5,
+        "probability": 0.999
+      },
+      {
+        "word": "的",
+        "start": 140.5,
+        "end": 140.6,
+        "probability": 0.988
+      },
+      {
+        "word": "期",
+        "start": 140.6,
+        "end": 140.72,
+        "probability": 0.987
+      },
+      {
+        "word": "间",
+        "start": 140.72,
+        "end": 140.98,
+        "probability": 0.999
+      }
+    ],
+    "text_en_deepl": "Because during the time that Acid Butterfly students were making code changes",
+    "text_en": "Because during the time that Acid Butterfly students were making code changes",
+    "tts_file": "segment_0050.wav",
+    "tts_duration": 7.061
+  },
+  {
+    "id": 51,
+    "text_zh": "有可能我或者其他的协作者对代码进行了修改",
+    "start": 140.98,
+    "end": 144.92,
+    "words": [
+      {
+        "word": "有",
+        "start": 140.98,
+        "end": 141.42,
+        "probability": 0.984
+      },
+      {
+        "word": "可能",
+        "start": 141.42,
+        "end": 141.6,
+        "probability": 0.997
+      },
+      {
+        "word": "我",
+        "start": 141.6,
+        "end": 141.86,
+        "probability": 0.107
+      },
+      {
+        "word": "或者",
+        "start": 141.86,
+        "end": 142.32,
+        "probability": 0.939
+      },
+      {
+        "word": "其",
+        "start": 142.32,
+        "end": 142.94,
+        "probability": 0.995
+      },
+      {
+        "word": "他的",
+        "start": 142.94,
+        "end": 143.2,
+        "probability": 0.987
+      },
+      {
+        "word": "协",
+        "start": 143.2,
+        "end": 143.44,
+        "probability": 0.945
+      },
+      {
+        "word": "作",
+        "start": 143.44,
+        "end": 143.54,
+        "probability": 0.999
+      },
+      {
+        "word": "者",
+        "start": 143.54,
+        "end": 143.72,
+        "probability": 0.998
+      },
+      {
+        "word": "对",
+        "start": 143.72,
+        "end": 143.86,
+        "probability": 0.989
+      },
+      {
+        "word": "代",
+        "start": 143.86,
+        "end": 144.02,
+        "probability": 0.995
+      },
+      {
+        "word": "码",
+        "start": 144.02,
+        "end": 144.18,
+        "probability": 1.0
+      },
+      {
+        "word": "进",
+        "start": 144.18,
+        "end": 144.32,
+        "probability": 0.999
+      },
+      {
+        "word": "行了",
+        "start": 144.32,
+        "end": 144.54,
+        "probability": 0.879
+      },
+      {
+        "word": "修",
+        "start": 144.54,
+        "end": 144.78,
+        "probability": 0.999
+      },
+      {
+        "word": "改",
+        "start": 144.78,
+        "end": 144.92,
+        "probability": 0.997
+      }
+    ],
+    "text_en_deepl": "It's possible that I or some other collaborator made changes to the code.",
+    "text_en": "It's possible that I or some other collaborator made changes to the code.",
+    "tts_file": "segment_0051.wav",
+    "tts_duration": 6.688
+  },
+  {
+    "id": 52,
+    "text_zh": "所以他要过一下",
+    "start": 144.92,
+    "end": 146.46,
+    "words": [
+      {
+        "word": "所以",
+        "start": 144.92,
+        "end": 145.46,
+        "probability": 0.988
+      },
+      {
+        "word": "他",
+        "start": 145.46,
+        "end": 145.7,
+        "probability": 0.915
+      },
+      {
+        "word": "要",
+        "start": 145.7,
+        "end": 145.96,
+        "probability": 0.994
+      },
+      {
+        "word": "过",
+        "start": 145.96,
+        "end": 146.24,
+        "probability": 0.031
+      },
+      {
+        "word": "一下",
+        "start": 146.24,
+        "end": 146.46,
+        "probability": 0.821
+      }
+    ],
+    "text_en_deepl": "So he's going to pass.",
+    "text_en": "So he's going to pass.",
+    "tts_file": "segment_0052.wav",
+    "tts_duration": 2.005
+  },
+  {
+    "id": 53,
+    "text_zh": "现在就更新好",
+    "start": 147.44,
+    "end": 149.02,
+    "words": [
+      {
+        "word": "现在",
+        "start": 147.44,
+        "end": 147.92,
+        "probability": 0.909
+      },
+      {
+        "word": "就",
+        "start": 147.92,
+        "end": 148.18,
+        "probability": 0.997
+      },
+      {
+        "word": "更",
+        "start": 148.18,
+        "end": 148.64,
+        "probability": 0.999
+      },
+      {
+        "word": "新",
+        "start": 148.64,
+        "end": 148.82,
+        "probability": 1.0
+      },
+      {
+        "word": "好",
+        "start": 148.82,
+        "end": 149.02,
+        "probability": 0.987
+      }
+    ],
+    "text_en_deepl": "Update now.",
+    "text_en": "Update now.",
+    "tts_file": "segment_0053.wav",
+    "tts_duration": 0.992
+  },
+  {
+    "id": 54,
+    "text_zh": "然后我们",
+    "start": 149.02,
+    "end": 149.9,
+    "words": [
+      {
+        "word": "然后",
+        "start": 149.02,
+        "end": 149.4,
+        "probability": 0.972
+      },
+      {
+        "word": "我们",
+        "start": 149.4,
+        "end": 149.9,
+        "probability": 0.991
+      }
+    ],
+    "text_en_deepl": "And then we",
+    "text_en": "And then we",
+    "tts_file": "segment_0054.wav",
+    "tts_duration": 0.992
+  },
+  {
+    "id": 55,
+    "text_zh": "回到我们的修分支上",
+    "start": 150.52,
+    "end": 152.62,
+    "words": [
+      {
+        "word": "回",
+        "start": 150.52,
+        "end": 150.58,
+        "probability": 0.663
+      },
+      {
+        "word": "到",
+        "start": 150.58,
+        "end": 150.82,
+        "probability": 0.998
+      },
+      {
+        "word": "我们",
+        "start": 150.82,
+        "end": 151.08,
+        "probability": 0.903
+      },
+      {
+        "word": "的",
+        "start": 151.08,
+        "end": 151.52,
+        "probability": 0.957
+      },
+      {
+        "word": "修",
+        "start": 151.52,
+        "end": 151.98,
+        "probability": 0.792
+      },
+      {
+        "word": "分",
+        "start": 151.98,
+        "end": 152.18,
+        "probability": 0.847
+      },
+      {
+        "word": "支",
+        "start": 152.18,
+        "end": 152.3,
+        "probability": 0.49
+      },
+      {
+        "word": "上",
+        "start": 152.3,
+        "end": 152.62,
+        "probability": 0.897
+      }
+    ],
+    "text_en_deepl": "Back to our revisionist branch",
+    "text_en": "Back to our revisionist branch",
+    "tts_file": "segment_0055.wav",
+    "tts_duration": 2.741
+  },
+  {
+    "id": 56,
+    "text_zh": "就是hotfix上",
+    "start": 152.62,
+    "end": 154.12,
+    "words": [
+      {
+        "word": "就是",
+        "start": 152.62,
+        "end": 153.08,
+        "probability": 0.492
+      },
+      {
+        "word": "hot",
+        "start": 153.08,
+        "end": 153.62,
+        "probability": 0.439
+      },
+      {
+        "word": "f",
+        "start": 153.62,
+        "end": 153.74,
+        "probability": 0.98
+      },
+      {
+        "word": "ix",
+        "start": 153.74,
+        "end": 153.9,
+        "probability": 0.969
+      },
+      {
+        "word": "上",
+        "start": 153.9,
+        "end": 154.12,
+        "probability": 0.758
+      }
+    ],
+    "text_en_deepl": "It's on hotfix.",
+    "text_en": "It's on hotfix.",
+    "tts_file": "segment_0056.wav",
+    "tts_duration": 1.365
+  },
+  {
+    "id": 57,
+    "text_zh": "我们再rebase一下",
+    "start": 154.12,
+    "end": 157.04,
+    "words": [
+      {
+        "word": "我们",
+        "start": 154.12,
+        "end": 155.04,
+        "probability": 0.964
+      },
+      {
+        "word": "再",
+        "start": 155.58,
+        "end": 156.08,
+        "probability": 0.843
+      },
+      {
+        "word": "re",
+        "start": 156.08,
+        "end": 156.38,
+        "probability": 0.627
+      },
+      {
+        "word": "base",
+        "start": 156.38,
+        "end": 156.72,
+        "probability": 0.745
+      },
+      {
+        "word": "一下",
+        "start": 156.72,
+        "end": 157.04,
+        "probability": 0.965
+      }
+    ],
+    "text_en_deepl": "Let's rebase it.",
+    "text_en": "Let's rebase it.",
+    "tts_file": "segment_0057.wav",
+    "tts_duration": 1.451
+  },
+  {
+    "id": 58,
+    "text_zh": "然后就push的话",
+    "start": 157.04,
+    "end": 159.46,
+    "words": [
+      {
+        "word": "然后",
+        "start": 157.04,
+        "end": 157.82,
+        "probability": 0.108
+      },
+      {
+        "word": "就",
+        "start": 157.92,
+        "end": 158.22,
+        "probability": 0.875
+      },
+      {
+        "word": "p",
+        "start": 158.22,
+        "end": 158.6,
+        "probability": 0.463
+      },
+      {
+        "word": "ush",
+        "start": 158.6,
+        "end": 159.12,
+        "probability": 0.999
+      },
+      {
+        "word": "的话",
+        "start": 159.12,
+        "end": 159.46,
+        "probability": 0.978
+      }
+    ],
+    "text_en_deepl": "And then just push.",
+    "text_en": "And then just push.",
+    "tts_file": "segment_0058.wav",
+    "tts_duration": 1.728
+  },
+  {
+    "id": 59,
+    "text_zh": "我们push到我们自己的kbnorigin",
+    "start": 159.46,
+    "end": 163.32,
+    "words": [
+      {
+        "word": "我们",
+        "start": 159.46,
+        "end": 160.12,
+        "probability": 0.956
+      },
+      {
+        "word": "p",
+        "start": 160.12,
+        "end": 160.36,
+        "probability": 0.93
+      },
+      {
+        "word": "ush",
+        "start": 160.36,
+        "end": 160.58,
+        "probability": 1.0
+      },
+      {
+        "word": "到",
+        "start": 160.58,
+        "end": 160.88,
+        "probability": 0.992
+      },
+      {
+        "word": "我们",
+        "start": 160.88,
+        "end": 161.34,
+        "probability": 0.991
+      },
+      {
+        "word": "自己",
+        "start": 161.34,
+        "end": 161.82,
+        "probability": 0.997
+      },
+      {
+        "word": "的",
+        "start": 161.82,
+        "end": 162.12,
+        "probability": 0.993
+      },
+      {
+        "word": "k",
+        "start": 162.12,
+        "end": 162.28,
+        "probability": 0.246
+      },
+      {
+        "word": "bn",
+        "start": 162.28,
+        "end": 162.5,
+        "probability": 0.408
+      },
+      {
+        "word": "orig",
+        "start": 162.5,
+        "end": 163.08,
+        "probability": 0.275
+      },
+      {
+        "word": "in",
+        "start": 163.08,
+        "end": 163.32,
+        "probability": 0.997
+      }
+    ],
+    "text_en_deepl": "We push to our own kbnorigin",
+    "text_en": "We push to our own kbnorigin",
+    "tts_file": "segment_0059.wav",
+    "tts_duration": 2.56
+  },
+  {
+    "id": 60,
+    "text_zh": "不要push到upstream",
+    "start": 163.32,
+    "end": 164.7,
+    "words": [
+      {
+        "word": "不要",
+        "start": 163.32,
+        "end": 163.82,
+        "probability": 0.917
+      },
+      {
+        "word": "p",
+        "start": 163.82,
+        "end": 164.08,
+        "probability": 0.934
+      },
+      {
+        "word": "ush",
+        "start": 164.08,
+        "end": 164.22,
+        "probability": 1.0
+      },
+      {
+        "word": "到",
+        "start": 164.22,
+        "end": 164.38,
+        "probability": 0.845
+      },
+      {
+        "word": "up",
+        "start": 164.38,
+        "end": 164.54,
+        "probability": 0.804
+      },
+      {
+        "word": "stream",
+        "start": 164.54,
+        "end": 164.7,
+        "probability": 0.903
+      }
+    ],
+    "text_en_deepl": "Don't push to upstream",
+    "text_en": "Don't push to upstream",
+    "tts_file": "segment_0060.wav",
+    "tts_duration": 2.005
+  },
+  {
+    "id": 61,
+    "text_zh": "然后push到一个新的分支上面",
+    "start": 164.7,
+    "end": 167.32,
+    "words": [
+      {
+        "word": "然后",
+        "start": 164.7,
+        "end": 165.08,
+        "probability": 0.954
+      },
+      {
+        "word": "p",
+        "start": 165.08,
+        "end": 165.5,
+        "probability": 0.944
+      },
+      {
+        "word": "ush",
+        "start": 165.5,
+        "end": 165.64,
+        "probability": 1.0
+      },
+      {
+        "word": "到",
+        "start": 165.64,
+        "end": 165.82,
+        "probability": 0.997
+      },
+      {
+        "word": "一个",
+        "start": 165.82,
+        "end": 166.04,
+        "probability": 0.992
+      },
+      {
+        "word": "新",
+        "start": 166.04,
+        "end": 166.7,
+        "probability": 0.999
+      },
+      {
+        "word": "的",
+        "start": 166.7,
+        "end": 166.84,
+        "probability": 0.999
+      },
+      {
+        "word": "分",
+        "start": 166.84,
+        "end": 166.98,
+        "probability": 0.964
+      },
+      {
+        "word": "支",
+        "start": 166.98,
+        "end": 167.08,
+        "probability": 0.975
+      },
+      {
+        "word": "上面",
+        "start": 167.08,
+        "end": 167.32,
+        "probability": 0.993
+      }
+    ],
+    "text_en_deepl": "and then push it to a new branch",
+    "text_en": "and then push it to a new branch",
+    "tts_file": "segment_0061.wav",
+    "tts_duration": 2.923
+  },
+  {
+    "id": 62,
+    "text_zh": "我们的hotfix",
+    "start": 167.32,
+    "end": 168.38,
+    "words": [
+      {
+        "word": "我们",
+        "start": 167.32,
+        "end": 167.66,
+        "probability": 0.965
+      },
+      {
+        "word": "的",
+        "start": 167.66,
+        "end": 167.88,
+        "probability": 0.992
+      },
+      {
+        "word": "hot",
+        "start": 167.88,
+        "end": 168.1,
+        "probability": 0.981
+      },
+      {
+        "word": "f",
+        "start": 168.1,
+        "end": 168.22,
+        "probability": 0.997
+      },
+      {
+        "word": "ix",
+        "start": 168.22,
+        "end": 168.38,
+        "probability": 0.994
+      }
+    ],
+    "text_en_deepl": "Our hotfix",
+    "text_en": "Our hotfix",
+    "tts_file": "segment_0062.wav",
+    "tts_duration": 0.907
+  },
+  {
+    "id": 63,
+    "text_zh": "就可以了",
+    "start": 169.89,
+    "end": 170.71,
+    "words": [
+      {
+        "word": "就可以",
+        "start": 169.89,
+        "end": 170.31,
+        "probability": 0.96
+      },
+      {
+        "word": "了",
+        "start": 170.31,
+        "end": 170.71,
+        "probability": 0.998
+      }
+    ],
+    "text_en_deepl": "That's it.",
+    "text_en": "That's it.",
+    "tts_file": "segment_0063.wav",
+    "tts_duration": 0.907
+  },
+  {
+    "id": 64,
+    "text_zh": "我们来看看",
+    "start": 170.71,
+    "end": 171.73,
+    "words": [
+      {
+        "word": "我们",
+        "start": 170.71,
+        "end": 170.81,
+        "probability": 0.703
+      },
+      {
+        "word": "来",
+        "start": 170.81,
+        "end": 171.19,
+        "probability": 0.995
+      },
+      {
+        "word": "看看",
+        "start": 171.19,
+        "end": 171.73,
+        "probability": 0.621
+      }
+    ],
+    "text_en_deepl": "Let's see.",
+    "text_en": "Let's see.",
+    "tts_file": "segment_0064.wav",
+    "tts_duration": 0.907
+  },
+  {
+    "id": 65,
+    "text_zh": "这边就有了",
+    "start": 171.73,
+    "end": 174.88,
+    "words": [
+      {
+        "word": "这",
+        "start": 171.73,
+        "end": 172.43,
+        "probability": 0.809
+      },
+      {
+        "word": "边",
+        "start": 173.9,
+        "end": 174.44,
+        "probability": 1.0
+      },
+      {
+        "word": "就",
+        "start": 174.44,
+        "end": 174.58,
+        "probability": 0.998
+      },
+      {
+        "word": "有",
+        "start": 174.58,
+        "end": 174.78,
+        "probability": 1.0
+      },
+      {
+        "word": "了",
+        "start": 174.78,
+        "end": 174.88,
+        "probability": 0.979
+      }
+    ],
+    "text_en_deepl": "It's right this way.",
+    "text_en": "It's right this way.",
+    "tts_file": "segment_0065.wav",
+    "tts_duration": 1.824
+  },
+  {
+    "id": 66,
+    "text_zh": "然后我们来创建一个pro request",
+    "start": 174.88,
+    "end": 178.0,
+    "words": [
+      {
+        "word": "然后",
+        "start": 174.88,
+        "end": 175.2,
+        "probability": 0.983
+      },
+      {
+        "word": "我们",
+        "start": 175.2,
+        "end": 175.68,
+        "probability": 0.998
+      },
+      {
+        "word": "来",
+        "start": 175.68,
+        "end": 176.3,
+        "probability": 0.998
+      },
+      {
+        "word": "创",
+        "start": 176.3,
+        "end": 176.76,
+        "probability": 1.0
+      },
+      {
+        "word": "建",
+        "start": 176.76,
+        "end": 176.9,
+        "probability": 1.0
+      },
+      {
+        "word": "一个",
+        "start": 176.9,
+        "end": 177.14,
+        "probability": 0.999
+      },
+      {
+        "word": "pro",
+        "start": 177.14,
+        "end": 177.66,
+        "probability": 0.483
+      },
+      {
+        "word": "request",
+        "start": 177.66,
+        "end": 178.0,
+        "probability": 0.492
+      }
+    ],
+    "text_en_deepl": "Then we create a pro request",
+    "text_en": "Then we create a pro request",
+    "tts_file": "segment_0066.wav",
+    "tts_duration": 2.56
+  },
+  {
+    "id": 67,
+    "text_zh": "这边我们本地选取hotfix",
+    "start": 178.0,
+    "end": 181.98,
+    "words": [
+      {
+        "word": "这",
+        "start": 178.0,
+        "end": 178.86,
+        "probability": 0.962
+      },
+      {
+        "word": "边",
+        "start": 179.18,
+        "end": 179.42,
+        "probability": 1.0
+      },
+      {
+        "word": "我们",
+        "start": 179.42,
+        "end": 179.98,
+        "probability": 0.99
+      },
+      {
+        "word": "本",
+        "start": 179.98,
+        "end": 180.34,
+        "probability": 0.996
+      },
+      {
+        "word": "地",
+        "start": 180.34,
+        "end": 180.58,
+        "probability": 0.994
+      },
+      {
+        "word": "选",
+        "start": 180.58,
+        "end": 181.02,
+        "probability": 0.999
+      },
+      {
+        "word": "取",
+        "start": 181.02,
+        "end": 181.34,
+        "probability": 0.999
+      },
+      {
+        "word": "hot",
+        "start": 181.34,
+        "end": 181.6,
+        "probability": 0.971
+      },
+      {
+        "word": "f",
+        "start": 181.6,
+        "end": 181.76,
+        "probability": 0.994
+      },
+      {
+        "word": "ix",
+        "start": 181.76,
+        "end": 181.98,
+        "probability": 0.998
+      }
+    ],
+    "text_en_deepl": "Here, we'll pick hotfix locally.",
+    "text_en": "Here, we'll pick hotfix locally.",
+    "tts_file": "segment_0067.wav",
+    "tts_duration": 2.923
+  },
+  {
+    "id": 68,
+    "text_zh": "然后给",
+    "start": 181.98,
+    "end": 183.28,
+    "words": [
+      {
+        "word": "然后",
+        "start": 181.98,
+        "end": 182.56,
+        "probability": 0.979
+      },
+      {
+        "word": "给",
+        "start": 182.56,
+        "end": 183.28,
+        "probability": 0.989
+      }
+    ],
+    "text_en_deepl": "Then give",
+    "text_en": "Then give",
+    "tts_file": "segment_0068.wav",
+    "tts_duration": 2.741
+  },
+  {
+    "id": 69,
+    "text_zh": "到page.shu的main上面",
+    "start": 183.68,
+    "end": 185.48,
+    "words": [
+      {
+        "word": "到",
+        "start": 183.68,
+        "end": 183.92,
+        "probability": 0.852
+      },
+      {
+        "word": "page.",
+        "start": 183.92,
+        "end": 184.22,
+        "probability": 0.006
+      },
+      {
+        "word": "sh",
+        "start": 184.26,
+        "end": 184.52,
+        "probability": 0.79
+      },
+      {
+        "word": "u",
+        "start": 184.52,
+        "end": 184.68,
+        "probability": 0.919
+      },
+      {
+        "word": "的",
+        "start": 184.68,
+        "end": 185.02,
+        "probability": 0.76
+      },
+      {
+        "word": "main",
+        "start": 185.02,
+        "end": 185.26,
+        "probability": 0.049
+      },
+      {
+        "word": "上面",
+        "start": 185.26,
+        "end": 185.48,
+        "probability": 0.947
+      }
+    ],
+    "text_en_deepl": "Go to the top of page.shu's main",
+    "text_en": "Go to the top of page.shu's main",
+    "tts_file": "segment_0069.wav",
+    "tts_duration": 2.923
+  },
+  {
+    "id": 70,
+    "text_zh": "就可以这边可以看到一样的",
+    "start": 185.48,
+    "end": 187.5,
+    "words": [
+      {
+        "word": "就可以",
+        "start": 185.48,
+        "end": 186.04,
+        "probability": 0.821
+      },
+      {
+        "word": "这",
+        "start": 186.04,
+        "end": 186.28,
+        "probability": 0.732
+      },
+      {
+        "word": "边",
+        "start": 186.28,
+        "end": 186.44,
+        "probability": 1.0
+      },
+      {
+        "word": "可以",
+        "start": 186.44,
+        "end": 186.62,
+        "probability": 0.973
+      },
+      {
+        "word": "看到",
+        "start": 186.62,
+        "end": 186.96,
+        "probability": 0.997
+      },
+      {
+        "word": "一",
+        "start": 186.96,
+        "end": 187.22,
+        "probability": 0.958
+      },
+      {
+        "word": "样",
+        "start": 187.22,
+        "end": 187.4,
+        "probability": 1.0
+      },
+      {
+        "word": "的",
+        "start": 187.4,
+        "end": 187.5,
+        "probability": 0.1
+      }
+    ],
+    "text_en_deepl": "You can see the same over here.",
+    "text_en": "You can see the same over here.",
+    "tts_file": "segment_0070.wav",
+    "tts_duration": 2.827
+  },
+  {
+    "id": 71,
+    "text_zh": "是看原生代码",
+    "start": 187.5,
+    "end": 188.7,
+    "words": [
+      {
+        "word": "是",
+        "start": 187.5,
+        "end": 187.88,
+        "probability": 0.554
+      },
+      {
+        "word": "看",
+        "start": 187.88,
+        "end": 188.08,
+        "probability": 0.367
+      },
+      {
+        "word": "原",
+        "start": 188.08,
+        "end": 188.18,
+        "probability": 0.986
+      },
+      {
+        "word": "生",
+        "start": 188.18,
+        "end": 188.34,
+        "probability": 0.329
+      },
+      {
+        "word": "代",
+        "start": 188.34,
+        "end": 188.48,
+        "probability": 0.524
+      },
+      {
+        "word": "码",
+        "start": 188.48,
+        "end": 188.7,
+        "probability": 0.998
+      }
+    ],
+    "text_en_deepl": "It's looking at the native code",
+    "text_en": "It's looking at the native code",
+    "tts_file": "segment_0071.wav",
+    "tts_duration": 2.827
+  },
+  {
+    "id": 72,
+    "text_zh": "我修改的代码",
+    "start": 188.7,
+    "end": 189.78,
+    "words": [
+      {
+        "word": "我",
+        "start": 188.7,
+        "end": 189.0,
+        "probability": 0.961
+      },
+      {
+        "word": "修",
+        "start": 189.0,
+        "end": 189.32,
+        "probability": 0.998
+      },
+      {
+        "word": "改",
+        "start": 189.32,
+        "end": 189.4,
+        "probability": 0.998
+      },
+      {
+        "word": "的",
+        "start": 189.4,
+        "end": 189.48,
+        "probability": 0.402
+      },
+      {
+        "word": "代",
+        "start": 189.48,
+        "end": 189.6,
+        "probability": 0.997
+      },
+      {
+        "word": "码",
+        "start": 189.6,
+        "end": 189.78,
+        "probability": 1.0
+      }
+    ],
+    "text_en_deepl": "The code I modified",
+    "text_en": "The code I modified",
+    "tts_file": "segment_0072.wav",
+    "tts_duration": 1.728
+  },
+  {
+    "id": 73,
+    "text_zh": "帮我们创建一下",
+    "start": 189.78,
+    "end": 190.86,
+    "words": [
+      {
+        "word": "帮",
+        "start": 189.78,
+        "end": 190.12,
+        "probability": 0.744
+      },
+      {
+        "word": "我们",
+        "start": 190.12,
+        "end": 190.36,
+        "probability": 0.996
+      },
+      {
+        "word": "创",
+        "start": 190.36,
+        "end": 190.56,
+        "probability": 0.468
+      },
+      {
+        "word": "建",
+        "start": 190.56,
+        "end": 190.64,
+        "probability": 1.0
+      },
+      {
+        "word": "一下",
+        "start": 190.64,
+        "end": 190.86,
+        "probability": 0.987
+      }
+    ],
+    "text_en_deepl": "Help us create it.",
+    "text_en": "Help us create it.",
+    "tts_file": "segment_0073.wav",
+    "tts_duration": 1.632
+  },
+  {
+    "id": 74,
+    "text_zh": "可以了",
+    "start": 190.86,
+    "end": 194.04,
+    "words": [
+      {
+        "word": "可以",
+        "start": 190.86,
+        "end": 191.4,
+        "probability": 0.275
+      },
+      {
+        "word": "了",
+        "start": 193.9,
+        "end": 194.04,
+        "probability": 0.67
+      }
+    ],
+    "text_en_deepl": "It's okay.",
+    "text_en": "It's okay.",
+    "tts_file": "segment_0074.wav",
+    "tts_duration": 0.907
+  },
+  {
+    "id": 75,
+    "text_zh": "应该好的",
+    "start": 194.04,
+    "end": 195.12,
+    "words": [
+      {
+        "word": "应",
+        "start": 194.04,
+        "end": 194.24,
+        "probability": 0.702
+      },
+      {
+        "word": "该",
+        "start": 194.24,
+        "end": 194.44,
+        "probability": 1.0
+      },
+      {
+        "word": "好的",
+        "start": 194.44,
+        "end": 195.12,
+        "probability": 0.973
+      }
+    ],
+    "text_en_deepl": "It should be fine.",
+    "text_en": "It should be fine.",
+    "tts_file": "segment_0075.wav",
+    "tts_duration": 1.632
+  },
+  {
+    "id": 76,
+    "text_zh": "谢谢酸蝴蝶同学",
+    "start": 197.17,
+    "end": 198.31,
+    "words": [
+      {
+        "word": "谢谢",
+        "start": 197.17,
+        "end": 197.49,
+        "probability": 0.898
+      },
+      {
+        "word": "酸",
+        "start": 197.49,
+        "end": 197.73,
+        "probability": 0.509
+      },
+      {
+        "word": "蝴",
+        "start": 197.73,
+        "end": 197.87,
+        "probability": 0.98
+      },
+      {
+        "word": "蝶",
+        "start": 197.87,
+        "end": 197.93,
+        "probability": 1.0
+      },
+      {
+        "word": "同",
+        "start": 197.93,
+        "end": 198.07,
+        "probability": 0.983
+      },
+      {
+        "word": "学",
+        "start": 198.07,
+        "end": 198.31,
+        "probability": 0.998
+      }
+    ],
+    "text_en_deepl": "Thank you, Mr. Sour Butterfly.",
+    "text_en": "Thank you, Mr. Sour Butterfly.",
+    "tts_file": "segment_0076.wav",
+    "tts_duration": 2.741
+  },
+  {
+    "id": 77,
+    "text_zh": "我这边我看一下我的pro request",
+    "start": 198.31,
+    "end": 201.01,
+    "words": [
+      {
+        "word": "我",
+        "start": 198.31,
+        "end": 198.59,
+        "probability": 0.979
+      },
+      {
+        "word": "这",
+        "start": 198.59,
+        "end": 198.73,
+        "probability": 0.994
+      },
+      {
+        "word": "边",
+        "start": 198.73,
+        "end": 198.91,
+        "probability": 1.0
+      },
+      {
+        "word": "我",
+        "start": 198.91,
+        "end": 199.13,
+        "probability": 0.372
+      },
+      {
+        "word": "看一下",
+        "start": 199.13,
+        "end": 199.65,
+        "probability": 0.999
+      },
+      {
+        "word": "我的",
+        "start": 199.65,
+        "end": 200.31,
+        "probability": 0.99
+      },
+      {
+        "word": "pro",
+        "start": 200.31,
+        "end": 200.69,
+        "probability": 0.027
+      },
+      {
+        "word": "request",
+        "start": 200.69,
+        "end": 201.01,
+        "probability": 0.608
+      }
+    ],
+    "text_en_deepl": "I'll take a look at my pro request.",
+    "text_en": "I'll take a look at my pro request.",
+    "tts_file": "segment_0077.wav",
+    "tts_duration": 3.2
+  },
+  {
+    "id": 78,
+    "text_zh": "我作为一个代码审查者",
+    "start": 201.01,
+    "end": 203.35,
+    "words": [
+      {
+        "word": "我",
+        "start": 201.01,
+        "end": 201.67,
+        "probability": 0.971
+      },
+      {
+        "word": "作",
+        "start": 201.67,
+        "end": 201.91,
+        "probability": 0.992
+      },
+      {
+        "word": "为",
+        "start": 201.91,
+        "end": 202.05,
+        "probability": 1.0
+      },
+      {
+        "word": "一个",
+        "start": 202.05,
+        "end": 202.27,
+        "probability": 0.998
+      },
+      {
+        "word": "代",
+        "start": 202.27,
+        "end": 202.59,
+        "probability": 0.995
+      },
+      {
+        "word": "码",
+        "start": 202.59,
+        "end": 202.79,
+        "probability": 1.0
+      },
+      {
+        "word": "审",
+        "start": 202.79,
+        "end": 202.97,
+        "probability": 0.998
+      },
+      {
+        "word": "查",
+        "start": 202.97,
+        "end": 203.19,
+        "probability": 1.0
+      },
+      {
+        "word": "者",
+        "start": 203.19,
+        "end": 203.35,
+        "probability": 0.996
+      }
+    ],
+    "text_en_deepl": "Me as a code reviewer",
+    "text_en": "Me as a code reviewer",
+    "tts_file": "segment_0078.wav",
+    "tts_duration": 1.909
+  },
+  {
+    "id": 79,
+    "text_zh": "或者我作为一个开源项目的维护者",
+    "start": 203.35,
+    "end": 206.45,
+    "words": [
+      {
+        "word": "或者",
+        "start": 203.35,
+        "end": 203.63,
+        "probability": 0.996
+      },
+      {
+        "word": "我",
+        "start": 203.63,
+        "end": 203.81,
+        "probability": 0.994
+      },
+      {
+        "word": "作",
+        "start": 203.81,
+        "end": 204.01,
+        "probability": 0.999
+      },
+      {
+        "word": "为",
+        "start": 204.01,
+        "end": 204.15,
+        "probability": 1.0
+      },
+      {
+        "word": "一个",
+        "start": 204.15,
+        "end": 204.45,
+        "probability": 0.998
+      },
+      {
+        "word": "开",
+        "start": 204.45,
+        "end": 204.79,
+        "probability": 0.993
+      },
+      {
+        "word": "源",
+        "start": 204.79,
+        "end": 204.99,
+        "probability": 0.997
+      },
+      {
+        "word": "项",
+        "start": 204.99,
+        "end": 205.33,
+        "probability": 1.0
+      },
+      {
+        "word": "目",
+        "start": 205.33,
+        "end": 205.55,
+        "probability": 1.0
+      },
+      {
+        "word": "的",
+        "start": 205.55,
+        "end": 205.73,
+        "probability": 0.999
+      },
+      {
+        "word": "维",
+        "start": 205.73,
+        "end": 206.07,
+        "probability": 1.0
+      },
+      {
+        "word": "护",
+        "start": 206.07,
+        "end": 206.25,
+        "probability": 1.0
+      },
+      {
+        "word": "者",
+        "start": 206.25,
+        "end": 206.45,
+        "probability": 0.997
+      }
+    ],
+    "text_en_deepl": "Or me as a maintainer of an open source project",
+    "text_en": "Or me as a maintainer of an open source project",
+    "tts_file": "segment_0079.wav",
+    "tts_duration": 4.299
+  },
+  {
+    "id": 80,
+    "text_zh": "我会时不时去检查一下",
+    "start": 206.45,
+    "end": 208.23,
+    "words": [
+      {
+        "word": "我",
+        "start": 206.45,
+        "end": 206.69,
+        "probability": 0.998
+      },
+      {
+        "word": "会",
+        "start": 206.69,
+        "end": 206.89,
+        "probability": 1.0
+      },
+      {
+        "word": "时",
+        "start": 206.89,
+        "end": 207.15,
+        "probability": 0.995
+      },
+      {
+        "word": "不",
+        "start": 207.15,
+        "end": 207.31,
+        "probability": 0.999
+      },
+      {
+        "word": "时",
+        "start": 207.31,
+        "end": 207.47,
+        "probability": 0.999
+      },
+      {
+        "word": "去",
+        "start": 207.47,
+        "end": 207.69,
+        "probability": 0.998
+      },
+      {
+        "word": "检",
+        "start": 207.69,
+        "end": 207.91,
+        "probability": 1.0
+      },
+      {
+        "word": "查",
+        "start": 207.91,
+        "end": 208.09,
+        "probability": 0.998
+      },
+      {
+        "word": "一下",
+        "start": 208.09,
+        "end": 208.23,
+        "probability": 0.998
+      }
+    ],
+    "text_en_deepl": "I'll check in from time to time.",
+    "text_en": "I'll check in from time to time.",
+    "tts_file": "segment_0080.wav",
+    "tts_duration": 2.923
+  },
+  {
+    "id": 81,
+    "text_zh": "有没有人提交新的pro request",
+    "start": 208.23,
+    "end": 210.03,
+    "words": [
+      {
+        "word": "有",
+        "start": 208.23,
+        "end": 208.47,
+        "probability": 0.996
+      },
+      {
+        "word": "没有",
+        "start": 208.47,
+        "end": 208.63,
+        "probability": 1.0
+      },
+      {
+        "word": "人",
+        "start": 208.63,
+        "end": 208.87,
+        "probability": 0.991
+      },
+      {
+        "word": "提",
+        "start": 208.87,
+        "end": 209.07,
+        "probability": 0.999
+      },
+      {
+        "word": "交",
+        "start": 209.07,
+        "end": 209.29,
+        "probability": 0.977
+      },
+      {
+        "word": "新",
+        "start": 209.29,
+        "end": 209.49,
+        "probability": 0.997
+      },
+      {
+        "word": "的",
+        "start": 209.49,
+        "end": 209.65,
+        "probability": 0.979
+      },
+      {
+        "word": "pro",
+        "start": 209.65,
+        "end": 209.75,
+        "probability": 0.698
+      },
+      {
+        "word": "request",
+        "start": 209.75,
+        "end": 210.03,
+        "probability": 0.967
+      }
+    ],
+    "text_en_deepl": "Has anyone submitted a new pro request",
+    "text_en": "Has anyone submitted a new pro request",
+    "tts_file": "segment_0081.wav",
+    "tts_duration": 3.477
+  },
+  {
+    "id": 82,
+    "text_zh": "然后我看到了酸蝴蝶的ad1234",
+    "start": 210.03,
+    "end": 212.37,
+    "words": [
+      {
+        "word": "然后",
+        "start": 210.03,
+        "end": 210.51,
+        "probability": 0.846
+      },
+      {
+        "word": "我",
+        "start": 210.51,
+        "end": 210.63,
+        "probability": 0.966
+      },
+      {
+        "word": "看到",
+        "start": 210.63,
+        "end": 210.81,
+        "probability": 0.998
+      },
+      {
+        "word": "了",
+        "start": 210.81,
+        "end": 210.97,
+        "probability": 0.995
+      },
+      {
+        "word": "酸",
+        "start": 210.97,
+        "end": 211.15,
+        "probability": 0.968
+      },
+      {
+        "word": "蝴",
+        "start": 211.15,
+        "end": 211.29,
+        "probability": 0.998
+      },
+      {
+        "word": "蝶",
+        "start": 211.29,
+        "end": 211.43,
+        "probability": 1.0
+      },
+      {
+        "word": "的",
+        "start": 211.43,
+        "end": 211.59,
+        "probability": 0.979
+      },
+      {
+        "word": "ad",
+        "start": 211.59,
+        "end": 211.83,
+        "probability": 0.233
+      },
+      {
+        "word": "12",
+        "start": 211.83,
+        "end": 212.09,
+        "probability": 0.825
+      },
+      {
+        "word": "34",
+        "start": 212.09,
+        "end": 212.37,
+        "probability": 0.985
+      }
+    ],
+    "text_en_deepl": "And then I saw the acid butterfly ad1234",
+    "text_en": "And then I saw the acid butterfly ad1234",
+    "tts_file": "segment_0082.wav",
+    "tts_duration": 3.659
+  },
+  {
+    "id": 83,
+    "text_zh": "这样的一个pro request",
+    "start": 212.37,
+    "end": 213.75,
+    "words": [
+      {
+        "word": "这样",
+        "start": 212.37,
+        "end": 212.81,
+        "probability": 0.483
+      },
+      {
+        "word": "的",
+        "start": 212.81,
+        "end": 212.95,
+        "probability": 0.984
+      },
+      {
+        "word": "一个",
+        "start": 212.95,
+        "end": 213.17,
+        "probability": 0.969
+      },
+      {
+        "word": "pro",
+        "start": 213.17,
+        "end": 213.47,
+        "probability": 0.849
+      },
+      {
+        "word": "request",
+        "start": 213.47,
+        "end": 213.75,
+        "probability": 0.994
+      }
+    ],
+    "text_en_deepl": "Such a pro request",
+    "text_en": "Such a pro request",
+    "tts_file": "segment_0083.wav",
+    "tts_duration": 1.632
+  },
+  {
+    "id": 84,
+    "text_zh": "他是说添加了1234",
+    "start": 213.75,
+    "end": 216.15,
+    "words": [
+      {
+        "word": "他是",
+        "start": 213.75,
+        "end": 214.27,
+        "probability": 0.768
+      },
+      {
+        "word": "说",
+        "start": 214.27,
+        "end": 215.13,
+        "probability": 0.998
+      },
+      {
+        "word": "添",
+        "start": 215.13,
+        "end": 215.51,
+        "probability": 0.993
+      },
+      {
+        "word": "加",
+        "start": 215.51,
+        "end": 215.67,
+        "probability": 1.0
+      },
+      {
+        "word": "了",
+        "start": 215.67,
+        "end": 215.75,
+        "probability": 0.985
+      },
+      {
+        "word": "12",
+        "start": 215.75,
+        "end": 215.95,
+        "probability": 0.972
+      },
+      {
+        "word": "34",
+        "start": 215.95,
+        "end": 216.15,
+        "probability": 0.999
+      }
+    ],
+    "text_en_deepl": "He means he added 1234.",
+    "text_en": "He means he added 1234.",
+    "tts_file": "segment_0084.wav",
+    "tts_duration": 2.101
+  },
+  {
+    "id": 85,
+    "text_zh": "我觉得有可能ok",
+    "start": 216.15,
+    "end": 217.87,
+    "words": [
+      {
+        "word": "我觉得",
+        "start": 216.15,
+        "end": 216.75,
+        "probability": 0.98
+      },
+      {
+        "word": "有",
+        "start": 216.75,
+        "end": 217.11,
+        "probability": 0.988
+      },
+      {
+        "word": "可能",
+        "start": 217.11,
+        "end": 217.39,
+        "probability": 0.998
+      },
+      {
+        "word": "ok",
+        "start": 217.39,
+        "end": 217.87,
+        "probability": 0.696
+      }
+    ],
+    "text_en_deepl": "I think it's possible, OK.",
+    "text_en": "I think it's possible, OK.",
+    "tts_file": "segment_0085.wav",
+    "tts_duration": 2.368
+  },
+  {
+    "id": 86,
+    "text_zh": "但是我也不是特别确定",
+    "start": 217.87,
+    "end": 219.63,
+    "words": [
+      {
+        "word": "但是",
+        "start": 217.87,
+        "end": 218.09,
+        "probability": 0.38
+      },
+      {
+        "word": "我也",
+        "start": 218.09,
+        "end": 218.63,
+        "probability": 0.981
+      },
+      {
+        "word": "不是",
+        "start": 218.63,
+        "end": 218.89,
+        "probability": 0.997
+      },
+      {
+        "word": "特",
+        "start": 218.89,
+        "end": 219.17,
+        "probability": 0.979
+      },
+      {
+        "word": "别",
+        "start": 219.17,
+        "end": 219.29,
+        "probability": 0.996
+      },
+      {
+        "word": "确",
+        "start": 219.29,
+        "end": 219.51,
+        "probability": 0.997
+      },
+      {
+        "word": "定",
+        "start": 219.51,
+        "end": 219.63,
+        "probability": 1.0
+      }
+    ],
+    "text_en_deepl": "But I'm not particularly sure.",
+    "text_en": "But I'm not particularly sure.",
+    "tts_file": "segment_0086.wav",
+    "tts_duration": 2.741
+  },
+  {
+    "id": 87,
+    "text_zh": "我就要去他的真的一个分支上去看一下",
+    "start": 219.63,
+    "end": 224.23,
+    "words": [
+      {
+        "word": "我就",
+        "start": 219.63,
+        "end": 219.97,
+        "probability": 0.698
+      },
+      {
+        "word": "要",
+        "start": 219.97,
+        "end": 220.41,
+        "probability": 0.984
+      },
+      {
+        "word": "去",
+        "start": 220.41,
+        "end": 220.71,
+        "probability": 0.977
+      },
+      {
+        "word": "他的",
+        "start": 220.71,
+        "end": 221.45,
+        "probability": 0.591
+      },
+      {
+        "word": "真的",
+        "start": 221.45,
+        "end": 221.91,
+        "probability": 0.466
+      },
+      {
+        "word": "一个",
+        "start": 221.91,
+        "end": 222.47,
+        "probability": 0.963
+      },
+      {
+        "word": "分",
+        "start": 222.47,
+        "end": 222.95,
+        "probability": 0.871
+      },
+      {
+        "word": "支",
+        "start": 222.95,
+        "end": 223.09,
+        "probability": 0.944
+      },
+      {
+        "word": "上",
+        "start": 223.09,
+        "end": 223.33,
+        "probability": 0.987
+      },
+      {
+        "word": "去",
+        "start": 223.33,
+        "end": 223.67,
+        "probability": 0.977
+      },
+      {
+        "word": "看一下",
+        "start": 223.67,
+        "end": 224.23,
+        "probability": 0.996
+      }
+    ],
+    "text_en_deepl": "I'm about to go up to one of his real branches and check it out.",
+    "text_en": "I'm about to go up to one of his real branches and check it out.",
+    "tts_file": "segment_0087.wav",
+    "tts_duration": 5.867
+  },
+  {
+    "id": 88,
+    "text_zh": "是不是我想要的代码",
+    "start": 224.23,
+    "end": 225.85,
+    "words": [
+      {
+        "word": "是不是",
+        "start": 224.23,
+        "end": 224.79,
+        "probability": 0.982
+      },
+      {
+        "word": "我想",
+        "start": 224.79,
+        "end": 225.19,
+        "probability": 0.996
+      },
+      {
+        "word": "要",
+        "start": 225.19,
+        "end": 225.41,
+        "probability": 0.999
+      },
+      {
+        "word": "的",
+        "start": 225.41,
+        "end": 225.51,
+        "probability": 0.999
+      },
+      {
+        "word": "代",
+        "start": 225.51,
+        "end": 225.69,
+        "probability": 0.974
+      },
+      {
+        "word": "码",
+        "start": 225.69,
+        "end": 225.85,
+        "probability": 1.0
+      }
+    ],
+    "text_en_deepl": "Is it the code I want?",
+    "text_en": "Is it the code I want?",
+    "tts_file": "segment_0088.wav",
+    "tts_duration": 2.005
+  },
+  {
+    "id": 89,
+    "text_zh": "那我就来把酸蝴蝶同学的个人仓库",
+    "start": 225.85,
+    "end": 229.17,
+    "words": [
+      {
+        "word": "那",
+        "start": 225.85,
+        "end": 226.01,
+        "probability": 0.828
+      },
+      {
+        "word": "我就",
+        "start": 226.01,
+        "end": 226.21,
+        "probability": 0.994
+      },
+      {
+        "word": "来",
+        "start": 226.21,
+        "end": 226.51,
+        "probability": 0.997
+      },
+      {
+        "word": "把",
+        "start": 226.51,
+        "end": 226.77,
+        "probability": 0.987
+      },
+      {
+        "word": "酸",
+        "start": 226.77,
+        "end": 227.09,
+        "probability": 0.511
+      },
+      {
+        "word": "蝴",
+        "start": 227.09,
+        "end": 227.19,
+        "probability": 0.987
+      },
+      {
+        "word": "蝶",
+        "start": 227.19,
+        "end": 227.33,
+        "probability": 1.0
+      },
+      {
+        "word": "同",
+        "start": 227.33,
+        "end": 227.49,
+        "probability": 0.973
+      },
+      {
+        "word": "学",
+        "start": 227.49,
+        "end": 227.81,
+        "probability": 0.999
+      },
+      {
+        "word": "的",
+        "start": 227.81,
+        "end": 227.99,
+        "probability": 0.838
+      },
+      {
+        "word": "个",
+        "start": 227.99,
+        "end": 228.35,
+        "probability": 0.997
+      },
+      {
+        "word": "人",
+        "start": 228.35,
+        "end": 228.63,
+        "probability": 0.997
+      },
+      {
+        "word": "仓",
+        "start": 228.63,
+        "end": 228.87,
+        "probability": 0.994
+      },
+      {
+        "word": "库",
+        "start": 228.87,
+        "end": 229.17,
+        "probability": 1.0
+      }
+    ],
+    "text_en_deepl": "So I'm going to put the acid butterflies in their personal storage.",
+    "text_en": "So I'm going to put the acid butterflies in their personal storage.",
+    "tts_file": "segment_0089.wav",
+    "tts_duration": 6.133
+  },
+  {
+    "id": 90,
+    "text_zh": "跳龙下来",
+    "start": 229.17,
+    "end": 230.03,
+    "words": [
+      {
+        "word": "跳",
+        "start": 229.17,
+        "end": 229.51,
+        "probability": 0.108
+      },
+      {
+        "word": "龙",
+        "start": 229.51,
+        "end": 229.63,
+        "probability": 0.631
+      },
+      {
+        "word": "下",
+        "start": 229.63,
+        "end": 229.81,
+        "probability": 0.978
+      },
+      {
+        "word": "来",
+        "start": 229.81,
+        "end": 230.03,
+        "probability": 0.998
+      }
+    ],
+    "text_en_deepl": "lit. jump off a dragon",
+    "text_en": "lit. jump off a dragon",
+    "tts_file": "segment_0090.wav",
+    "tts_duration": 2.005
+  },
+  {
+    "id": 91,
+    "text_zh": "然后我用vscode打开",
+    "start": 230.19,
+    "end": 232.53,
+    "words": [
+      {
+        "word": "然后",
+        "start": 230.19,
+        "end": 231.17,
+        "probability": 0.985
+      },
+      {
+        "word": "我",
+        "start": 231.17,
+        "end": 231.37,
+        "probability": 0.846
+      },
+      {
+        "word": "用",
+        "start": 231.37,
+        "end": 231.53,
+        "probability": 0.978
+      },
+      {
+        "word": "v",
+        "start": 231.53,
+        "end": 231.65,
+        "probability": 0.171
+      },
+      {
+        "word": "sc",
+        "start": 231.65,
+        "end": 231.79,
+        "probability": 0.491
+      },
+      {
+        "word": "ode",
+        "start": 231.79,
+        "end": 232.03,
+        "probability": 0.996
+      },
+      {
+        "word": "打",
+        "start": 232.03,
+        "end": 232.19,
+        "probability": 0.839
+      },
+      {
+        "word": "开",
+        "start": 232.19,
+        "end": 232.53,
+        "probability": 0.997
+      }
+    ],
+    "text_en_deepl": "Then I opened it in vscode",
+    "text_en": "Then I opened it in vscode",
+    "tts_file": "segment_0091.wav",
+    "tts_duration": 2.368
+  },
+  {
+    "id": 92,
+    "text_zh": "我来check一下他的代码",
+    "start": 232.53,
+    "end": 234.45,
+    "words": [
+      {
+        "word": "我",
+        "start": 232.53,
+        "end": 232.79,
+        "probability": 0.958
+      },
+      {
+        "word": "来",
+        "start": 232.79,
+        "end": 232.95,
+        "probability": 1.0
+      },
+      {
+        "word": "check",
+        "start": 232.95,
+        "end": 233.27,
+        "probability": 0.862
+      },
+      {
+        "word": "一下",
+        "start": 233.27,
+        "end": 233.55,
+        "probability": 0.994
+      },
+      {
+        "word": "他的",
+        "start": 233.55,
+        "end": 233.99,
+        "probability": 0.866
+      },
+      {
+        "word": "代",
+        "start": 233.99,
+        "end": 234.21,
+        "probability": 0.995
+      },
+      {
+        "word": "码",
+        "start": 234.21,
+        "end": 234.45,
+        "probability": 1.0
+      }
+    ],
+    "text_en_deepl": "Let me check his code.",
+    "text_en": "Let me check his code.",
+    "tts_file": "segment_0092.wav",
+    "tts_duration": 2.005
+  },
+  {
+    "id": 93,
+    "text_zh": "是不是实现了我们想要的效果",
+    "start": 234.45,
+    "end": 236.83,
+    "words": [
+      {
+        "word": "是不是",
+        "start": 234.45,
+        "end": 234.81,
+        "probability": 0.993
+      },
+      {
+        "word": "实",
+        "start": 234.81,
+        "end": 235.25,
+        "probability": 0.997
+      },
+      {
+        "word": "现",
+        "start": 235.25,
+        "end": 235.43,
+        "probability": 0.996
+      },
+      {
+        "word": "了",
+        "start": 235.43,
+        "end": 235.61,
+        "probability": 0.998
+      },
+      {
+        "word": "我们",
+        "start": 235.61,
+        "end": 235.85,
+        "probability": 0.996
+      },
+      {
+        "word": "想",
+        "start": 235.85,
+        "end": 236.13,
+        "probability": 0.999
+      },
+      {
+        "word": "要",
+        "start": 236.13,
+        "end": 236.27,
+        "probability": 1.0
+      },
+      {
+        "word": "的",
+        "start": 236.27,
+        "end": 236.35,
+        "probability": 1.0
+      },
+      {
+        "word": "效",
+        "start": 236.35,
+        "end": 236.61,
+        "probability": 0.998
+      },
+      {
+        "word": "果",
+        "start": 236.61,
+        "end": 236.83,
+        "probability": 1.0
+      }
+    ],
+    "text_en_deepl": "Did we get the effect we wanted?",
+    "text_en": "Did we get the effect we wanted?",
+    "tts_file": "segment_0093.wav",
+    "tts_duration": 2.923
+  },
+  {
+    "id": 94,
+    "text_zh": "为什么我们现在的代码",
+    "start": 236.83,
+    "end": 238.41,
+    "words": [
+      {
+        "word": "为什么",
+        "start": 236.83,
+        "end": 237.07,
+        "probability": 0.988
+      },
+      {
+        "word": "我们",
+        "start": 237.07,
+        "end": 237.35,
+        "probability": 0.997
+      },
+      {
+        "word": "现在",
+        "start": 237.35,
+        "end": 237.65,
+        "probability": 0.999
+      },
+      {
+        "word": "的",
+        "start": 237.65,
+        "end": 237.85,
+        "probability": 0.999
+      },
+      {
+        "word": "代",
+        "start": 237.85,
+        "end": 238.13,
+        "probability": 0.972
+      },
+      {
+        "word": "码",
+        "start": 238.13,
+        "end": 238.41,
+        "probability": 1.0
+      }
+    ],
+    "text_en_deepl": "Why is our current code",
+    "text_en": "Why is our current code",
+    "tts_file": "segment_0094.wav",
+    "tts_duration": 2.101
+  },
+  {
+    "id": 95,
+    "text_zh": "没有酸蝴蝶同学的修改呢",
+    "start": 238.41,
+    "end": 240.75,
+    "words": [
+      {
+        "word": "没有",
+        "start": 238.41,
+        "end": 238.99,
+        "probability": 0.992
+      },
+      {
+        "word": "酸",
+        "start": 238.99,
+        "end": 239.51,
+        "probability": 0.961
+      },
+      {
+        "word": "蝴",
+        "start": 239.51,
+        "end": 239.67,
+        "probability": 0.997
+      },
+      {
+        "word": "蝶",
+        "start": 239.67,
+        "end": 239.77,
+        "probability": 1.0
+      },
+      {
+        "word": "同",
+        "start": 239.77,
+        "end": 239.95,
+        "probability": 0.988
+      },
+      {
+        "word": "学",
+        "start": 239.95,
+        "end": 240.11,
+        "probability": 1.0
+      },
+      {
+        "word": "的",
+        "start": 240.11,
+        "end": 240.23,
+        "probability": 1.0
+      },
+      {
+        "word": "修",
+        "start": 240.23,
+        "end": 240.47,
+        "probability": 1.0
+      },
+      {
+        "word": "改",
+        "start": 240.47,
+        "end": 240.57,
+        "probability": 0.999
+      },
+      {
+        "word": "呢",
+        "start": 240.57,
+        "end": 240.75,
+        "probability": 0.783
+      }
+    ],
+    "text_en_deepl": "There's no acid butterfly modification.",
+    "text_en": "There's no acid butterfly modification.",
+    "tts_file": "segment_0095.wav",
+    "tts_duration": 3.563
+  },
+  {
+    "id": 96,
+    "text_zh": "是因为我还没有check out到",
+    "start": 240.75,
+    "end": 243.51,
+    "words": [
+      {
+        "word": "是",
+        "start": 240.75,
+        "end": 241.13,
+        "probability": 0.908
+      },
+      {
+        "word": "因为",
+        "start": 241.13,
+        "end": 241.43,
+        "probability": 0.999
+      },
+      {
+        "word": "我",
+        "start": 241.43,
+        "end": 241.87,
+        "probability": 0.998
+      },
+      {
+        "word": "还",
+        "start": 241.87,
+        "end": 242.09,
+        "probability": 1.0
+      },
+      {
+        "word": "没有",
+        "start": 242.09,
+        "end": 242.43,
+        "probability": 0.998
+      },
+      {
+        "word": "check",
+        "start": 242.43,
+        "end": 242.91,
+        "probability": 0.901
+      },
+      {
+        "word": "out",
+        "start": 242.91,
+        "end": 243.19,
+        "probability": 0.527
+      },
+      {
+        "word": "到",
+        "start": 243.19,
+        "end": 243.51,
+        "probability": 0.936
+      }
+    ],
+    "text_en_deepl": "It's because I haven't checked out to",
+    "text_en": "It's because I haven't checked out to",
+    "tts_file": "segment_0096.wav",
+    "tts_duration": 3.381
+  },
+  {
+    "id": 97,
+    "text_zh": "他的hotfix上的分支",
+    "start": 243.51,
+    "end": 245.87,
+    "words": [
+      {
+        "word": "他的",
+        "start": 243.51,
+        "end": 244.03,
+        "probability": 0.861
+      },
+      {
+        "word": "hot",
+        "start": 244.03,
+        "end": 244.37,
+        "probability": 0.671
+      },
+      {
+        "word": "f",
+        "start": 244.37,
+        "end": 244.49,
+        "probability": 0.933
+      },
+      {
+        "word": "ix",
+        "start": 244.49,
+        "end": 244.71,
+        "probability": 0.985
+      },
+      {
+        "word": "上",
+        "start": 244.71,
+        "end": 244.97,
+        "probability": 0.686
+      },
+      {
+        "word": "的",
+        "start": 244.97,
+        "end": 245.33,
+        "probability": 0.989
+      },
+      {
+        "word": "分",
+        "start": 245.33,
+        "end": 245.61,
+        "probability": 0.985
+      },
+      {
+        "word": "支",
+        "start": 245.61,
+        "end": 245.87,
+        "probability": 0.983
+      }
+    ],
+    "text_en_deepl": "The branch on his hotfix",
+    "text_en": "The branch on his hotfix",
+    "tts_file": "segment_0097.wav",
+    "tts_duration": 2.187
+  },
+  {
+    "id": 98,
+    "text_zh": "check out",
+    "start": 245.87,
+    "end": 247.03,
+    "words": [
+      {
+        "word": "check",
+        "start": 245.87,
+        "end": 246.53,
+        "probability": 0.009
+      },
+      {
+        "word": "out",
+        "start": 246.53,
+        "end": 247.03,
+        "probability": 0.925
+      }
+    ],
+    "text_en_deepl": "check out",
+    "text_en": "check out",
+    "tts_file": "segment_0098.wav",
+    "tts_duration": 2.741
+  },
+  {
+    "id": 99,
+    "text_zh": "然后就有了跟同学的修改",
+    "start": 248.73,
+    "end": 251.31,
+    "words": [
+      {
+        "word": "然后",
+        "start": 248.73,
+        "end": 249.19,
+        "probability": 0.708
+      },
+      {
+        "word": "就",
+        "start": 249.57,
+        "end": 250.03,
+        "probability": 0.987
+      },
+      {
+        "word": "有",
+        "start": 250.03,
+        "end": 250.17,
+        "probability": 0.999
+      },
+      {
+        "word": "了",
+        "start": 250.17,
+        "end": 250.35,
+        "probability": 0.999
+      },
+      {
+        "word": "跟",
+        "start": 250.35,
+        "end": 250.45,
+        "probability": 0.104
+      },
+      {
+        "word": "同",
+        "start": 250.45,
+        "end": 250.57,
+        "probability": 0.991
+      },
+      {
+        "word": "学",
+        "start": 250.57,
+        "end": 250.75,
+        "probability": 0.996
+      },
+      {
+        "word": "的",
+        "start": 250.75,
+        "end": 250.87,
+        "probability": 0.994
+      },
+      {
+        "word": "修",
+        "start": 250.87,
+        "end": 251.19,
+        "probability": 0.999
+      },
+      {
+        "word": "改",
+        "start": 251.19,
+        "end": 251.31,
+        "probability": 0.998
+      }
+    ],
+    "text_en_deepl": "And then there were revisions with classmates",
+    "text_en": "And then there were revisions with classmates",
+    "tts_file": "segment_0099.wav",
+    "tts_duration": 4.117
+  },
+  {
+    "id": 100,
+    "text_zh": "然后我会进行一系列的测试测试完毕",
+    "start": 251.31,
+    "end": 254.65,
+    "words": [
+      {
+        "word": "然后",
+        "start": 251.31,
+        "end": 251.59,
+        "probability": 0.977
+      },
+      {
+        "word": "我",
+        "start": 251.59,
+        "end": 251.95,
+        "probability": 0.998
+      },
+      {
+        "word": "会",
+        "start": 251.95,
+        "end": 252.13,
+        "probability": 0.995
+      },
+      {
+        "word": "进",
+        "start": 252.13,
+        "end": 252.51,
+        "probability": 1.0
+      },
+      {
+        "word": "行",
+        "start": 252.51,
+        "end": 252.73,
+        "probability": 1.0
+      },
+      {
+        "word": "一",
+        "start": 252.73,
+        "end": 252.91,
+        "probability": 0.998
+      },
+      {
+        "word": "系",
+        "start": 252.91,
+        "end": 253.05,
+        "probability": 1.0
+      },
+      {
+        "word": "列",
+        "start": 253.05,
+        "end": 253.25,
+        "probability": 1.0
+      },
+      {
+        "word": "的",
+        "start": 253.25,
+        "end": 253.35,
+        "probability": 0.999
+      },
+      {
+        "word": "测",
+        "start": 253.35,
+        "end": 253.57,
+        "probability": 1.0
+      },
+      {
+        "word": "试",
+        "start": 253.57,
+        "end": 253.83,
+        "probability": 1.0
+      },
+      {
+        "word": "测",
+        "start": 253.83,
+        "end": 254.15,
+        "probability": 0.994
+      },
+      {
+        "word": "试",
+        "start": 254.15,
+        "end": 254.27,
+        "probability": 1.0
+      },
+      {
+        "word": "完",
+        "start": 254.27,
+        "end": 254.39,
+        "probability": 0.995
+      },
+      {
+        "word": "毕",
+        "start": 254.39,
+        "end": 254.65,
+        "probability": 0.998
+      }
+    ],
+    "text_en_deepl": "Then I'll run a series of tests.",
+    "text_en": "Then I'll run a series of tests.",
+    "tts_file": "segment_0100.wav",
+    "tts_duration": 2.923
+  },
+  {
+    "id": 101,
+    "text_zh": "没有问题",
+    "start": 254.65,
+    "end": 255.33,
+    "words": [
+      {
+        "word": "没有",
+        "start": 254.65,
+        "end": 254.95,
+        "probability": 0.944
+      },
+      {
+        "word": "问题",
+        "start": 254.95,
+        "end": 255.33,
+        "probability": 1.0
+      }
+    ],
+    "text_en_deepl": "There is no problem.",
+    "text_en": "There is no problem.",
+    "tts_file": "segment_0101.wav",
+    "tts_duration": 1.824
+  },
+  {
+    "id": 102,
+    "text_zh": "所以我就回到站的一个pro request的管理界面",
+    "start": 255.33,
+    "end": 259.31,
+    "words": [
+      {
+        "word": "所以",
+        "start": 255.33,
+        "end": 255.81,
+        "probability": 0.996
+      },
+      {
+        "word": "我就",
+        "start": 255.81,
+        "end": 256.39,
+        "probability": 0.996
+      },
+      {
+        "word": "回",
+        "start": 256.39,
+        "end": 256.75,
+        "probability": 0.981
+      },
+      {
+        "word": "到",
+        "start": 256.75,
+        "end": 256.95,
+        "probability": 0.988
+      },
+      {
+        "word": "站",
+        "start": 256.95,
+        "end": 257.15,
+        "probability": 0.351
+      },
+      {
+        "word": "的",
+        "start": 257.15,
+        "end": 257.31,
+        "probability": 0.995
+      },
+      {
+        "word": "一个",
+        "start": 257.31,
+        "end": 257.53,
+        "probability": 0.961
+      },
+      {
+        "word": "pro",
+        "start": 257.53,
+        "end": 257.89,
+        "probability": 0.001
+      },
+      {
+        "word": "request",
+        "start": 257.89,
+        "end": 258.13,
+        "probability": 0.193
+      },
+      {
+        "word": "的",
+        "start": 258.13,
+        "end": 258.43,
+        "probability": 0.772
+      },
+      {
+        "word": "管",
+        "start": 258.43,
+        "end": 258.75,
+        "probability": 0.96
+      },
+      {
+        "word": "理",
+        "start": 258.75,
+        "end": 258.95,
+        "probability": 1.0
+      },
+      {
+        "word": "界",
+        "start": 258.95,
+        "end": 259.13,
+        "probability": 0.987
+      },
+      {
+        "word": "面",
+        "start": 259.13,
+        "end": 259.31,
+        "probability": 0.999
+      }
+    ],
+    "text_en_deepl": "So I'll go back to the station's admin interface for a pro request",
+    "text_en": "So I'll go back to the station's admin interface for a pro request",
+    "tts_file": "segment_0102.wav",
+    "tts_duration": 6.048
+  },
+  {
+    "id": 103,
+    "text_zh": "我就来进行一个merge",
+    "start": 259.31,
+    "end": 261.07,
+    "words": [
+      {
+        "word": "我就",
+        "start": 259.31,
+        "end": 259.61,
+        "probability": 0.993
+      },
+      {
+        "word": "来",
+        "start": 259.61,
+        "end": 260.03,
+        "probability": 0.999
+      },
+      {
+        "word": "进",
+        "start": 260.03,
+        "end": 260.37,
+        "probability": 0.998
+      },
+      {
+        "word": "行",
+        "start": 260.37,
+        "end": 260.61,
+        "probability": 1.0
+      },
+      {
+        "word": "一个",
+        "start": 260.61,
+        "end": 260.75,
+        "probability": 0.951
+      },
+      {
+        "word": "mer",
+        "start": 260.75,
+        "end": 261.05,
+        "probability": 0.819
+      },
+      {
+        "word": "ge",
+        "start": 261.05,
+        "end": 261.07,
+        "probability": 0.995
+      }
+    ],
+    "text_en_deepl": "I'll just do a merge.",
+    "text_en": "I'll just do a merge.",
+    "tts_file": "segment_0103.wav",
+    "tts_duration": 1.909
+  },
+  {
+    "id": 104,
+    "text_zh": "当然也有可能",
+    "start": 261.07,
+    "end": 262.47,
+    "words": [
+      {
+        "word": "当然",
+        "start": 261.07,
+        "end": 261.75,
+        "probability": 0.98
+      },
+      {
+        "word": "也",
+        "start": 261.75,
+        "end": 262.01,
+        "probability": 0.988
+      },
+      {
+        "word": "有",
+        "start": 262.01,
+        "end": 262.15,
+        "probability": 0.999
+      },
+      {
+        "word": "可能",
+        "start": 262.15,
+        "end": 262.47,
+        "probability": 0.999
+      }
+    ],
+    "text_en_deepl": "Of course it's possible.",
+    "text_en": "Of course it's possible.",
+    "tts_file": "segment_0104.wav",
+    "tts_duration": 2.187
+  },
+  {
+    "id": 105,
+    "text_zh": "我说他有一点点小问题",
+    "start": 262.47,
+    "end": 265.23,
+    "words": [
+      {
+        "word": "我",
+        "start": 262.47,
+        "end": 262.89,
+        "probability": 0.979
+      },
+      {
+        "word": "说",
+        "start": 262.89,
+        "end": 263.13,
+        "probability": 1.0
+      },
+      {
+        "word": "他",
+        "start": 263.13,
+        "end": 263.61,
+        "probability": 0.682
+      },
+      {
+        "word": "有一",
+        "start": 263.61,
+        "end": 264.27,
+        "probability": 0.984
+      },
+      {
+        "word": "点",
+        "start": 264.27,
+        "end": 264.53,
+        "probability": 0.998
+      },
+      {
+        "word": "点",
+        "start": 264.53,
+        "end": 264.65,
+        "probability": 0.999
+      },
+      {
+        "word": "小",
+        "start": 264.65,
+        "end": 264.91,
+        "probability": 0.999
+      },
+      {
+        "word": "问题",
+        "start": 264.91,
+        "end": 265.23,
+        "probability": 1.0
+      }
+    ],
+    "text_en_deepl": "I said he had a little problem.",
+    "text_en": "I said he had a little problem.",
+    "tts_file": "segment_0105.wav",
+    "tts_duration": 2.827
+  },
+  {
+    "id": 106,
+    "text_zh": "所以我就说留一个comment",
+    "start": 265.23,
+    "end": 267.13,
+    "words": [
+      {
+        "word": "所以",
+        "start": 265.23,
+        "end": 265.63,
+        "probability": 0.998
+      },
+      {
+        "word": "我就",
+        "start": 265.63,
+        "end": 265.95,
+        "probability": 1.0
+      },
+      {
+        "word": "说",
+        "start": 265.95,
+        "end": 266.31,
+        "probability": 0.997
+      },
+      {
+        "word": "留",
+        "start": 266.31,
+        "end": 266.53,
+        "probability": 0.965
+      },
+      {
+        "word": "一个",
+        "start": 266.53,
+        "end": 266.71,
+        "probability": 0.991
+      },
+      {
+        "word": "com",
+        "start": 266.71,
+        "end": 266.99,
+        "probability": 0.904
+      },
+      {
+        "word": "ment",
+        "start": 266.99,
+        "end": 267.13,
+        "probability": 0.712
+      }
+    ],
+    "text_en_deepl": "So I'll just say leave a comment",
+    "text_en": "So I'll just say leave a comment",
+    "tts_file": "segment_0106.wav",
+    "tts_duration": 2.923
+  },
+  {
+    "id": 107,
+    "text_zh": "然后那边进行进一步的修改",
+    "start": 267.13,
+    "end": 269.39,
+    "words": [
+      {
+        "word": "然后",
+        "start": 267.13,
+        "end": 267.57,
+        "probability": 0.972
+      },
+      {
+        "word": "那",
+        "start": 267.57,
+        "end": 267.81,
+        "probability": 0.989
+      },
+      {
+        "word": "边",
+        "start": 267.81,
+        "end": 268.05,
+        "probability": 1.0
+      },
+      {
+        "word": "进",
+        "start": 268.05,
+        "end": 268.41,
+        "probability": 1.0
+      },
+      {
+        "word": "行",
+        "start": 268.41,
+        "end": 268.65,
+        "probability": 1.0
+      },
+      {
+        "word": "进",
+        "start": 268.65,
+        "end": 268.83,
+        "probability": 1.0
+      },
+      {
+        "word": "一",
+        "start": 268.83,
+        "end": 268.91,
+        "probability": 0.995
+      },
+      {
+        "word": "步",
+        "start": 268.91,
+        "end": 268.95,
+        "probability": 1.0
+      },
+      {
+        "word": "的",
+        "start": 268.95,
+        "end": 269.07,
+        "probability": 0.996
+      },
+      {
+        "word": "修",
+        "start": 269.07,
+        "end": 269.27,
+        "probability": 1.0
+      },
+      {
+        "word": "改",
+        "start": 269.27,
+        "end": 269.39,
+        "probability": 0.999
+      }
+    ],
+    "text_en_deepl": "And then further modifications over there",
+    "text_en": "And then further modifications over there",
+    "tts_file": "segment_0107.wav",
+    "tts_duration": 3.755
+  },
+  {
+    "id": 108,
+    "text_zh": "然后我再来merge",
+    "start": 269.39,
+    "end": 270.55,
+    "words": [
+      {
+        "word": "然后",
+        "start": 269.39,
+        "end": 269.61,
+        "probability": 0.192
+      },
+      {
+        "word": "我",
+        "start": 269.61,
+        "end": 270.01,
+        "probability": 0.986
+      },
+      {
+        "word": "再",
+        "start": 270.01,
+        "end": 270.11,
+        "probability": 0.997
+      },
+      {
+        "word": "来",
+        "start": 270.11,
+        "end": 270.29,
+        "probability": 0.998
+      },
+      {
+        "word": "mer",
+        "start": 270.29,
+        "end": 270.49,
+        "probability": 0.967
+      },
+      {
+        "word": "ge",
+        "start": 270.49,
+        "end": 270.55,
+        "probability": 0.998
+      }
+    ],
+    "text_en_deepl": "Then I'll merge.",
+    "text_en": "Then I'll merge.",
+    "tts_file": "segment_0108.wav",
+    "tts_duration": 1.451
+  },
+  {
+    "id": 109,
+    "text_zh": "这样酸蝴蝶同学出色的完成了",
+    "start": 272.04,
+    "end": 274.88,
+    "words": [
+      {
+        "word": "这样",
+        "start": 272.04,
+        "end": 272.5,
+        "probability": 0.993
+      },
+      {
+        "word": "酸",
+        "start": 272.5,
+        "end": 272.96,
+        "probability": 0.508
+      },
+      {
+        "word": "蝴",
+        "start": 272.96,
+        "end": 273.06,
+        "probability": 0.631
+      },
+      {
+        "word": "蝶",
+        "start": 273.06,
+        "end": 273.18,
+        "probability": 0.998
+      },
+      {
+        "word": "同",
+        "start": 273.18,
+        "end": 273.3,
+        "probability": 0.99
+      },
+      {
+        "word": "学",
+        "start": 273.3,
+        "end": 273.6,
+        "probability": 1.0
+      },
+      {
+        "word": "出",
+        "start": 273.6,
+        "end": 273.96,
+        "probability": 0.995
+      },
+      {
+        "word": "色",
+        "start": 273.96,
+        "end": 274.24,
+        "probability": 1.0
+      },
+      {
+        "word": "的",
+        "start": 274.24,
+        "end": 274.34,
+        "probability": 0.936
+      },
+      {
+        "word": "完成",
+        "start": 274.34,
+        "end": 274.64,
+        "probability": 0.999
+      },
+      {
+        "word": "了",
+        "start": 274.64,
+        "end": 274.88,
+        "probability": 1.0
+      }
+    ],
+    "text_en_deepl": "In this way Acid Butterfly students excelled",
+    "text_en": "In this way Acid Butterfly students excelled",
+    "tts_file": "segment_0109.wav",
+    "tts_duration": 4.021
+  },
+  {
+    "id": 110,
+    "text_zh": "对我们站的一个开源项目做出代码贡献",
+    "start": 274.88,
+    "end": 277.96,
+    "words": [
+      {
+        "word": "对",
+        "start": 274.88,
+        "end": 275.1,
+        "probability": 0.99
+      },
+      {
+        "word": "我们",
+        "start": 275.1,
+        "end": 275.32,
+        "probability": 0.999
+      },
+      {
+        "word": "站",
+        "start": 275.32,
+        "end": 275.58,
+        "probability": 0.986
+      },
+      {
+        "word": "的",
+        "start": 275.58,
+        "end": 275.7,
+        "probability": 0.999
+      },
+      {
+        "word": "一个",
+        "start": 275.7,
+        "end": 275.84,
+        "probability": 0.998
+      },
+      {
+        "word": "开",
+        "start": 275.84,
+        "end": 276.1,
+        "probability": 0.998
+      },
+      {
+        "word": "源",
+        "start": 276.1,
+        "end": 276.24,
+        "probability": 0.997
+      },
+      {
+        "word": "项",
+        "start": 276.24,
+        "end": 276.52,
+        "probability": 1.0
+      },
+      {
+        "word": "目",
+        "start": 276.52,
+        "end": 276.72,
+        "probability": 1.0
+      },
+      {
+        "word": "做",
+        "start": 276.72,
+        "end": 276.88,
+        "probability": 0.982
+      },
+      {
+        "word": "出",
+        "start": 276.88,
+        "end": 277.12,
+        "probability": 0.999
+      },
+      {
+        "word": "代",
+        "start": 277.12,
+        "end": 277.4,
+        "probability": 0.988
+      },
+      {
+        "word": "码",
+        "start": 277.4,
+        "end": 277.58,
+        "probability": 0.999
+      },
+      {
+        "word": "贡",
+        "start": 277.58,
+        "end": 277.74,
+        "probability": 0.974
+      },
+      {
+        "word": "献",
+        "start": 277.74,
+        "end": 277.96,
+        "probability": 1.0
+      }
+    ],
+    "text_en_deepl": "Code contribution to an open source project on our site",
+    "text_en": "Code contribution to an open source project on our site",
+    "tts_file": "segment_0110.wav",
+    "tts_duration": 5.035
+  },
+  {
+    "id": 111,
+    "text_zh": "那么大家也看到了",
+    "start": 278.28,
+    "end": 278.46,
+    "words": [
+      {
+        "word": "那么",
+        "start": 278.28,
+        "end": 278.46,
+        "probability": 0.0
+      },
+      {
+        "word": "大家",
+        "start": 278.46,
+        "end": 278.46,
+        "probability": 0.008
+      },
+      {
+        "word": "也",
+        "start": 278.46,
+        "end": 278.46,
+        "probability": 0.022
+      },
+      {
+        "word": "看到",
+        "start": 278.46,
+        "end": 278.46,
+        "probability": 0.002
+      },
+      {
+        "word": "了",
+        "start": 278.46,
+        "end": 278.46,
+        "probability": 0.107
+      }
+    ],
+    "text_en_deepl": "So as you can see.",
+    "text_en": "So as you can see.",
+    "tts_file": "segment_0111.wav",
+    "tts_duration": 1.632
+  }
+]
