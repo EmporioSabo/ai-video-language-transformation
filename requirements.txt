@@ -1,6 +1,6 @@
 faster-whisper>=1.0.0
 deepl>=1.18.0
-google-generativeai>=0.8.0
+google-genai>=1.0.0
 f5-tts>=0.3.0
 pydub>=0.25.1
 pyrubberband>=0.4.0

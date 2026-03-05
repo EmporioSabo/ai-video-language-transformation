@@ -1,0 +1,8090 @@
+[
+  {
+    "id": 0,
+    "text_zh": "大家好",
+    "start": 0.78,
+    "end": 1.18,
+    "words": [
+      {
+        "word": "大家好",
+        "start": 0.78,
+        "end": 1.18,
+        "probability": 0.892
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "text_zh": "我们在进行代码协作的时候呢",
+    "start": 1.18,
+    "end": 4.18,
+    "words": [
+      {
+        "word": "我们",
+        "start": 1.18,
+        "end": 1.9,
+        "probability": 0.511
+      },
+      {
+        "word": "在",
+        "start": 1.9,
+        "end": 2.2,
+        "probability": 0.997
+      },
+      {
+        "word": "进",
+        "start": 2.2,
+        "end": 2.58,
+        "probability": 0.995
+      },
+      {
+        "word": "行",
+        "start": 2.58,
+        "end": 2.88,
+        "probability": 1.0
+      },
+      {
+        "word": "代",
+        "start": 2.88,
+        "end": 3.02,
+        "probability": 0.985
+      },
+      {
+        "word": "码",
+        "start": 3.02,
+        "end": 3.16,
+        "probability": 1.0
+      },
+      {
+        "word": "协",
+        "start": 3.16,
+        "end": 3.52,
+        "probability": 0.989
+      },
+      {
+        "word": "作",
+        "start": 3.52,
+        "end": 3.62,
+        "probability": 0.997
+      },
+      {
+        "word": "的时候",
+        "start": 3.62,
+        "end": 3.8,
+        "probability": 0.989
+      },
+      {
+        "word": "呢",
+        "start": 3.8,
+        "end": 4.18,
+        "probability": 0.654
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "text_zh": "会经常遇到不同的成员",
+    "start": 4.18,
+    "end": 6.86,
+    "words": [
+      {
+        "word": "会",
+        "start": 4.18,
+        "end": 4.48,
+        "probability": 0.927
+      },
+      {
+        "word": "经",
+        "start": 4.48,
+        "end": 4.76,
+        "probability": 0.999
+      },
+      {
+        "word": "常",
+        "start": 4.76,
+        "end": 5.08,
+        "probability": 1.0
+      },
+      {
+        "word": "遇",
+        "start": 5.08,
+        "end": 5.32,
+        "probability": 0.999
+      },
+      {
+        "word": "到",
+        "start": 5.32,
+        "end": 5.5,
+        "probability": 1.0
+      },
+      {
+        "word": "不同",
+        "start": 5.5,
+        "end": 5.86,
+        "probability": 0.996
+      },
+      {
+        "word": "的",
+        "start": 5.86,
+        "end": 6.22,
+        "probability": 0.997
+      },
+      {
+        "word": "成",
+        "start": 6.22,
+        "end": 6.6,
+        "probability": 0.997
+      },
+      {
+        "word": "员",
+        "start": 6.6,
+        "end": 6.86,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "text_zh": "在进行代码修改的时候",
+    "start": 6.86,
+    "end": 8.88,
+    "words": [
+      {
+        "word": "在",
+        "start": 6.86,
+        "end": 7.22,
+        "probability": 0.994
+      },
+      {
+        "word": "进",
+        "start": 7.22,
+        "end": 7.68,
+        "probability": 0.998
+      },
+      {
+        "word": "行",
+        "start": 7.68,
+        "end": 7.96,
+        "probability": 1.0
+      },
+      {
+        "word": "代",
+        "start": 7.96,
+        "end": 8.14,
+        "probability": 1.0
+      },
+      {
+        "word": "码",
+        "start": 8.14,
+        "end": 8.32,
+        "probability": 1.0
+      },
+      {
+        "word": "修",
+        "start": 8.32,
+        "end": 8.54,
+        "probability": 1.0
+      },
+      {
+        "word": "改",
+        "start": 8.54,
+        "end": 8.66,
+        "probability": 1.0
+      },
+      {
+        "word": "的时候",
+        "start": 8.66,
+        "end": 8.88,
+        "probability": 0.995
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "text_zh": "会有一个conflict",
+    "start": 8.88,
+    "end": 10.62,
+    "words": [
+      {
+        "word": "会",
+        "start": 8.88,
+        "end": 9.64,
+        "probability": 0.987
+      },
+      {
+        "word": "有",
+        "start": 9.64,
+        "end": 9.78,
+        "probability": 0.999
+      },
+      {
+        "word": "一个",
+        "start": 9.78,
+        "end": 10.0,
+        "probability": 0.997
+      },
+      {
+        "word": "con",
+        "start": 10.0,
+        "end": 10.34,
+        "probability": 0.755
+      },
+      {
+        "word": "fl",
+        "start": 10.34,
+        "end": 10.48,
+        "probability": 0.979
+      },
+      {
+        "word": "ict",
+        "start": 10.48,
+        "end": 10.62,
+        "probability": 0.999
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "text_zh": "往往就是对同一个文件进行了不同的修改",
+    "start": 10.62,
+    "end": 15.82,
+    "words": [
+      {
+        "word": "往",
+        "start": 10.62,
+        "end": 11.1,
+        "probability": 0.852
+      },
+      {
+        "word": "往",
+        "start": 11.1,
+        "end": 11.86,
+        "probability": 1.0
+      },
+      {
+        "word": "就是",
+        "start": 11.86,
+        "end": 12.08,
+        "probability": 0.995
+      },
+      {
+        "word": "对",
+        "start": 12.08,
+        "end": 12.46,
+        "probability": 0.993
+      },
+      {
+        "word": "同",
+        "start": 12.46,
+        "end": 12.72,
+        "probability": 0.993
+      },
+      {
+        "word": "一个",
+        "start": 12.72,
+        "end": 13.04,
+        "probability": 0.995
+      },
+      {
+        "word": "文",
+        "start": 13.04,
+        "end": 13.3,
+        "probability": 1.0
+      },
+      {
+        "word": "件",
+        "start": 13.3,
+        "end": 13.6,
+        "probability": 1.0
+      },
+      {
+        "word": "进",
+        "start": 13.6,
+        "end": 14.1,
+        "probability": 0.999
+      },
+      {
+        "word": "行了",
+        "start": 14.1,
+        "end": 14.44,
+        "probability": 0.998
+      },
+      {
+        "word": "不同",
+        "start": 14.44,
+        "end": 15.08,
+        "probability": 0.998
+      },
+      {
+        "word": "的",
+        "start": 15.08,
+        "end": 15.36,
+        "probability": 0.999
+      },
+      {
+        "word": "修",
+        "start": 15.36,
+        "end": 15.62,
+        "probability": 1.0
+      },
+      {
+        "word": "改",
+        "start": 15.62,
+        "end": 15.82,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "text_zh": "这个时候呢",
+    "start": 15.82,
+    "end": 16.94,
+    "words": [
+      {
+        "word": "这个",
+        "start": 15.82,
+        "end": 16.44,
+        "probability": 0.993
+      },
+      {
+        "word": "时候",
+        "start": 16.44,
+        "end": 16.72,
+        "probability": 1.0
+      },
+      {
+        "word": "呢",
+        "start": 16.72,
+        "end": 16.94,
+        "probability": 0.99
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "text_zh": "我们就要进行一个conflict resolving",
+    "start": 16.94,
+    "end": 19.72,
+    "words": [
+      {
+        "word": "我们",
+        "start": 16.94,
+        "end": 17.46,
+        "probability": 0.99
+      },
+      {
+        "word": "就",
+        "start": 17.46,
+        "end": 17.68,
+        "probability": 1.0
+      },
+      {
+        "word": "要",
+        "start": 17.68,
+        "end": 17.88,
+        "probability": 0.999
+      },
+      {
+        "word": "进",
+        "start": 17.88,
+        "end": 18.08,
+        "probability": 0.985
+      },
+      {
+        "word": "行",
+        "start": 18.08,
+        "end": 18.32,
+        "probability": 1.0
+      },
+      {
+        "word": "一个",
+        "start": 18.32,
+        "end": 18.52,
+        "probability": 0.999
+      },
+      {
+        "word": "con",
+        "start": 18.52,
+        "end": 18.98,
+        "probability": 0.949
+      },
+      {
+        "word": "fl",
+        "start": 18.98,
+        "end": 19.16,
+        "probability": 0.997
+      },
+      {
+        "word": "ict",
+        "start": 19.16,
+        "end": 19.32,
+        "probability": 1.0
+      },
+      {
+        "word": "resolving",
+        "start": 19.32,
+        "end": 19.72,
+        "probability": 0.908
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "text_zh": "首先我这里已经创建好了conflict resolving",
+    "start": 19.72,
+    "end": 23.42,
+    "words": [
+      {
+        "word": "首先",
+        "start": 19.72,
+        "end": 20.42,
+        "probability": 0.991
+      },
+      {
+        "word": "我",
+        "start": 20.42,
+        "end": 20.7,
+        "probability": 0.944
+      },
+      {
+        "word": "这里",
+        "start": 20.7,
+        "end": 20.9,
+        "probability": 0.998
+      },
+      {
+        "word": "已经",
+        "start": 20.9,
+        "end": 21.2,
+        "probability": 0.999
+      },
+      {
+        "word": "创",
+        "start": 21.2,
+        "end": 21.82,
+        "probability": 0.987
+      },
+      {
+        "word": "建",
+        "start": 21.82,
+        "end": 21.94,
+        "probability": 0.999
+      },
+      {
+        "word": "好了",
+        "start": 21.94,
+        "end": 22.24,
+        "probability": 0.998
+      },
+      {
+        "word": "con",
+        "start": 22.24,
+        "end": 22.76,
+        "probability": 0.966
+      },
+      {
+        "word": "fl",
+        "start": 22.76,
+        "end": 22.94,
+        "probability": 0.999
+      },
+      {
+        "word": "ict",
+        "start": 22.94,
+        "end": 23.06,
+        "probability": 1.0
+      },
+      {
+        "word": "resolving",
+        "start": 23.06,
+        "end": 23.42,
+        "probability": 0.997
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "text_zh": "这样的一个repo",
+    "start": 23.42,
+    "end": 24.68,
+    "words": [
+      {
+        "word": "这样",
+        "start": 23.42,
+        "end": 23.84,
+        "probability": 0.473
+      },
+      {
+        "word": "的",
+        "start": 23.84,
+        "end": 23.92,
+        "probability": 0.996
+      },
+      {
+        "word": "一个",
+        "start": 23.92,
+        "end": 24.1,
+        "probability": 0.996
+      },
+      {
+        "word": "re",
+        "start": 24.1,
+        "end": 24.56,
+        "probability": 0.911
+      },
+      {
+        "word": "po",
+        "start": 24.56,
+        "end": 24.68,
+        "probability": 0.912
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "text_zh": "然后下面交给孙胡杰同学",
+    "start": 24.68,
+    "end": 27.58,
+    "words": [
+      {
+        "word": "然后",
+        "start": 24.68,
+        "end": 25.76,
+        "probability": 0.99
+      },
+      {
+        "word": "下面",
+        "start": 25.76,
+        "end": 26.2,
+        "probability": 0.996
+      },
+      {
+        "word": "交",
+        "start": 26.2,
+        "end": 26.48,
+        "probability": 0.99
+      },
+      {
+        "word": "给",
+        "start": 26.48,
+        "end": 26.72,
+        "probability": 1.0
+      },
+      {
+        "word": "孙",
+        "start": 26.72,
+        "end": 26.94,
+        "probability": 1.0
+      },
+      {
+        "word": "胡",
+        "start": 26.94,
+        "end": 27.06,
+        "probability": 0.822
+      },
+      {
+        "word": "杰",
+        "start": 27.06,
+        "end": 27.14,
+        "probability": 0.678
+      },
+      {
+        "word": "同",
+        "start": 27.14,
+        "end": 27.28,
+        "probability": 0.992
+      },
+      {
+        "word": "学",
+        "start": 27.28,
+        "end": 27.58,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "text_zh": "然后我已经把这个conflict resolving的库拉到了本局",
+    "start": 28.31,
+    "end": 32.25,
+    "words": [
+      {
+        "word": "然后",
+        "start": 28.31,
+        "end": 28.79,
+        "probability": 0.656
+      },
+      {
+        "word": "我",
+        "start": 28.79,
+        "end": 29.03,
+        "probability": 0.937
+      },
+      {
+        "word": "已经",
+        "start": 29.03,
+        "end": 29.27,
+        "probability": 0.992
+      },
+      {
+        "word": "把",
+        "start": 29.27,
+        "end": 29.51,
+        "probability": 0.995
+      },
+      {
+        "word": "这个",
+        "start": 29.51,
+        "end": 29.85,
+        "probability": 0.282
+      },
+      {
+        "word": "con",
+        "start": 29.85,
+        "end": 30.05,
+        "probability": 0.057
+      },
+      {
+        "word": "fl",
+        "start": 30.05,
+        "end": 30.13,
+        "probability": 0.035
+      },
+      {
+        "word": "ict",
+        "start": 30.13,
+        "end": 30.25,
+        "probability": 0.776
+      },
+      {
+        "word": "resolving",
+        "start": 30.25,
+        "end": 30.53,
+        "probability": 0.959
+      },
+      {
+        "word": "的",
+        "start": 30.53,
+        "end": 30.91,
+        "probability": 0.707
+      },
+      {
+        "word": "库",
+        "start": 30.91,
+        "end": 31.15,
+        "probability": 0.573
+      },
+      {
+        "word": "拉",
+        "start": 31.15,
+        "end": 31.37,
+        "probability": 0.967
+      },
+      {
+        "word": "到了",
+        "start": 31.37,
+        "end": 31.69,
+        "probability": 0.978
+      },
+      {
+        "word": "本",
+        "start": 31.69,
+        "end": 32.03,
+        "probability": 0.542
+      },
+      {
+        "word": "局",
+        "start": 32.03,
+        "end": 32.25,
+        "probability": 0.223
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "text_zh": "我们来新建一个文字",
+    "start": 32.25,
+    "end": 35.07,
+    "words": [
+      {
+        "word": "我们",
+        "start": 32.25,
+        "end": 33.19,
+        "probability": 0.879
+      },
+      {
+        "word": "来",
+        "start": 33.19,
+        "end": 33.45,
+        "probability": 0.98
+      },
+      {
+        "word": "新",
+        "start": 33.45,
+        "end": 33.73,
+        "probability": 0.97
+      },
+      {
+        "word": "建",
+        "start": 33.73,
+        "end": 33.87,
+        "probability": 1.0
+      },
+      {
+        "word": "一个",
+        "start": 33.87,
+        "end": 34.07,
+        "probability": 0.998
+      },
+      {
+        "word": "文",
+        "start": 34.07,
+        "end": 34.91,
+        "probability": 0.454
+      },
+      {
+        "word": "字",
+        "start": 34.91,
+        "end": 35.07,
+        "probability": 0.859
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "text_zh": "比如说叫deaf",
+    "start": 35.69,
+    "end": 37.13,
+    "words": [
+      {
+        "word": "比如",
+        "start": 35.69,
+        "end": 36.17,
+        "probability": 0.89
+      },
+      {
+        "word": "说",
+        "start": 36.17,
+        "end": 36.33,
+        "probability": 0.997
+      },
+      {
+        "word": "叫",
+        "start": 36.33,
+        "end": 36.57,
+        "probability": 0.985
+      },
+      {
+        "word": "de",
+        "start": 36.57,
+        "end": 36.99,
+        "probability": 0.054
+      },
+      {
+        "word": "af",
+        "start": 36.99,
+        "end": 37.13,
+        "probability": 0.507
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "text_zh": "然后我们在rescore里面把它打开",
+    "start": 37.13,
+    "end": 41.31,
+    "words": [
+      {
+        "word": "然后",
+        "start": 37.13,
+        "end": 37.91,
+        "probability": 0.94
+      },
+      {
+        "word": "我们",
+        "start": 38.55,
+        "end": 39.27,
+        "probability": 0.991
+      },
+      {
+        "word": "在",
+        "start": 39.27,
+        "end": 39.63,
+        "probability": 0.996
+      },
+      {
+        "word": "res",
+        "start": 39.63,
+        "end": 39.99,
+        "probability": 0.091
+      },
+      {
+        "word": "core",
+        "start": 39.99,
+        "end": 40.17,
+        "probability": 0.24
+      },
+      {
+        "word": "里",
+        "start": 40.17,
+        "end": 40.37,
+        "probability": 0.981
+      },
+      {
+        "word": "面",
+        "start": 40.37,
+        "end": 40.55,
+        "probability": 0.993
+      },
+      {
+        "word": "把它",
+        "start": 40.55,
+        "end": 40.75,
+        "probability": 0.99
+      },
+      {
+        "word": "打",
+        "start": 40.75,
+        "end": 40.99,
+        "probability": 1.0
+      },
+      {
+        "word": "开",
+        "start": 40.99,
+        "end": 41.31,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "text_zh": "然后有增加一些代码",
+    "start": 43.05,
+    "end": 44.99,
+    "words": [
+      {
+        "word": "然后",
+        "start": 43.05,
+        "end": 43.53,
+        "probability": 0.962
+      },
+      {
+        "word": "有",
+        "start": 43.53,
+        "end": 44.01,
+        "probability": 0.687
+      },
+      {
+        "word": "增",
+        "start": 44.01,
+        "end": 44.27,
+        "probability": 0.999
+      },
+      {
+        "word": "加",
+        "start": 44.27,
+        "end": 44.41,
+        "probability": 0.999
+      },
+      {
+        "word": "一些",
+        "start": 44.41,
+        "end": 44.53,
+        "probability": 0.981
+      },
+      {
+        "word": "代",
+        "start": 44.53,
+        "end": 44.77,
+        "probability": 0.997
+      },
+      {
+        "word": "码",
+        "start": 44.77,
+        "end": 44.99,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "text_zh": "保存一下",
+    "start": 44.99,
+    "end": 46.67,
+    "words": [
+      {
+        "word": "保",
+        "start": 44.99,
+        "end": 45.73,
+        "probability": 0.874
+      },
+      {
+        "word": "存",
+        "start": 46.21,
+        "end": 46.37,
+        "probability": 0.999
+      },
+      {
+        "word": "一下",
+        "start": 46.37,
+        "end": 46.67,
+        "probability": 0.996
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "text_zh": "在孙胡杰同学进行代码修改的同时",
+    "start": 49.25,
+    "end": 52.59,
+    "words": [
+      {
+        "word": "在",
+        "start": 49.25,
+        "end": 49.73,
+        "probability": 0.971
+      },
+      {
+        "word": "孙",
+        "start": 49.73,
+        "end": 50.07,
+        "probability": 0.498
+      },
+      {
+        "word": "胡",
+        "start": 50.07,
+        "end": 50.21,
+        "probability": 0.009
+      },
+      {
+        "word": "杰",
+        "start": 50.21,
+        "end": 50.31,
+        "probability": 0.499
+      },
+      {
+        "word": "同",
+        "start": 50.31,
+        "end": 50.45,
+        "probability": 0.997
+      },
+      {
+        "word": "学",
+        "start": 50.45,
+        "end": 50.71,
+        "probability": 0.999
+      },
+      {
+        "word": "进",
+        "start": 50.71,
+        "end": 50.87,
+        "probability": 0.999
+      },
+      {
+        "word": "行",
+        "start": 50.87,
+        "end": 51.11,
+        "probability": 1.0
+      },
+      {
+        "word": "代",
+        "start": 51.11,
+        "end": 51.25,
+        "probability": 0.998
+      },
+      {
+        "word": "码",
+        "start": 51.25,
+        "end": 51.47,
+        "probability": 1.0
+      },
+      {
+        "word": "修",
+        "start": 51.47,
+        "end": 51.85,
+        "probability": 1.0
+      },
+      {
+        "word": "改",
+        "start": 51.85,
+        "end": 52.01,
+        "probability": 1.0
+      },
+      {
+        "word": "的",
+        "start": 52.01,
+        "end": 52.09,
+        "probability": 0.999
+      },
+      {
+        "word": "同",
+        "start": 52.09,
+        "end": 52.25,
+        "probability": 1.0
+      },
+      {
+        "word": "时",
+        "start": 52.25,
+        "end": 52.59,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "text_zh": "我这边呢",
+    "start": 52.59,
+    "end": 53.85,
+    "words": [
+      {
+        "word": "我",
+        "start": 52.59,
+        "end": 53.39,
+        "probability": 0.988
+      },
+      {
+        "word": "这",
+        "start": 53.39,
+        "end": 53.53,
+        "probability": 0.999
+      },
+      {
+        "word": "边",
+        "start": 53.53,
+        "end": 53.77,
+        "probability": 1.0
+      },
+      {
+        "word": "呢",
+        "start": 53.77,
+        "end": 53.85,
+        "probability": 0.655
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "text_zh": "对main代码也进行了一些修改",
+    "start": 53.85,
+    "end": 56.53,
+    "words": [
+      {
+        "word": "对",
+        "start": 53.85,
+        "end": 54.25,
+        "probability": 0.947
+      },
+      {
+        "word": "main",
+        "start": 54.25,
+        "end": 54.51,
+        "probability": 0.76
+      },
+      {
+        "word": "代",
+        "start": 54.51,
+        "end": 54.69,
+        "probability": 0.976
+      },
+      {
+        "word": "码",
+        "start": 54.69,
+        "end": 54.93,
+        "probability": 1.0
+      },
+      {
+        "word": "也",
+        "start": 54.93,
+        "end": 55.31,
+        "probability": 0.996
+      },
+      {
+        "word": "进",
+        "start": 55.31,
+        "end": 55.47,
+        "probability": 1.0
+      },
+      {
+        "word": "行了",
+        "start": 55.47,
+        "end": 55.77,
+        "probability": 0.997
+      },
+      {
+        "word": "一些",
+        "start": 55.77,
+        "end": 55.97,
+        "probability": 0.998
+      },
+      {
+        "word": "修",
+        "start": 55.97,
+        "end": 56.39,
+        "probability": 1.0
+      },
+      {
+        "word": "改",
+        "start": 56.39,
+        "end": 56.53,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "text_zh": "可能是沟通不到位",
+    "start": 56.53,
+    "end": 58.05,
+    "words": [
+      {
+        "word": "可能",
+        "start": 56.53,
+        "end": 56.85,
+        "probability": 0.981
+      },
+      {
+        "word": "是",
+        "start": 56.85,
+        "end": 57.07,
+        "probability": 1.0
+      },
+      {
+        "word": "沟",
+        "start": 57.07,
+        "end": 57.47,
+        "probability": 0.999
+      },
+      {
+        "word": "通",
+        "start": 57.47,
+        "end": 57.63,
+        "probability": 1.0
+      },
+      {
+        "word": "不到",
+        "start": 57.63,
+        "end": 57.81,
+        "probability": 0.785
+      },
+      {
+        "word": "位",
+        "start": 57.81,
+        "end": 58.05,
+        "probability": 0.997
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "text_zh": "或者一些其他的情况",
+    "start": 58.05,
+    "end": 59.69,
+    "words": [
+      {
+        "word": "或者",
+        "start": 58.05,
+        "end": 58.59,
+        "probability": 0.982
+      },
+      {
+        "word": "一些",
+        "start": 58.59,
+        "end": 58.89,
+        "probability": 0.997
+      },
+      {
+        "word": "其",
+        "start": 58.89,
+        "end": 59.17,
+        "probability": 1.0
+      },
+      {
+        "word": "他的",
+        "start": 59.17,
+        "end": 59.35,
+        "probability": 0.973
+      },
+      {
+        "word": "情况",
+        "start": 59.35,
+        "end": 59.69,
+        "probability": 0.999
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "text_zh": "所以我这里往里面",
+    "start": 59.69,
+    "end": 61.07,
+    "words": [
+      {
+        "word": "所以",
+        "start": 59.69,
+        "end": 60.01,
+        "probability": 0.916
+      },
+      {
+        "word": "我",
+        "start": 60.01,
+        "end": 60.19,
+        "probability": 0.79
+      },
+      {
+        "word": "这里",
+        "start": 60.19,
+        "end": 60.39,
+        "probability": 0.996
+      },
+      {
+        "word": "往",
+        "start": 60.39,
+        "end": 60.73,
+        "probability": 0.98
+      },
+      {
+        "word": "里",
+        "start": 60.73,
+        "end": 60.87,
+        "probability": 0.999
+      },
+      {
+        "word": "面",
+        "start": 60.87,
+        "end": 61.07,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "text_zh": "写了ABCD这样的一个代码",
+    "start": 61.07,
+    "end": 63.33,
+    "words": [
+      {
+        "word": "写",
+        "start": 61.07,
+        "end": 61.07,
+        "probability": 0.498
+      },
+      {
+        "word": "了",
+        "start": 61.07,
+        "end": 61.39,
+        "probability": 0.717
+      },
+      {
+        "word": "A",
+        "start": 61.39,
+        "end": 61.55,
+        "probability": 0.697
+      },
+      {
+        "word": "BC",
+        "start": 61.55,
+        "end": 61.91,
+        "probability": 0.974
+      },
+      {
+        "word": "D",
+        "start": 61.91,
+        "end": 62.33,
+        "probability": 0.974
+      },
+      {
+        "word": "这样",
+        "start": 62.33,
+        "end": 62.65,
+        "probability": 0.538
+      },
+      {
+        "word": "的",
+        "start": 62.65,
+        "end": 62.79,
+        "probability": 0.979
+      },
+      {
+        "word": "一个",
+        "start": 62.79,
+        "end": 62.93,
+        "probability": 0.993
+      },
+      {
+        "word": "代",
+        "start": 62.93,
+        "end": 63.15,
+        "probability": 0.984
+      },
+      {
+        "word": "码",
+        "start": 63.15,
+        "end": 63.33,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "text_zh": "然后我还复习到了main分子上",
+    "start": 63.33,
+    "end": 67.33,
+    "words": [
+      {
+        "word": "然后",
+        "start": 63.33,
+        "end": 63.93,
+        "probability": 0.856
+      },
+      {
+        "word": "我",
+        "start": 63.93,
+        "end": 64.81,
+        "probability": 0.963
+      },
+      {
+        "word": "还",
+        "start": 64.81,
+        "end": 65.07,
+        "probability": 0.995
+      },
+      {
+        "word": "复",
+        "start": 65.07,
+        "end": 65.63,
+        "probability": 0.546
+      },
+      {
+        "word": "习",
+        "start": 65.63,
+        "end": 65.81,
+        "probability": 0.907
+      },
+      {
+        "word": "到了",
+        "start": 65.81,
+        "end": 66.03,
+        "probability": 0.972
+      },
+      {
+        "word": "main",
+        "start": 66.03,
+        "end": 66.71,
+        "probability": 0.606
+      },
+      {
+        "word": "分",
+        "start": 66.71,
+        "end": 66.89,
+        "probability": 0.089
+      },
+      {
+        "word": "子",
+        "start": 66.89,
+        "end": 67.07,
+        "probability": 0.719
+      },
+      {
+        "word": "上",
+        "start": 67.07,
+        "end": 67.33,
+        "probability": 0.987
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "text_zh": "我先把我的修改ad commit一下",
+    "start": 73.86,
+    "end": 76.58,
+    "words": [
+      {
+        "word": "我",
+        "start": 73.86,
+        "end": 74.12,
+        "probability": 0.927
+      },
+      {
+        "word": "先",
+        "start": 74.12,
+        "end": 74.42,
+        "probability": 0.997
+      },
+      {
+        "word": "把",
+        "start": 74.42,
+        "end": 74.86,
+        "probability": 0.99
+      },
+      {
+        "word": "我的",
+        "start": 74.86,
+        "end": 75.14,
+        "probability": 0.987
+      },
+      {
+        "word": "修",
+        "start": 75.14,
+        "end": 75.54,
+        "probability": 0.993
+      },
+      {
+        "word": "改",
+        "start": 75.54,
+        "end": 75.66,
+        "probability": 0.998
+      },
+      {
+        "word": "ad",
+        "start": 75.66,
+        "end": 75.9,
+        "probability": 0.471
+      },
+      {
+        "word": "commit",
+        "start": 75.9,
+        "end": 76.22,
+        "probability": 0.271
+      },
+      {
+        "word": "一下",
+        "start": 76.22,
+        "end": 76.58,
+        "probability": 0.973
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "text_zh": "然后我们转到main上面",
+    "start": 79.97,
+    "end": 83.59,
+    "words": [
+      {
+        "word": "然后",
+        "start": 79.97,
+        "end": 80.23,
+        "probability": 0.984
+      },
+      {
+        "word": "我们",
+        "start": 80.23,
+        "end": 80.97,
+        "probability": 0.992
+      },
+      {
+        "word": "转",
+        "start": 80.97,
+        "end": 81.81,
+        "probability": 0.999
+      },
+      {
+        "word": "到",
+        "start": 81.81,
+        "end": 82.19,
+        "probability": 0.998
+      },
+      {
+        "word": "main",
+        "start": 82.19,
+        "end": 83.27,
+        "probability": 0.912
+      },
+      {
+        "word": "上面",
+        "start": 83.27,
+        "end": 83.59,
+        "probability": 0.979
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "text_zh": "你为什么要check到main上面呢",
+    "start": 87.58,
+    "end": 89.56,
+    "words": [
+      {
+        "word": "你",
+        "start": 87.58,
+        "end": 87.84,
+        "probability": 0.892
+      },
+      {
+        "word": "为什么",
+        "start": 87.84,
+        "end": 88.16,
+        "probability": 0.995
+      },
+      {
+        "word": "要",
+        "start": 88.16,
+        "end": 88.38,
+        "probability": 0.999
+      },
+      {
+        "word": "check",
+        "start": 88.38,
+        "end": 88.64,
+        "probability": 0.81
+      },
+      {
+        "word": "到",
+        "start": 88.64,
+        "end": 88.82,
+        "probability": 0.995
+      },
+      {
+        "word": "main",
+        "start": 88.82,
+        "end": 89.06,
+        "probability": 0.978
+      },
+      {
+        "word": "上面",
+        "start": 89.06,
+        "end": 89.26,
+        "probability": 0.993
+      },
+      {
+        "word": "呢",
+        "start": 89.26,
+        "end": 89.56,
+        "probability": 0.865
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "text_zh": "就是把原来仓库上面的main",
+    "start": 89.56,
+    "end": 92.24,
+    "words": [
+      {
+        "word": "就是",
+        "start": 89.56,
+        "end": 90.0,
+        "probability": 0.843
+      },
+      {
+        "word": "把",
+        "start": 90.0,
+        "end": 90.4,
+        "probability": 0.995
+      },
+      {
+        "word": "原",
+        "start": 90.4,
+        "end": 91.0,
+        "probability": 0.846
+      },
+      {
+        "word": "来",
+        "start": 91.0,
+        "end": 91.24,
+        "probability": 0.999
+      },
+      {
+        "word": "仓",
+        "start": 91.24,
+        "end": 91.42,
+        "probability": 0.997
+      },
+      {
+        "word": "库",
+        "start": 91.42,
+        "end": 91.58,
+        "probability": 1.0
+      },
+      {
+        "word": "上面",
+        "start": 91.58,
+        "end": 91.8,
+        "probability": 0.996
+      },
+      {
+        "word": "的",
+        "start": 91.8,
+        "end": 92.02,
+        "probability": 0.999
+      },
+      {
+        "word": "main",
+        "start": 92.02,
+        "end": 92.24,
+        "probability": 0.925
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "text_zh": "跟我们本地的要更新同步一下",
+    "start": 92.24,
+    "end": 95.12,
+    "words": [
+      {
+        "word": "跟",
+        "start": 92.24,
+        "end": 92.48,
+        "probability": 0.955
+      },
+      {
+        "word": "我们",
+        "start": 92.48,
+        "end": 92.72,
+        "probability": 0.996
+      },
+      {
+        "word": "本",
+        "start": 92.72,
+        "end": 92.96,
+        "probability": 0.979
+      },
+      {
+        "word": "地",
+        "start": 92.96,
+        "end": 93.18,
+        "probability": 0.993
+      },
+      {
+        "word": "的",
+        "start": 93.18,
+        "end": 93.4,
+        "probability": 0.994
+      },
+      {
+        "word": "要",
+        "start": 93.4,
+        "end": 93.66,
+        "probability": 0.979
+      },
+      {
+        "word": "更",
+        "start": 93.66,
+        "end": 94.14,
+        "probability": 0.993
+      },
+      {
+        "word": "新",
+        "start": 94.14,
+        "end": 94.34,
+        "probability": 1.0
+      },
+      {
+        "word": "同",
+        "start": 94.34,
+        "end": 94.52,
+        "probability": 0.995
+      },
+      {
+        "word": "步",
+        "start": 94.52,
+        "end": 94.8,
+        "probability": 1.0
+      },
+      {
+        "word": "一下",
+        "start": 94.8,
+        "end": 95.12,
+        "probability": 0.999
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "text_zh": "这样就拉下来了",
+    "start": 95.54,
+    "end": 101.65,
+    "words": [
+      {
+        "word": "这样",
+        "start": 95.54,
+        "end": 95.8,
+        "probability": 0.965
+      },
+      {
+        "word": "就",
+        "start": 100.25,
+        "end": 100.63,
+        "probability": 0.998
+      },
+      {
+        "word": "拉",
+        "start": 100.63,
+        "end": 101.31,
+        "probability": 0.536
+      },
+      {
+        "word": "下",
+        "start": 101.31,
+        "end": 101.43,
+        "probability": 1.0
+      },
+      {
+        "word": "来了",
+        "start": 101.43,
+        "end": 101.65,
+        "probability": 0.998
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "text_zh": "这边可以看到",
+    "start": 101.65,
+    "end": 102.49,
+    "words": [
+      {
+        "word": "这",
+        "start": 101.65,
+        "end": 101.85,
+        "probability": 0.87
+      },
+      {
+        "word": "边",
+        "start": 101.85,
+        "end": 102.01,
+        "probability": 1.0
+      },
+      {
+        "word": "可以",
+        "start": 102.01,
+        "end": 102.17,
+        "probability": 0.993
+      },
+      {
+        "word": "看到",
+        "start": 102.17,
+        "end": 102.49,
+        "probability": 0.988
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "text_zh": "这边是在main上面",
+    "start": 102.81,
+    "end": 103.95,
+    "words": [
+      {
+        "word": "这",
+        "start": 102.81,
+        "end": 103.07,
+        "probability": 0.921
+      },
+      {
+        "word": "边",
+        "start": 103.07,
+        "end": 103.27,
+        "probability": 0.999
+      },
+      {
+        "word": "是",
+        "start": 103.27,
+        "end": 103.39,
+        "probability": 0.998
+      },
+      {
+        "word": "在",
+        "start": 103.39,
+        "end": 103.57,
+        "probability": 0.99
+      },
+      {
+        "word": "main",
+        "start": 103.57,
+        "end": 103.73,
+        "probability": 0.976
+      },
+      {
+        "word": "上面",
+        "start": 103.73,
+        "end": 103.95,
+        "probability": 0.989
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "text_zh": "然后我们回到我们之前",
+    "start": 103.95,
+    "end": 106.67,
+    "words": [
+      {
+        "word": "然后",
+        "start": 103.95,
+        "end": 104.37,
+        "probability": 0.981
+      },
+      {
+        "word": "我们",
+        "start": 104.37,
+        "end": 104.77,
+        "probability": 0.995
+      },
+      {
+        "word": "回",
+        "start": 104.77,
+        "end": 105.45,
+        "probability": 0.996
+      },
+      {
+        "word": "到",
+        "start": 105.45,
+        "end": 105.65,
+        "probability": 1.0
+      },
+      {
+        "word": "我们",
+        "start": 105.65,
+        "end": 106.07,
+        "probability": 0.994
+      },
+      {
+        "word": "之前",
+        "start": 106.07,
+        "end": 106.67,
+        "probability": 0.995
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "text_zh": "创建的deaf分子上",
+    "start": 106.67,
+    "end": 108.59,
+    "words": [
+      {
+        "word": "创",
+        "start": 106.67,
+        "end": 107.11,
+        "probability": 0.495
+      },
+      {
+        "word": "建",
+        "start": 107.11,
+        "end": 107.25,
+        "probability": 0.998
+      },
+      {
+        "word": "的",
+        "start": 107.25,
+        "end": 107.49,
+        "probability": 0.931
+      },
+      {
+        "word": "de",
+        "start": 107.49,
+        "end": 107.97,
+        "probability": 0.266
+      },
+      {
+        "word": "af",
+        "start": 107.97,
+        "end": 108.03,
+        "probability": 0.047
+      },
+      {
+        "word": "分",
+        "start": 108.03,
+        "end": 108.21,
+        "probability": 0.839
+      },
+      {
+        "word": "子",
+        "start": 108.21,
+        "end": 108.33,
+        "probability": 0.269
+      },
+      {
+        "word": "上",
+        "start": 108.33,
+        "end": 108.59,
+        "probability": 0.888
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "text_zh": "这边就是我们deaf分子",
+    "start": 108.59,
+    "end": 112.44,
+    "words": [
+      {
+        "word": "这",
+        "start": 108.59,
+        "end": 108.89,
+        "probability": 0.839
+      },
+      {
+        "word": "边",
+        "start": 110.2,
+        "end": 111.18,
+        "probability": 0.997
+      },
+      {
+        "word": "就是",
+        "start": 111.18,
+        "end": 111.46,
+        "probability": 0.958
+      },
+      {
+        "word": "我们",
+        "start": 111.46,
+        "end": 111.8,
+        "probability": 0.956
+      },
+      {
+        "word": "de",
+        "start": 111.8,
+        "end": 112.08,
+        "probability": 0.765
+      },
+      {
+        "word": "af",
+        "start": 112.08,
+        "end": 112.12,
+        "probability": 0.993
+      },
+      {
+        "word": "分",
+        "start": 112.12,
+        "end": 112.3,
+        "probability": 0.984
+      },
+      {
+        "word": "子",
+        "start": 112.3,
+        "end": 112.44,
+        "probability": 0.992
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "text_zh": "我们来尝试合并一下rebase一下",
+    "start": 112.44,
+    "end": 115.56,
+    "words": [
+      {
+        "word": "我们",
+        "start": 112.44,
+        "end": 112.96,
+        "probability": 0.964
+      },
+      {
+        "word": "来",
+        "start": 112.96,
+        "end": 113.22,
+        "probability": 0.995
+      },
+      {
+        "word": "尝",
+        "start": 113.22,
+        "end": 113.56,
+        "probability": 0.998
+      },
+      {
+        "word": "试",
+        "start": 113.56,
+        "end": 113.94,
+        "probability": 1.0
+      },
+      {
+        "word": "合",
+        "start": 113.94,
+        "end": 114.28,
+        "probability": 0.31
+      },
+      {
+        "word": "并",
+        "start": 114.28,
+        "end": 114.58,
+        "probability": 0.996
+      },
+      {
+        "word": "一下",
+        "start": 114.58,
+        "end": 114.74,
+        "probability": 0.983
+      },
+      {
+        "word": "re",
+        "start": 114.74,
+        "end": 115.04,
+        "probability": 0.862
+      },
+      {
+        "word": "base",
+        "start": 115.04,
+        "end": 115.3,
+        "probability": 0.934
+      },
+      {
+        "word": "一下",
+        "start": 115.3,
+        "end": 115.56,
+        "probability": 0.89
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "text_zh": "这个时候就看到有conflict",
+    "start": 115.56,
+    "end": 121.76,
+    "words": [
+      {
+        "word": "这个",
+        "start": 115.56,
+        "end": 116.46,
+        "probability": 0.395
+      },
+      {
+        "word": "时候",
+        "start": 120.08,
+        "end": 120.22,
+        "probability": 0.99
+      },
+      {
+        "word": "就",
+        "start": 120.22,
+        "end": 120.34,
+        "probability": 0.96
+      },
+      {
+        "word": "看到",
+        "start": 120.34,
+        "end": 120.6,
+        "probability": 0.997
+      },
+      {
+        "word": "有",
+        "start": 120.6,
+        "end": 120.92,
+        "probability": 0.983
+      },
+      {
+        "word": "con",
+        "start": 120.92,
+        "end": 121.46,
+        "probability": 0.815
+      },
+      {
+        "word": "fl",
+        "start": 121.46,
+        "end": 121.66,
+        "probability": 0.985
+      },
+      {
+        "word": "ict",
+        "start": 121.66,
+        "end": 121.76,
+        "probability": 0.999
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "text_zh": "然后我们来",
+    "start": 121.76,
+    "end": 123.28,
+    "words": [
+      {
+        "word": "然后",
+        "start": 121.76,
+        "end": 122.14,
+        "probability": 0.75
+      },
+      {
+        "word": "我们",
+        "start": 122.14,
+        "end": 122.88,
+        "probability": 0.952
+      },
+      {
+        "word": "来",
+        "start": 122.88,
+        "end": 123.28,
+        "probability": 0.524
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "text_zh": "为什么会有conflict呢",
+    "start": 123.28,
+    "end": 124.52,
+    "words": [
+      {
+        "word": "为什么",
+        "start": 123.28,
+        "end": 123.5,
+        "probability": 0.501
+      },
+      {
+        "word": "会",
+        "start": 123.5,
+        "end": 123.74,
+        "probability": 0.948
+      },
+      {
+        "word": "有",
+        "start": 123.74,
+        "end": 123.88,
+        "probability": 0.997
+      },
+      {
+        "word": "con",
+        "start": 123.88,
+        "end": 124.02,
+        "probability": 0.937
+      },
+      {
+        "word": "fl",
+        "start": 124.02,
+        "end": 124.14,
+        "probability": 0.997
+      },
+      {
+        "word": "ict",
+        "start": 124.14,
+        "end": 124.26,
+        "probability": 1.0
+      },
+      {
+        "word": "呢",
+        "start": 124.26,
+        "end": 124.52,
+        "probability": 0.792
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "text_zh": "因为在我修改好的同时",
+    "start": 124.52,
+    "end": 127.68,
+    "words": [
+      {
+        "word": "因为",
+        "start": 124.52,
+        "end": 125.02,
+        "probability": 0.939
+      },
+      {
+        "word": "在",
+        "start": 125.02,
+        "end": 125.44,
+        "probability": 0.978
+      },
+      {
+        "word": "我",
+        "start": 125.44,
+        "end": 125.8,
+        "probability": 0.998
+      },
+      {
+        "word": "修",
+        "start": 125.8,
+        "end": 126.3,
+        "probability": 0.999
+      },
+      {
+        "word": "改",
+        "start": 126.3,
+        "end": 126.48,
+        "probability": 0.999
+      },
+      {
+        "word": "好的",
+        "start": 126.48,
+        "end": 126.82,
+        "probability": 0.818
+      },
+      {
+        "word": "同",
+        "start": 126.82,
+        "end": 127.46,
+        "probability": 0.979
+      },
+      {
+        "word": "时",
+        "start": 127.46,
+        "end": 127.68,
+        "probability": 0.998
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "text_zh": "在main那边就是新增了一些代码",
+    "start": 127.68,
+    "end": 131.0,
+    "words": [
+      {
+        "word": "在",
+        "start": 127.68,
+        "end": 128.18,
+        "probability": 0.978
+      },
+      {
+        "word": "main",
+        "start": 128.18,
+        "end": 128.86,
+        "probability": 0.108
+      },
+      {
+        "word": "那",
+        "start": 128.86,
+        "end": 129.0,
+        "probability": 0.978
+      },
+      {
+        "word": "边",
+        "start": 129.0,
+        "end": 129.26,
+        "probability": 1.0
+      },
+      {
+        "word": "就是",
+        "start": 129.26,
+        "end": 129.72,
+        "probability": 0.918
+      },
+      {
+        "word": "新",
+        "start": 129.72,
+        "end": 130.1,
+        "probability": 0.998
+      },
+      {
+        "word": "增",
+        "start": 130.1,
+        "end": 130.32,
+        "probability": 1.0
+      },
+      {
+        "word": "了",
+        "start": 130.32,
+        "end": 130.4,
+        "probability": 0.984
+      },
+      {
+        "word": "一些",
+        "start": 130.4,
+        "end": 130.56,
+        "probability": 0.998
+      },
+      {
+        "word": "代",
+        "start": 130.56,
+        "end": 130.8,
+        "probability": 0.993
+      },
+      {
+        "word": "码",
+        "start": 130.8,
+        "end": 131.0,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "text_zh": "有一个新的push",
+    "start": 131.0,
+    "end": 131.84,
+    "words": [
+      {
+        "word": "有",
+        "start": 131.0,
+        "end": 131.2,
+        "probability": 0.827
+      },
+      {
+        "word": "一个",
+        "start": 131.2,
+        "end": 131.3,
+        "probability": 0.625
+      },
+      {
+        "word": "新",
+        "start": 131.3,
+        "end": 131.48,
+        "probability": 1.0
+      },
+      {
+        "word": "的",
+        "start": 131.48,
+        "end": 131.58,
+        "probability": 0.999
+      },
+      {
+        "word": "p",
+        "start": 131.58,
+        "end": 131.68,
+        "probability": 0.931
+      },
+      {
+        "word": "ush",
+        "start": 131.68,
+        "end": 131.84,
+        "probability": 0.996
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "text_zh": "这边就可以看到是有两个",
+    "start": 131.84,
+    "end": 133.84,
+    "words": [
+      {
+        "word": "这",
+        "start": 131.84,
+        "end": 132.08,
+        "probability": 0.964
+      },
+      {
+        "word": "边",
+        "start": 132.08,
+        "end": 132.28,
+        "probability": 1.0
+      },
+      {
+        "word": "就可以",
+        "start": 132.28,
+        "end": 132.42,
+        "probability": 0.996
+      },
+      {
+        "word": "看到",
+        "start": 132.42,
+        "end": 132.84,
+        "probability": 0.999
+      },
+      {
+        "word": "是",
+        "start": 132.84,
+        "end": 133.2,
+        "probability": 0.906
+      },
+      {
+        "word": "有",
+        "start": 133.2,
+        "end": 133.38,
+        "probability": 0.999
+      },
+      {
+        "word": "两",
+        "start": 133.38,
+        "end": 133.62,
+        "probability": 0.984
+      },
+      {
+        "word": "个",
+        "start": 133.62,
+        "end": 133.84,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "text_zh": "一个是我添加的",
+    "start": 133.84,
+    "end": 135.72,
+    "words": [
+      {
+        "word": "一个",
+        "start": 133.84,
+        "end": 134.24,
+        "probability": 0.959
+      },
+      {
+        "word": "是我",
+        "start": 134.24,
+        "end": 134.64,
+        "probability": 0.989
+      },
+      {
+        "word": "添",
+        "start": 134.64,
+        "end": 135.4,
+        "probability": 0.983
+      },
+      {
+        "word": "加",
+        "start": 135.4,
+        "end": 135.56,
+        "probability": 0.998
+      },
+      {
+        "word": "的",
+        "start": 135.56,
+        "end": 135.72,
+        "probability": 0.997
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "text_zh": "一个是在我push之前",
+    "start": 135.72,
+    "end": 137.6,
+    "words": [
+      {
+        "word": "一个",
+        "start": 135.72,
+        "end": 136.08,
+        "probability": 0.982
+      },
+      {
+        "word": "是",
+        "start": 136.08,
+        "end": 136.38,
+        "probability": 0.997
+      },
+      {
+        "word": "在",
+        "start": 136.38,
+        "end": 136.56,
+        "probability": 0.999
+      },
+      {
+        "word": "我",
+        "start": 136.56,
+        "end": 136.88,
+        "probability": 0.896
+      },
+      {
+        "word": "p",
+        "start": 136.88,
+        "end": 137.16,
+        "probability": 0.271
+      },
+      {
+        "word": "ush",
+        "start": 137.16,
+        "end": 137.26,
+        "probability": 0.998
+      },
+      {
+        "word": "之前",
+        "start": 137.26,
+        "end": 137.6,
+        "probability": 0.976
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "text_zh": "他push上去的",
+    "start": 137.6,
+    "end": 138.84,
+    "words": [
+      {
+        "word": "他",
+        "start": 137.6,
+        "end": 138.04,
+        "probability": 0.737
+      },
+      {
+        "word": "p",
+        "start": 138.04,
+        "end": 138.18,
+        "probability": 0.986
+      },
+      {
+        "word": "ush",
+        "start": 138.18,
+        "end": 138.32,
+        "probability": 1.0
+      },
+      {
+        "word": "上",
+        "start": 138.32,
+        "end": 138.48,
+        "probability": 0.996
+      },
+      {
+        "word": "去",
+        "start": 138.48,
+        "end": 138.72,
+        "probability": 0.998
+      },
+      {
+        "word": "的",
+        "start": 138.72,
+        "end": 138.84,
+        "probability": 0.997
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "text_zh": "所以我们要手动进行一个conflict release",
+    "start": 138.84,
+    "end": 141.58,
+    "words": [
+      {
+        "word": "所以",
+        "start": 138.84,
+        "end": 139.1,
+        "probability": 0.994
+      },
+      {
+        "word": "我们",
+        "start": 139.1,
+        "end": 139.28,
+        "probability": 0.997
+      },
+      {
+        "word": "要",
+        "start": 139.28,
+        "end": 139.54,
+        "probability": 0.997
+      },
+      {
+        "word": "手",
+        "start": 139.54,
+        "end": 139.92,
+        "probability": 0.535
+      },
+      {
+        "word": "动",
+        "start": 139.92,
+        "end": 140.08,
+        "probability": 0.778
+      },
+      {
+        "word": "进",
+        "start": 140.08,
+        "end": 140.22,
+        "probability": 0.994
+      },
+      {
+        "word": "行",
+        "start": 140.22,
+        "end": 140.46,
+        "probability": 1.0
+      },
+      {
+        "word": "一个",
+        "start": 140.46,
+        "end": 140.72,
+        "probability": 0.999
+      },
+      {
+        "word": "con",
+        "start": 140.72,
+        "end": 141.14,
+        "probability": 0.983
+      },
+      {
+        "word": "fl",
+        "start": 141.14,
+        "end": 141.26,
+        "probability": 0.995
+      },
+      {
+        "word": "ict",
+        "start": 141.26,
+        "end": 141.38,
+        "probability": 0.999
+      },
+      {
+        "word": "release",
+        "start": 141.38,
+        "end": 141.58,
+        "probability": 0.132
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "text_zh": "假设我想保留双方的代码",
+    "start": 142.1,
+    "end": 150.68,
+    "words": [
+      {
+        "word": "假",
+        "start": 142.1,
+        "end": 142.6,
+        "probability": 0.765
+      },
+      {
+        "word": "设",
+        "start": 148.26,
+        "end": 148.52,
+        "probability": 0.821
+      },
+      {
+        "word": "我想",
+        "start": 148.52,
+        "end": 148.78,
+        "probability": 0.969
+      },
+      {
+        "word": "保",
+        "start": 148.78,
+        "end": 149.32,
+        "probability": 0.945
+      },
+      {
+        "word": "留",
+        "start": 149.32,
+        "end": 149.62,
+        "probability": 1.0
+      },
+      {
+        "word": "双",
+        "start": 149.62,
+        "end": 150.1,
+        "probability": 0.999
+      },
+      {
+        "word": "方",
+        "start": 150.1,
+        "end": 150.26,
+        "probability": 0.999
+      },
+      {
+        "word": "的",
+        "start": 150.26,
+        "end": 150.4,
+        "probability": 0.993
+      },
+      {
+        "word": "代",
+        "start": 150.4,
+        "end": 150.52,
+        "probability": 0.994
+      },
+      {
+        "word": "码",
+        "start": 150.52,
+        "end": 150.68,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "text_zh": "我就这样子操作",
+    "start": 150.68,
+    "end": 152.1,
+    "words": [
+      {
+        "word": "我就",
+        "start": 150.68,
+        "end": 150.98,
+        "probability": 0.78
+      },
+      {
+        "word": "这样",
+        "start": 150.98,
+        "end": 151.4,
+        "probability": 0.99
+      },
+      {
+        "word": "子",
+        "start": 151.4,
+        "end": 151.58,
+        "probability": 0.363
+      },
+      {
+        "word": "操",
+        "start": 151.58,
+        "end": 151.88,
+        "probability": 0.946
+      },
+      {
+        "word": "作",
+        "start": 151.88,
+        "end": 152.1,
+        "probability": 0.999
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "text_zh": "然后我们来edit一下",
+    "start": 152.57,
+    "end": 154.5,
+    "words": [
+      {
+        "word": "然后",
+        "start": 152.57,
+        "end": 152.82,
+        "probability": 0.876
+      },
+      {
+        "word": "我们",
+        "start": 152.82,
+        "end": 153.74,
+        "probability": 0.988
+      },
+      {
+        "word": "来",
+        "start": 153.74,
+        "end": 153.98,
+        "probability": 0.981
+      },
+      {
+        "word": "ed",
+        "start": 153.98,
+        "end": 154.18,
+        "probability": 0.312
+      },
+      {
+        "word": "it",
+        "start": 154.18,
+        "end": 154.32,
+        "probability": 0.991
+      },
+      {
+        "word": "一下",
+        "start": 154.32,
+        "end": 154.5,
+        "probability": 0.132
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "text_zh": "然后我们要finish一下",
+    "start": 161.58,
+    "end": 164.26,
+    "words": [
+      {
+        "word": "然后",
+        "start": 161.58,
+        "end": 162.08,
+        "probability": 0.808
+      },
+      {
+        "word": "我们",
+        "start": 162.08,
+        "end": 162.58,
+        "probability": 0.989
+      },
+      {
+        "word": "要",
+        "start": 162.58,
+        "end": 163.0,
+        "probability": 0.804
+      },
+      {
+        "word": "fin",
+        "start": 163.0,
+        "end": 163.82,
+        "probability": 0.065
+      },
+      {
+        "word": "ish",
+        "start": 163.82,
+        "end": 164.02,
+        "probability": 0.929
+      },
+      {
+        "word": "一下",
+        "start": 164.02,
+        "end": 164.26,
+        "probability": 0.184
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "text_zh": "对就看到successfullyrebase",
+    "start": 169.23,
+    "end": 171.24,
+    "words": [
+      {
+        "word": "对",
+        "start": 169.23,
+        "end": 169.48,
+        "probability": 0.315
+      },
+      {
+        "word": "就",
+        "start": 169.48,
+        "end": 169.6,
+        "probability": 0.518
+      },
+      {
+        "word": "看到",
+        "start": 169.6,
+        "end": 169.9,
+        "probability": 0.994
+      },
+      {
+        "word": "s",
+        "start": 169.9,
+        "end": 170.16,
+        "probability": 0.814
+      },
+      {
+        "word": "uccess",
+        "start": 170.16,
+        "end": 170.3,
+        "probability": 0.973
+      },
+      {
+        "word": "fully",
+        "start": 170.3,
+        "end": 170.78,
+        "probability": 0.994
+      },
+      {
+        "word": "re",
+        "start": 170.78,
+        "end": 170.96,
+        "probability": 0.155
+      },
+      {
+        "word": "base",
+        "start": 170.96,
+        "end": 171.24,
+        "probability": 0.184
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "text_zh": "然后就可以了",
+    "start": 171.57,
+    "end": 172.82,
+    "words": [
+      {
+        "word": "然后",
+        "start": 171.57,
+        "end": 171.82,
+        "probability": 0.864
+      },
+      {
+        "word": "就可以",
+        "start": 171.82,
+        "end": 172.5,
+        "probability": 0.76
+      },
+      {
+        "word": "了",
+        "start": 172.5,
+        "end": 172.82,
+        "probability": 0.996
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "text_zh": "我们就把它再push上去",
+    "start": 172.82,
+    "end": 175.32,
+    "words": [
+      {
+        "word": "我们",
+        "start": 172.82,
+        "end": 173.26,
+        "probability": 0.971
+      },
+      {
+        "word": "就",
+        "start": 173.26,
+        "end": 173.42,
+        "probability": 0.993
+      },
+      {
+        "word": "把它",
+        "start": 173.42,
+        "end": 173.64,
+        "probability": 0.964
+      },
+      {
+        "word": "再",
+        "start": 173.64,
+        "end": 174.3,
+        "probability": 0.793
+      },
+      {
+        "word": "p",
+        "start": 174.3,
+        "end": 174.78,
+        "probability": 0.875
+      },
+      {
+        "word": "ush",
+        "start": 174.78,
+        "end": 174.9,
+        "probability": 0.999
+      },
+      {
+        "word": "上",
+        "start": 174.9,
+        "end": 175.04,
+        "probability": 0.993
+      },
+      {
+        "word": "去",
+        "start": 175.04,
+        "end": 175.32,
+        "probability": 0.992
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "text_zh": "这边就push成功了",
+    "start": 186.52,
+    "end": 188.09,
+    "words": [
+      {
+        "word": "这",
+        "start": 186.52,
+        "end": 186.77,
+        "probability": 0.979
+      },
+      {
+        "word": "边",
+        "start": 186.77,
+        "end": 186.93,
+        "probability": 0.998
+      },
+      {
+        "word": "就",
+        "start": 186.93,
+        "end": 187.09,
+        "probability": 0.991
+      },
+      {
+        "word": "p",
+        "start": 187.09,
+        "end": 187.33,
+        "probability": 0.945
+      },
+      {
+        "word": "ush",
+        "start": 187.33,
+        "end": 187.47,
+        "probability": 1.0
+      },
+      {
+        "word": "成",
+        "start": 187.47,
+        "end": 187.67,
+        "probability": 0.995
+      },
+      {
+        "word": "功",
+        "start": 187.67,
+        "end": 187.93,
+        "probability": 1.0
+      },
+      {
+        "word": "了",
+        "start": 187.93,
+        "end": 188.09,
+        "probability": 0.972
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "text_zh": "好谢谢孙蝴蝶同学",
+    "start": 190.48,
+    "end": 191.85,
+    "words": [
+      {
+        "word": "好",
+        "start": 190.48,
+        "end": 190.73,
+        "probability": 0.594
+      },
+      {
+        "word": "谢谢",
+        "start": 190.73,
+        "end": 191.01,
+        "probability": 0.742
+      },
+      {
+        "word": "孙",
+        "start": 191.01,
+        "end": 191.25,
+        "probability": 0.994
+      },
+      {
+        "word": "蝴",
+        "start": 191.25,
+        "end": 191.37,
+        "probability": 0.675
+      },
+      {
+        "word": "蝶",
+        "start": 191.37,
+        "end": 191.43,
+        "probability": 1.0
+      },
+      {
+        "word": "同",
+        "start": 191.43,
+        "end": 191.63,
+        "probability": 0.991
+      },
+      {
+        "word": "学",
+        "start": 191.63,
+        "end": 191.85,
+        "probability": 0.999
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "text_zh": "在孙蝴蝶同学对deaf进行修改的同时呢",
+    "start": 192.28,
+    "end": 195.65,
+    "words": [
+      {
+        "word": "在",
+        "start": 192.28,
+        "end": 192.53,
+        "probability": 0.961
+      },
+      {
+        "word": "孙",
+        "start": 192.53,
+        "end": 192.81,
+        "probability": 0.997
+      },
+      {
+        "word": "蝴",
+        "start": 192.81,
+        "end": 192.93,
+        "probability": 0.973
+      },
+      {
+        "word": "蝶",
+        "start": 192.93,
+        "end": 192.97,
+        "probability": 1.0
+      },
+      {
+        "word": "同",
+        "start": 192.97,
+        "end": 193.15,
+        "probability": 0.995
+      },
+      {
+        "word": "学",
+        "start": 193.15,
+        "end": 193.41,
+        "probability": 0.999
+      },
+      {
+        "word": "对",
+        "start": 193.41,
+        "end": 193.79,
+        "probability": 0.994
+      },
+      {
+        "word": "de",
+        "start": 193.79,
+        "end": 194.15,
+        "probability": 0.039
+      },
+      {
+        "word": "af",
+        "start": 194.15,
+        "end": 194.33,
+        "probability": 0.18
+      },
+      {
+        "word": "进",
+        "start": 194.33,
+        "end": 194.49,
+        "probability": 0.993
+      },
+      {
+        "word": "行",
+        "start": 194.49,
+        "end": 194.75,
+        "probability": 0.999
+      },
+      {
+        "word": "修",
+        "start": 194.75,
+        "end": 195.01,
+        "probability": 1.0
+      },
+      {
+        "word": "改",
+        "start": 195.01,
+        "end": 195.11,
+        "probability": 0.999
+      },
+      {
+        "word": "的",
+        "start": 195.11,
+        "end": 195.23,
+        "probability": 0.997
+      },
+      {
+        "word": "同",
+        "start": 195.23,
+        "end": 195.35,
+        "probability": 0.999
+      },
+      {
+        "word": "时",
+        "start": 195.35,
+        "end": 195.57,
+        "probability": 0.999
+      },
+      {
+        "word": "呢",
+        "start": 195.57,
+        "end": 195.65,
+        "probability": 0.795
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "text_zh": "我在main也进行了修改",
+    "start": 196.06,
+    "end": 197.93,
+    "words": [
+      {
+        "word": "我在",
+        "start": 196.06,
+        "end": 196.31,
+        "probability": 0.982
+      },
+      {
+        "word": "main",
+        "start": 196.31,
+        "end": 196.69,
+        "probability": 0.873
+      },
+      {
+        "word": "也",
+        "start": 196.69,
+        "end": 196.97,
+        "probability": 0.982
+      },
+      {
+        "word": "进",
+        "start": 196.97,
+        "end": 197.19,
+        "probability": 0.998
+      },
+      {
+        "word": "行了",
+        "start": 197.19,
+        "end": 197.43,
+        "probability": 0.993
+      },
+      {
+        "word": "修",
+        "start": 197.43,
+        "end": 197.79,
+        "probability": 0.954
+      },
+      {
+        "word": "改",
+        "start": 197.79,
+        "end": 197.93,
+        "probability": 0.999
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "text_zh": "因为一些原因",
+    "start": 197.93,
+    "end": 198.89,
+    "words": [
+      {
+        "word": "因为",
+        "start": 197.93,
+        "end": 198.27,
+        "probability": 0.974
+      },
+      {
+        "word": "一些",
+        "start": 198.27,
+        "end": 198.47,
+        "probability": 0.993
+      },
+      {
+        "word": "原因",
+        "start": 198.47,
+        "end": 198.89,
+        "probability": 0.999
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "text_zh": "然后我这边在原来的代码的基础上继续修改",
+    "start": 199.31,
+    "end": 203.03,
+    "words": [
+      {
+        "word": "然后",
+        "start": 199.31,
+        "end": 199.41,
+        "probability": 0.966
+      },
+      {
+        "word": "我",
+        "start": 199.41,
+        "end": 199.71,
+        "probability": 0.935
+      },
+      {
+        "word": "这",
+        "start": 199.71,
+        "end": 199.81,
+        "probability": 0.993
+      },
+      {
+        "word": "边",
+        "start": 199.81,
+        "end": 200.05,
+        "probability": 1.0
+      },
+      {
+        "word": "在",
+        "start": 200.05,
+        "end": 200.45,
+        "probability": 0.98
+      },
+      {
+        "word": "原",
+        "start": 200.45,
+        "end": 200.65,
+        "probability": 0.997
+      },
+      {
+        "word": "来",
+        "start": 200.65,
+        "end": 200.87,
+        "probability": 1.0
+      },
+      {
+        "word": "的",
+        "start": 200.87,
+        "end": 200.99,
+        "probability": 0.987
+      },
+      {
+        "word": "代",
+        "start": 200.99,
+        "end": 201.11,
+        "probability": 0.997
+      },
+      {
+        "word": "码",
+        "start": 201.11,
+        "end": 201.31,
+        "probability": 1.0
+      },
+      {
+        "word": "的",
+        "start": 201.31,
+        "end": 201.49,
+        "probability": 0.964
+      },
+      {
+        "word": "基",
+        "start": 201.49,
+        "end": 201.95,
+        "probability": 0.993
+      },
+      {
+        "word": "础",
+        "start": 201.95,
+        "end": 202.11,
+        "probability": 1.0
+      },
+      {
+        "word": "上",
+        "start": 202.11,
+        "end": 202.29,
+        "probability": 0.999
+      },
+      {
+        "word": "继",
+        "start": 202.29,
+        "end": 202.55,
+        "probability": 0.995
+      },
+      {
+        "word": "续",
+        "start": 202.55,
+        "end": 202.69,
+        "probability": 1.0
+      },
+      {
+        "word": "修",
+        "start": 202.69,
+        "end": 202.89,
+        "probability": 1.0
+      },
+      {
+        "word": "改",
+        "start": 202.89,
+        "end": 203.03,
+        "probability": 0.999
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "text_zh": "并没有考虑到孙蝴蝶同学的改发情况",
+    "start": 203.03,
+    "end": 205.87,
+    "words": [
+      {
+        "word": "并",
+        "start": 203.03,
+        "end": 203.27,
+        "probability": 0.921
+      },
+      {
+        "word": "没有",
+        "start": 203.27,
+        "end": 203.45,
+        "probability": 1.0
+      },
+      {
+        "word": "考",
+        "start": 203.45,
+        "end": 203.71,
+        "probability": 1.0
+      },
+      {
+        "word": "虑",
+        "start": 203.71,
+        "end": 203.91,
+        "probability": 1.0
+      },
+      {
+        "word": "到",
+        "start": 203.91,
+        "end": 204.11,
+        "probability": 0.998
+      },
+      {
+        "word": "孙",
+        "start": 204.11,
+        "end": 204.27,
+        "probability": 0.528
+      },
+      {
+        "word": "蝴",
+        "start": 204.27,
+        "end": 204.37,
+        "probability": 0.665
+      },
+      {
+        "word": "蝶",
+        "start": 204.37,
+        "end": 204.45,
+        "probability": 0.999
+      },
+      {
+        "word": "同",
+        "start": 204.45,
+        "end": 204.63,
+        "probability": 0.965
+      },
+      {
+        "word": "学",
+        "start": 204.63,
+        "end": 204.89,
+        "probability": 0.999
+      },
+      {
+        "word": "的",
+        "start": 204.89,
+        "end": 205.13,
+        "probability": 0.996
+      },
+      {
+        "word": "改",
+        "start": 205.13,
+        "end": 205.47,
+        "probability": 0.12
+      },
+      {
+        "word": "发",
+        "start": 205.47,
+        "end": 205.59,
+        "probability": 0.827
+      },
+      {
+        "word": "情况",
+        "start": 205.59,
+        "end": 205.87,
+        "probability": 0.998
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "text_zh": "所以我在里面加了一个u u u u",
+    "start": 205.87,
+    "end": 208.55,
+    "words": [
+      {
+        "word": "所以",
+        "start": 205.87,
+        "end": 206.29,
+        "probability": 0.811
+      },
+      {
+        "word": "我在",
+        "start": 206.29,
+        "end": 206.55,
+        "probability": 0.98
+      },
+      {
+        "word": "里",
+        "start": 206.55,
+        "end": 206.87,
+        "probability": 0.995
+      },
+      {
+        "word": "面",
+        "start": 206.87,
+        "end": 207.09,
+        "probability": 0.999
+      },
+      {
+        "word": "加",
+        "start": 207.09,
+        "end": 207.35,
+        "probability": 0.993
+      },
+      {
+        "word": "了",
+        "start": 207.35,
+        "end": 207.45,
+        "probability": 0.999
+      },
+      {
+        "word": "一个",
+        "start": 207.45,
+        "end": 207.67,
+        "probability": 0.996
+      },
+      {
+        "word": "u",
+        "start": 207.67,
+        "end": 207.99,
+        "probability": 0.339
+      },
+      {
+        "word": "u",
+        "start": 207.99,
+        "end": 208.17,
+        "probability": 0.562
+      },
+      {
+        "word": "u",
+        "start": 208.17,
+        "end": 208.35,
+        "probability": 0.975
+      },
+      {
+        "word": "u",
+        "start": 208.35,
+        "end": 208.55,
+        "probability": 0.928
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "text_zh": "然后我就来把我的代码进行一个保存",
+    "start": 208.55,
+    "end": 212.45,
+    "words": [
+      {
+        "word": "然后",
+        "start": 208.55,
+        "end": 208.97,
+        "probability": 0.976
+      },
+      {
+        "word": "我就",
+        "start": 208.97,
+        "end": 209.75,
+        "probability": 0.998
+      },
+      {
+        "word": "来",
+        "start": 209.75,
+        "end": 210.11,
+        "probability": 0.998
+      },
+      {
+        "word": "把",
+        "start": 210.11,
+        "end": 210.41,
+        "probability": 0.999
+      },
+      {
+        "word": "我的",
+        "start": 210.41,
+        "end": 210.65,
+        "probability": 1.0
+      },
+      {
+        "word": "代",
+        "start": 210.65,
+        "end": 210.91,
+        "probability": 1.0
+      },
+      {
+        "word": "码",
+        "start": 210.91,
+        "end": 211.11,
+        "probability": 1.0
+      },
+      {
+        "word": "进",
+        "start": 211.11,
+        "end": 211.29,
+        "probability": 0.991
+      },
+      {
+        "word": "行",
+        "start": 211.29,
+        "end": 211.61,
+        "probability": 0.998
+      },
+      {
+        "word": "一个",
+        "start": 211.61,
+        "end": 211.85,
+        "probability": 0.911
+      },
+      {
+        "word": "保",
+        "start": 211.85,
+        "end": 212.21,
+        "probability": 0.997
+      },
+      {
+        "word": "存",
+        "start": 212.21,
+        "end": 212.45,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "text_zh": "同时我意识到孙蝴蝶同学",
+    "start": 216.26,
+    "end": 218.43,
+    "words": [
+      {
+        "word": "同",
+        "start": 216.26,
+        "end": 216.47,
+        "probability": 0.997
+      },
+      {
+        "word": "时",
+        "start": 216.47,
+        "end": 216.63,
+        "probability": 0.999
+      },
+      {
+        "word": "我",
+        "start": 216.63,
+        "end": 216.77,
+        "probability": 0.992
+      },
+      {
+        "word": "意",
+        "start": 216.77,
+        "end": 216.87,
+        "probability": 1.0
+      },
+      {
+        "word": "识",
+        "start": 216.87,
+        "end": 217.01,
+        "probability": 1.0
+      },
+      {
+        "word": "到",
+        "start": 217.01,
+        "end": 217.21,
+        "probability": 1.0
+      },
+      {
+        "word": "孙",
+        "start": 217.21,
+        "end": 217.83,
+        "probability": 0.996
+      },
+      {
+        "word": "蝴",
+        "start": 217.83,
+        "end": 217.95,
+        "probability": 0.974
+      },
+      {
+        "word": "蝶",
+        "start": 217.95,
+        "end": 218.05,
+        "probability": 1.0
+      },
+      {
+        "word": "同",
+        "start": 218.05,
+        "end": 218.17,
+        "probability": 0.999
+      },
+      {
+        "word": "学",
+        "start": 218.17,
+        "end": 218.43,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "text_zh": "他提交了一个新的分支",
+    "start": 218.43,
+    "end": 220.23,
+    "words": [
+      {
+        "word": "他",
+        "start": 218.43,
+        "end": 218.59,
+        "probability": 0.797
+      },
+      {
+        "word": "提",
+        "start": 218.59,
+        "end": 218.85,
+        "probability": 1.0
+      },
+      {
+        "word": "交",
+        "start": 218.85,
+        "end": 218.95,
+        "probability": 0.998
+      },
+      {
+        "word": "了",
+        "start": 218.95,
+        "end": 219.07,
+        "probability": 0.999
+      },
+      {
+        "word": "一个",
+        "start": 219.07,
+        "end": 219.25,
+        "probability": 1.0
+      },
+      {
+        "word": "新",
+        "start": 219.25,
+        "end": 219.77,
+        "probability": 1.0
+      },
+      {
+        "word": "的",
+        "start": 219.77,
+        "end": 219.87,
+        "probability": 1.0
+      },
+      {
+        "word": "分",
+        "start": 219.87,
+        "end": 220.07,
+        "probability": 0.992
+      },
+      {
+        "word": "支",
+        "start": 220.07,
+        "end": 220.23,
+        "probability": 0.968
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "text_zh": "所以呢",
+    "start": 220.23,
+    "end": 220.83,
+    "words": [
+      {
+        "word": "所以呢",
+        "start": 220.23,
+        "end": 220.83,
+        "probability": 0.789
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "text_zh": "我就想把它的修改也合并进来",
+    "start": 221.28,
+    "end": 224.29,
+    "words": [
+      {
+        "word": "我就",
+        "start": 221.28,
+        "end": 221.49,
+        "probability": 0.97
+      },
+      {
+        "word": "想",
+        "start": 221.49,
+        "end": 221.69,
+        "probability": 1.0
+      },
+      {
+        "word": "把它",
+        "start": 221.69,
+        "end": 221.97,
+        "probability": 0.665
+      },
+      {
+        "word": "的",
+        "start": 221.97,
+        "end": 222.45,
+        "probability": 0.998
+      },
+      {
+        "word": "修",
+        "start": 222.45,
+        "end": 222.83,
+        "probability": 1.0
+      },
+      {
+        "word": "改",
+        "start": 222.83,
+        "end": 223.05,
+        "probability": 1.0
+      },
+      {
+        "word": "也",
+        "start": 223.05,
+        "end": 223.43,
+        "probability": 0.959
+      },
+      {
+        "word": "合",
+        "start": 223.43,
+        "end": 223.79,
+        "probability": 0.999
+      },
+      {
+        "word": "并",
+        "start": 223.79,
+        "end": 223.95,
+        "probability": 0.999
+      },
+      {
+        "word": "进",
+        "start": 223.95,
+        "end": 224.09,
+        "probability": 1.0
+      },
+      {
+        "word": "来",
+        "start": 224.09,
+        "end": 224.29,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "text_zh": "因为我在main上面",
+    "start": 224.8,
+    "end": 226.01,
+    "words": [
+      {
+        "word": "因为",
+        "start": 224.8,
+        "end": 225.01,
+        "probability": 0.997
+      },
+      {
+        "word": "我在",
+        "start": 225.01,
+        "end": 225.29,
+        "probability": 0.999
+      },
+      {
+        "word": "main",
+        "start": 225.29,
+        "end": 225.59,
+        "probability": 0.159
+      },
+      {
+        "word": "上面",
+        "start": 225.59,
+        "end": 226.01,
+        "probability": 0.989
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "text_zh": "所以我可以选择rebase",
+    "start": 226.01,
+    "end": 228.45,
+    "words": [
+      {
+        "word": "所以",
+        "start": 226.01,
+        "end": 226.45,
+        "probability": 0.982
+      },
+      {
+        "word": "我",
+        "start": 226.45,
+        "end": 226.99,
+        "probability": 0.999
+      },
+      {
+        "word": "可以",
+        "start": 226.99,
+        "end": 227.21,
+        "probability": 1.0
+      },
+      {
+        "word": "选",
+        "start": 227.21,
+        "end": 227.51,
+        "probability": 1.0
+      },
+      {
+        "word": "择",
+        "start": 227.51,
+        "end": 227.85,
+        "probability": 1.0
+      },
+      {
+        "word": "re",
+        "start": 227.85,
+        "end": 228.19,
+        "probability": 0.227
+      },
+      {
+        "word": "base",
+        "start": 228.19,
+        "end": 228.45,
+        "probability": 0.949
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "text_zh": "也可以选择merge",
+    "start": 228.45,
+    "end": 229.69,
+    "words": [
+      {
+        "word": "也可以",
+        "start": 228.45,
+        "end": 228.99,
+        "probability": 0.954
+      },
+      {
+        "word": "选",
+        "start": 228.99,
+        "end": 229.33,
+        "probability": 1.0
+      },
+      {
+        "word": "择",
+        "start": 229.33,
+        "end": 229.45,
+        "probability": 1.0
+      },
+      {
+        "word": "mer",
+        "start": 229.45,
+        "end": 229.65,
+        "probability": 0.963
+      },
+      {
+        "word": "ge",
+        "start": 229.65,
+        "end": 229.69,
+        "probability": 0.999
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "text_zh": "但是呢",
+    "start": 229.69,
+    "end": 230.29,
+    "words": [
+      {
+        "word": "但是",
+        "start": 229.69,
+        "end": 230.09,
+        "probability": 0.983
+      },
+      {
+        "word": "呢",
+        "start": 230.09,
+        "end": 230.29,
+        "probability": 0.912
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "text_zh": "这一次我就使用merge",
+    "start": 230.29,
+    "end": 231.49,
+    "words": [
+      {
+        "word": "这",
+        "start": 230.29,
+        "end": 230.43,
+        "probability": 0.978
+      },
+      {
+        "word": "一次",
+        "start": 230.43,
+        "end": 230.61,
+        "probability": 0.761
+      },
+      {
+        "word": "我就",
+        "start": 230.61,
+        "end": 230.81,
+        "probability": 0.97
+      },
+      {
+        "word": "使",
+        "start": 230.81,
+        "end": 231.07,
+        "probability": 0.999
+      },
+      {
+        "word": "用",
+        "start": 231.07,
+        "end": 231.23,
+        "probability": 1.0
+      },
+      {
+        "word": "mer",
+        "start": 231.23,
+        "end": 231.43,
+        "probability": 0.986
+      },
+      {
+        "word": "ge",
+        "start": 231.43,
+        "end": 231.49,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "text_zh": "所以我第一步",
+    "start": 231.49,
+    "end": 232.29,
+    "words": [
+      {
+        "word": "所以",
+        "start": 231.49,
+        "end": 231.79,
+        "probability": 0.975
+      },
+      {
+        "word": "我",
+        "start": 231.79,
+        "end": 231.93,
+        "probability": 0.986
+      },
+      {
+        "word": "第一",
+        "start": 231.93,
+        "end": 232.11,
+        "probability": 0.995
+      },
+      {
+        "word": "步",
+        "start": 232.11,
+        "end": 232.29,
+        "probability": 0.995
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "text_zh": "就是要git fetch他的修改",
+    "start": 232.57,
+    "end": 234.75,
+    "words": [
+      {
+        "word": "就是",
+        "start": 232.57,
+        "end": 232.57,
+        "probability": 0.078
+      },
+      {
+        "word": "要",
+        "start": 232.57,
+        "end": 232.71,
+        "probability": 0.695
+      },
+      {
+        "word": "g",
+        "start": 232.71,
+        "end": 233.11,
+        "probability": 0.708
+      },
+      {
+        "word": "it",
+        "start": 233.11,
+        "end": 233.29,
+        "probability": 0.893
+      },
+      {
+        "word": "fetch",
+        "start": 233.29,
+        "end": 233.77,
+        "probability": 0.828
+      },
+      {
+        "word": "他的",
+        "start": 233.77,
+        "end": 234.25,
+        "probability": 0.32
+      },
+      {
+        "word": "修",
+        "start": 234.25,
+        "end": 234.65,
+        "probability": 0.993
+      },
+      {
+        "word": "改",
+        "start": 234.65,
+        "end": 234.75,
+        "probability": 0.994
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "text_zh": "我这里就是dash dash all",
+    "start": 235.17,
+    "end": 236.87,
+    "words": [
+      {
+        "word": "我",
+        "start": 235.17,
+        "end": 235.41,
+        "probability": 0.411
+      },
+      {
+        "word": "这里",
+        "start": 235.41,
+        "end": 235.65,
+        "probability": 0.985
+      },
+      {
+        "word": "就是",
+        "start": 235.65,
+        "end": 235.95,
+        "probability": 0.976
+      },
+      {
+        "word": "d",
+        "start": 235.95,
+        "end": 236.23,
+        "probability": 0.264
+      },
+      {
+        "word": "ash",
+        "start": 236.23,
+        "end": 236.37,
+        "probability": 0.969
+      },
+      {
+        "word": "dash",
+        "start": 236.37,
+        "end": 236.57,
+        "probability": 0.303
+      },
+      {
+        "word": "all",
+        "start": 236.57,
+        "end": 236.87,
+        "probability": 0.623
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "text_zh": "然后我想merge孙蝴蝶同学的deaf这样的一个分支",
+    "start": 237.35,
+    "end": 240.95,
+    "words": [
+      {
+        "word": "然后",
+        "start": 237.35,
+        "end": 237.59,
+        "probability": 0.927
+      },
+      {
+        "word": "我想",
+        "start": 237.59,
+        "end": 237.97,
+        "probability": 0.994
+      },
+      {
+        "word": "mer",
+        "start": 237.97,
+        "end": 238.33,
+        "probability": 0.759
+      },
+      {
+        "word": "ge",
+        "start": 238.33,
+        "end": 238.39,
+        "probability": 0.996
+      },
+      {
+        "word": "孙",
+        "start": 238.39,
+        "end": 238.79,
+        "probability": 0.98
+      },
+      {
+        "word": "蝴",
+        "start": 238.79,
+        "end": 238.93,
+        "probability": 0.805
+      },
+      {
+        "word": "蝶",
+        "start": 238.93,
+        "end": 238.99,
+        "probability": 0.999
+      },
+      {
+        "word": "同",
+        "start": 238.99,
+        "end": 239.19,
+        "probability": 0.99
+      },
+      {
+        "word": "学",
+        "start": 239.19,
+        "end": 239.43,
+        "probability": 0.999
+      },
+      {
+        "word": "的",
+        "start": 239.43,
+        "end": 239.63,
+        "probability": 0.935
+      },
+      {
+        "word": "de",
+        "start": 239.63,
+        "end": 240.01,
+        "probability": 0.022
+      },
+      {
+        "word": "af",
+        "start": 240.01,
+        "end": 240.09,
+        "probability": 0.008
+      },
+      {
+        "word": "这样",
+        "start": 240.09,
+        "end": 240.35,
+        "probability": 0.659
+      },
+      {
+        "word": "的",
+        "start": 240.35,
+        "end": 240.43,
+        "probability": 0.975
+      },
+      {
+        "word": "一个",
+        "start": 240.43,
+        "end": 240.57,
+        "probability": 0.984
+      },
+      {
+        "word": "分",
+        "start": 240.57,
+        "end": 240.77,
+        "probability": 0.991
+      },
+      {
+        "word": "支",
+        "start": 240.77,
+        "end": 240.95,
+        "probability": 0.948
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "text_zh": "所以我就写git merge",
+    "start": 240.95,
+    "end": 243.11,
+    "words": [
+      {
+        "word": "所以",
+        "start": 240.95,
+        "end": 241.19,
+        "probability": 0.891
+      },
+      {
+        "word": "我就",
+        "start": 241.19,
+        "end": 241.51,
+        "probability": 0.999
+      },
+      {
+        "word": "写",
+        "start": 241.51,
+        "end": 242.13,
+        "probability": 0.998
+      },
+      {
+        "word": "g",
+        "start": 242.13,
+        "end": 242.47,
+        "probability": 0.94
+      },
+      {
+        "word": "it",
+        "start": 242.47,
+        "end": 242.65,
+        "probability": 0.957
+      },
+      {
+        "word": "merge",
+        "start": 242.65,
+        "end": 243.11,
+        "probability": 0.984
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "text_zh": "因为他的代码是在origin deaf上面",
+    "start": 243.77,
+    "end": 246.73,
+    "words": [
+      {
+        "word": "因为",
+        "start": 243.77,
+        "end": 244.01,
+        "probability": 0.968
+      },
+      {
+        "word": "他的",
+        "start": 244.01,
+        "end": 244.37,
+        "probability": 0.8
+      },
+      {
+        "word": "代",
+        "start": 244.37,
+        "end": 244.63,
+        "probability": 0.991
+      },
+      {
+        "word": "码",
+        "start": 244.63,
+        "end": 244.81,
+        "probability": 1.0
+      },
+      {
+        "word": "是",
+        "start": 244.81,
+        "end": 245.15,
+        "probability": 0.992
+      },
+      {
+        "word": "在",
+        "start": 245.15,
+        "end": 245.37,
+        "probability": 0.986
+      },
+      {
+        "word": "orig",
+        "start": 245.37,
+        "end": 245.75,
+        "probability": 0.917
+      },
+      {
+        "word": "in",
+        "start": 245.75,
+        "end": 246.09,
+        "probability": 0.854
+      },
+      {
+        "word": "de",
+        "start": 246.09,
+        "end": 246.31,
+        "probability": 0.084
+      },
+      {
+        "word": "af",
+        "start": 246.31,
+        "end": 246.45,
+        "probability": 0.963
+      },
+      {
+        "word": "上面",
+        "start": 246.45,
+        "end": 246.73,
+        "probability": 0.974
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "text_zh": "所以我就merge这样的一个branch",
+    "start": 247.17,
+    "end": 249.67,
+    "words": [
+      {
+        "word": "所以",
+        "start": 247.17,
+        "end": 247.41,
+        "probability": 0.98
+      },
+      {
+        "word": "我就",
+        "start": 247.41,
+        "end": 247.65,
+        "probability": 0.978
+      },
+      {
+        "word": "mer",
+        "start": 247.65,
+        "end": 248.23,
+        "probability": 0.976
+      },
+      {
+        "word": "ge",
+        "start": 248.23,
+        "end": 248.31,
+        "probability": 0.999
+      },
+      {
+        "word": "这样",
+        "start": 248.31,
+        "end": 248.75,
+        "probability": 0.966
+      },
+      {
+        "word": "的",
+        "start": 248.75,
+        "end": 248.91,
+        "probability": 0.991
+      },
+      {
+        "word": "一个",
+        "start": 248.91,
+        "end": 249.13,
+        "probability": 0.989
+      },
+      {
+        "word": "br",
+        "start": 249.13,
+        "end": 249.57,
+        "probability": 0.664
+      },
+      {
+        "word": "anch",
+        "start": 249.57,
+        "end": 249.67,
+        "probability": 0.78
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "text_zh": "这个时候呢",
+    "start": 250.66,
+    "end": 251.6,
+    "words": [
+      {
+        "word": "这个",
+        "start": 250.66,
+        "end": 251.14,
+        "probability": 0.983
+      },
+      {
+        "word": "时候",
+        "start": 251.14,
+        "end": 251.4,
+        "probability": 1.0
+      },
+      {
+        "word": "呢",
+        "start": 251.4,
+        "end": 251.6,
+        "probability": 0.748
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "text_zh": "他提示我有conflict",
+    "start": 251.6,
+    "end": 253.36,
+    "words": [
+      {
+        "word": "他",
+        "start": 251.6,
+        "end": 251.94,
+        "probability": 0.763
+      },
+      {
+        "word": "提",
+        "start": 251.94,
+        "end": 252.2,
+        "probability": 0.994
+      },
+      {
+        "word": "示",
+        "start": 252.2,
+        "end": 252.34,
+        "probability": 0.999
+      },
+      {
+        "word": "我有",
+        "start": 252.34,
+        "end": 252.66,
+        "probability": 0.868
+      },
+      {
+        "word": "con",
+        "start": 252.66,
+        "end": 253.08,
+        "probability": 0.611
+      },
+      {
+        "word": "fl",
+        "start": 253.08,
+        "end": 253.24,
+        "probability": 0.968
+      },
+      {
+        "word": "ict",
+        "start": 253.24,
+        "end": 253.36,
+        "probability": 0.997
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "text_zh": "也就是孙蝴蝶同学的代码",
+    "start": 253.36,
+    "end": 255.66,
+    "words": [
+      {
+        "word": "也",
+        "start": 253.36,
+        "end": 253.8,
+        "probability": 0.896
+      },
+      {
+        "word": "就是",
+        "start": 253.8,
+        "end": 254.08,
+        "probability": 0.999
+      },
+      {
+        "word": "孙",
+        "start": 254.08,
+        "end": 254.6,
+        "probability": 0.996
+      },
+      {
+        "word": "蝴",
+        "start": 254.6,
+        "end": 254.7,
+        "probability": 0.989
+      },
+      {
+        "word": "蝶",
+        "start": 254.7,
+        "end": 254.82,
+        "probability": 0.999
+      },
+      {
+        "word": "同",
+        "start": 254.82,
+        "end": 255.0,
+        "probability": 0.997
+      },
+      {
+        "word": "学",
+        "start": 255.0,
+        "end": 255.18,
+        "probability": 1.0
+      },
+      {
+        "word": "的",
+        "start": 255.18,
+        "end": 255.3,
+        "probability": 0.998
+      },
+      {
+        "word": "代",
+        "start": 255.3,
+        "end": 255.46,
+        "probability": 0.998
+      },
+      {
+        "word": "码",
+        "start": 255.46,
+        "end": 255.66,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "text_zh": "和我的代码呢",
+    "start": 255.66,
+    "end": 256.5,
+    "words": [
+      {
+        "word": "和",
+        "start": 255.66,
+        "end": 255.8,
+        "probability": 0.911
+      },
+      {
+        "word": "我的",
+        "start": 255.8,
+        "end": 256.02,
+        "probability": 0.999
+      },
+      {
+        "word": "代",
+        "start": 256.02,
+        "end": 256.22,
+        "probability": 0.999
+      },
+      {
+        "word": "码",
+        "start": 256.22,
+        "end": 256.38,
+        "probability": 1.0
+      },
+      {
+        "word": "呢",
+        "start": 256.38,
+        "end": 256.5,
+        "probability": 0.909
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "text_zh": "是有冲突的",
+    "start": 256.5,
+    "end": 257.68,
+    "words": [
+      {
+        "word": "是",
+        "start": 256.5,
+        "end": 256.78,
+        "probability": 0.976
+      },
+      {
+        "word": "有",
+        "start": 256.78,
+        "end": 256.98,
+        "probability": 1.0
+      },
+      {
+        "word": "冲",
+        "start": 256.98,
+        "end": 257.34,
+        "probability": 0.999
+      },
+      {
+        "word": "突",
+        "start": 257.34,
+        "end": 257.46,
+        "probability": 1.0
+      },
+      {
+        "word": "的",
+        "start": 257.46,
+        "end": 257.68,
+        "probability": 0.996
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "text_zh": "需要resolve一下",
+    "start": 257.68,
+    "end": 258.58,
+    "words": [
+      {
+        "word": "需要",
+        "start": 257.68,
+        "end": 257.96,
+        "probability": 0.836
+      },
+      {
+        "word": "res",
+        "start": 257.96,
+        "end": 258.16,
+        "probability": 0.718
+      },
+      {
+        "word": "olve",
+        "start": 258.16,
+        "end": 258.34,
+        "probability": 0.992
+      },
+      {
+        "word": "一下",
+        "start": 258.34,
+        "end": 258.58,
+        "probability": 0.974
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "text_zh": "我有三种选择",
+    "start": 259.0,
+    "end": 260.2,
+    "words": [
+      {
+        "word": "我有",
+        "start": 259.0,
+        "end": 259.24,
+        "probability": 0.97
+      },
+      {
+        "word": "三",
+        "start": 259.24,
+        "end": 259.56,
+        "probability": 0.943
+      },
+      {
+        "word": "种",
+        "start": 259.56,
+        "end": 259.7,
+        "probability": 0.998
+      },
+      {
+        "word": "选",
+        "start": 259.7,
+        "end": 259.92,
+        "probability": 1.0
+      },
+      {
+        "word": "择",
+        "start": 259.92,
+        "end": 260.2,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "text_zh": "一个呢",
+    "start": 260.62,
+    "end": 261.1,
+    "words": [
+      {
+        "word": "一个",
+        "start": 260.62,
+        "end": 260.86,
+        "probability": 0.956
+      },
+      {
+        "word": "呢",
+        "start": 260.86,
+        "end": 261.1,
+        "probability": 0.983
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "text_zh": "是选择保留",
+    "start": 261.1,
+    "end": 262.86,
+    "words": [
+      {
+        "word": "是",
+        "start": 261.1,
+        "end": 261.6,
+        "probability": 0.978
+      },
+      {
+        "word": "选",
+        "start": 261.6,
+        "end": 261.88,
+        "probability": 1.0
+      },
+      {
+        "word": "择",
+        "start": 261.88,
+        "end": 262.3,
+        "probability": 1.0
+      },
+      {
+        "word": "保",
+        "start": 262.3,
+        "end": 262.62,
+        "probability": 0.96
+      },
+      {
+        "word": "留",
+        "start": 262.62,
+        "end": 262.86,
+        "probability": 0.933
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "text_zh": "留孙蝴蝶同学的代码",
+    "start": 262.92,
+    "end": 265.06,
+    "words": [
+      {
+        "word": "留",
+        "start": 262.92,
+        "end": 262.92,
+        "probability": 0.224
+      },
+      {
+        "word": "孙",
+        "start": 262.92,
+        "end": 263.56,
+        "probability": 0.981
+      },
+      {
+        "word": "蝴",
+        "start": 263.56,
+        "end": 263.7,
+        "probability": 0.71
+      },
+      {
+        "word": "蝶",
+        "start": 263.7,
+        "end": 263.82,
+        "probability": 1.0
+      },
+      {
+        "word": "同",
+        "start": 263.82,
+        "end": 264.02,
+        "probability": 0.925
+      },
+      {
+        "word": "学",
+        "start": 264.02,
+        "end": 264.3,
+        "probability": 0.996
+      },
+      {
+        "word": "的",
+        "start": 264.3,
+        "end": 264.46,
+        "probability": 0.975
+      },
+      {
+        "word": "代",
+        "start": 264.46,
+        "end": 264.84,
+        "probability": 0.985
+      },
+      {
+        "word": "码",
+        "start": 264.84,
+        "end": 265.06,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "text_zh": "把我的代码给舍弃",
+    "start": 265.06,
+    "end": 266.38,
+    "words": [
+      {
+        "word": "把",
+        "start": 265.06,
+        "end": 265.28,
+        "probability": 0.599
+      },
+      {
+        "word": "我的",
+        "start": 265.28,
+        "end": 265.5,
+        "probability": 0.993
+      },
+      {
+        "word": "代",
+        "start": 265.5,
+        "end": 265.72,
+        "probability": 0.99
+      },
+      {
+        "word": "码",
+        "start": 265.72,
+        "end": 265.84,
+        "probability": 1.0
+      },
+      {
+        "word": "给",
+        "start": 265.84,
+        "end": 266.0,
+        "probability": 0.995
+      },
+      {
+        "word": "舍",
+        "start": 266.0,
+        "end": 266.18,
+        "probability": 0.941
+      },
+      {
+        "word": "弃",
+        "start": 266.18,
+        "end": 266.38,
+        "probability": 0.999
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "text_zh": "或者我舍弃孙蝴蝶同学的代码",
+    "start": 266.38,
+    "end": 269.26,
+    "words": [
+      {
+        "word": "或者",
+        "start": 266.38,
+        "end": 266.96,
+        "probability": 0.908
+      },
+      {
+        "word": "我",
+        "start": 266.96,
+        "end": 267.3,
+        "probability": 0.976
+      },
+      {
+        "word": "舍",
+        "start": 267.3,
+        "end": 267.84,
+        "probability": 0.987
+      },
+      {
+        "word": "弃",
+        "start": 267.84,
+        "end": 268.0,
+        "probability": 1.0
+      },
+      {
+        "word": "孙",
+        "start": 268.0,
+        "end": 268.26,
+        "probability": 0.99
+      },
+      {
+        "word": "蝴",
+        "start": 268.26,
+        "end": 268.36,
+        "probability": 0.991
+      },
+      {
+        "word": "蝶",
+        "start": 268.36,
+        "end": 268.48,
+        "probability": 1.0
+      },
+      {
+        "word": "同",
+        "start": 268.48,
+        "end": 268.68,
+        "probability": 0.994
+      },
+      {
+        "word": "学",
+        "start": 268.68,
+        "end": 268.8,
+        "probability": 0.999
+      },
+      {
+        "word": "的",
+        "start": 268.8,
+        "end": 268.92,
+        "probability": 0.996
+      },
+      {
+        "word": "代",
+        "start": 268.92,
+        "end": 269.08,
+        "probability": 0.997
+      },
+      {
+        "word": "码",
+        "start": 269.08,
+        "end": 269.26,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "text_zh": "保留我的代码",
+    "start": 269.26,
+    "end": 270.4,
+    "words": [
+      {
+        "word": "保",
+        "start": 269.26,
+        "end": 269.62,
+        "probability": 0.919
+      },
+      {
+        "word": "留",
+        "start": 269.62,
+        "end": 269.8,
+        "probability": 1.0
+      },
+      {
+        "word": "我的",
+        "start": 269.8,
+        "end": 269.94,
+        "probability": 0.992
+      },
+      {
+        "word": "代",
+        "start": 269.94,
+        "end": 270.16,
+        "probability": 0.997
+      },
+      {
+        "word": "码",
+        "start": 270.16,
+        "end": 270.4,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "text_zh": "也可以选择把两个人的代码都接受",
+    "start": 270.76,
+    "end": 274.32,
+    "words": [
+      {
+        "word": "也可以",
+        "start": 270.76,
+        "end": 270.98,
+        "probability": 0.305
+      },
+      {
+        "word": "选",
+        "start": 270.98,
+        "end": 271.54,
+        "probability": 1.0
+      },
+      {
+        "word": "择",
+        "start": 271.54,
+        "end": 271.82,
+        "probability": 1.0
+      },
+      {
+        "word": "把",
+        "start": 271.82,
+        "end": 272.14,
+        "probability": 0.988
+      },
+      {
+        "word": "两",
+        "start": 272.14,
+        "end": 272.58,
+        "probability": 0.983
+      },
+      {
+        "word": "个",
+        "start": 272.58,
+        "end": 272.7,
+        "probability": 0.997
+      },
+      {
+        "word": "人",
+        "start": 272.7,
+        "end": 272.88,
+        "probability": 1.0
+      },
+      {
+        "word": "的",
+        "start": 272.88,
+        "end": 273.04,
+        "probability": 0.999
+      },
+      {
+        "word": "代",
+        "start": 273.04,
+        "end": 273.2,
+        "probability": 0.997
+      },
+      {
+        "word": "码",
+        "start": 273.2,
+        "end": 273.42,
+        "probability": 1.0
+      },
+      {
+        "word": "都",
+        "start": 273.42,
+        "end": 273.62,
+        "probability": 0.992
+      },
+      {
+        "word": "接",
+        "start": 273.62,
+        "end": 274.1,
+        "probability": 0.996
+      },
+      {
+        "word": "受",
+        "start": 274.1,
+        "end": 274.32,
+        "probability": 0.717
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "text_zh": "刚刚孙蝴蝶同学呢",
+    "start": 274.9,
+    "end": 276.02,
+    "words": [
+      {
+        "word": "刚",
+        "start": 274.9,
+        "end": 275.12,
+        "probability": 0.98
+      },
+      {
+        "word": "刚",
+        "start": 275.12,
+        "end": 275.28,
+        "probability": 0.979
+      },
+      {
+        "word": "孙",
+        "start": 275.28,
+        "end": 275.42,
+        "probability": 0.941
+      },
+      {
+        "word": "蝴",
+        "start": 275.42,
+        "end": 275.52,
+        "probability": 0.978
+      },
+      {
+        "word": "蝶",
+        "start": 275.52,
+        "end": 275.58,
+        "probability": 1.0
+      },
+      {
+        "word": "同",
+        "start": 275.58,
+        "end": 275.74,
+        "probability": 0.99
+      },
+      {
+        "word": "学",
+        "start": 275.74,
+        "end": 275.96,
+        "probability": 0.999
+      },
+      {
+        "word": "呢",
+        "start": 275.96,
+        "end": 276.02,
+        "probability": 0.746
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "text_zh": "他resolve conflict使用的是",
+    "start": 276.02,
+    "end": 278.9,
+    "words": [
+      {
+        "word": "他",
+        "start": 276.02,
+        "end": 276.52,
+        "probability": 0.675
+      },
+      {
+        "word": "res",
+        "start": 276.52,
+        "end": 277.26,
+        "probability": 0.535
+      },
+      {
+        "word": "olve",
+        "start": 277.26,
+        "end": 277.5,
+        "probability": 0.984
+      },
+      {
+        "word": "conflict",
+        "start": 277.5,
+        "end": 277.84,
+        "probability": 0.381
+      },
+      {
+        "word": "使",
+        "start": 277.84,
+        "end": 278.42,
+        "probability": 0.907
+      },
+      {
+        "word": "用",
+        "start": 278.42,
+        "end": 278.7,
+        "probability": 1.0
+      },
+      {
+        "word": "的是",
+        "start": 278.7,
+        "end": 278.9,
+        "probability": 0.991
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "text_zh": "把站的向左的箭头和向右的箭头",
+    "start": 278.9,
+    "end": 282.46,
+    "words": [
+      {
+        "word": "把",
+        "start": 278.9,
+        "end": 279.32,
+        "probability": 0.924
+      },
+      {
+        "word": "站",
+        "start": 279.32,
+        "end": 279.68,
+        "probability": 0.609
+      },
+      {
+        "word": "的",
+        "start": 279.68,
+        "end": 279.88,
+        "probability": 0.988
+      },
+      {
+        "word": "向",
+        "start": 279.88,
+        "end": 280.2,
+        "probability": 0.994
+      },
+      {
+        "word": "左",
+        "start": 280.2,
+        "end": 280.54,
+        "probability": 0.997
+      },
+      {
+        "word": "的",
+        "start": 280.54,
+        "end": 280.7,
+        "probability": 0.999
+      },
+      {
+        "word": "箭",
+        "start": 280.7,
+        "end": 280.92,
+        "probability": 0.968
+      },
+      {
+        "word": "头",
+        "start": 280.92,
+        "end": 281.12,
+        "probability": 1.0
+      },
+      {
+        "word": "和",
+        "start": 281.12,
+        "end": 281.44,
+        "probability": 0.996
+      },
+      {
+        "word": "向",
+        "start": 281.44,
+        "end": 281.64,
+        "probability": 0.997
+      },
+      {
+        "word": "右",
+        "start": 281.64,
+        "end": 281.84,
+        "probability": 0.999
+      },
+      {
+        "word": "的",
+        "start": 281.84,
+        "end": 281.94,
+        "probability": 0.996
+      },
+      {
+        "word": "箭",
+        "start": 281.94,
+        "end": 282.18,
+        "probability": 0.999
+      },
+      {
+        "word": "头",
+        "start": 282.18,
+        "end": 282.46,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "text_zh": "以及把等号给去掉",
+    "start": 282.46,
+    "end": 284.64,
+    "words": [
+      {
+        "word": "以及",
+        "start": 282.46,
+        "end": 282.84,
+        "probability": 0.996
+      },
+      {
+        "word": "把",
+        "start": 282.84,
+        "end": 283.34,
+        "probability": 0.998
+      },
+      {
+        "word": "等",
+        "start": 283.34,
+        "end": 283.6,
+        "probability": 0.992
+      },
+      {
+        "word": "号",
+        "start": 283.6,
+        "end": 283.9,
+        "probability": 1.0
+      },
+      {
+        "word": "给",
+        "start": 283.9,
+        "end": 284.16,
+        "probability": 0.994
+      },
+      {
+        "word": "去",
+        "start": 284.16,
+        "end": 284.42,
+        "probability": 0.996
+      },
+      {
+        "word": "掉",
+        "start": 284.42,
+        "end": 284.64,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "text_zh": "然后就是按照自己的选择保留起来",
+    "start": 284.64,
+    "end": 288.02,
+    "words": [
+      {
+        "word": "然后",
+        "start": 284.64,
+        "end": 285.2,
+        "probability": 0.995
+      },
+      {
+        "word": "就是",
+        "start": 285.2,
+        "end": 285.72,
+        "probability": 0.968
+      },
+      {
+        "word": "按",
+        "start": 285.72,
+        "end": 285.94,
+        "probability": 1.0
+      },
+      {
+        "word": "照",
+        "start": 285.94,
+        "end": 286.08,
+        "probability": 1.0
+      },
+      {
+        "word": "自己",
+        "start": 286.08,
+        "end": 286.28,
+        "probability": 1.0
+      },
+      {
+        "word": "的",
+        "start": 286.28,
+        "end": 286.44,
+        "probability": 0.999
+      },
+      {
+        "word": "选",
+        "start": 286.44,
+        "end": 286.66,
+        "probability": 1.0
+      },
+      {
+        "word": "择",
+        "start": 286.66,
+        "end": 286.92,
+        "probability": 1.0
+      },
+      {
+        "word": "保",
+        "start": 286.92,
+        "end": 287.44,
+        "probability": 0.999
+      },
+      {
+        "word": "留",
+        "start": 287.44,
+        "end": 287.64,
+        "probability": 1.0
+      },
+      {
+        "word": "起",
+        "start": 287.64,
+        "end": 287.74,
+        "probability": 1.0
+      },
+      {
+        "word": "来",
+        "start": 287.74,
+        "end": 288.02,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "text_zh": "我这边呢",
+    "start": 288.79,
+    "end": 289.63,
+    "words": [
+      {
+        "word": "我",
+        "start": 288.79,
+        "end": 289.23,
+        "probability": 0.995
+      },
+      {
+        "word": "这",
+        "start": 289.23,
+        "end": 289.37,
+        "probability": 0.987
+      },
+      {
+        "word": "边",
+        "start": 289.37,
+        "end": 289.47,
+        "probability": 1.0
+      },
+      {
+        "word": "呢",
+        "start": 289.47,
+        "end": 289.63,
+        "probability": 0.967
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "text_zh": "因为装了vscode的一些插件",
+    "start": 289.63,
+    "end": 292.61,
+    "words": [
+      {
+        "word": "因为",
+        "start": 289.63,
+        "end": 290.19,
+        "probability": 0.987
+      },
+      {
+        "word": "装",
+        "start": 290.19,
+        "end": 290.49,
+        "probability": 0.991
+      },
+      {
+        "word": "了",
+        "start": 290.49,
+        "end": 290.67,
+        "probability": 0.998
+      },
+      {
+        "word": "v",
+        "start": 290.67,
+        "end": 290.95,
+        "probability": 0.216
+      },
+      {
+        "word": "sc",
+        "start": 290.95,
+        "end": 291.19,
+        "probability": 0.778
+      },
+      {
+        "word": "ode",
+        "start": 291.19,
+        "end": 291.63,
+        "probability": 0.998
+      },
+      {
+        "word": "的",
+        "start": 291.63,
+        "end": 291.85,
+        "probability": 0.994
+      },
+      {
+        "word": "一些",
+        "start": 291.85,
+        "end": 292.09,
+        "probability": 0.998
+      },
+      {
+        "word": "插",
+        "start": 292.09,
+        "end": 292.39,
+        "probability": 0.997
+      },
+      {
+        "word": "件",
+        "start": 292.39,
+        "end": 292.61,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "text_zh": "我可以直接点击accept哪一种方式",
+    "start": 293.21,
+    "end": 296.51,
+    "words": [
+      {
+        "word": "我",
+        "start": 293.21,
+        "end": 293.27,
+        "probability": 0.954
+      },
+      {
+        "word": "可以",
+        "start": 293.27,
+        "end": 293.49,
+        "probability": 0.995
+      },
+      {
+        "word": "直接",
+        "start": 293.49,
+        "end": 293.77,
+        "probability": 0.997
+      },
+      {
+        "word": "点",
+        "start": 293.77,
+        "end": 294.19,
+        "probability": 0.994
+      },
+      {
+        "word": "击",
+        "start": 294.19,
+        "end": 294.61,
+        "probability": 0.999
+      },
+      {
+        "word": "accept",
+        "start": 294.61,
+        "end": 295.17,
+        "probability": 0.65
+      },
+      {
+        "word": "哪",
+        "start": 295.17,
+        "end": 295.73,
+        "probability": 0.77
+      },
+      {
+        "word": "一",
+        "start": 295.73,
+        "end": 295.89,
+        "probability": 0.584
+      },
+      {
+        "word": "种",
+        "start": 295.89,
+        "end": 296.05,
+        "probability": 0.999
+      },
+      {
+        "word": "方",
+        "start": 296.05,
+        "end": 296.23,
+        "probability": 0.992
+      },
+      {
+        "word": "式",
+        "start": 296.23,
+        "end": 296.51,
+        "probability": 0.999
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "text_zh": "我这里呢",
+    "start": 296.51,
+    "end": 297.11,
+    "words": [
+      {
+        "word": "我",
+        "start": 296.51,
+        "end": 296.79,
+        "probability": 0.948
+      },
+      {
+        "word": "这里",
+        "start": 296.79,
+        "end": 296.95,
+        "probability": 0.993
+      },
+      {
+        "word": "呢",
+        "start": 296.95,
+        "end": 297.11,
+        "probability": 0.474
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "text_zh": "就选择accept both changes",
+    "start": 297.11,
+    "end": 299.87,
+    "words": [
+      {
+        "word": "就",
+        "start": 297.11,
+        "end": 297.31,
+        "probability": 0.932
+      },
+      {
+        "word": "选",
+        "start": 297.31,
+        "end": 297.89,
+        "probability": 0.998
+      },
+      {
+        "word": "择",
+        "start": 297.89,
+        "end": 298.11,
+        "probability": 1.0
+      },
+      {
+        "word": "accept",
+        "start": 298.11,
+        "end": 298.59,
+        "probability": 0.858
+      },
+      {
+        "word": "both",
+        "start": 298.59,
+        "end": 299.31,
+        "probability": 0.942
+      },
+      {
+        "word": "changes",
+        "start": 299.31,
+        "end": 299.87,
+        "probability": 0.849
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "text_zh": "这个时候呢",
+    "start": 301.47,
+    "end": 302.35,
+    "words": [
+      {
+        "word": "这个",
+        "start": 301.47,
+        "end": 301.95,
+        "probability": 0.962
+      },
+      {
+        "word": "时候",
+        "start": 301.95,
+        "end": 302.21,
+        "probability": 0.999
+      },
+      {
+        "word": "呢",
+        "start": 302.21,
+        "end": 302.35,
+        "probability": 0.94
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "text_zh": "我就已经merge成功",
+    "start": 302.35,
+    "end": 304.25,
+    "words": [
+      {
+        "word": "我就",
+        "start": 302.35,
+        "end": 302.57,
+        "probability": 0.979
+      },
+      {
+        "word": "已经",
+        "start": 302.57,
+        "end": 303.01,
+        "probability": 1.0
+      },
+      {
+        "word": "mer",
+        "start": 303.01,
+        "end": 303.69,
+        "probability": 0.724
+      },
+      {
+        "word": "ge",
+        "start": 303.69,
+        "end": 303.77,
+        "probability": 0.993
+      },
+      {
+        "word": "成",
+        "start": 303.77,
+        "end": 303.97,
+        "probability": 0.992
+      },
+      {
+        "word": "功",
+        "start": 303.97,
+        "end": 304.25,
+        "probability": 0.999
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "text_zh": "所以我就可以git add",
+    "start": 304.25,
+    "end": 305.85,
+    "words": [
+      {
+        "word": "所以",
+        "start": 304.25,
+        "end": 304.59,
+        "probability": 0.979
+      },
+      {
+        "word": "我就",
+        "start": 304.59,
+        "end": 304.89,
+        "probability": 0.979
+      },
+      {
+        "word": "可以",
+        "start": 304.89,
+        "end": 305.25,
+        "probability": 0.993
+      },
+      {
+        "word": "g",
+        "start": 305.25,
+        "end": 305.45,
+        "probability": 0.694
+      },
+      {
+        "word": "it",
+        "start": 305.45,
+        "end": 305.59,
+        "probability": 0.898
+      },
+      {
+        "word": "add",
+        "start": 305.59,
+        "end": 305.85,
+        "probability": 0.973
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "text_zh": "git commit",
+    "start": 305.85,
+    "end": 306.67,
+    "words": [
+      {
+        "word": "g",
+        "start": 305.85,
+        "end": 306.13,
+        "probability": 0.244
+      },
+      {
+        "word": "it",
+        "start": 306.13,
+        "end": 306.29,
+        "probability": 0.999
+      },
+      {
+        "word": "commit",
+        "start": 306.29,
+        "end": 306.67,
+        "probability": 0.989
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "text_zh": "以及git push",
+    "start": 310.04,
+    "end": 311.24,
+    "words": [
+      {
+        "word": "以及",
+        "start": 310.04,
+        "end": 310.52,
+        "probability": 0.886
+      },
+      {
+        "word": "g",
+        "start": 310.52,
+        "end": 310.72,
+        "probability": 0.975
+      },
+      {
+        "word": "it",
+        "start": 310.72,
+        "end": 310.96,
+        "probability": 0.999
+      },
+      {
+        "word": "push",
+        "start": 310.96,
+        "end": 311.24,
+        "probability": 0.984
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "text_zh": "当然就是这里的结果不是我们最想要的",
+    "start": 312.8,
+    "end": 316.18,
+    "words": [
+      {
+        "word": "当然",
+        "start": 312.8,
+        "end": 313.04,
+        "probability": 0.956
+      },
+      {
+        "word": "就是",
+        "start": 313.04,
+        "end": 313.42,
+        "probability": 0.969
+      },
+      {
+        "word": "这里",
+        "start": 313.42,
+        "end": 313.78,
+        "probability": 0.997
+      },
+      {
+        "word": "的",
+        "start": 313.78,
+        "end": 314.04,
+        "probability": 0.999
+      },
+      {
+        "word": "结",
+        "start": 314.04,
+        "end": 314.3,
+        "probability": 0.999
+      },
+      {
+        "word": "果",
+        "start": 314.3,
+        "end": 314.54,
+        "probability": 1.0
+      },
+      {
+        "word": "不是",
+        "start": 314.54,
+        "end": 314.84,
+        "probability": 0.999
+      },
+      {
+        "word": "我们",
+        "start": 314.84,
+        "end": 315.22,
+        "probability": 0.999
+      },
+      {
+        "word": "最",
+        "start": 315.22,
+        "end": 315.58,
+        "probability": 0.999
+      },
+      {
+        "word": "想",
+        "start": 315.58,
+        "end": 315.78,
+        "probability": 1.0
+      },
+      {
+        "word": "要",
+        "start": 315.78,
+        "end": 315.96,
+        "probability": 1.0
+      },
+      {
+        "word": "的",
+        "start": 315.96,
+        "end": 316.18,
+        "probability": 0.999
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "text_zh": "最想要的结果应该是",
+    "start": 316.18,
+    "end": 317.76,
+    "words": [
+      {
+        "word": "最",
+        "start": 316.18,
+        "end": 316.36,
+        "probability": 0.982
+      },
+      {
+        "word": "想",
+        "start": 316.36,
+        "end": 316.5,
+        "probability": 1.0
+      },
+      {
+        "word": "要",
+        "start": 316.5,
+        "end": 316.66,
+        "probability": 1.0
+      },
+      {
+        "word": "的",
+        "start": 316.66,
+        "end": 316.78,
+        "probability": 0.999
+      },
+      {
+        "word": "结",
+        "start": 316.78,
+        "end": 316.96,
+        "probability": 1.0
+      },
+      {
+        "word": "果",
+        "start": 316.96,
+        "end": 317.16,
+        "probability": 1.0
+      },
+      {
+        "word": "应",
+        "start": 317.16,
+        "end": 317.26,
+        "probability": 0.999
+      },
+      {
+        "word": "该",
+        "start": 317.26,
+        "end": 317.48,
+        "probability": 1.0
+      },
+      {
+        "word": "是",
+        "start": 317.48,
+        "end": 317.76,
+        "probability": 0.998
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "text_zh": "ABCD UUUU以及1234",
+    "start": 317.76,
+    "end": 320.44,
+    "words": [
+      {
+        "word": "A",
+        "start": 317.76,
+        "end": 318.18,
+        "probability": 0.673
+      },
+      {
+        "word": "BC",
+        "start": 318.18,
+        "end": 318.4,
+        "probability": 0.968
+      },
+      {
+        "word": "D",
+        "start": 318.4,
+        "end": 318.72,
+        "probability": 0.989
+      },
+      {
+        "word": "U",
+        "start": 318.72,
+        "end": 318.96,
+        "probability": 0.612
+      },
+      {
+        "word": "UU",
+        "start": 318.96,
+        "end": 319.16,
+        "probability": 0.822
+      },
+      {
+        "word": "U",
+        "start": 319.16,
+        "end": 319.36,
+        "probability": 0.351
+      },
+      {
+        "word": "以及",
+        "start": 319.36,
+        "end": 319.84,
+        "probability": 0.968
+      },
+      {
+        "word": "12",
+        "start": 319.84,
+        "end": 320.2,
+        "probability": 0.861
+      },
+      {
+        "word": "34",
+        "start": 320.2,
+        "end": 320.44,
+        "probability": 0.994
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "text_zh": "只是呢",
+    "start": 321.14,
+    "end": 321.6,
+    "words": [
+      {
+        "word": "只是",
+        "start": 321.14,
+        "end": 321.38,
+        "probability": 0.99
+      },
+      {
+        "word": "呢",
+        "start": 321.38,
+        "end": 321.6,
+        "probability": 0.96
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "text_zh": "他刚刚提供的选项",
+    "start": 321.6,
+    "end": 323.06,
+    "words": [
+      {
+        "word": "他",
+        "start": 321.6,
+        "end": 321.84,
+        "probability": 0.538
+      },
+      {
+        "word": "刚",
+        "start": 321.84,
+        "end": 322.06,
+        "probability": 1.0
+      },
+      {
+        "word": "刚",
+        "start": 322.06,
+        "end": 322.22,
+        "probability": 1.0
+      },
+      {
+        "word": "提",
+        "start": 322.22,
+        "end": 322.34,
+        "probability": 1.0
+      },
+      {
+        "word": "供",
+        "start": 322.34,
+        "end": 322.52,
+        "probability": 1.0
+      },
+      {
+        "word": "的",
+        "start": 322.52,
+        "end": 322.64,
+        "probability": 0.977
+      },
+      {
+        "word": "选",
+        "start": 322.64,
+        "end": 322.82,
+        "probability": 1.0
+      },
+      {
+        "word": "项",
+        "start": 322.82,
+        "end": 323.06,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "text_zh": "我没有选择那种方式",
+    "start": 323.06,
+    "end": 325.46,
+    "words": [
+      {
+        "word": "我",
+        "start": 323.06,
+        "end": 323.34,
+        "probability": 0.995
+      },
+      {
+        "word": "没有",
+        "start": 323.34,
+        "end": 323.74,
+        "probability": 1.0
+      },
+      {
+        "word": "选",
+        "start": 323.74,
+        "end": 324.14,
+        "probability": 1.0
+      },
+      {
+        "word": "择",
+        "start": 324.14,
+        "end": 324.36,
+        "probability": 1.0
+      },
+      {
+        "word": "那",
+        "start": 324.36,
+        "end": 324.88,
+        "probability": 0.991
+      },
+      {
+        "word": "种",
+        "start": 324.88,
+        "end": 325.02,
+        "probability": 1.0
+      },
+      {
+        "word": "方",
+        "start": 325.02,
+        "end": 325.18,
+        "probability": 1.0
+      },
+      {
+        "word": "式",
+        "start": 325.18,
+        "end": 325.46,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "text_zh": "当然我现在一定要达到",
+    "start": 325.84,
+    "end": 327.36,
+    "words": [
+      {
+        "word": "当然",
+        "start": 325.84,
+        "end": 326.08,
+        "probability": 0.618
+      },
+      {
+        "word": "我",
+        "start": 326.08,
+        "end": 326.22,
+        "probability": 0.996
+      },
+      {
+        "word": "现在",
+        "start": 326.22,
+        "end": 326.38,
+        "probability": 1.0
+      },
+      {
+        "word": "一定要",
+        "start": 326.38,
+        "end": 326.96,
+        "probability": 0.993
+      },
+      {
+        "word": "达",
+        "start": 326.96,
+        "end": 327.28,
+        "probability": 0.763
+      },
+      {
+        "word": "到",
+        "start": 327.28,
+        "end": 327.36,
+        "probability": 0.99
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "text_zh": "那种方式",
+    "start": 327.5,
+    "end": 327.92,
+    "words": [
+      {
+        "word": "那",
+        "start": 327.5,
+        "end": 327.5,
+        "probability": 0.43
+      },
+      {
+        "word": "种",
+        "start": 327.5,
+        "end": 327.58,
+        "probability": 0.905
+      },
+      {
+        "word": "方",
+        "start": 327.58,
+        "end": 327.76,
+        "probability": 0.994
+      },
+      {
+        "word": "式",
+        "start": 327.76,
+        "end": 327.92,
+        "probability": 0.999
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "text_zh": "我就把一八行给去掉就可以了",
+    "start": 327.92,
+    "end": 330.92,
+    "words": [
+      {
+        "word": "我就",
+        "start": 327.92,
+        "end": 328.12,
+        "probability": 0.875
+      },
+      {
+        "word": "把",
+        "start": 328.12,
+        "end": 328.42,
+        "probability": 0.994
+      },
+      {
+        "word": "一",
+        "start": 328.42,
+        "end": 328.7,
+        "probability": 0.447
+      },
+      {
+        "word": "八",
+        "start": 328.7,
+        "end": 328.86,
+        "probability": 0.384
+      },
+      {
+        "word": "行",
+        "start": 328.86,
+        "end": 329.12,
+        "probability": 0.991
+      },
+      {
+        "word": "给",
+        "start": 329.12,
+        "end": 329.42,
+        "probability": 0.934
+      },
+      {
+        "word": "去",
+        "start": 329.42,
+        "end": 329.72,
+        "probability": 0.995
+      },
+      {
+        "word": "掉",
+        "start": 329.72,
+        "end": 329.98,
+        "probability": 0.999
+      },
+      {
+        "word": "就可以",
+        "start": 329.98,
+        "end": 330.6,
+        "probability": 0.974
+      },
+      {
+        "word": "了",
+        "start": 330.6,
+        "end": 330.92,
+        "probability": 0.995
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "text_zh": "我们可以验证一下",
+    "start": 330.92,
+    "end": 339.51,
+    "words": [
+      {
+        "word": "我们",
+        "start": 330.92,
+        "end": 331.38,
+        "probability": 0.871
+      },
+      {
+        "word": "可以",
+        "start": 338.55,
+        "end": 338.89,
+        "probability": 0.997
+      },
+      {
+        "word": "验",
+        "start": 338.89,
+        "end": 339.15,
+        "probability": 1.0
+      },
+      {
+        "word": "证",
+        "start": 339.15,
+        "end": 339.33,
+        "probability": 1.0
+      },
+      {
+        "word": "一下",
+        "start": 339.33,
+        "end": 339.51,
+        "probability": 0.999
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "text_zh": "我们这次再来merge origin dev的时候",
+    "start": 339.51,
+    "end": 342.35,
+    "words": [
+      {
+        "word": "我们",
+        "start": 339.51,
+        "end": 339.85,
+        "probability": 0.967
+      },
+      {
+        "word": "这",
+        "start": 339.85,
+        "end": 340.03,
+        "probability": 0.996
+      },
+      {
+        "word": "次",
+        "start": 340.03,
+        "end": 340.33,
+        "probability": 0.987
+      },
+      {
+        "word": "再",
+        "start": 340.33,
+        "end": 340.59,
+        "probability": 0.866
+      },
+      {
+        "word": "来",
+        "start": 340.59,
+        "end": 340.83,
+        "probability": 0.996
+      },
+      {
+        "word": "mer",
+        "start": 340.83,
+        "end": 341.07,
+        "probability": 0.514
+      },
+      {
+        "word": "ge",
+        "start": 341.07,
+        "end": 341.15,
+        "probability": 0.998
+      },
+      {
+        "word": "origin",
+        "start": 341.15,
+        "end": 341.59,
+        "probability": 0.335
+      },
+      {
+        "word": "dev",
+        "start": 341.59,
+        "end": 342.05,
+        "probability": 0.432
+      },
+      {
+        "word": "的时候",
+        "start": 342.05,
+        "end": 342.35,
+        "probability": 0.673
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "text_zh": "也就是merge孙蝴蝶的分支的时候",
+    "start": 342.35,
+    "end": 344.71,
+    "words": [
+      {
+        "word": "也",
+        "start": 342.35,
+        "end": 342.73,
+        "probability": 0.961
+      },
+      {
+        "word": "就是",
+        "start": 342.73,
+        "end": 342.95,
+        "probability": 0.998
+      },
+      {
+        "word": "mer",
+        "start": 342.95,
+        "end": 343.35,
+        "probability": 0.916
+      },
+      {
+        "word": "ge",
+        "start": 343.35,
+        "end": 343.41,
+        "probability": 0.999
+      },
+      {
+        "word": "孙",
+        "start": 343.41,
+        "end": 343.67,
+        "probability": 0.892
+      },
+      {
+        "word": "蝴",
+        "start": 343.67,
+        "end": 343.79,
+        "probability": 0.966
+      },
+      {
+        "word": "蝶",
+        "start": 343.79,
+        "end": 343.93,
+        "probability": 1.0
+      },
+      {
+        "word": "的",
+        "start": 343.93,
+        "end": 344.03,
+        "probability": 0.987
+      },
+      {
+        "word": "分",
+        "start": 344.03,
+        "end": 344.21,
+        "probability": 0.996
+      },
+      {
+        "word": "支",
+        "start": 344.21,
+        "end": 344.35,
+        "probability": 0.972
+      },
+      {
+        "word": "的时候",
+        "start": 344.35,
+        "end": 344.71,
+        "probability": 0.992
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "text_zh": "会提示我们已经merge过了",
+    "start": 344.71,
+    "end": 346.39,
+    "words": [
+      {
+        "word": "会",
+        "start": 344.71,
+        "end": 344.97,
+        "probability": 0.919
+      },
+      {
+        "word": "提",
+        "start": 344.97,
+        "end": 345.15,
+        "probability": 0.954
+      },
+      {
+        "word": "示",
+        "start": 345.15,
+        "end": 345.23,
+        "probability": 0.992
+      },
+      {
+        "word": "我们",
+        "start": 345.23,
+        "end": 345.39,
+        "probability": 0.997
+      },
+      {
+        "word": "已经",
+        "start": 345.39,
+        "end": 345.71,
+        "probability": 0.999
+      },
+      {
+        "word": "mer",
+        "start": 345.71,
+        "end": 345.97,
+        "probability": 0.975
+      },
+      {
+        "word": "ge",
+        "start": 345.97,
+        "end": 346.01,
+        "probability": 0.988
+      },
+      {
+        "word": "过",
+        "start": 346.01,
+        "end": 346.19,
+        "probability": 0.987
+      },
+      {
+        "word": "了",
+        "start": 346.19,
+        "end": 346.39,
+        "probability": 0.985
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "text_zh": "所以说明我们merge成功",
+    "start": 347.5,
+    "end": 349.26,
+    "words": [
+      {
+        "word": "所以",
+        "start": 347.5,
+        "end": 347.74,
+        "probability": 0.993
+      },
+      {
+        "word": "说",
+        "start": 347.74,
+        "end": 348.06,
+        "probability": 0.999
+      },
+      {
+        "word": "明",
+        "start": 348.06,
+        "end": 348.22,
+        "probability": 1.0
+      },
+      {
+        "word": "我们",
+        "start": 348.22,
+        "end": 348.42,
+        "probability": 1.0
+      },
+      {
+        "word": "mer",
+        "start": 348.42,
+        "end": 348.78,
+        "probability": 0.972
+      },
+      {
+        "word": "ge",
+        "start": 348.78,
+        "end": 348.84,
+        "probability": 0.999
+      },
+      {
+        "word": "成",
+        "start": 348.84,
+        "end": 349.02,
+        "probability": 0.998
+      },
+      {
+        "word": "功",
+        "start": 349.02,
+        "end": 349.26,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "text_zh": "我们刚刚看到孙蝴蝶同学",
+    "start": 349.62,
+    "end": 351.7,
+    "words": [
+      {
+        "word": "我们",
+        "start": 349.62,
+        "end": 349.86,
+        "probability": 0.717
+      },
+      {
+        "word": "刚",
+        "start": 349.86,
+        "end": 350.16,
+        "probability": 1.0
+      },
+      {
+        "word": "刚",
+        "start": 350.16,
+        "end": 350.32,
+        "probability": 1.0
+      },
+      {
+        "word": "看到",
+        "start": 350.32,
+        "end": 350.62,
+        "probability": 1.0
+      },
+      {
+        "word": "孙",
+        "start": 350.62,
+        "end": 350.98,
+        "probability": 0.998
+      },
+      {
+        "word": "蝴",
+        "start": 350.98,
+        "end": 351.2,
+        "probability": 0.997
+      },
+      {
+        "word": "蝶",
+        "start": 351.2,
+        "end": 351.3,
+        "probability": 1.0
+      },
+      {
+        "word": "同",
+        "start": 351.3,
+        "end": 351.46,
+        "probability": 0.995
+      },
+      {
+        "word": "学",
+        "start": 351.46,
+        "end": 351.7,
+        "probability": 0.999
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "text_zh": "他在被代码进行合并的时候",
+    "start": 351.7,
+    "end": 354.0,
+    "words": [
+      {
+        "word": "他",
+        "start": 351.7,
+        "end": 352.1,
+        "probability": 0.807
+      },
+      {
+        "word": "在",
+        "start": 352.1,
+        "end": 352.56,
+        "probability": 0.999
+      },
+      {
+        "word": "被",
+        "start": 352.56,
+        "end": 352.8,
+        "probability": 0.366
+      },
+      {
+        "word": "代",
+        "start": 352.8,
+        "end": 353.02,
+        "probability": 0.997
+      },
+      {
+        "word": "码",
+        "start": 353.02,
+        "end": 353.16,
+        "probability": 1.0
+      },
+      {
+        "word": "进",
+        "start": 353.16,
+        "end": 353.3,
+        "probability": 0.999
+      },
+      {
+        "word": "行",
+        "start": 353.3,
+        "end": 353.5,
+        "probability": 1.0
+      },
+      {
+        "word": "合",
+        "start": 353.5,
+        "end": 353.66,
+        "probability": 1.0
+      },
+      {
+        "word": "并",
+        "start": 353.66,
+        "end": 353.84,
+        "probability": 0.996
+      },
+      {
+        "word": "的时候",
+        "start": 353.84,
+        "end": 354.0,
+        "probability": 0.999
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "text_zh": "使用的是git rebase的一个命令行",
+    "start": 354.38,
+    "end": 357.3,
+    "words": [
+      {
+        "word": "使",
+        "start": 354.38,
+        "end": 354.62,
+        "probability": 0.999
+      },
+      {
+        "word": "用",
+        "start": 354.62,
+        "end": 354.88,
+        "probability": 1.0
+      },
+      {
+        "word": "的是",
+        "start": 354.88,
+        "end": 355.16,
+        "probability": 0.998
+      },
+      {
+        "word": "g",
+        "start": 355.16,
+        "end": 355.52,
+        "probability": 0.849
+      },
+      {
+        "word": "it",
+        "start": 355.52,
+        "end": 355.64,
+        "probability": 0.853
+      },
+      {
+        "word": "reb",
+        "start": 355.64,
+        "end": 355.88,
+        "probability": 0.362
+      },
+      {
+        "word": "ase",
+        "start": 355.88,
+        "end": 356.14,
+        "probability": 0.954
+      },
+      {
+        "word": "的",
+        "start": 356.14,
+        "end": 356.42,
+        "probability": 0.223
+      },
+      {
+        "word": "一个",
+        "start": 356.42,
+        "end": 356.68,
+        "probability": 0.989
+      },
+      {
+        "word": "命",
+        "start": 356.68,
+        "end": 357.0,
+        "probability": 0.988
+      },
+      {
+        "word": "令",
+        "start": 357.0,
+        "end": 357.12,
+        "probability": 0.972
+      },
+      {
+        "word": "行",
+        "start": 357.12,
+        "end": 357.3,
+        "probability": 0.979
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "text_zh": "git rebase呢",
+    "start": 357.3,
+    "end": 358.12,
+    "words": [
+      {
+        "word": "g",
+        "start": 357.3,
+        "end": 357.5,
+        "probability": 0.921
+      },
+      {
+        "word": "it",
+        "start": 357.5,
+        "end": 357.56,
+        "probability": 0.996
+      },
+      {
+        "word": "reb",
+        "start": 357.56,
+        "end": 357.76,
+        "probability": 0.998
+      },
+      {
+        "word": "ase",
+        "start": 357.76,
+        "end": 357.94,
+        "probability": 1.0
+      },
+      {
+        "word": "呢",
+        "start": 357.94,
+        "end": 358.12,
+        "probability": 0.573
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "text_zh": "对这些commit的叠加是一个线性的方式",
+    "start": 358.12,
+    "end": 362.56,
+    "words": [
+      {
+        "word": "对",
+        "start": 358.12,
+        "end": 358.4,
+        "probability": 0.978
+      },
+      {
+        "word": "这",
+        "start": 358.4,
+        "end": 358.8,
+        "probability": 0.994
+      },
+      {
+        "word": "些",
+        "start": 358.8,
+        "end": 358.98,
+        "probability": 1.0
+      },
+      {
+        "word": "com",
+        "start": 358.98,
+        "end": 359.2,
+        "probability": 0.431
+      },
+      {
+        "word": "mit",
+        "start": 359.2,
+        "end": 359.36,
+        "probability": 0.979
+      },
+      {
+        "word": "的",
+        "start": 359.36,
+        "end": 359.66,
+        "probability": 0.977
+      },
+      {
+        "word": "叠",
+        "start": 359.66,
+        "end": 360.28,
+        "probability": 1.0
+      },
+      {
+        "word": "加",
+        "start": 360.28,
+        "end": 360.56,
+        "probability": 1.0
+      },
+      {
+        "word": "是",
+        "start": 360.56,
+        "end": 361.16,
+        "probability": 0.999
+      },
+      {
+        "word": "一个",
+        "start": 361.16,
+        "end": 361.38,
+        "probability": 1.0
+      },
+      {
+        "word": "线",
+        "start": 361.38,
+        "end": 361.84,
+        "probability": 0.998
+      },
+      {
+        "word": "性",
+        "start": 361.84,
+        "end": 362.02,
+        "probability": 1.0
+      },
+      {
+        "word": "的",
+        "start": 362.02,
+        "end": 362.14,
+        "probability": 1.0
+      },
+      {
+        "word": "方",
+        "start": 362.14,
+        "end": 362.3,
+        "probability": 1.0
+      },
+      {
+        "word": "式",
+        "start": 362.3,
+        "end": 362.56,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "text_zh": "他可能就会",
+    "start": 363.14,
+    "end": 364.68,
+    "words": [
+      {
+        "word": "他",
+        "start": 363.14,
+        "end": 363.38,
+        "probability": 0.622
+      },
+      {
+        "word": "可能",
+        "start": 363.38,
+        "end": 364.18,
+        "probability": 0.999
+      },
+      {
+        "word": "就",
+        "start": 364.18,
+        "end": 364.44,
+        "probability": 1.0
+      },
+      {
+        "word": "会",
+        "start": 364.44,
+        "end": 364.68,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "text_zh": "损失一些历史信息",
+    "start": 365.12,
+    "end": 367.32,
+    "words": [
+      {
+        "word": "损",
+        "start": 365.12,
+        "end": 365.28,
+        "probability": 0.844
+      },
+      {
+        "word": "失",
+        "start": 365.28,
+        "end": 365.4,
+        "probability": 1.0
+      },
+      {
+        "word": "一些",
+        "start": 365.4,
+        "end": 365.7,
+        "probability": 0.99
+      },
+      {
+        "word": "历",
+        "start": 365.7,
+        "end": 366.64,
+        "probability": 0.984
+      },
+      {
+        "word": "史",
+        "start": 366.64,
+        "end": 366.82,
+        "probability": 1.0
+      },
+      {
+        "word": "信",
+        "start": 366.82,
+        "end": 367.02,
+        "probability": 0.994
+      },
+      {
+        "word": "息",
+        "start": 367.02,
+        "end": 367.32,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "text_zh": "相反我这边呢",
+    "start": 368.45,
+    "end": 370.19,
+    "words": [
+      {
+        "word": "相",
+        "start": 368.45,
+        "end": 368.89,
+        "probability": 0.814
+      },
+      {
+        "word": "反",
+        "start": 368.89,
+        "end": 369.15,
+        "probability": 1.0
+      },
+      {
+        "word": "我",
+        "start": 369.15,
+        "end": 369.77,
+        "probability": 0.762
+      },
+      {
+        "word": "这",
+        "start": 369.77,
+        "end": 369.89,
+        "probability": 0.979
+      },
+      {
+        "word": "边",
+        "start": 369.89,
+        "end": 370.11,
+        "probability": 1.0
+      },
+      {
+        "word": "呢",
+        "start": 370.11,
+        "end": 370.19,
+        "probability": 0.612
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "text_zh": "使用的是一个git merge这样的一个命令",
+    "start": 370.19,
+    "end": 373.13,
+    "words": [
+      {
+        "word": "使",
+        "start": 370.19,
+        "end": 370.75,
+        "probability": 0.936
+      },
+      {
+        "word": "用",
+        "start": 370.75,
+        "end": 371.01,
+        "probability": 1.0
+      },
+      {
+        "word": "的是",
+        "start": 371.01,
+        "end": 371.19,
+        "probability": 0.973
+      },
+      {
+        "word": "一个",
+        "start": 371.19,
+        "end": 371.47,
+        "probability": 0.909
+      },
+      {
+        "word": "g",
+        "start": 371.47,
+        "end": 371.75,
+        "probability": 0.445
+      },
+      {
+        "word": "it",
+        "start": 371.75,
+        "end": 371.83,
+        "probability": 0.493
+      },
+      {
+        "word": "merge",
+        "start": 371.83,
+        "end": 372.09,
+        "probability": 0.795
+      },
+      {
+        "word": "这样",
+        "start": 372.09,
+        "end": 372.45,
+        "probability": 0.845
+      },
+      {
+        "word": "的",
+        "start": 372.45,
+        "end": 372.55,
+        "probability": 0.977
+      },
+      {
+        "word": "一个",
+        "start": 372.55,
+        "end": 372.69,
+        "probability": 0.977
+      },
+      {
+        "word": "命",
+        "start": 372.69,
+        "end": 372.93,
+        "probability": 0.995
+      },
+      {
+        "word": "令",
+        "start": 372.93,
+        "end": 373.13,
+        "probability": 0.982
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "text_zh": "他也可以对不同的分支进行一个合并",
+    "start": 373.47,
+    "end": 376.33,
+    "words": [
+      {
+        "word": "他",
+        "start": 373.47,
+        "end": 373.69,
+        "probability": 0.436
+      },
+      {
+        "word": "也可以",
+        "start": 373.69,
+        "end": 374.03,
+        "probability": 0.995
+      },
+      {
+        "word": "对",
+        "start": 374.03,
+        "end": 374.49,
+        "probability": 0.988
+      },
+      {
+        "word": "不同",
+        "start": 374.49,
+        "end": 374.81,
+        "probability": 0.999
+      },
+      {
+        "word": "的",
+        "start": 374.81,
+        "end": 374.99,
+        "probability": 0.996
+      },
+      {
+        "word": "分",
+        "start": 374.99,
+        "end": 375.11,
+        "probability": 0.997
+      },
+      {
+        "word": "支",
+        "start": 375.11,
+        "end": 375.29,
+        "probability": 0.928
+      },
+      {
+        "word": "进",
+        "start": 375.29,
+        "end": 375.51,
+        "probability": 0.996
+      },
+      {
+        "word": "行",
+        "start": 375.51,
+        "end": 375.73,
+        "probability": 1.0
+      },
+      {
+        "word": "一个",
+        "start": 375.73,
+        "end": 375.91,
+        "probability": 0.988
+      },
+      {
+        "word": "合",
+        "start": 375.91,
+        "end": 376.15,
+        "probability": 0.999
+      },
+      {
+        "word": "并",
+        "start": 376.15,
+        "end": 376.33,
+        "probability": 0.996
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "text_zh": "合并的过程中",
+    "start": 376.33,
+    "end": 377.43,
+    "words": [
+      {
+        "word": "合",
+        "start": 376.33,
+        "end": 376.53,
+        "probability": 0.856
+      },
+      {
+        "word": "并",
+        "start": 376.53,
+        "end": 376.73,
+        "probability": 1.0
+      },
+      {
+        "word": "的",
+        "start": 376.73,
+        "end": 376.81,
+        "probability": 0.993
+      },
+      {
+        "word": "过",
+        "start": 376.81,
+        "end": 376.97,
+        "probability": 0.999
+      },
+      {
+        "word": "程",
+        "start": 376.97,
+        "end": 377.19,
+        "probability": 1.0
+      },
+      {
+        "word": "中",
+        "start": 377.19,
+        "end": 377.43,
+        "probability": 0.997
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "text_zh": "它是一个非线性的方式",
+    "start": 377.43,
+    "end": 379.59,
+    "words": [
+      {
+        "word": "它",
+        "start": 377.43,
+        "end": 377.87,
+        "probability": 0.646
+      },
+      {
+        "word": "是",
+        "start": 377.87,
+        "end": 377.99,
+        "probability": 0.999
+      },
+      {
+        "word": "一个",
+        "start": 377.99,
+        "end": 378.21,
+        "probability": 0.998
+      },
+      {
+        "word": "非",
+        "start": 378.21,
+        "end": 378.47,
+        "probability": 0.954
+      },
+      {
+        "word": "线",
+        "start": 378.47,
+        "end": 378.77,
+        "probability": 0.993
+      },
+      {
+        "word": "性",
+        "start": 378.77,
+        "end": 378.89,
+        "probability": 0.999
+      },
+      {
+        "word": "的",
+        "start": 378.89,
+        "end": 379.07,
+        "probability": 0.999
+      },
+      {
+        "word": "方",
+        "start": 379.07,
+        "end": 379.35,
+        "probability": 0.996
+      },
+      {
+        "word": "式",
+        "start": 379.35,
+        "end": 379.59,
+        "probability": 0.999
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "text_zh": "他会把更多的历史commit的信息保留起来",
+    "start": 379.59,
+    "end": 383.45,
+    "words": [
+      {
+        "word": "他",
+        "start": 379.59,
+        "end": 379.77,
+        "probability": 0.512
+      },
+      {
+        "word": "会",
+        "start": 379.77,
+        "end": 379.99,
+        "probability": 1.0
+      },
+      {
+        "word": "把",
+        "start": 379.99,
+        "end": 380.31,
+        "probability": 0.99
+      },
+      {
+        "word": "更",
+        "start": 380.31,
+        "end": 380.63,
+        "probability": 0.989
+      },
+      {
+        "word": "多",
+        "start": 380.63,
+        "end": 380.89,
+        "probability": 1.0
+      },
+      {
+        "word": "的",
+        "start": 380.89,
+        "end": 381.05,
+        "probability": 0.995
+      },
+      {
+        "word": "历",
+        "start": 381.05,
+        "end": 381.27,
+        "probability": 0.858
+      },
+      {
+        "word": "史",
+        "start": 381.27,
+        "end": 381.49,
+        "probability": 1.0
+      },
+      {
+        "word": "com",
+        "start": 381.49,
+        "end": 381.77,
+        "probability": 0.268
+      },
+      {
+        "word": "mit",
+        "start": 381.77,
+        "end": 381.89,
+        "probability": 0.945
+      },
+      {
+        "word": "的",
+        "start": 381.89,
+        "end": 382.05,
+        "probability": 0.937
+      },
+      {
+        "word": "信",
+        "start": 382.05,
+        "end": 382.29,
+        "probability": 0.999
+      },
+      {
+        "word": "息",
+        "start": 382.29,
+        "end": 382.63,
+        "probability": 1.0
+      },
+      {
+        "word": "保",
+        "start": 382.63,
+        "end": 382.89,
+        "probability": 0.997
+      },
+      {
+        "word": "留",
+        "start": 382.89,
+        "end": 383.11,
+        "probability": 1.0
+      },
+      {
+        "word": "起",
+        "start": 383.11,
+        "end": 383.25,
+        "probability": 0.996
+      },
+      {
+        "word": "来",
+        "start": 383.25,
+        "end": 383.45,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "text_zh": "包括merge本身就是一个commit",
+    "start": 383.45,
+    "end": 386.43,
+    "words": [
+      {
+        "word": "包括",
+        "start": 383.45,
+        "end": 383.97,
+        "probability": 0.978
+      },
+      {
+        "word": "mer",
+        "start": 383.97,
+        "end": 384.71,
+        "probability": 0.767
+      },
+      {
+        "word": "ge",
+        "start": 384.71,
+        "end": 384.79,
+        "probability": 0.996
+      },
+      {
+        "word": "本",
+        "start": 384.79,
+        "end": 385.37,
+        "probability": 0.96
+      },
+      {
+        "word": "身",
+        "start": 385.37,
+        "end": 385.61,
+        "probability": 1.0
+      },
+      {
+        "word": "就是",
+        "start": 385.61,
+        "end": 385.81,
+        "probability": 0.997
+      },
+      {
+        "word": "一个",
+        "start": 385.81,
+        "end": 386.07,
+        "probability": 0.993
+      },
+      {
+        "word": "com",
+        "start": 386.07,
+        "end": 386.29,
+        "probability": 0.843
+      },
+      {
+        "word": "mit",
+        "start": 386.29,
+        "end": 386.43,
+        "probability": 0.997
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "text_zh": "这样的信息也会保留起来",
+    "start": 386.95,
+    "end": 389.13,
+    "words": [
+      {
+        "word": "这样",
+        "start": 386.95,
+        "end": 387.17,
+        "probability": 0.898
+      },
+      {
+        "word": "的",
+        "start": 387.17,
+        "end": 387.29,
+        "probability": 0.997
+      },
+      {
+        "word": "信",
+        "start": 387.29,
+        "end": 387.43,
+        "probability": 0.998
+      },
+      {
+        "word": "息",
+        "start": 387.43,
+        "end": 387.73,
+        "probability": 1.0
+      },
+      {
+        "word": "也",
+        "start": 387.73,
+        "end": 388.29,
+        "probability": 0.961
+      },
+      {
+        "word": "会",
+        "start": 388.29,
+        "end": 388.45,
+        "probability": 0.999
+      },
+      {
+        "word": "保",
+        "start": 388.45,
+        "end": 388.61,
+        "probability": 1.0
+      },
+      {
+        "word": "留",
+        "start": 388.61,
+        "end": 388.75,
+        "probability": 1.0
+      },
+      {
+        "word": "起",
+        "start": 388.75,
+        "end": 388.93,
+        "probability": 0.99
+      },
+      {
+        "word": "来",
+        "start": 388.93,
+        "end": 389.13,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "id": 138,
+    "text_zh": "所以呢",
+    "start": 389.61,
+    "end": 390.05,
+    "words": [
+      {
+        "word": "所以呢",
+        "start": 389.61,
+        "end": 390.05,
+        "probability": 0.926
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "text_zh": "对于git的新手的话",
+    "start": 390.05,
+    "end": 391.71,
+    "words": [
+      {
+        "word": "对",
+        "start": 390.05,
+        "end": 390.47,
+        "probability": 0.961
+      },
+      {
+        "word": "于",
+        "start": 390.47,
+        "end": 390.61,
+        "probability": 0.999
+      },
+      {
+        "word": "g",
+        "start": 390.61,
+        "end": 390.73,
+        "probability": 0.826
+      },
+      {
+        "word": "it",
+        "start": 390.73,
+        "end": 390.85,
+        "probability": 0.938
+      },
+      {
+        "word": "的",
+        "start": 390.85,
+        "end": 391.01,
+        "probability": 0.928
+      },
+      {
+        "word": "新",
+        "start": 391.01,
+        "end": 391.23,
+        "probability": 0.997
+      },
+      {
+        "word": "手",
+        "start": 391.23,
+        "end": 391.45,
+        "probability": 1.0
+      },
+      {
+        "word": "的话",
+        "start": 391.45,
+        "end": 391.71,
+        "probability": 0.999
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "text_zh": "我们不建议使用git rebase",
+    "start": 392.13,
+    "end": 393.97,
+    "words": [
+      {
+        "word": "我们",
+        "start": 392.13,
+        "end": 392.35,
+        "probability": 0.987
+      },
+      {
+        "word": "不",
+        "start": 392.35,
+        "end": 392.61,
+        "probability": 1.0
+      },
+      {
+        "word": "建",
+        "start": 392.61,
+        "end": 392.83,
+        "probability": 0.999
+      },
+      {
+        "word": "议",
+        "start": 392.83,
+        "end": 392.99,
+        "probability": 1.0
+      },
+      {
+        "word": "使",
+        "start": 392.99,
+        "end": 393.17,
+        "probability": 0.989
+      },
+      {
+        "word": "用",
+        "start": 393.17,
+        "end": 393.31,
+        "probability": 1.0
+      },
+      {
+        "word": "g",
+        "start": 393.31,
+        "end": 393.43,
+        "probability": 0.942
+      },
+      {
+        "word": "it",
+        "start": 393.43,
+        "end": 393.55,
+        "probability": 0.884
+      },
+      {
+        "word": "reb",
+        "start": 393.55,
+        "end": 393.79,
+        "probability": 0.75
+      },
+      {
+        "word": "ase",
+        "start": 393.79,
+        "end": 393.97,
+        "probability": 0.957
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "text_zh": "而是使用git merge",
+    "start": 393.97,
+    "end": 395.67,
+    "words": [
+      {
+        "word": "而",
+        "start": 393.97,
+        "end": 394.33,
+        "probability": 0.92
+      },
+      {
+        "word": "是",
+        "start": 394.33,
+        "end": 394.57,
+        "probability": 0.991
+      },
+      {
+        "word": "使",
+        "start": 394.57,
+        "end": 394.95,
+        "probability": 0.996
+      },
+      {
+        "word": "用",
+        "start": 394.95,
+        "end": 395.23,
+        "probability": 1.0
+      },
+      {
+        "word": "g",
+        "start": 395.23,
+        "end": 395.33,
+        "probability": 0.979
+      },
+      {
+        "word": "it",
+        "start": 395.33,
+        "end": 395.43,
+        "probability": 0.992
+      },
+      {
+        "word": "merge",
+        "start": 395.43,
+        "end": 395.67,
+        "probability": 0.994
+      }
+    ]
+  },
+  {
+    "id": 142,
+    "text_zh": "对于大的团队",
+    "start": 395.69,
+    "end": 397.83,
+    "words": [
+      {
+        "word": "对",
+        "start": 395.69,
+        "end": 396.53,
+        "probability": 0.713
+      },
+      {
+        "word": "于",
+        "start": 396.53,
+        "end": 396.77,
+        "probability": 0.998
+      },
+      {
+        "word": "大的",
+        "start": 396.77,
+        "end": 397.19,
+        "probability": 0.991
+      },
+      {
+        "word": "团",
+        "start": 397.19,
+        "end": 397.57,
+        "probability": 1.0
+      },
+      {
+        "word": "队",
+        "start": 397.57,
+        "end": 397.83,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "id": 143,
+    "text_zh": "我们也一般推荐使用git merge",
+    "start": 398.29,
+    "end": 400.91,
+    "words": [
+      {
+        "word": "我们",
+        "start": 398.29,
+        "end": 398.55,
+        "probability": 0.647
+      },
+      {
+        "word": "也",
+        "start": 398.55,
+        "end": 398.89,
+        "probability": 0.965
+      },
+      {
+        "word": "一",
+        "start": 398.89,
+        "end": 399.05,
+        "probability": 0.994
+      },
+      {
+        "word": "般",
+        "start": 399.05,
+        "end": 399.35,
+        "probability": 1.0
+      },
+      {
+        "word": "推",
+        "start": 399.35,
+        "end": 399.57,
+        "probability": 0.996
+      },
+      {
+        "word": "荐",
+        "start": 399.57,
+        "end": 399.83,
+        "probability": 0.999
+      },
+      {
+        "word": "使",
+        "start": 399.83,
+        "end": 400.17,
+        "probability": 0.995
+      },
+      {
+        "word": "用",
+        "start": 400.17,
+        "end": 400.47,
+        "probability": 1.0
+      },
+      {
+        "word": "g",
+        "start": 400.47,
+        "end": 400.57,
+        "probability": 0.292
+      },
+      {
+        "word": "it",
+        "start": 400.57,
+        "end": 400.65,
+        "probability": 0.519
+      },
+      {
+        "word": "merge",
+        "start": 400.65,
+        "end": 400.91,
+        "probability": 0.822
+      }
+    ]
+  },
+  {
+    "id": 144,
+    "text_zh": "而不是git rebase",
+    "start": 400.91,
+    "end": 402.33,
+    "words": [
+      {
+        "word": "而",
+        "start": 400.91,
+        "end": 401.21,
+        "probability": 0.18
+      },
+      {
+        "word": "不是",
+        "start": 401.21,
+        "end": 401.53,
+        "probability": 0.995
+      },
+      {
+        "word": "g",
+        "start": 401.53,
+        "end": 401.83,
+        "probability": 0.004
+      },
+      {
+        "word": "it",
+        "start": 401.83,
+        "end": 402.17,
+        "probability": 0.873
+      },
+      {
+        "word": "reb",
+        "start": 402.17,
+        "end": 402.17,
+        "probability": 0.44
+      },
+      {
+        "word": "ase",
+        "start": 402.17,
+        "end": 402.33,
+        "probability": 0.924
+      }
+    ]
+  },
+  {
+    "id": 145,
+    "text_zh": "当然git rebase它有一个优点",
+    "start": 402.33,
+    "end": 404.79,
+    "words": [
+      {
+        "word": "当然",
+        "start": 402.33,
+        "end": 402.71,
+        "probability": 0.562
+      },
+      {
+        "word": "g",
+        "start": 402.71,
+        "end": 403.21,
+        "probability": 0.797
+      },
+      {
+        "word": "it",
+        "start": 403.21,
+        "end": 403.33,
+        "probability": 0.988
+      },
+      {
+        "word": "reb",
+        "start": 403.33,
+        "end": 403.53,
+        "probability": 0.958
+      },
+      {
+        "word": "ase",
+        "start": 403.53,
+        "end": 403.73,
+        "probability": 0.998
+      },
+      {
+        "word": "它",
+        "start": 403.73,
+        "end": 403.97,
+        "probability": 0.695
+      },
+      {
+        "word": "有",
+        "start": 403.97,
+        "end": 404.17,
+        "probability": 0.996
+      },
+      {
+        "word": "一个",
+        "start": 404.17,
+        "end": 404.35,
+        "probability": 0.995
+      },
+      {
+        "word": "优",
+        "start": 404.35,
+        "end": 404.57,
+        "probability": 1.0
+      },
+      {
+        "word": "点",
+        "start": 404.57,
+        "end": 404.79,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "text_zh": "就是它的历史记录会更加干净一点",
+    "start": 405.35,
+    "end": 409.29,
+    "words": [
+      {
+        "word": "就是",
+        "start": 405.35,
+        "end": 405.61,
+        "probability": 0.903
+      },
+      {
+        "word": "它的",
+        "start": 405.61,
+        "end": 406.61,
+        "probability": 0.926
+      },
+      {
+        "word": "历",
+        "start": 406.61,
+        "end": 406.99,
+        "probability": 0.996
+      },
+      {
+        "word": "史",
+        "start": 406.99,
+        "end": 407.19,
+        "probability": 1.0
+      },
+      {
+        "word": "记",
+        "start": 407.19,
+        "end": 407.33,
+        "probability": 0.99
+      },
+      {
+        "word": "录",
+        "start": 407.33,
+        "end": 407.57,
+        "probability": 1.0
+      },
+      {
+        "word": "会",
+        "start": 407.57,
+        "end": 408.17,
+        "probability": 0.967
+      },
+      {
+        "word": "更",
+        "start": 408.17,
+        "end": 408.39,
+        "probability": 0.999
+      },
+      {
+        "word": "加",
+        "start": 408.39,
+        "end": 408.59,
+        "probability": 0.998
+      },
+      {
+        "word": "干",
+        "start": 408.59,
+        "end": 408.79,
+        "probability": 0.994
+      },
+      {
+        "word": "净",
+        "start": 408.79,
+        "end": 409.05,
+        "probability": 1.0
+      },
+      {
+        "word": "一点",
+        "start": 409.05,
+        "end": 409.29,
+        "probability": 0.987
+      }
+    ]
+  }
+]

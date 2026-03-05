@@ -1,8 +1,8 @@
 """Translate Chinese transcripts to English using DeepL + Gemini review."""
 
 import json
+import time
 import deepl
-import google.generativeai as genai
 from pathlib import Path
 from tqdm import tqdm
 
@@ -39,9 +39,9 @@ def translate_with_deepl(segments: list[dict]) -> list[dict]:
 
 def review_with_gemini(segments: list[dict]) -> list[dict]:
     """Review and refine translations using Gemini for naturalness and glossary consistency."""
-    genai.configure(api_key=GEMINI_API_KEY)
-    model = genai.GenerativeModel("gemini-2.0-flash")
+    from google import genai
 
+    client = genai.Client(api_key=GEMINI_API_KEY)
     glossary = build_glossary_prompt()
 
     system_prompt = f"""You are a translation reviewer for a GitHub tutorial video being dubbed from Chinese to English.
@@ -59,18 +59,30 @@ For each segment, output ONLY the refined English translation. If the translatio
 Do not add explanations or notes."""
 
     print(f"Reviewing {len(segments)} translations with Gemini...")
+    failed = 0
     for seg in tqdm(segments):
         prompt = f"""Original Chinese: {seg['text_zh']}
 DeepL translation: {seg['text_en_deepl']}
 
 Refined English (spoken, natural):"""
 
-        response = model.generate_content(
-            [{"role": "user", "parts": [{"text": system_prompt + "\n\n" + prompt}]}],
-            generation_config={"temperature": 0.3, "max_output_tokens": 500},
-        )
-        seg["text_en"] = response.text.strip().strip('"')
+        try:
+            response = client.models.generate_content(
+                model="gemini-2.0-flash",
+                contents=system_prompt + "\n\n" + prompt,
+                config={"temperature": 0.3, "max_output_tokens": 500},
+            )
+            seg["text_en"] = response.text.strip().strip('"')
+        except Exception as e:
+            failed += 1
+            seg["text_en"] = seg["text_en_deepl"]
+            if "429" in str(e) and failed == 1:
+                print(f"\n  Gemini quota exceeded — falling back to DeepL for remaining segments.")
+            elif failed == 1:
+                print(f"\n  Gemini error: {e} — falling back to DeepL for this segment.")
 
+    if failed:
+        print(f"  {failed} segment(s) used DeepL fallback due to Gemini errors.")
     return segments
 
 
