@@ -53,10 +53,7 @@ def align_segments(translation_path: Path, tts_segments_dir: Path, output_path: 
 
     processed = 0
     for seg in segments:
-        tts_file = seg.get("tts_file")
-        if not tts_file:
-            continue
-
+        tts_file = seg.get("tts_file", f"segment_{seg['id']:04d}.wav")
         tts_path = tts_segments_dir / tts_file
         if not tts_path.exists():
             print(f"  Missing TTS file: {tts_file}")
