@@ -15,7 +15,8 @@
     "text_en_deepl": "Hello, everyone.",
     "text_en": "Hello, everyone.",
     "tts_file": "segment_0000.wav",
-    "tts_duration": 1.451
+    "tts_duration": 1.899,
+    "speaker": "SPEAKER_00"
   },
   {
     "id": 1,
@@ -93,7 +94,8 @@
     "text_en_deepl": "We just saw how to github the",
     "text_en": "We just saw how to github the",
     "tts_file": "segment_0001.wav",
-    "tts_duration": 2.645
+    "tts_duration": 3.467,
+    "speaker": "SPEAKER_00"
   },
   {
     "id": 2,
@@ -177,7 +179,8 @@
     "text_en_deepl": "A collaboration inside the same repo",
     "text_en": "A collaboration inside the same repo",
     "tts_file": "segment_0002.wav",
-    "tts_duration": 3.285
+    "tts_duration": 4.299,
+    "speaker": "SPEAKER_00"
   },
   {
     "id": 3,
@@ -255,7 +258,8 @@
     "text_en_deepl": "That is, the collaborators all have an understanding of the repo's a",
     "text_en": "That is, the collaborators all have an understanding of the repo's a",
     "tts_file": "segment_0003.wav",
-    "tts_duration": 6.229
+    "tts_duration": 8.139,
+    "speaker": "SPEAKER_00"
   },
   {
     "id": 4,
@@ -303,7 +307,8 @@
     "text_en_deepl": "One of push's permissions",
     "text_en": "One of push's permissions",
     "tts_file": "segment_0004.wav",
-    "tts_duration": 2.283
+    "tts_duration": 2.987,
+    "speaker": "SPEAKER_00"
   },
   {
     "id": 5,
@@ -387,7 +392,8 @@
     "text_en_deepl": "Permission to push at least one new branch",
     "text_en": "Permission to push at least one new branch",
     "tts_file": "segment_0005.wav",
-    "tts_duration": 3.84
+    "tts_duration": 5.024,
+    "speaker": "SPEAKER_00"
   },
   {
     "id": 6,
@@ -411,7 +417,8 @@
     "text_en_deepl": "But then?",
     "text_en": "But then?",
     "tts_file": "segment_0006.wav",
-    "tts_duration": 2.741
+    "tts_duration": 3.584,
+    "speaker": "SPEAKER_00"
   },
   {
     "id": 7,
@@ -459,7 +466,8 @@
     "text_en_deepl": "Actually, in the open source community",
     "text_en": "Actually, in the open source community",
     "tts_file": "segment_0007.wav",
-    "tts_duration": 3.477
+    "tts_duration": 4.544,
+    "speaker": "SPEAKER_00"
   },
   {
     "id": 8,
@@ -555,7 +563,8 @@
     "text_en_deepl": "A lot of times we don't have push access to a repo",
     "text_en": "A lot of times we don't have push access to a repo",
     "tts_file": "segment_0008.wav",
-    "tts_duration": 4.576
+    "tts_duration": 5.984,
+    "speaker": "SPEAKER_00"
   },
   {
     "id": 9,
@@ -669,7 +678,8 @@
     "text_en_deepl": "At this time I would like to make a code contribution to such a repo",
     "text_en": "At this time I would like to make a code contribution to such a repo",
     "tts_file": "segment_0009.wav",
-    "tts_duration": 6.229
+    "tts_duration": 8.139,
+    "speaker": "SPEAKER_00"
   },
   {
     "id": 10,
@@ -699,7 +709,8 @@
     "text_en_deepl": "What to do?",
     "text_en": "What to do?",
     "tts_file": "segment_0010.wav",
-    "tts_duration": 0.992
+    "tts_duration": 40.267,
+    "speaker": "SPEAKER_00"
   },
   {
     "id": 11,
@@ -783,7 +794,8 @@
     "text_en_deepl": "Please ask Sun Butterfly to show us",
     "text_en": "Please ask Sun Butterfly to show us",
     "tts_file": "segment_0011.wav",
-    "tts_duration": 3.2
+    "tts_duration": 4.181,
+    "speaker": "SPEAKER_00"
   },
   {
     "id": 12,
@@ -837,7 +849,8 @@
     "text_en_deepl": "Using the fork",
     "text_en": "Using the fork",
     "tts_file": "segment_0012.wav",
-    "tts_duration": 1.269
+    "tts_duration": 1.664,
+    "speaker": "SPEAKER_00"
   },
   {
     "id": 13,
@@ -885,7 +898,8 @@
     "text_en_deepl": "Then submit a pull request",
     "text_en": "Then submit a pull request",
     "tts_file": "segment_0013.wav",
-    "tts_duration": 2.368
+    "tts_duration": 3.104,
+    "speaker": "SPEAKER_00"
   },
   {
     "id": 14,
@@ -963,7 +977,8 @@
     "text_en_deepl": "And now I am not in this page.shu",
     "text_en": "And now I am not in this page.shu",
     "tts_file": "segment_0014.wav",
-    "tts_duration": 3.019
+    "tts_duration": 2.581,
+    "speaker": "SPEAKER_01"
   },
   {
     "id": 15,
@@ -1041,7 +1056,8 @@
     "text_en_deepl": "And then I'd like to make some contributions to this code",
     "text_en": "And then I'd like to make some contributions to this code",
     "tts_file": "segment_0015.wav",
-    "tts_duration": 5.216
+    "tts_duration": 4.469,
+    "speaker": "SPEAKER_01"
   },
   {
     "id": 16,
@@ -1107,7 +1123,8 @@
     "text_en_deepl": "I'm, like, I'm going to be on this cross team.",
     "text_en": "I'm, like, I'm going to be on this cross team.",
     "tts_file": "segment_0016.wav",
-    "tts_duration": 4.213
+    "tts_duration": 3.605,
+    "speaker": "SPEAKER_01"
   },
   {
     "id": 17,
@@ -1191,7 +1208,8 @@
     "text_en_deepl": "And then I'm gonna poke it under my personal account.",
     "text_en": "And then I'm gonna poke it under my personal account.",
     "tts_file": "segment_0017.wav",
-    "tts_duration": 4.853
+    "tts_duration": 4.16,
+    "speaker": "SPEAKER_01"
   },
   {
     "id": 18,
@@ -1305,7 +1323,8 @@
     "text_en_deepl": "I've got a new repository, cross team, right here in my repository.",
     "text_en": "I've got a new repository, cross team, right here in my repository.",
     "tts_file": "segment_0018.wav",
-    "tts_duration": 6.133
+    "tts_duration": 5.259,
+    "speaker": "SPEAKER_01"
   },
   {
     "id": 19,
@@ -1365,7 +1384,8 @@
     "text_en_deepl": "Then I pulled it locally.",
     "text_en": "Then I pulled it locally.",
     "tts_file": "segment_0019.wav",
-    "tts_duration": 2.283
+    "tts_duration": 1.952,
+    "speaker": "SPEAKER_01"
   },
   {
     "id": 20,
@@ -1407,7 +1427,8 @@
     "text_en_deepl": "Clone it.",
     "text_en": "Clone it.",
     "tts_file": "segment_0020.wav",
-    "tts_duration": 2.741
+    "tts_duration": 2.347,
+    "speaker": "SPEAKER_01"
   },
   {
     "id": 21,
@@ -1449,7 +1470,8 @@
     "text_en_deepl": "Type it in.",
     "text_en": "Type it in.",
     "tts_file": "segment_0021.wav",
-    "tts_duration": 0.992
+    "tts_duration": 39.179,
+    "speaker": "SPEAKER_01"
   },
   {
     "id": 22,
@@ -1497,7 +1519,8 @@
     "text_en_deepl": "We're on the meme now.",
     "text_en": "We're on the meme now.",
     "tts_file": "segment_0022.wav",
-    "tts_duration": 2.005
+    "tts_duration": 1.717,
+    "speaker": "SPEAKER_01"
   },
   {
     "id": 23,
@@ -1545,7 +1568,8 @@
     "text_en_deepl": "We create a new branch",
     "text_en": "We create a new branch",
     "tts_file": "segment_0023.wav",
-    "tts_duration": 2.005
+    "tts_duration": 1.717,
+    "speaker": "SPEAKER_01"
   },
   {
     "id": 24,
@@ -1599,7 +1623,8 @@
     "text_en_deepl": "Like calling a hot rust branch",
     "text_en": "Like calling a hot rust branch",
     "tts_file": "segment_0024.wav",
-    "tts_duration": 2.741
+    "tts_duration": 2.347,
+    "speaker": "SPEAKER_01"
   },
   {
     "id": 25,
@@ -1659,7 +1684,8 @@
     "text_en_deepl": "Let's give it some modifications",
     "text_en": "Let's give it some modifications",
     "tts_file": "segment_0025.wav",
-    "tts_duration": 2.923
+    "tts_duration": 2.507,
+    "speaker": "SPEAKER_01"
   },
   {
     "id": 26,
@@ -1749,7 +1775,8 @@
     "text_en_deepl": "Let's add something random to this code",
     "text_en": "Let's add something random to this code",
     "tts_file": "segment_0026.wav",
-    "tts_duration": 3.563
+    "tts_duration": 3.051,
+    "speaker": "SPEAKER_01"
   },
   {
     "id": 27,
@@ -1785,7 +1812,8 @@
     "text_en_deepl": "Then save it.",
     "text_en": "Then save it.",
     "tts_file": "segment_0027.wav",
-    "tts_duration": 1.173
+    "tts_duration": 1.003,
+    "speaker": "SPEAKER_01"
   },
   {
     "id": 28,
@@ -1821,7 +1849,8 @@
     "text_en_deepl": "Contrast. Save it.",
     "text_en": "Contrast. Save it.",
     "tts_file": "segment_0028.wav",
-    "tts_duration": 1.632
+    "tts_duration": 1.397,
+    "speaker": "SPEAKER_01"
   },
   {
     "id": 29,
@@ -1917,7 +1946,8 @@
     "text_en_deepl": "Then go over here and add a remote upstream.",
     "text_en": "Then go over here and add a remote upstream.",
     "tts_file": "segment_0029.wav",
-    "tts_duration": 4.021
+    "tts_duration": 3.445,
+    "speaker": "SPEAKER_01"
   },
   {
     "id": 30,
@@ -1965,7 +1995,8 @@
     "text_en_deepl": "Why do you need this upstream?",
     "text_en": "Why do you need this upstream?",
     "tts_file": "segment_0030.wav",
-    "tts_duration": 2.741
+    "tts_duration": 3.584,
+    "speaker": "SPEAKER_00"
   },
   {
     "id": 31,
@@ -2007,7 +2038,8 @@
     "text_en_deepl": "Because it's the same",
     "text_en": "Because it's the same",
     "tts_file": "segment_0031.wav",
-    "tts_duration": 1.909
+    "tts_duration": 1.632,
+    "speaker": "SPEAKER_01"
   },
   {
     "id": 32,
@@ -2109,7 +2141,8 @@
     "text_en_deepl": "The repository we're going to use with page.shu is a synchronization",
     "text_en": "The repository we're going to use with page.shu is a synchronization",
     "tts_file": "segment_0032.wav",
-    "tts_duration": 6.229
+    "tts_duration": 5.333,
+    "speaker": "SPEAKER_01"
   },
   {
     "id": 33,
@@ -2175,7 +2208,8 @@
     "text_en_deepl": "Just in case the original author over there",
     "text_en": "Just in case the original author over there",
     "tts_file": "segment_0033.wav",
-    "tts_duration": 3.936
+    "tts_duration": 3.371,
+    "speaker": "SPEAKER_01"
   },
   {
     "id": 34,
@@ -2223,7 +2257,8 @@
     "text_en_deepl": "He made some changes.",
     "text_en": "He made some changes.",
     "tts_file": "segment_0034.wav",
-    "tts_duration": 1.909
+    "tts_duration": 74.805,
+    "speaker": "SPEAKER_01"
   },
   {
     "id": 35,
@@ -2319,7 +2354,8 @@
     "text_en_deepl": "Then we'll have to pull his code together locally",
     "text_en": "Then we'll have to pull his code together locally",
     "tts_file": "segment_0035.wav",
-    "tts_duration": 4.48
+    "tts_duration": 3.84,
+    "speaker": "SPEAKER_01"
   },
   {
     "id": 36,
@@ -2355,7 +2391,8 @@
     "text_en_deepl": "On his side.",
     "text_en": "On his side.",
     "tts_file": "segment_0036.wav",
-    "tts_duration": 1.088
+    "tts_duration": 0.928,
+    "speaker": "SPEAKER_01"
   },
   {
     "id": 37,
@@ -2415,7 +2452,8 @@
     "text_en_deepl": "This new one opens a window",
     "text_en": "This new one opens a window",
     "tts_file": "segment_0037.wav",
-    "tts_duration": 2.464
+    "tts_duration": 2.112,
+    "speaker": "SPEAKER_01"
   },
   {
     "id": 38,
@@ -2463,7 +2501,8 @@
     "text_en_deepl": "Then pull his over.",
     "text_en": "Then pull his over.",
     "tts_file": "segment_0038.wav",
-    "tts_duration": 1.728
+    "tts_duration": 1.483,
+    "speaker": "SPEAKER_01"
   },
   {
     "id": 39,
@@ -2511,7 +2550,8 @@
     "text_en_deepl": "is git remote add upstream",
     "text_en": "is git remote add upstream",
     "tts_file": "segment_0039.wav",
-    "tts_duration": 2.368
+    "tts_duration": 2.027,
+    "speaker": "SPEAKER_01"
   },
   {
     "id": 40,
@@ -2541,7 +2581,8 @@
     "text_en_deepl": "And then this way.",
     "text_en": "And then this way.",
     "tts_file": "segment_0040.wav",
-    "tts_duration": 1.632
+    "tts_duration": 64.117,
+    "speaker": "SPEAKER_01"
   },
   {
     "id": 41,
@@ -2607,7 +2648,8 @@
     "text_en_deepl": "Then we'll see if it's been added successfully",
     "text_en": "Then we'll see if it's been added successfully",
     "tts_file": "segment_0041.wav",
-    "tts_duration": 4.213
+    "tts_duration": 3.605,
+    "speaker": "SPEAKER_01"
   },
   {
     "id": 42,
@@ -2703,7 +2745,8 @@
     "text_en_deepl": "See, this side of Origin is my personal repository over here.",
     "text_en": "See, this side of Origin is my personal repository over here.",
     "tts_file": "segment_0042.wav",
-    "tts_duration": 5.589
+    "tts_duration": 4.789,
+    "speaker": "SPEAKER_01"
   },
   {
     "id": 43,
@@ -2823,7 +2866,8 @@
     "text_en_deepl": "Then this upstream is the link to the original page.shu repository",
     "text_en": "Then this upstream is the link to the original page.shu repository",
     "tts_file": "segment_0043.wav",
-    "tts_duration": 6.048
+    "tts_duration": 5.184,
+    "speaker": "SPEAKER_01"
   },
   {
     "id": 44,
@@ -2871,7 +2915,8 @@
     "text_en_deepl": "Then we press convert.",
     "text_en": "Then we press convert.",
     "tts_file": "segment_0044.wav",
-    "tts_duration": 2.005
+    "tts_duration": 1.717,
+    "speaker": "SPEAKER_01"
   },
   {
     "id": 45,
@@ -2937,7 +2982,8 @@
     "text_en_deepl": "Then we check into the main branch.",
     "text_en": "Then we check into the main branch.",
     "tts_file": "segment_0045.wav",
-    "tts_duration": 3.2
+    "tts_duration": 2.741,
+    "speaker": "SPEAKER_01"
   },
   {
     "id": 46,
@@ -3039,7 +3085,8 @@
     "text_en_deepl": "The check to main branch is to keep up with what's going on.",
     "text_en": "The check to main branch is to keep up with what's going on.",
     "tts_file": "segment_0046.wav",
-    "tts_duration": 5.493
+    "tts_duration": 7.179,
+    "speaker": "SPEAKER_00"
   },
   {
     "id": 47,
@@ -3141,7 +3188,8 @@
     "text_en_deepl": "is to maintain a synchronization with the main of page.shu.",
     "text_en": "is to maintain a synchronization with the main of page.shu.",
     "tts_file": "segment_0047.wav",
-    "tts_duration": 5.408
+    "tts_duration": 4.629,
+    "speaker": "SPEAKER_01"
   },
   {
     "id": 48,
@@ -3213,7 +3261,8 @@
     "text_en_deepl": "Let's pull his code locally.",
     "text_en": "Let's pull his code locally.",
     "tts_file": "segment_0048.wav",
-    "tts_duration": 2.56
+    "tts_duration": 2.187,
+    "speaker": "SPEAKER_01"
   },
   {
     "id": 49,
@@ -3237,7 +3286,8 @@
     "text_en_deepl": "right",
     "text_en": "right",
     "tts_file": "segment_0049.wav",
-    "tts_duration": 1.515
+    "tts_duration": 61.024,
+    "speaker": "SPEAKER_00"
   },
   {
     "id": 50,
@@ -3345,7 +3395,8 @@
     "text_en_deepl": "Because during the time that Acid Butterfly students were making code changes",
     "text_en": "Because during the time that Acid Butterfly students were making code changes",
     "tts_file": "segment_0050.wav",
-    "tts_duration": 7.061
+    "tts_duration": 9.216,
+    "speaker": "SPEAKER_00"
   },
   {
     "id": 51,
@@ -3453,7 +3504,8 @@
     "text_en_deepl": "It's possible that I or some other collaborator made changes to the code.",
     "text_en": "It's possible that I or some other collaborator made changes to the code.",
     "tts_file": "segment_0051.wav",
-    "tts_duration": 6.688
+    "tts_duration": 8.736,
+    "speaker": "SPEAKER_00"
   },
   {
     "id": 52,
@@ -3495,7 +3547,8 @@
     "text_en_deepl": "So he's going to pass.",
     "text_en": "So he's going to pass.",
     "tts_file": "segment_0052.wav",
-    "tts_duration": 2.005
+    "tts_duration": 2.624,
+    "speaker": "SPEAKER_00"
   },
   {
     "id": 53,
@@ -3537,7 +3590,8 @@
     "text_en_deepl": "Update now.",
     "text_en": "Update now.",
     "tts_file": "segment_0053.wav",
-    "tts_duration": 0.992
+    "tts_duration": 39.179,
+    "speaker": "SPEAKER_01"
   },
   {
     "id": 54,
@@ -3561,7 +3615,8 @@
     "text_en_deepl": "And then we",
     "text_en": "And then we",
     "tts_file": "segment_0054.wav",
-    "tts_duration": 0.992
+    "tts_duration": 39.179,
+    "speaker": "SPEAKER_01"
   },
   {
     "id": 55,
@@ -3621,7 +3676,8 @@
     "text_en_deepl": "Back to our revisionist branch",
     "text_en": "Back to our revisionist branch",
     "tts_file": "segment_0055.wav",
-    "tts_duration": 2.741
+    "tts_duration": 2.347,
+    "speaker": "SPEAKER_01"
   },
   {
     "id": 56,
@@ -3663,7 +3719,8 @@
     "text_en_deepl": "It's on hotfix.",
     "text_en": "It's on hotfix.",
     "tts_file": "segment_0056.wav",
-    "tts_duration": 1.365
+    "tts_duration": 1.163,
+    "speaker": "SPEAKER_01"
   },
   {
     "id": 57,
@@ -3705,7 +3762,8 @@
     "text_en_deepl": "Let's rebase it.",
     "text_en": "Let's rebase it.",
     "tts_file": "segment_0057.wav",
-    "tts_duration": 1.451
+    "tts_duration": 56.992,
+    "speaker": "SPEAKER_01"
   },
   {
     "id": 58,
@@ -3747,7 +3805,8 @@
     "text_en_deepl": "And then just push.",
     "text_en": "And then just push.",
     "tts_file": "segment_0058.wav",
-    "tts_duration": 1.728
+    "tts_duration": 67.68,
+    "speaker": "SPEAKER_01"
   },
   {
     "id": 59,
@@ -3825,7 +3884,8 @@
     "text_en_deepl": "We push to our own kbnorigin",
     "text_en": "We push to our own kbnorigin",
     "tts_file": "segment_0059.wav",
-    "tts_duration": 2.56
+    "tts_duration": 2.187,
+    "speaker": "SPEAKER_01"
   },
   {
     "id": 60,
@@ -3873,7 +3933,8 @@
     "text_en_deepl": "Don't push to upstream",
     "text_en": "Don't push to upstream",
     "tts_file": "segment_0060.wav",
-    "tts_duration": 2.005
+    "tts_duration": 1.717,
+    "speaker": "SPEAKER_01"
   },
   {
     "id": 61,
@@ -3945,7 +4006,8 @@
     "text_en_deepl": "and then push it to a new branch",
     "text_en": "and then push it to a new branch",
     "tts_file": "segment_0061.wav",
-    "tts_duration": 2.923
+    "tts_duration": 2.507,
+    "speaker": "SPEAKER_01"
   },
   {
     "id": 62,
@@ -3987,7 +4049,8 @@
     "text_en_deepl": "Our hotfix",
     "text_en": "Our hotfix",
     "tts_file": "segment_0062.wav",
-    "tts_duration": 0.907
+    "tts_duration": 35.616,
+    "speaker": "SPEAKER_01"
   },
   {
     "id": 63,
@@ -4011,7 +4074,8 @@
     "text_en_deepl": "That's it.",
     "text_en": "That's it.",
     "tts_file": "segment_0063.wav",
-    "tts_duration": 0.907
+    "tts_duration": 0.768,
+    "speaker": "SPEAKER_01"
   },
   {
     "id": 64,
@@ -4041,7 +4105,8 @@
     "text_en_deepl": "Let's see.",
     "text_en": "Let's see.",
     "tts_file": "segment_0064.wav",
-    "tts_duration": 0.907
+    "tts_duration": 0.768,
+    "speaker": "SPEAKER_01"
   },
   {
     "id": 65,
@@ -4083,7 +4148,8 @@
     "text_en_deepl": "It's right this way.",
     "text_en": "It's right this way.",
     "tts_file": "segment_0065.wav",
-    "tts_duration": 1.824
+    "tts_duration": 71.243,
+    "speaker": "SPEAKER_01"
   },
   {
     "id": 66,
@@ -4143,7 +4209,8 @@
     "text_en_deepl": "Then we create a pro request",
     "text_en": "Then we create a pro request",
     "tts_file": "segment_0066.wav",
-    "tts_duration": 2.56
+    "tts_duration": 2.187,
+    "speaker": "SPEAKER_01"
   },
   {
     "id": 67,
@@ -4215,7 +4282,8 @@
     "text_en_deepl": "Here, we'll pick hotfix locally.",
     "text_en": "Here, we'll pick hotfix locally.",
     "tts_file": "segment_0067.wav",
-    "tts_duration": 2.923
+    "tts_duration": 2.507,
+    "speaker": "SPEAKER_01"
   },
   {
     "id": 68,
@@ -4239,7 +4307,8 @@
     "text_en_deepl": "Then give",
     "text_en": "Then give",
     "tts_file": "segment_0068.wav",
-    "tts_duration": 2.741
+    "tts_duration": 2.347,
+    "speaker": "SPEAKER_01"
   },
   {
     "id": 69,
@@ -4293,7 +4362,8 @@
     "text_en_deepl": "Go to the top of page.shu's main",
     "text_en": "Go to the top of page.shu's main",
     "tts_file": "segment_0069.wav",
-    "tts_duration": 2.923
+    "tts_duration": 2.507,
+    "speaker": "SPEAKER_01"
   },
   {
     "id": 70,
@@ -4353,7 +4423,8 @@
     "text_en_deepl": "You can see the same over here.",
     "text_en": "You can see the same over here.",
     "tts_file": "segment_0070.wav",
-    "tts_duration": 2.827
+    "tts_duration": 2.421,
+    "speaker": "SPEAKER_01"
   },
   {
     "id": 71,
@@ -4401,7 +4472,8 @@
     "text_en_deepl": "It's looking at the native code",
     "text_en": "It's looking at the native code",
     "tts_file": "segment_0071.wav",
-    "tts_duration": 2.827
+    "tts_duration": 2.421,
+    "speaker": "SPEAKER_01"
   },
   {
     "id": 72,
@@ -4449,7 +4521,8 @@
     "text_en_deepl": "The code I modified",
     "text_en": "The code I modified",
     "tts_file": "segment_0072.wav",
-    "tts_duration": 1.728
+    "tts_duration": 67.68,
+    "speaker": "SPEAKER_01"
   },
   {
     "id": 73,
@@ -4491,7 +4564,8 @@
     "text_en_deepl": "Help us create it.",
     "text_en": "Help us create it.",
     "tts_file": "segment_0073.wav",
-    "tts_duration": 1.632
+    "tts_duration": 64.117,
+    "speaker": "SPEAKER_01"
   },
   {
     "id": 74,
@@ -4515,7 +4589,8 @@
     "text_en_deepl": "It's okay.",
     "text_en": "It's okay.",
     "tts_file": "segment_0074.wav",
-    "tts_duration": 0.907
+    "tts_duration": 35.616,
+    "speaker": "SPEAKER_01"
   },
   {
     "id": 75,
@@ -4545,7 +4620,8 @@
     "text_en_deepl": "It should be fine.",
     "text_en": "It should be fine.",
     "tts_file": "segment_0075.wav",
-    "tts_duration": 1.632
+    "tts_duration": 64.117,
+    "speaker": "SPEAKER_01"
   },
   {
     "id": 76,
@@ -4593,7 +4669,8 @@
     "text_en_deepl": "Thank you, Mr. Sour Butterfly.",
     "text_en": "Thank you, Mr. Sour Butterfly.",
     "tts_file": "segment_0076.wav",
-    "tts_duration": 2.741
+    "tts_duration": 127.839,
+    "speaker": "SPEAKER_00"
   },
   {
     "id": 77,
@@ -4653,7 +4730,8 @@
     "text_en_deepl": "I'll take a look at my pro request.",
     "text_en": "I'll take a look at my pro request.",
     "tts_file": "segment_0077.wav",
-    "tts_duration": 3.2
+    "tts_duration": 4.181,
+    "speaker": "SPEAKER_00"
   },
   {
     "id": 78,
@@ -4719,7 +4797,8 @@
     "text_en_deepl": "Me as a code reviewer",
     "text_en": "Me as a code reviewer",
     "tts_file": "segment_0078.wav",
-    "tts_duration": 1.909
+    "tts_duration": 2.507,
+    "speaker": "SPEAKER_00"
   },
   {
     "id": 79,
@@ -4809,7 +4888,8 @@
     "text_en_deepl": "Or me as a maintainer of an open source project",
     "text_en": "Or me as a maintainer of an open source project",
     "tts_file": "segment_0079.wav",
-    "tts_duration": 4.299
+    "tts_duration": 5.621,
+    "speaker": "SPEAKER_00"
   },
   {
     "id": 80,
@@ -4875,7 +4955,8 @@
     "text_en_deepl": "I'll check in from time to time.",
     "text_en": "I'll check in from time to time.",
     "tts_file": "segment_0080.wav",
-    "tts_duration": 2.923
+    "tts_duration": 3.819,
+    "speaker": "SPEAKER_00"
   },
   {
     "id": 81,
@@ -4941,7 +5022,8 @@
     "text_en_deepl": "Has anyone submitted a new pro request",
     "text_en": "Has anyone submitted a new pro request",
     "tts_file": "segment_0081.wav",
-    "tts_duration": 3.477
+    "tts_duration": 4.544,
+    "speaker": "SPEAKER_00"
   },
   {
     "id": 82,
@@ -5019,7 +5101,8 @@
     "text_en_deepl": "And then I saw the acid butterfly ad1234",
     "text_en": "And then I saw the acid butterfly ad1234",
     "tts_file": "segment_0082.wav",
-    "tts_duration": 3.659
+    "tts_duration": 4.779,
+    "speaker": "SPEAKER_00"
   },
   {
     "id": 83,
@@ -5061,7 +5144,8 @@
     "text_en_deepl": "Such a pro request",
     "text_en": "Such a pro request",
     "tts_file": "segment_0083.wav",
-    "tts_duration": 1.632
+    "tts_duration": 65.909,
+    "speaker": "SPEAKER_00"
   },
   {
     "id": 84,
@@ -5115,7 +5199,8 @@
     "text_en_deepl": "He means he added 1234.",
     "text_en": "He means he added 1234.",
     "tts_file": "segment_0084.wav",
-    "tts_duration": 2.101
+    "tts_duration": 2.741,
+    "speaker": "SPEAKER_00"
   },
   {
     "id": 85,
@@ -5151,7 +5236,8 @@
     "text_en_deepl": "I think it's possible, OK.",
     "text_en": "I think it's possible, OK.",
     "tts_file": "segment_0085.wav",
-    "tts_duration": 2.368
+    "tts_duration": 3.104,
+    "speaker": "SPEAKER_00"
   },
   {
     "id": 86,
@@ -5205,7 +5291,8 @@
     "text_en_deepl": "But I'm not particularly sure.",
     "text_en": "But I'm not particularly sure.",
     "tts_file": "segment_0086.wav",
-    "tts_duration": 2.741
+    "tts_duration": 3.584,
+    "speaker": "SPEAKER_00"
   },
   {
     "id": 87,
@@ -5283,7 +5370,8 @@
     "text_en_deepl": "I'm about to go up to one of his real branches and check it out.",
     "text_en": "I'm about to go up to one of his real branches and check it out.",
     "tts_file": "segment_0087.wav",
-    "tts_duration": 5.867
+    "tts_duration": 7.659,
+    "speaker": "SPEAKER_00"
   },
   {
     "id": 88,
@@ -5331,7 +5419,8 @@
     "text_en_deepl": "Is it the code I want?",
     "text_en": "Is it the code I want?",
     "tts_file": "segment_0088.wav",
-    "tts_duration": 2.005
+    "tts_duration": 2.624,
+    "speaker": "SPEAKER_00"
   },
   {
     "id": 89,
@@ -5427,7 +5516,8 @@
     "text_en_deepl": "So I'm going to put the acid butterflies in their personal storage.",
     "text_en": "So I'm going to put the acid butterflies in their personal storage.",
     "tts_file": "segment_0089.wav",
-    "tts_duration": 6.133
+    "tts_duration": 8.021,
+    "speaker": "SPEAKER_00"
   },
   {
     "id": 90,
@@ -5463,7 +5553,8 @@
     "text_en_deepl": "lit. jump off a dragon",
     "text_en": "lit. jump off a dragon",
     "tts_file": "segment_0090.wav",
-    "tts_duration": 2.005
+    "tts_duration": 110.901,
+    "speaker": "SPEAKER_00"
   },
   {
     "id": 91,
@@ -5523,7 +5614,8 @@
     "text_en_deepl": "Then I opened it in vscode",
     "text_en": "Then I opened it in vscode",
     "tts_file": "segment_0091.wav",
-    "tts_duration": 2.368
+    "tts_duration": 3.104,
+    "speaker": "SPEAKER_00"
   },
   {
     "id": 92,
@@ -5577,7 +5669,8 @@
     "text_en_deepl": "Let me check his code.",
     "text_en": "Let me check his code.",
     "tts_file": "segment_0092.wav",
-    "tts_duration": 2.005
+    "tts_duration": 2.624,
+    "speaker": "SPEAKER_00"
   },
   {
     "id": 93,
@@ -5649,7 +5742,8 @@
     "text_en_deepl": "Did we get the effect we wanted?",
     "text_en": "Did we get the effect we wanted?",
     "tts_file": "segment_0093.wav",
-    "tts_duration": 2.923
+    "tts_duration": 3.819,
+    "speaker": "SPEAKER_00"
   },
   {
     "id": 94,
@@ -5697,7 +5791,8 @@
     "text_en_deepl": "Why is our current code",
     "text_en": "Why is our current code",
     "tts_file": "segment_0094.wav",
-    "tts_duration": 2.101
+    "tts_duration": 2.741,
+    "speaker": "SPEAKER_00"
   },
   {
     "id": 95,
@@ -5769,7 +5864,8 @@
     "text_en_deepl": "There's no acid butterfly modification.",
     "text_en": "There's no acid butterfly modification.",
     "tts_file": "segment_0095.wav",
-    "tts_duration": 3.563
+    "tts_duration": 4.661,
+    "speaker": "SPEAKER_00"
   },
   {
     "id": 96,
@@ -5829,7 +5925,8 @@
     "text_en_deepl": "It's because I haven't checked out to",
     "text_en": "It's because I haven't checked out to",
     "tts_file": "segment_0096.wav",
-    "tts_duration": 3.381
+    "tts_duration": 4.416,
+    "speaker": "SPEAKER_00"
   },
   {
     "id": 97,
@@ -5889,7 +5986,8 @@
     "text_en_deepl": "The branch on his hotfix",
     "text_en": "The branch on his hotfix",
     "tts_file": "segment_0097.wav",
-    "tts_duration": 2.187
+    "tts_duration": 2.859,
+    "speaker": "SPEAKER_00"
   },
   {
     "id": 98,
@@ -5913,7 +6011,8 @@
     "text_en_deepl": "check out",
     "text_en": "check out",
     "tts_file": "segment_0098.wav",
-    "tts_duration": 2.741
+    "tts_duration": 3.584,
+    "speaker": "SPEAKER_00"
   },
   {
     "id": 99,
@@ -5985,7 +6084,8 @@
     "text_en_deepl": "And then there were revisions with classmates",
     "text_en": "And then there were revisions with classmates",
     "tts_file": "segment_0099.wav",
-    "tts_duration": 4.117
+    "tts_duration": 5.376,
+    "speaker": "SPEAKER_00"
   },
   {
     "id": 100,
@@ -6087,7 +6187,8 @@
     "text_en_deepl": "Then I'll run a series of tests.",
     "text_en": "Then I'll run a series of tests.",
     "tts_file": "segment_0100.wav",
-    "tts_duration": 2.923
+    "tts_duration": 3.819,
+    "speaker": "SPEAKER_00"
   },
   {
     "id": 101,
@@ -6111,7 +6212,8 @@
     "text_en_deepl": "There is no problem.",
     "text_en": "There is no problem.",
     "tts_file": "segment_0101.wav",
-    "tts_duration": 1.824
+    "tts_duration": 73.227,
+    "speaker": "SPEAKER_00"
   },
   {
     "id": 102,
@@ -6207,7 +6309,8 @@
     "text_en_deepl": "So I'll go back to the station's admin interface for a pro request",
     "text_en": "So I'll go back to the station's admin interface for a pro request",
     "tts_file": "segment_0102.wav",
-    "tts_duration": 6.048
+    "tts_duration": 7.893,
+    "speaker": "SPEAKER_00"
   },
   {
     "id": 103,
@@ -6261,7 +6364,8 @@
     "text_en_deepl": "I'll just do a merge.",
     "text_en": "I'll just do a merge.",
     "tts_file": "segment_0103.wav",
-    "tts_duration": 1.909
+    "tts_duration": 2.507,
+    "speaker": "SPEAKER_00"
   },
   {
     "id": 104,
@@ -6297,7 +6401,8 @@
     "text_en_deepl": "Of course it's possible.",
     "text_en": "Of course it's possible.",
     "tts_file": "segment_0104.wav",
-    "tts_duration": 2.187
+    "tts_duration": 2.859,
+    "speaker": "SPEAKER_00"
   },
   {
     "id": 105,
@@ -6357,7 +6462,8 @@
     "text_en_deepl": "I said he had a little problem.",
     "text_en": "I said he had a little problem.",
     "tts_file": "segment_0105.wav",
-    "tts_duration": 2.827
+    "tts_duration": 3.701,
+    "speaker": "SPEAKER_00"
   },
   {
     "id": 106,
@@ -6411,7 +6517,8 @@
     "text_en_deepl": "So I'll just say leave a comment",
     "text_en": "So I'll just say leave a comment",
     "tts_file": "segment_0106.wav",
-    "tts_duration": 2.923
+    "tts_duration": 3.819,
+    "speaker": "SPEAKER_00"
   },
   {
     "id": 107,
@@ -6489,7 +6596,8 @@
     "text_en_deepl": "And then further modifications over there",
     "text_en": "And then further modifications over there",
     "tts_file": "segment_0107.wav",
-    "tts_duration": 3.755
+    "tts_duration": 4.896,
+    "speaker": "SPEAKER_00"
   },
   {
     "id": 108,
@@ -6537,7 +6645,8 @@
     "text_en_deepl": "Then I'll merge.",
     "text_en": "Then I'll merge.",
     "tts_file": "segment_0108.wav",
-    "tts_duration": 1.451
+    "tts_duration": 1.899,
+    "speaker": "SPEAKER_00"
   },
   {
     "id": 109,
@@ -6615,7 +6724,8 @@
     "text_en_deepl": "In this way Acid Butterfly students excelled",
     "text_en": "In this way Acid Butterfly students excelled",
     "tts_file": "segment_0109.wav",
-    "tts_duration": 4.021
+    "tts_duration": 5.259,
+    "speaker": "SPEAKER_00"
   },
   {
     "id": 110,
@@ -6717,7 +6827,8 @@
     "text_en_deepl": "Code contribution to an open source project on our site",
     "text_en": "Code contribution to an open source project on our site",
     "tts_file": "segment_0110.wav",
-    "tts_duration": 5.035
+    "tts_duration": 4.309,
+    "speaker": "SPEAKER_01"
   },
   {
     "id": 111,
@@ -6759,6 +6870,7 @@
     "text_en_deepl": "So as you can see.",
     "text_en": "So as you can see.",
     "tts_file": "segment_0111.wav",
-    "tts_duration": 1.632
+    "tts_duration": 65.909,
+    "speaker": "UNKNOWN"
   }
 ]
