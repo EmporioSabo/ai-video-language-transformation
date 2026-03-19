@@ -23,11 +23,12 @@ OUTPUT_DIR = ROOT / "output"
 # ── Source videos ──
 GOOGLE_DRIVE_FOLDER_ID = "1fjbpwxk-Ub-SnierKNZ7kS8jUbMf_rZN"
 
-VIDEO_FILES = {
-    "video1_pr_within_team": "video1_pr_within_team.mp4",
-    "video2_pr_across_teams": "video2_pr_across_teams.mp4",
-    "video3_pr_conflicts": "video3_pr_conflicts.mp4",
-}
+
+def discover_videos():
+    """Auto-discover MP4 video files in the source directory."""
+    if SOURCE_DIR.exists():
+        return sorted(SOURCE_DIR.glob("*.mp4"))
+    return []
 
 # ── Audio extraction ──
 WHISPER_SAMPLE_RATE = 16000  # Hz, mono, for Whisper input

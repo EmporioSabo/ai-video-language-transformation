@@ -1,22 +1,81 @@
 """Align TTS audio segments to match original video timing.
 
-No time-stretching — speed adjustments are handled during synthesis (F5-TTS speed param).
-This script only places segments at their correct timestamps and handles overlaps.
+Uses pyrubberband for high-quality time-stretching (up to MAX_SPEED_FACTOR)
+when TTS segments overflow their time windows. Only truncates as a last resort.
+Applies LUFS loudness normalization to the final aligned track.
 """
 
 import json
+import numpy as np
+import soundfile as sf_lib
+import pyrubberband as pyrb
 from pathlib import Path
 from pydub import AudioSegment
 from pydub.silence import detect_leading_silence
 
 from config import (
     TRANSLATIONS_DIR, TTS_DIR, ALIGNED_DIR,
-    REFERENCE_SAMPLE_RATE,
+    REFERENCE_SAMPLE_RATE, MAX_SPEED_FACTOR,
+    CROSSFADE_MS, TARGET_LUFS,
 )
 
 
+def time_stretch_audio(audio: AudioSegment, speed_factor: float) -> AudioSegment:
+    """Speed up audio using pyrubberband (preserves pitch)."""
+    samples = np.array(audio.get_array_of_samples(), dtype=np.float32)
+    sample_rate = audio.frame_rate
+    channels = audio.channels
+
+    if channels == 2:
+        samples = samples.reshape((-1, 2))
+    else:
+        samples = samples.reshape((-1, 1))
+
+    # Normalize to float range for pyrubberband
+    max_val = float(2 ** (audio.sample_width * 8 - 1))
+    samples = samples / max_val
+
+    stretched = pyrb.time_stretch(samples, sample_rate, speed_factor)
+
+    # Convert back to int16
+    stretched = np.clip(stretched * max_val, -max_val, max_val - 1).astype(np.int16)
+
+    return AudioSegment(
+        data=stretched.tobytes(),
+        sample_width=audio.sample_width,
+        frame_rate=sample_rate,
+        channels=channels,
+    )
+
+
+def normalize_lufs(audio_path: Path, target_lufs: float = TARGET_LUFS):
+    """Normalize audio file to target LUFS loudness."""
+    try:
+        import pyloudnorm as pyln
+    except ImportError:
+        print("  Warning: pyloudnorm not installed, skipping LUFS normalization")
+        return
+
+    data, rate = sf_lib.read(str(audio_path))
+
+    meter = pyln.Meter(rate)
+    current_lufs = meter.integrated_loudness(data)
+
+    if np.isinf(current_lufs):
+        print("  Warning: Could not measure LUFS (silent audio?), skipping normalization")
+        return
+
+    normalized = pyln.normalize.loudness(data, current_lufs, target_lufs)
+    sf_lib.write(str(audio_path), normalized, rate)
+    print(f"  LUFS: {current_lufs:.1f} → {target_lufs:.1f}")
+
+
 def align_segments(translation_path: Path, tts_segments_dir: Path, output_path: Path):
-    """Place TTS segments at their original timestamps to produce a single audio track."""
+    """Place TTS segments at their original timestamps to produce a single audio track.
+
+    Applies rubberband time-stretching for segments that overflow, and only
+    truncates as a last resort when speedup exceeds MAX_SPEED_FACTOR.
+    """
     with open(translation_path, "r", encoding="utf-8") as f:
         segments = json.load(f)
 
@@ -28,6 +87,7 @@ def align_segments(translation_path: Path, tts_segments_dir: Path, output_path: 
 
     processed = 0
     skipped = 0
+    stretched = 0
     truncated = 0
 
     for i, seg in enumerate(segments):
@@ -55,18 +115,33 @@ def align_segments(translation_path: Path, tts_segments_dir: Path, output_path: 
 
         available_ms = next_start_ms - start_ms
 
-        # Truncate with fade-out if segment overflows into next
+        # Handle overflow: try time-stretching first, then truncate
         if len(tts_audio) > available_ms > 0:
-            fade_ms = min(50, available_ms)
-            tts_audio = tts_audio[:available_ms].fade_out(fade_ms)
-            truncated += 1
+            speed_factor = len(tts_audio) / available_ms
+
+            if speed_factor <= MAX_SPEED_FACTOR:
+                # Speed up with rubberband (pitch-preserving)
+                tts_audio = time_stretch_audio(tts_audio, speed_factor)
+                stretched += 1
+            else:
+                # Speed up to max, then truncate the remainder
+                tts_audio = time_stretch_audio(tts_audio, MAX_SPEED_FACTOR)
+                if len(tts_audio) > available_ms:
+                    fade_ms = min(CROSSFADE_MS, available_ms)
+                    tts_audio = tts_audio[:available_ms].fade_out(fade_ms)
+                truncated += 1
 
         aligned = aligned.overlay(tts_audio, position=start_ms)
         processed += 1
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
     aligned.export(str(output_path), format="wav")
-    print(f"  Aligned {processed}/{len(segments)} segments ({skipped} skipped, {truncated} truncated)")
+
+    # Apply LUFS normalization
+    normalize_lufs(output_path)
+
+    print(f"  Aligned {processed}/{len(segments)} segments "
+          f"({skipped} skipped, {stretched} time-stretched, {truncated} truncated)")
     print(f"  → {output_path.name}")
     return output_path
 

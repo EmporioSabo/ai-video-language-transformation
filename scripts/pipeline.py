@@ -11,10 +11,10 @@ import sys
 import time
 from pathlib import Path
 
-from config import SOURCE_DIR, AUDIO_ORIGINAL_DIR, TRANSCRIPTS_DIR, TRANSLATIONS_DIR, TTS_DIR, ALIGNED_DIR, OUTPUT_DIR
+from config import SOURCE_DIR, AUDIO_ORIGINAL_DIR, VOICE_REF_DIR, TRANSCRIPTS_DIR, TRANSLATIONS_DIR, TTS_DIR, ALIGNED_DIR, OUTPUT_DIR
 
 
-STAGES = ["download", "extract", "transcribe", "translate", "synthesize", "align", "merge", "subtitles"]
+STAGES = ["download", "extract", "transcribe", "diarize", "translate", "synthesize", "align", "merge", "subtitles"]
 
 
 def check_prerequisites(stage: str) -> bool:
@@ -22,6 +22,7 @@ def check_prerequisites(stage: str) -> bool:
     checks = {
         "extract": lambda: any(SOURCE_DIR.glob("*.mp4")),
         "transcribe": lambda: any(AUDIO_ORIGINAL_DIR.glob("*.wav")),
+        "diarize": lambda: any(TRANSCRIPTS_DIR.glob("*_zh.json")),
         "translate": lambda: any(TRANSCRIPTS_DIR.glob("*_zh.json")),
         "synthesize": lambda: any(TRANSLATIONS_DIR.glob("*_en.json")),
         "align": lambda: any(TTS_DIR.iterdir()) if TTS_DIR.exists() else False,
@@ -56,6 +57,12 @@ def run_stage(stage: str):
         print("NOTE: Transcription requires GPU. Run notebooks/01_transcribe.ipynb in Google Colab.")
         print(f"Expected input:  {AUDIO_ORIGINAL_DIR}/*.wav")
         print(f"Expected output: {TRANSCRIPTS_DIR}/*_zh.json")
+        return True
+
+    elif stage == "diarize":
+        print("NOTE: Diarization requires GPU. Run notebooks/00_diarize.ipynb in Google Colab.")
+        print(f"Expected input:  {AUDIO_ORIGINAL_DIR}/*.wav + {TRANSCRIPTS_DIR}/*_zh.json")
+        print(f"Expected output: Updated transcripts with speaker labels + voice references")
         return True
 
     elif stage == "translate":
