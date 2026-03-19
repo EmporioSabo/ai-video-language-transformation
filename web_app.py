@@ -11,45 +11,96 @@ from pathlib import Path
 
 import streamlit as st
 
+import auth
 import pipeline_core as pipeline
 
 # ── Page config ───────────────────────────────────────────────────────────────
 
 st.set_page_config(
-    page_title="Traducteur Vidéo Chinois → Anglais",
+    page_title="Chinese → English Video Translator",
     page_icon="🎬",
     layout="centered",
 )
 
-st.title("🎬 Traducteur Vidéo Chinois → Anglais")
-st.caption("Upload une vidéo chinoise · reçois la même vidéo en anglais avec la voix clonée du locuteur")
+# ── Auth gate ─────────────────────────────────────────────────────────────────
+
+if "logged_in" not in st.session_state:
+    st.session_state.logged_in = False
+
+if not st.session_state.logged_in:
+    st.title("🎬 Chinese → English Video Translator")
+    st.write("Please sign in or create an account to continue.")
+    st.divider()
+
+    tab_login, tab_signup = st.tabs(["Log In", "Sign Up"])
+
+    with tab_login:
+        login_email = st.text_input("Email", key="login_email")
+        login_password = st.text_input("Password", type="password", key="login_password")
+        if st.button("Log In", type="primary", use_container_width=True):
+            ok, msg = auth.log_in(login_email, login_password)
+            if ok:
+                st.session_state.logged_in = True
+                st.session_state.user_email = login_email
+                st.rerun()
+            else:
+                st.error(msg)
+
+    with tab_signup:
+        signup_email = st.text_input("Email", key="signup_email")
+        signup_password = st.text_input("Password", type="password", key="signup_password")
+        signup_password2 = st.text_input("Confirm password", type="password", key="signup_password2")
+        if st.button("Create Account", type="primary", use_container_width=True):
+            if signup_password != signup_password2:
+                st.error("Passwords do not match.")
+            else:
+                ok, msg = auth.sign_up(signup_email, signup_password)
+                if ok:
+                    st.success(msg + " You can now log in.")
+                else:
+                    st.error(msg)
+
+    st.stop()
+
+# ── Logged-in header ──────────────────────────────────────────────────────────
+
+st.title("🎬 Chinese → English Video Translator")
+st.caption("Upload a Chinese video · get the same video in English with the speaker's cloned voice")
+
+with st.sidebar:
+    st.write(f"Logged in as **{st.session_state.user_email}**")
+    if st.button("Log Out"):
+        st.session_state.logged_in = False
+        st.session_state.user_email = None
+        st.rerun()
 
 # ── Sidebar — API keys ────────────────────────────────────────────────────────
 
 with st.sidebar:
-    st.header("⚙️ Clés API")
+    st.divider()
+    st.header("⚙️ API Keys")
 
     deepl_key = st.text_input(
         "DeepL API Key",
         type="password",
         placeholder="xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx:fx",
-        help="Clé gratuite sur deepl.com/fr/pro-api (500 000 chars/mois)",
+        help="Free key at deepl.com/pro-api (500,000 chars/month)",
     )
     elevenlabs_key = st.text_input(
         "ElevenLabs API Key",
         type="password",
         placeholder="sk_...",
-        help="Clonage de voix — requiert le plan Starter ($5/mois) minimum",
+        help="Voice cloning — requires Starter plan ($5/month) minimum",
     )
 
     st.divider()
     st.info(
-        "**Première utilisation :** le modèle Whisper 'small' (~500 MB) "
-        "sera téléchargé automatiquement."
+        "**First use:** the Whisper 'small' model (~500 MB) "
+        "will be downloaded automatically."
     )
     st.caption(
-        "⏱ Temps estimé : 2–3× la durée de la vidéo "
-        "(ex : vidéo de 5 min → ~15 min de traitement)"
+        "⏱ Estimated time: 2–3× the video duration "
+        "(e.g. 5-min video → ~15 min processing)"
     )
 
 # ── Session state ─────────────────────────────────────────────────────────────
@@ -63,7 +114,7 @@ if "last_file_id" not in st.session_state:
 # ── File upload ───────────────────────────────────────────────────────────────
 
 uploaded = st.file_uploader(
-    "📁 Upload ta vidéo chinoise",
+    "📁 Upload your Chinese video",
     type=["mp4", "mkv", "avi", "mov"],
 )
 
@@ -78,12 +129,12 @@ if uploaded:
 # ── Guards ────────────────────────────────────────────────────────────────────
 
 if uploaded and not (deepl_key and elevenlabs_key):
-    st.warning("⚠️ Entre tes clés API dans la barre latérale pour continuer.")
+    st.warning("⚠️ Enter your API keys in the sidebar to continue.")
 
 # ── Transform button ──────────────────────────────────────────────────────────
 
 if uploaded and deepl_key and elevenlabs_key:
-    if st.button("🚀 Transformer la vidéo", type="primary", use_container_width=True):
+    if st.button("🚀 Transform Video", type="primary", use_container_width=True):
 
         with tempfile.TemporaryDirectory() as tmp_dir:
             # Write uploaded video to disk
@@ -92,41 +143,41 @@ if uploaded and deepl_key and elevenlabs_key:
 
             result_bytes = None
 
-            with st.status("Traitement en cours...", expanded=True) as status:
+            with st.status("Processing...", expanded=True) as status:
                 try:
                     # Step 1 — Extract audio
-                    st.write("🎵 Extraction de l'audio...")
+                    st.write("🎵 Extracting audio...")
                     whisper_audio = pipeline.extract_whisper_audio(video_path, tmp_dir)
                     voice_sample = pipeline.extract_voice_sample(video_path, tmp_dir)
 
                     # Step 2 — Transcribe
-                    st.write("📝 Transcription du chinois (peut prendre plusieurs minutes)...")
+                    st.write("📝 Transcribing Chinese (this may take a few minutes)...")
                     segments = pipeline.transcribe(whisper_audio)
-                    st.write(f"   → {len(segments)} segments détectés")
+                    st.write(f"   → {len(segments)} segments detected")
 
                     # Step 3 — Translate
-                    st.write("🌐 Traduction en anglais via DeepL...")
+                    st.write("🌐 Translating to English via DeepL...")
                     translated = pipeline.translate(segments, deepl_key)
 
                     # Step 4 — Voice cloning + synthesis
-                    st.write("🎤 Clonage de la voix + synthèse en anglais...")
+                    st.write("🎤 Cloning voice + synthesizing English audio...")
                     eng_audio = pipeline.synthesize(
                         voice_sample, translated, elevenlabs_key, tmp_dir
                     )
 
                     # Step 5 — Merge
-                    st.write("🎬 Fusion audio + vidéo...")
+                    st.write("🎬 Merging audio + video...")
                     out_path = pipeline.merge(video_path, eng_audio, tmp_dir)
 
                     # Read result into memory before tempdir is deleted
                     result_bytes = out_path.read_bytes()
-                    status.update(label="✅ Transformation terminée !", state="complete")
+                    status.update(label="✅ Done!", state="complete")
 
                 except subprocess.CalledProcessError as e:
-                    status.update(label="❌ Erreur FFmpeg", state="error")
+                    status.update(label="❌ FFmpeg error", state="error")
                     st.error(f"FFmpeg error:\n{e.stderr.decode()}")
                 except Exception as e:
-                    status.update(label=f"❌ Erreur : {e}", state="error")
+                    status.update(label=f"❌ Error: {e}", state="error")
                     st.exception(e)
 
             # Store result in session state for download button
@@ -139,9 +190,9 @@ if uploaded and deepl_key and elevenlabs_key:
 # ── Download button ───────────────────────────────────────────────────────────
 
 if st.session_state.result:
-    st.success("✅ Ta vidéo en anglais est prête !")
+    st.success("✅ Your English video is ready!")
     st.download_button(
-        label="⬇️ Télécharger la vidéo en anglais",
+        label="⬇️ Download English video",
         data=st.session_state.result["bytes"],
         file_name=st.session_state.result["filename"],
         mime="video/mp4",
