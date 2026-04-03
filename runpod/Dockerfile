@@ -8,16 +8,18 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     libsndfile1 \
     && rm -rf /var/lib/apt/lists/*
 
-# Python dependencies
-RUN pip install --no-cache-dir \
-    runpod \
-    faster-whisper>=1.0.0 \
-    pyannote.audio \
-    f5-tts>=0.3.0 \
-    soundfile>=0.12.0 \
-    pydub>=0.25.1 \
-    scipy \
-    numpy
+# Install packages in stages to isolate conflicts
+# Stage 1: Core + RunPod SDK
+RUN pip install --no-cache-dir runpod pydub soundfile scipy
+
+# Stage 2: Whisper (has its own torch dependency expectations)
+RUN pip install --no-cache-dir faster-whisper
+
+# Stage 3: pyannote (heavy ML stack)
+RUN pip install --no-cache-dir pyannote.audio
+
+# Stage 4: F5-TTS
+RUN pip install --no-cache-dir f5-tts
 
 # Pre-download model weights to avoid cold-start delays
 # Whisper large-v3 (~3GB)
