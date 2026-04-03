@@ -8,8 +8,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     libsndfile1 \
     && rm -rf /var/lib/apt/lists/*
 
-# Fix torchvision compatibility with base image PyTorch version
-RUN pip install --no-cache-dir --force-reinstall torchvision --index-url https://download.pytorch.org/whl/cu124
+# Reinstall torchvision to match the base image's PyTorch version
+# The base image has PyTorch 2.4.0+cu124, so we need a matching torchvision
+RUN pip install --no-cache-dir torch==2.4.0 torchvision==0.19.0 --index-url https://download.pytorch.org/whl/cu124
 
 # Install packages in stages to isolate conflicts
 RUN pip install --no-cache-dir runpod pydub soundfile scipy
