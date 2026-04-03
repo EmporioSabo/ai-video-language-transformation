@@ -1,0 +1,8 @@
+# Lightweight requirements for the web app only
+# (no GPU dependencies like f5-tts or pyannote)
+
+faster-whisper>=1.0.0
+deepl>=1.18.0
+pydub>=0.25.1
+python-dotenv>=1.0.0
+streamlit>=1.30.0
