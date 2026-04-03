@@ -1,11 +1,13 @@
 """
 Simple file-based authentication — stores users in users.json.
+Uses bcrypt for password hashing (salted, resistant to rainbow tables).
 """
 
-import hashlib
 import json
 import re
 from pathlib import Path
+
+import bcrypt
 
 USERS_FILE = Path(__file__).parent / "users.json"
 
@@ -21,7 +23,11 @@ def _save(users: dict):
 
 
 def _hash(password: str) -> str:
-    return hashlib.sha256(password.encode()).hexdigest()
+    return bcrypt.hashpw(password.encode(), bcrypt.gensalt()).decode()
+
+
+def _verify(password: str, hashed: str) -> bool:
+    return bcrypt.checkpw(password.encode(), hashed.encode())
 
 
 def _valid_email(email: str) -> bool:
@@ -47,6 +53,6 @@ def log_in(email: str, password: str) -> tuple[bool, str]:
     users = _load()
     if email not in users:
         return False, "No account found with this email."
-    if users[email]["password"] != _hash(password):
+    if not _verify(password, users[email]["password"]):
         return False, "Incorrect password."
     return True, "Logged in successfully!"

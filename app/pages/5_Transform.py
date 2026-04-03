@@ -98,6 +98,12 @@ if can_run:
             with zipfile.ZipFile(uploaded_tts) as zf:
                 zf.extractall(tts_dir)
 
+            # Flatten: if ZIP contained a subfolder, move WAVs up to tts_dir
+            wav_files = list(tts_dir.rglob("*.wav"))
+            for wav in wav_files:
+                if wav.parent != tts_dir:
+                    wav.rename(tts_dir / wav.name)
+
             result_bytes = None
 
             with st.status("Processing...", expanded=True) as status:
