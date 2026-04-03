@@ -17,6 +17,16 @@ RUN pip install --no-cache-dir faster-whisper
 RUN pip install --no-cache-dir pyannote.audio
 RUN pip install --no-cache-dir f5-tts
 
+# Install NVIDIA CUDA pip packages so CTranslate2 can find cuBLAS and cuDNN at runtime.
+# CTranslate2 (used by faster-whisper) loads these via ctypes and looks for pip-installed
+# nvidia packages or LD_LIBRARY_PATH — it does NOT search /usr/local/cuda/lib64 by default.
+RUN pip install --no-cache-dir nvidia-cublas-cu12 nvidia-cudnn-cu12
+
+# Set LD_LIBRARY_PATH so CTranslate2 can find libcublas.so.12 and libcudnn.so at runtime.
+# This resolves: "RuntimeError: Library libcublas.so.12 is not found or cannot be loaded"
+# See: https://github.com/SYSTRAN/faster-whisper/issues/717
+ENV LD_LIBRARY_PATH="/usr/local/cuda/lib64:/usr/local/lib/python3.11/dist-packages/nvidia/cublas/lib:/usr/local/lib/python3.11/dist-packages/nvidia/cudnn/lib:${LD_LIBRARY_PATH}"
+
 # Pre-download Whisper large-v3 weights (~3GB)
 RUN python -c "from faster_whisper import WhisperModel; WhisperModel('large-v3', device='cpu', compute_type='int8')"
 
