@@ -18,7 +18,8 @@ ENV LD_LIBRARY_PATH="/usr/local/lib/python3.11/dist-packages/nvidia/cublas/lib:/
 # Install all Python packages
 RUN pip install --no-cache-dir runpod pydub soundfile scipy
 RUN pip install --no-cache-dir faster-whisper
-RUN pip install --no-cache-dir pyannote.audio
+# Pin pyannote <3.4 to avoid torchcodec dependency (AudioDecoder not available)
+RUN pip install --no-cache-dir "pyannote.audio>=3.1,<3.4"
 RUN pip install --no-cache-dir f5-tts
 
 # Re-pin torch ecosystem to match base image CUDA.
