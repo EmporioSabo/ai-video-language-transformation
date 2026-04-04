@@ -30,6 +30,17 @@ RUN pip install --no-cache-dir --force-reinstall --no-deps \
 # F5-TTS and other packages fall back to torchaudio/soundfile for audio I/O.
 RUN pip uninstall -y torchcodec || true
 
+# Debug: print CUDA/cuDNN versions so we can diagnose version mismatches
+RUN python -c "\
+import torch; \
+print(f'torch={torch.__version__}'); \
+print(f'CUDA available={torch.cuda.is_available()}'); \
+print(f'cuDNN version={torch.backends.cudnn.version() if torch.backends.cudnn.is_available() else \"NOT AVAILABLE\"}'); \
+print(f'cuDNN enabled={torch.backends.cudnn.enabled}'); \
+import subprocess; subprocess.run(['find', '/usr', '-name', 'libcudnn*', '-not', '-path', '*/dist-packages/*'], check=False); \
+subprocess.run(['find', '/usr/local/lib/python3.11/dist-packages/nvidia', '-name', 'libcudnn*'], check=False); \
+"
+
 # Pre-download Whisper large-v3 weights (~3GB)
 RUN python -c "from faster_whisper import WhisperModel; WhisperModel('large-v3', device='cpu', compute_type='int8')"
 

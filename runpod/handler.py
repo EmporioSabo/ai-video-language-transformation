@@ -196,6 +196,11 @@ def handle_synthesize(job_input):
 
         default_ref = list(ref_paths.values())[0] if ref_paths else None
 
+        # Disable cuDNN — avoids CUDNN_STATUS_NOT_INITIALIZED from version mismatch.
+        # GPU still works via cuBLAS; only cuDNN-specific ops are disabled.
+        import torch
+        torch.backends.cudnn.enabled = False
+
         # Load F5-TTS
         from f5_tts.api import F5TTS
         tts = F5TTS()
