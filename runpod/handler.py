@@ -100,8 +100,10 @@ def handle_diarize(job_input):
         device = torch.device("cpu")
 
         # Load diarization pipeline
+        # Auth via HF_TOKEN env var (avoids pyannote/huggingface_hub version conflicts)
+        os.environ["HF_TOKEN"] = hf_token
         pipeline = Pipeline.from_pretrained(
-            "pyannote/speaker-diarization-community-1", use_auth_token=hf_token
+            "pyannote/speaker-diarization-community-1"
         )
         pipeline.to(device)
 
