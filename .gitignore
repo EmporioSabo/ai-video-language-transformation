@@ -6,6 +6,10 @@ data/source/
 data/audio/
 data/tts/
 data/aligned/
+data/jobs/
+data/runpod_usage.json
+build-logs-*.txt
+logs-*.txt
 output/
 __pycache__/
 *.pyc
