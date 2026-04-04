@@ -9,16 +9,10 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
 
 # CUDA pip packages for CTranslate2 (faster-whisper) and PyTorch:
-#
-# nvidia-cublas-cu12: CTranslate2 loads cuBLAS via ctypes, needs this + LD_LIBRARY_PATH.
-#   See: https://github.com/SYSTRAN/faster-whisper/issues/717
-#
-# nvidia-cudnn-cu12==9.1.0.70: exact version required by torch 2.4.0+cu124 (from wheel metadata).
-#   PyTorch finds it via its own Python-level loader (NOT LD_LIBRARY_PATH).
-#   Do NOT add the cudnn pip path to LD_LIBRARY_PATH — that causes
-#   CUDNN_STATUS_NOT_INITIALIZED when system cuDNN conflicts with pip cuDNN.
+# - nvidia-cublas-cu12: CTranslate2 loads cuBLAS via ctypes
+# - nvidia-cudnn-cu12==9.1.0.70: exact version required by torch 2.4.0+cu124
 RUN pip install --no-cache-dir nvidia-cublas-cu12 nvidia-cudnn-cu12==9.1.0.70
-ENV LD_LIBRARY_PATH="/usr/local/cuda/lib64:/usr/local/lib/python3.11/dist-packages/nvidia/cublas/lib:${LD_LIBRARY_PATH}"
+ENV LD_LIBRARY_PATH="/usr/local/cuda/lib64:${LD_LIBRARY_PATH}"
 
 # Install all Python packages. These may pull in conflicting torch/torchvision
 # versions — we fix that in the next step.
@@ -42,6 +36,19 @@ RUN pip install --no-cache-dir --force-reinstall --no-deps \
 
 # Re-pin cudnn to the exact version torch expects, in case anything above changed it
 RUN pip install --no-cache-dir nvidia-cudnn-cu12==9.1.0.70
+
+# CRITICAL: Fix cuDNN conflict between system cuDNN 8.x (from base image)
+# and pip cuDNN 9.x (needed by torch 2.4.0+cu124).
+# - Remove system cuDNN 8 to prevent CUDNN_STATUS_NOT_INITIALIZED
+# - Register pip-installed cuDNN 9 + cuBLAS with the system linker (ldconfig)
+#   so torch and CTranslate2 can find them via dlopen at runtime
+RUN find /usr -name "libcudnn*" -not -path "*/dist-packages/*" -delete 2>/dev/null || true && \
+    echo "/usr/local/lib/python3.11/dist-packages/nvidia/cudnn/lib" > /etc/ld.so.conf.d/nvidia-pip.conf && \
+    echo "/usr/local/lib/python3.11/dist-packages/nvidia/cublas/lib" >> /etc/ld.so.conf.d/nvidia-pip.conf && \
+    ldconfig
+
+# Verify torch + CUDA actually loads (catches cuDNN issues at build time, not runtime)
+RUN python -c "import torch; print(f'torch {torch.__version__}, CUDA: {torch.cuda.is_available()}')"
 
 # Pre-download Whisper large-v3 weights (~3GB)
 RUN python -c "from faster_whisper import WhisperModel; WhisperModel('large-v3', device='cpu', compute_type='int8')"
