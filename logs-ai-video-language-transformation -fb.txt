@@ -1,0 +1,437 @@
+2026-04-04  10:42:20.045 | info | 557p3wxxdt2dk3 | Finished.
+2026-04-04  10:42:20.044 | error | 557p3wxxdt2dk3 | {\n    "error_type": "<class 'RuntimeError'>",\n    "error_message": "cuDNN error: CUDNN_STATUS_NOT_INITIALIZED",\n    "error_traceback": "Traceback (most recent call last):\n  File \"/usr/local/lib/python3.11/dist-packages/runpod/serverless/modules/rp_job.py\", line 182, in run_job\n    handler_return = handler(job)\n                     ^^^^^^^^^^^^\n  File \"/app/handler.py\", line 248, in handler\n    return handle_diarize(job_input)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/handler.py\", line 102, in handle_diarize\n    pipeline.to(device)\n  File \"/usr/local/lib/python3.11/dist-packages/pyannote/audio/core/pipeline.py\", line 496, in to\n    _ = inference.to(device)\n        ^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/dist-packages/pyannote/audio/core/inference.py\", line 177, in to\n    self.model.to(device)\n  File \"/usr/local/lib/python3.11/dist-packages/lightning/fabric/utilities/device_dtype_mixin.py\", line 59, in to\n    return super().to(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/dist-packages/torch/nn/modules/module.py\", line 1174, in to\n    return self._apply(convert)\n           ^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/dist-packages/torch/nn/modules/module.py\", line 780, in _apply\n    module._apply(fn)\n  File \"/usr/local/lib/python3.11/dist-packages/torch/nn/modules/rnn.py\", line 228, in _apply\n    self._init_flat_weights()\n  File \"/usr/local/lib/python3.11/dist-packages/torch/nn/modules/rnn.py\", line 163, in _init_flat_weights\n    self.flatten_parameters()\n  File \"/usr/local/lib/python3.11/dist-packages/torch/nn/modules/rnn.py\", line 215, in flatten_parameters\n    torch._cudnn_rnn_flatten_weight(\nRuntimeError: cuDNN error: CUDNN_STATUS_NOT_INITIALIZED\n",\n    "hostname": "557p3wxxdt2dk3-64411019",\n    "worker_id": "557p3wxxdt2dk3",\n    "runpod_version": "1.8.2"\n}
+2026-04-04  10:42:20.044 | error | 557p3wxxdt2dk3 | Captured Handler Exception
+2026-04-04  10:42:19.663 | info | 557p3wxxdt2dk3 | _client.py          :1038 2026-04-04 02:42:19,663 HTTP Request: HEAD https://huggingface.co/pyannote/speaker-diarization-community-1/resolve/main/embedding/pytorch_model.bin "HTTP/1.1 302 Found"\n
+2026-04-04  10:42:18.852 | info | 557p3wxxdt2dk3 | _client.py          :1038 2026-04-04 02:42:18,852 HTTP Request: HEAD https://huggingface.co/pyannote/speaker-diarization-community-1/resolve/main/plda/plda.npz "HTTP/1.1 302 Found"\n
+2026-04-04  10:42:18.697 | info | 557p3wxxdt2dk3 | _client.py          :1038 2026-04-04 02:42:18,696 HTTP Request: HEAD https://huggingface.co/pyannote/speaker-diarization-community-1/resolve/main/plda/xvec_transform.npz "HTTP/1.1 302 Found"\n
+2026-04-04  10:42:18.500 | info | 557p3wxxdt2dk3 | _client.py          :1038 2026-04-04 02:42:18,499 HTTP Request: HEAD https://huggingface.co/pyannote/speaker-diarization-community-1/resolve/main/segmentation/pytorch_model.bin "HTTP/1.1 302 Found"\n
+2026-04-04  10:42:18.343 | info | 557p3wxxdt2dk3 | _client.py          :1038 2026-04-04 02:42:18,342 HTTP Request: HEAD https://huggingface.co/pyannote/speaker-diarization-community-1/resolve/main/config.yaml "HTTP/1.1 200 OK"\n
+2026-04-04  10:42:18.343 | info | 557p3wxxdt2dk3 | Started.
+2026-04-04  10:42:18.342 | info | 557p3wxxdt2dk3 | Jobs in progress: 1
+2026-04-04  10:42:18.135 | info | 557p3wxxdt2dk3 | Jobs in queue: 1
+2026-04-04  10:42:05.608 | info | 557p3wxxdt2dk3 | Finished.
+2026-04-04  10:42:01.463 | info | 557p3wxxdt2dk3 | transcribe.py       :895  2026-04-04 02:42:01,463 VAD filter removed 00:21.532 of audio\n
+2026-04-04  10:42:01.288 | info | 557p3wxxdt2dk3 | transcribe.py       :881  2026-04-04 02:42:01,287 Processing audio with duration 01:22.268\n
+2026-04-04  10:41:58.180 | info | 557p3wxxdt2dk3 | _client.py          :1038 2026-04-04 02:41:58,180 HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-large-v3/revision/main "HTTP/1.1 200 OK"\n
+2026-04-04  10:41:58.180 | info | 557p3wxxdt2dk3 | Started.
+2026-04-04  10:41:58.180 | info | 557p3wxxdt2dk3 | Jobs in progress: 1
+2026-04-04  10:41:57.960 | info | 557p3wxxdt2dk3 | Jobs in queue: 1
+2026-04-04  03:44:00.154 | info | 557p3wxxdt2dk3 | Finished.
+2026-04-04  03:44:00.154 | error | 557p3wxxdt2dk3 | {\n    "error_type": "<class 'RuntimeError'>",\n    "error_message": "cuDNN error: CUDNN_STATUS_NOT_INITIALIZED",\n    "error_traceback": "Traceback (most recent call last):\n  File \"/usr/local/lib/python3.11/dist-packages/runpod/serverless/modules/rp_job.py\", line 182, in run_job\n    handler_return = handler(job)\n                     ^^^^^^^^^^^^\n  File \"/app/handler.py\", line 248, in handler\n    return handle_diarize(job_input)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/handler.py\", line 102, in handle_diarize\n    pipeline.to(device)\n  File \"/usr/local/lib/python3.11/dist-packages/pyannote/audio/core/pipeline.py\", line 496, in to\n    _ = inference.to(device)\n        ^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/dist-packages/pyannote/audio/core/inference.py\", line 177, in to\n    self.model.to(device)\n  File \"/usr/local/lib/python3.11/dist-packages/lightning/fabric/utilities/device_dtype_mixin.py\", line 59, in to\n    return super().to(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/dist-packages/torch/nn/modules/module.py\", line 1174, in to\n    return self._apply(convert)\n           ^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/dist-packages/torch/nn/modules/module.py\", line 780, in _apply\n    module._apply(fn)\n  File \"/usr/local/lib/python3.11/dist-packages/torch/nn/modules/rnn.py\", line 228, in _apply\n    self._init_flat_weights()\n  File \"/usr/local/lib/python3.11/dist-packages/torch/nn/modules/rnn.py\", line 163, in _init_flat_weights\n    self.flatten_parameters()\n  File \"/usr/local/lib/python3.11/dist-packages/torch/nn/modules/rnn.py\", line 215, in flatten_parameters\n    torch._cudnn_rnn_flatten_weight(\nRuntimeError: cuDNN error: CUDNN_STATUS_NOT_INITIALIZED\n",\n    "hostname": "557p3wxxdt2dk3-64411019",\n    "worker_id": "557p3wxxdt2dk3",\n    "runpod_version": "1.8.2"\n}
+2026-04-04  03:43:59.859 | error | 557p3wxxdt2dk3 | Captured Handler Exception
+2026-04-04  03:43:58.893 | info | 557p3wxxdt2dk3 | _client.py          :1038 2026-04-03 19:43:58,893 HTTP Request: HEAD https://huggingface.co/pyannote/speaker-diarization-community-1/resolve/main/embedding/pytorch_model.bin "HTTP/1.1 302 Found"\n
+2026-04-04  03:43:57.060 | info | 557p3wxxdt2dk3 | _client.py          :1038 2026-04-03 19:43:57,060 HTTP Request: HEAD https://huggingface.co/pyannote/speaker-diarization-community-1/resolve/main/plda/plda.npz "HTTP/1.1 302 Found"\n
+2026-04-04  03:43:56.677 | info | 557p3wxxdt2dk3 | _client.py          :1038 2026-04-03 19:43:56,676 HTTP Request: HEAD https://huggingface.co/pyannote/speaker-diarization-community-1/resolve/main/plda/xvec_transform.npz "HTTP/1.1 302 Found"\n
+2026-04-04  03:43:55.231 | info | 557p3wxxdt2dk3 | _client.py          :1038 2026-04-03 19:43:55,231 HTTP Request: GET https://huggingface.co/api/models/pyannote/speaker-diarization-community-1/xet-read-token/3533c8cf8e369892e6b79ff1bf80f7b0286a54ee "HTTP/1.1 200 OK"\n
+2026-04-04  03:43:55.072 | info | 557p3wxxdt2dk3 | _client.py          :1038 2026-04-03 19:43:55,072 HTTP Request: HEAD https://huggingface.co/pyannote/speaker-diarization-community-1/resolve/main/segmentation/pytorch_model.bin "HTTP/1.1 302 Found"\n
+2026-04-04  03:43:54.639 | info | 557p3wxxdt2dk3 | _client.py          :1038 2026-04-03 19:43:54,639 HTTP Request: GET https://huggingface.co/pyannote/speaker-diarization-community-1/resolve/main/config.yaml "HTTP/1.1 200 OK"\n
+2026-04-04  03:43:54.480 | info | 557p3wxxdt2dk3 | _client.py          :1038 2026-04-03 19:43:54,478 HTTP Request: HEAD https://huggingface.co/pyannote/speaker-diarization-community-1/resolve/main/config.yaml "HTTP/1.1 200 OK"\n
+2026-04-04  03:43:54.480 | info | 557p3wxxdt2dk3 |   warnings.warn(\n
+2026-04-04  03:43:54.480 | info | 557p3wxxdt2dk3 | [end of libtorchcodec loading traceback].\n
+2026-04-04  03:43:54.480 | info | 557p3wxxdt2dk3 | OSError: libnvrtc.so.13: cannot open shared object file: No such file or directory\n
+2026-04-04  03:43:54.480 | info | 557p3wxxdt2dk3 |                    ^^^^^^^^^^^^^^^^^^^^^^^^^\n
+2026-04-04  03:43:54.480 | info | 557p3wxxdt2dk3 |     self._handle = _dlopen(self._name, mode)\n
+2026-04-04  03:43:54.480 | info | 557p3wxxdt2dk3 |   File "/usr/lib/python3.11/ctypes/__init__.py", line 376, in __init__\n
+2026-04-04  03:43:54.480 | info | 557p3wxxdt2dk3 |     ctypes.CDLL(path)\n
+2026-04-04  03:43:54.480 | info | 557p3wxxdt2dk3 |   File "/usr/local/lib/python3.11/dist-packages/torch/_ops.py", line 1295, in load_library\n
+2026-04-04  03:43:54.480 | info | 557p3wxxdt2dk3 |     torch.ops.load_library(core_library_path)\n
+2026-04-04  03:43:54.480 | info | 557p3wxxdt2dk3 |   File "/usr/local/lib/python3.11/dist-packages/torchcodec/_internally_replaced_utils.py", line 93, in load_torchcodec_shared_libraries\n
+2026-04-04  03:43:54.480 | info | 557p3wxxdt2dk3 | Traceback (most recent call last):\n
+2026-04-04  03:43:54.480 | info | 557p3wxxdt2dk3 | FFmpeg version 4:\n
+2026-04-04  03:43:54.480 | info | 557p3wxxdt2dk3 | \n
+2026-04-04  03:43:54.480 | info | 557p3wxxdt2dk3 | OSError: libnvrtc.so.13: cannot open shared object file: No such file or directory\n
+2026-04-04  03:43:54.480 | info | 557p3wxxdt2dk3 |                    ^^^^^^^^^^^^^^^^^^^^^^^^^\n
+2026-04-04  03:43:54.480 | info | 557p3wxxdt2dk3 |     self._handle = _dlopen(self._name, mode)\n
+2026-04-04  03:43:54.480 | info | 557p3wxxdt2dk3 |   File "/usr/lib/python3.11/ctypes/__init__.py", line 376, in __init__\n
+2026-04-04  03:43:54.480 | info | 557p3wxxdt2dk3 |     ctypes.CDLL(path)\n
+2026-04-04  03:43:54.480 | info | 557p3wxxdt2dk3 |   File "/usr/local/lib/python3.11/dist-packages/torch/_ops.py", line 1295, in load_library\n
+2026-04-04  03:43:54.480 | info | 557p3wxxdt2dk3 |     torch.ops.load_library(core_library_path)\n
+2026-04-04  03:43:54.480 | info | 557p3wxxdt2dk3 |   File "/usr/local/lib/python3.11/dist-packages/torchcodec/_internally_replaced_utils.py", line 93, in load_torchcodec_shared_libraries\n
+2026-04-04  03:43:54.480 | info | 557p3wxxdt2dk3 | Traceback (most recent call last):\n
+2026-04-04  03:43:54.480 | info | 557p3wxxdt2dk3 | FFmpeg version 5:\n
+2026-04-04  03:43:54.480 | info | 557p3wxxdt2dk3 | \n
+2026-04-04  03:43:54.480 | info | 557p3wxxdt2dk3 | OSError: libnvrtc.so.13: cannot open shared object file: No such file or directory\n
+2026-04-04  03:43:54.480 | info | 557p3wxxdt2dk3 |                    ^^^^^^^^^^^^^^^^^^^^^^^^^\n
+2026-04-04  03:43:54.480 | info | 557p3wxxdt2dk3 |     self._handle = _dlopen(self._name, mode)\n
+2026-04-04  03:43:54.480 | info | 557p3wxxdt2dk3 |   File "/usr/lib/python3.11/ctypes/__init__.py", line 376, in __init__\n
+2026-04-04  03:43:54.479 | info | 557p3wxxdt2dk3 |     ctypes.CDLL(path)\n
+2026-04-04  03:43:54.479 | info | 557p3wxxdt2dk3 |   File "/usr/local/lib/python3.11/dist-packages/torch/_ops.py", line 1295, in load_library\n
+2026-04-04  03:43:54.479 | info | 557p3wxxdt2dk3 |     torch.ops.load_library(core_library_path)\n
+2026-04-04  03:43:54.479 | info | 557p3wxxdt2dk3 |   File "/usr/local/lib/python3.11/dist-packages/torchcodec/_internally_replaced_utils.py", line 93, in load_torchcodec_shared_libraries\n
+2026-04-04  03:43:54.479 | info | 557p3wxxdt2dk3 | Traceback (most recent call last):\n
+2026-04-04  03:43:54.479 | info | 557p3wxxdt2dk3 | FFmpeg version 6:\n
+2026-04-04  03:43:54.479 | info | 557p3wxxdt2dk3 | \n
+2026-04-04  03:43:54.479 | info | 557p3wxxdt2dk3 | OSError: libnvrtc.so.13: cannot open shared object file: No such file or directory\n
+2026-04-04  03:43:54.479 | info | 557p3wxxdt2dk3 |                    ^^^^^^^^^^^^^^^^^^^^^^^^^\n
+2026-04-04  03:43:54.479 | info | 557p3wxxdt2dk3 |     self._handle = _dlopen(self._name, mode)\n
+2026-04-04  03:43:54.479 | info | 557p3wxxdt2dk3 |   File "/usr/lib/python3.11/ctypes/__init__.py", line 376, in __init__\n
+2026-04-04  03:43:54.479 | info | 557p3wxxdt2dk3 |     ctypes.CDLL(path)\n
+2026-04-04  03:43:54.479 | info | 557p3wxxdt2dk3 |   File "/usr/local/lib/python3.11/dist-packages/torch/_ops.py", line 1295, in load_library\n
+2026-04-04  03:43:54.479 | info | 557p3wxxdt2dk3 |     torch.ops.load_library(core_library_path)\n
+2026-04-04  03:43:54.479 | info | 557p3wxxdt2dk3 |   File "/usr/local/lib/python3.11/dist-packages/torchcodec/_internally_replaced_utils.py", line 93, in load_torchcodec_shared_libraries\n
+2026-04-04  03:43:54.479 | info | 557p3wxxdt2dk3 | Traceback (most recent call last):\n
+2026-04-04  03:43:54.479 | info | 557p3wxxdt2dk3 | FFmpeg version 7:\n
+2026-04-04  03:43:54.479 | info | 557p3wxxdt2dk3 | \n
+2026-04-04  03:43:54.479 | info | 557p3wxxdt2dk3 | OSError: libnvrtc.so.13: cannot open shared object file: No such file or directory\n
+2026-04-04  03:43:54.479 | info | 557p3wxxdt2dk3 |                    ^^^^^^^^^^^^^^^^^^^^^^^^^\n
+2026-04-04  03:43:54.479 | info | 557p3wxxdt2dk3 |     self._handle = _dlopen(self._name, mode)\n
+2026-04-04  03:43:54.479 | info | 557p3wxxdt2dk3 |   File "/usr/lib/python3.11/ctypes/__init__.py", line 376, in __init__\n
+2026-04-04  03:43:54.479 | info | 557p3wxxdt2dk3 |     ctypes.CDLL(path)\n
+2026-04-04  03:43:54.479 | info | 557p3wxxdt2dk3 |   File "/usr/local/lib/python3.11/dist-packages/torch/_ops.py", line 1295, in load_library\n
+2026-04-04  03:43:54.479 | info | 557p3wxxdt2dk3 |     torch.ops.load_library(core_library_path)\n
+2026-04-04  03:43:54.479 | info | 557p3wxxdt2dk3 |   File "/usr/local/lib/python3.11/dist-packages/torchcodec/_internally_replaced_utils.py", line 93, in load_torchcodec_shared_libraries\n
+2026-04-04  03:43:54.479 | info | 557p3wxxdt2dk3 | Traceback (most recent call last):\n
+2026-04-04  03:43:54.479 | info | 557p3wxxdt2dk3 | FFmpeg version 8:\n
+2026-04-04  03:43:54.479 | info | 557p3wxxdt2dk3 | [start of libtorchcodec loading traceback]\n
+2026-04-04  03:43:54.479 | info | 557p3wxxdt2dk3 |         \n
+2026-04-04  03:43:54.479 | info | 557p3wxxdt2dk3 |         The following exceptions were raised as we tried to load libtorchcodec:\n
+2026-04-04  03:43:54.479 | info | 557p3wxxdt2dk3 | \n
+2026-04-04  03:43:54.478 | info | 557p3wxxdt2dk3 |           3. Another runtime dependency; see exceptions below.\n
+2026-04-04  03:43:54.478 | info | 557p3wxxdt2dk3 |              https://github.com/pytorch/torchcodec?tab=readme-ov-file#installing-torchcodec.\n
+2026-04-04  03:43:54.478 | info | 557p3wxxdt2dk3 |              table:\n
+2026-04-04  03:43:54.478 | info | 557p3wxxdt2dk3 |              this version of TorchCodec. Refer to the version compatibility\n
+2026-04-04  03:43:54.478 | info | 557p3wxxdt2dk3 |           2. The PyTorch version (2.4.0+cu124) is not compatible with\n
+2026-04-04  03:43:54.478 | info | 557p3wxxdt2dk3 |              "full-shared" version which ships DLLs.\n
+2026-04-04  03:43:54.478 | info | 557p3wxxdt2dk3 |              version is relevant. On Windows, ensure you've installed the\n
+2026-04-04  03:43:54.478 | info | 557p3wxxdt2dk3 |              your system are expected; only the error for your installed FFmpeg\n
+2026-04-04  03:43:54.478 | info | 557p3wxxdt2dk3 |              for each of those versions. Errors for versions not installed on\n
+2026-04-04  03:43:54.478 | info | 557p3wxxdt2dk3 |              versions 4, 5, 6, 7, and 8, and we attempt to load libtorchcodec\n
+2026-04-04  03:43:54.478 | info | 557p3wxxdt2dk3 |           1. FFmpeg is not properly installed in your environment. We support\n
+2026-04-04  03:43:54.478 | info | 557p3wxxdt2dk3 | Could not load libtorchcodec. Likely causes:\n
+2026-04-04  03:43:54.478 | info | 557p3wxxdt2dk3 | \n
+2026-04-04  03:43:54.478 | info | 557p3wxxdt2dk3 | * fix torchcodec installation. Error message was:\n
+2026-04-04  03:43:54.478 | info | 557p3wxxdt2dk3 | * use audio preloaded in-memory as a {'waveform': (channel, time) torch.Tensor, 'sample_rate': int} dictionary;\n
+2026-04-04  03:43:54.478 | info | 557p3wxxdt2dk3 | torchcodec is not installed correctly so built-in audio decoding will fail. Solutions are:\n
+2026-04-04  03:43:54.123 | info | 557p3wxxdt2dk3 | /usr/local/lib/python3.11/dist-packages/pyannote/audio/core/io.py:47: UserWarning: \n
+2026-04-04  03:43:51.987 | info | 557p3wxxdt2dk3 | font_manager.py     :1639 2026-04-03 19:43:51,986 generated new fontManager\n
+2026-04-04  03:43:51.987 | info | 557p3wxxdt2dk3 | Started.
+2026-04-04  03:43:51.986 | info | 557p3wxxdt2dk3 | Jobs in progress: 1
+2026-04-04  03:43:51.006 | info | 557p3wxxdt2dk3 | Jobs in queue: 1
+2026-04-04  03:43:41.602 | info | 557p3wxxdt2dk3 | Finished.
+2026-04-04  03:43:36.967 | info | 557p3wxxdt2dk3 | transcribe.py       :895  2026-04-03 19:43:36,966 VAD filter removed 00:21.532 of audio\n
+2026-04-04  03:43:36.746 | info | 557p3wxxdt2dk3 | transcribe.py       :881  2026-04-03 19:43:36,745 Processing audio with duration 01:22.268\n
+2026-04-04  03:43:33.961 | info | 557p3wxxdt2dk3 | _client.py          :1038 2026-04-03 19:43:33,960 HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-large-v3/revision/main "HTTP/1.1 200 OK"\n
+2026-04-04  03:43:33.961 | info | 557p3wxxdt2dk3 | Started.
+2026-04-04  03:43:33.961 | info | 557p3wxxdt2dk3 | Jobs in progress: 1
+2026-04-04  03:43:31.226 | info | 557p3wxxdt2dk3 | Jobs in queue: 1
+2026-04-04  03:34:35.286 | info | d1ejj01fmcrar4 | Finished.
+2026-04-04  03:34:35.286 | error | d1ejj01fmcrar4 | {\n    "error_type": "<class 'ImportError'>",\n    "error_message": "libcudnn.so.9: cannot open shared object file: No such file or directory",\n    "error_traceback": "Traceback (most recent call last):\n  File \"/usr/local/lib/python3.11/dist-packages/runpod/serverless/modules/rp_job.py\", line 182, in run_job\n    handler_return = handler(job)\n                     ^^^^^^^^^^^^\n  File \"/app/handler.py\", line 248, in handler\n    return handle_diarize(job_input)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/handler.py\", line 80, in handle_diarize\n    import torch\n  File \"/usr/local/lib/python3.11/dist-packages/torch/__init__.py\", line 290, in <module>\n    from torch._C import *  # noqa: F403\n    ^^^^^^^^^^^^^^^^^^^^^^\nImportError: libcudnn.so.9: cannot open shared object file: No such file or directory\n",\n    "hostname": "d1ejj01fmcrar4-6441149f",\n    "worker_id": "d1ejj01fmcrar4",\n    "runpod_version": "1.8.2"\n}
+2026-04-04  03:34:35.286 | error | d1ejj01fmcrar4 | Captured Handler Exception
+2026-04-04  03:34:35.286 | info | d1ejj01fmcrar4 | Started.
+2026-04-04  03:34:35.286 | info | d1ejj01fmcrar4 | Jobs in progress: 1
+2026-04-04  03:34:34.997 | info | d1ejj01fmcrar4 | Jobs in queue: 1
+2026-04-04  03:34:21.893 | info | d1ejj01fmcrar4 | Finished.
+2026-04-04  03:34:17.549 | info | d1ejj01fmcrar4 | transcribe.py       :895  2026-04-03 19:34:17,549 VAD filter removed 00:21.532 of audio\n
+2026-04-04  03:34:17.363 | info | d1ejj01fmcrar4 | transcribe.py       :881  2026-04-03 19:34:17,362 Processing audio with duration 01:22.268\n
+2026-04-04  03:34:15.576 | info | d1ejj01fmcrar4 | _client.py          :1038 2026-04-03 19:34:15,575 HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-large-v3/revision/main "HTTP/1.1 200 OK"\n
+2026-04-04  03:34:15.576 | info | d1ejj01fmcrar4 | Started.
+2026-04-04  03:34:15.576 | info | d1ejj01fmcrar4 | Jobs in progress: 1
+2026-04-04  03:34:15.359 | info | d1ejj01fmcrar4 | Jobs in queue: 1
+2026-04-04  02:53:26.227 | info | d1ejj01fmcrar4 | Finished.
+2026-04-04  02:53:26.227 | error | d1ejj01fmcrar4 | {\n    "error_type": "<class 'ImportError'>",\n    "error_message": "libcudnn.so.9: cannot open shared object file: No such file or directory",\n    "error_traceback": "Traceback (most recent call last):\n  File \"/usr/local/lib/python3.11/dist-packages/runpod/serverless/modules/rp_job.py\", line 182, in run_job\n    handler_return = handler(job)\n                     ^^^^^^^^^^^^\n  File \"/app/handler.py\", line 248, in handler\n    return handle_diarize(job_input)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/handler.py\", line 80, in handle_diarize\n    import torch\n  File \"/usr/local/lib/python3.11/dist-packages/torch/__init__.py\", line 290, in <module>\n    from torch._C import *  # noqa: F403\n    ^^^^^^^^^^^^^^^^^^^^^^\nImportError: libcudnn.so.9: cannot open shared object file: No such file or directory\n",\n    "hostname": "d1ejj01fmcrar4-6441149f",\n    "worker_id": "d1ejj01fmcrar4",\n    "runpod_version": "1.8.2"\n}
+2026-04-04  02:53:26.227 | error | d1ejj01fmcrar4 | Captured Handler Exception
+2026-04-04  02:53:26.226 | info | d1ejj01fmcrar4 | Started.
+2026-04-04  02:53:26.226 | info | d1ejj01fmcrar4 | Jobs in progress: 1
+2026-04-04  02:53:25.931 | info | d1ejj01fmcrar4 | Jobs in queue: 1
+2026-04-04  02:53:14.257 | info | d1ejj01fmcrar4 | Finished.
+2026-04-04  02:53:09.756 | info | d1ejj01fmcrar4 | transcribe.py       :895  2026-04-03 18:53:09,755 VAD filter removed 00:21.532 of audio\n
+2026-04-04  02:53:09.527 | info | d1ejj01fmcrar4 | transcribe.py       :881  2026-04-03 18:53:09,526 Processing audio with duration 01:22.268\n
+2026-04-04  02:53:07.711 | info | d1ejj01fmcrar4 | _client.py          :1038 2026-04-03 18:53:07,710 HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-large-v3/revision/main "HTTP/1.1 200 OK"\n
+2026-04-04  02:53:07.711 | info | d1ejj01fmcrar4 | Started.
+2026-04-04  02:53:07.711 | info | d1ejj01fmcrar4 | Jobs in progress: 1
+2026-04-04  02:53:07.081 | info | d1ejj01fmcrar4 | Jobs in queue: 1
+2026-04-04  02:53:07.081 | info | d1ejj01fmcrar4 | --- Starting Serverless Worker |  Version 1.8.2 ---\n
+2026-04-04  02:53:07.081 | info | d1ejj01fmcrar4 | \n
+2026-04-04  02:53:07.081 | info | d1ejj01fmcrar4 | A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.\n
+2026-04-04  02:53:07.081 | info | d1ejj01fmcrar4 | \n
+2026-04-04  02:53:07.081 | info | d1ejj01fmcrar4 | https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license\n
+2026-04-04  02:53:07.081 | info | d1ejj01fmcrar4 | By pulling and using the container, you accept the terms and conditions of this license:\n
+2026-04-04  02:53:07.081 | info | d1ejj01fmcrar4 | This container image and its contents are governed by the NVIDIA Deep Learning Container License.\n
+2026-04-04  02:53:07.080 | info | d1ejj01fmcrar4 | \n
+2026-04-04  02:53:07.080 | info | d1ejj01fmcrar4 | Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.\n
+2026-04-04  02:53:07.080 | info | d1ejj01fmcrar4 | \n
+2026-04-04  02:53:07.080 | info | d1ejj01fmcrar4 | CUDA Version 12.4.1\n
+2026-04-04  02:53:07.080 | info | d1ejj01fmcrar4 | \n
+2026-04-04  02:53:07.080 | info | d1ejj01fmcrar4 | ==========\n
+2026-04-04  02:53:07.080 | info | d1ejj01fmcrar4 | == CUDA ==\n
+2026-04-04  02:53:07.080 | info | d1ejj01fmcrar4 | ==========\n
+2026-04-04  02:53:07.080 | info | d1ejj01fmcrar4 | \n
+2026-04-04  02:51:50.465 | info | npnamr2cdlm6gj | --- Starting Serverless Worker |  Version 1.8.2 ---\n
+2026-04-04  02:51:50.465 | info | npnamr2cdlm6gj | \n
+2026-04-04  02:51:50.465 | info | npnamr2cdlm6gj | A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.\n
+2026-04-04  02:51:50.465 | info | npnamr2cdlm6gj | \n
+2026-04-04  02:51:50.465 | info | npnamr2cdlm6gj | https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license\n
+2026-04-04  02:51:50.465 | info | npnamr2cdlm6gj | By pulling and using the container, you accept the terms and conditions of this license:\n
+2026-04-04  02:51:50.465 | info | npnamr2cdlm6gj | This container image and its contents are governed by the NVIDIA Deep Learning Container License.\n
+2026-04-04  02:51:50.465 | info | npnamr2cdlm6gj | \n
+2026-04-04  02:51:50.465 | info | npnamr2cdlm6gj | Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.\n
+2026-04-04  02:51:50.465 | info | npnamr2cdlm6gj | \n
+2026-04-04  02:51:50.465 | info | npnamr2cdlm6gj | CUDA Version 12.4.1\n
+2026-04-04  02:51:50.465 | info | npnamr2cdlm6gj | \n
+2026-04-04  02:51:50.465 | info | npnamr2cdlm6gj | ==========\n
+2026-04-04  02:51:50.465 | info | npnamr2cdlm6gj | == CUDA ==\n
+2026-04-04  02:51:50.465 | info | npnamr2cdlm6gj | ==========\n
+2026-04-04  02:51:50.464 | info | npnamr2cdlm6gj | \n
+2026-04-04  02:47:53.300 | info | 1jh3qi0kiklu26 | Finished.
+2026-04-04  02:47:53.300 | error | 1jh3qi0kiklu26 | {\n    "error_type": "<class 'RuntimeError'>",\n    "error_message": "cuDNN error: CUDNN_STATUS_NOT_INITIALIZED",\n    "error_traceback": "Traceback (most recent call last):\n  File \"/usr/local/lib/python3.11/dist-packages/runpod/serverless/modules/rp_job.py\", line 182, in run_job\n    handler_return = handler(job)\n                     ^^^^^^^^^^^^\n  File \"/app/handler.py\", line 248, in handler\n    return handle_diarize(job_input)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/handler.py\", line 102, in handle_diarize\n    pipeline.to(device)\n  File \"/usr/local/lib/python3.11/dist-packages/pyannote/audio/core/pipeline.py\", line 496, in to\n    _ = inference.to(device)\n        ^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/dist-packages/pyannote/audio/core/inference.py\", line 177, in to\n    self.model.to(device)\n  File \"/usr/local/lib/python3.11/dist-packages/lightning/fabric/utilities/device_dtype_mixin.py\", line 59, in to\n    return super().to(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/dist-packages/torch/nn/modules/module.py\", line 1174, in to\n    return self._apply(convert)\n           ^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/dist-packages/torch/nn/modules/module.py\", line 780, in _apply\n    module._apply(fn)\n  File \"/usr/local/lib/python3.11/dist-packages/torch/nn/modules/rnn.py\", line 228, in _apply\n    self._init_flat_weights()\n  File \"/usr/local/lib/python3.11/dist-packages/torch/nn/modules/rnn.py\", line 163, in _init_flat_weights\n    self.flatten_parameters()\n  File \"/usr/local/lib/python3.11/dist-packages/torch/nn/modules/rnn.py\", line 215, in flatten_parameters\n    torch._cudnn_rnn_flatten_weight(\nRuntimeError: cuDNN error: CUDNN_STATUS_NOT_INITIALIZED\n",\n    "hostname": "1jh3qi0kiklu26-644117ed",\n    "worker_id": "1jh3qi0kiklu26",\n    "runpod_version": "1.8.2"\n}
+2026-04-04  02:47:53.005 | error | 1jh3qi0kiklu26 | Captured Handler Exception
+2026-04-04  02:47:51.438 | info | 1jh3qi0kiklu26 | _client.py          :1038 2026-04-03 18:47:51,437 HTTP Request: HEAD https://huggingface.co/pyannote/speaker-diarization-community-1/resolve/main/embedding/pytorch_model.bin "HTTP/1.1 302 Found"\n
+2026-04-04  02:47:50.950 | info | 1jh3qi0kiklu26 | _client.py          :1038 2026-04-03 18:47:50,949 HTTP Request: HEAD https://huggingface.co/pyannote/speaker-diarization-community-1/resolve/main/plda/plda.npz "HTTP/1.1 302 Found"\n
+2026-04-04  02:47:50.607 | info | 1jh3qi0kiklu26 | _client.py          :1038 2026-04-03 18:47:50,606 HTTP Request: HEAD https://huggingface.co/pyannote/speaker-diarization-community-1/resolve/main/plda/xvec_transform.npz "HTTP/1.1 302 Found"\n
+2026-04-04  02:47:49.012 | info | 1jh3qi0kiklu26 | _client.py          :1038 2026-04-03 18:47:49,012 HTTP Request: GET https://huggingface.co/api/models/pyannote/speaker-diarization-community-1/xet-read-token/3533c8cf8e369892e6b79ff1bf80f7b0286a54ee "HTTP/1.1 200 OK"\n
+2026-04-04  02:47:48.893 | info | 1jh3qi0kiklu26 | _client.py          :1038 2026-04-03 18:47:48,892 HTTP Request: HEAD https://huggingface.co/pyannote/speaker-diarization-community-1/resolve/main/segmentation/pytorch_model.bin "HTTP/1.1 302 Found"\n
+2026-04-04  02:47:48.499 | info | 1jh3qi0kiklu26 | _client.py          :1038 2026-04-03 18:47:48,498 HTTP Request: GET https://huggingface.co/pyannote/speaker-diarization-community-1/resolve/main/config.yaml "HTTP/1.1 200 OK"\n
+2026-04-04  02:47:48.379 | info | 1jh3qi0kiklu26 | _client.py          :1038 2026-04-03 18:47:48,376 HTTP Request: HEAD https://huggingface.co/pyannote/speaker-diarization-community-1/resolve/main/config.yaml "HTTP/1.1 200 OK"\n
+2026-04-04  02:47:48.379 | info | 1jh3qi0kiklu26 |   warnings.warn(\n
+2026-04-04  02:47:48.379 | info | 1jh3qi0kiklu26 | [end of libtorchcodec loading traceback].\n
+2026-04-04  02:47:48.379 | info | 1jh3qi0kiklu26 | OSError: libnvrtc.so.13: cannot open shared object file: No such file or directory\n
+2026-04-04  02:47:48.379 | info | 1jh3qi0kiklu26 |                    ^^^^^^^^^^^^^^^^^^^^^^^^^\n
+2026-04-04  02:47:48.379 | info | 1jh3qi0kiklu26 |     self._handle = _dlopen(self._name, mode)\n
+2026-04-04  02:47:48.379 | info | 1jh3qi0kiklu26 |   File "/usr/lib/python3.11/ctypes/__init__.py", line 376, in __init__\n
+2026-04-04  02:47:48.379 | info | 1jh3qi0kiklu26 |     ctypes.CDLL(path)\n
+2026-04-04  02:47:48.379 | info | 1jh3qi0kiklu26 |   File "/usr/local/lib/python3.11/dist-packages/torch/_ops.py", line 1295, in load_library\n
+2026-04-04  02:47:48.379 | info | 1jh3qi0kiklu26 |     torch.ops.load_library(core_library_path)\n
+2026-04-04  02:47:48.379 | info | 1jh3qi0kiklu26 |   File "/usr/local/lib/python3.11/dist-packages/torchcodec/_internally_replaced_utils.py", line 93, in load_torchcodec_shared_libraries\n
+2026-04-04  02:47:48.379 | info | 1jh3qi0kiklu26 | Traceback (most recent call last):\n
+2026-04-04  02:47:48.379 | info | 1jh3qi0kiklu26 | FFmpeg version 4:\n
+2026-04-04  02:47:48.379 | info | 1jh3qi0kiklu26 | \n
+2026-04-04  02:47:48.379 | info | 1jh3qi0kiklu26 | OSError: libnvrtc.so.13: cannot open shared object file: No such file or directory\n
+2026-04-04  02:47:48.379 | info | 1jh3qi0kiklu26 |                    ^^^^^^^^^^^^^^^^^^^^^^^^^\n
+2026-04-04  02:47:48.379 | info | 1jh3qi0kiklu26 |     self._handle = _dlopen(self._name, mode)\n
+2026-04-04  02:47:48.379 | info | 1jh3qi0kiklu26 |   File "/usr/lib/python3.11/ctypes/__init__.py", line 376, in __init__\n
+2026-04-04  02:47:48.379 | info | 1jh3qi0kiklu26 |     ctypes.CDLL(path)\n
+2026-04-04  02:47:48.379 | info | 1jh3qi0kiklu26 |   File "/usr/local/lib/python3.11/dist-packages/torch/_ops.py", line 1295, in load_library\n
+2026-04-04  02:47:48.379 | info | 1jh3qi0kiklu26 |     torch.ops.load_library(core_library_path)\n
+2026-04-04  02:47:48.379 | info | 1jh3qi0kiklu26 |   File "/usr/local/lib/python3.11/dist-packages/torchcodec/_internally_replaced_utils.py", line 93, in load_torchcodec_shared_libraries\n
+2026-04-04  02:47:48.379 | info | 1jh3qi0kiklu26 | Traceback (most recent call last):\n
+2026-04-04  02:47:48.379 | info | 1jh3qi0kiklu26 | FFmpeg version 5:\n
+2026-04-04  02:47:48.379 | info | 1jh3qi0kiklu26 | \n
+2026-04-04  02:47:48.379 | info | 1jh3qi0kiklu26 | OSError: libnvrtc.so.13: cannot open shared object file: No such file or directory\n
+2026-04-04  02:47:48.379 | info | 1jh3qi0kiklu26 |                    ^^^^^^^^^^^^^^^^^^^^^^^^^\n
+2026-04-04  02:47:48.379 | info | 1jh3qi0kiklu26 |     self._handle = _dlopen(self._name, mode)\n
+2026-04-04  02:47:48.378 | info | 1jh3qi0kiklu26 |   File "/usr/lib/python3.11/ctypes/__init__.py", line 376, in __init__\n
+2026-04-04  02:47:48.378 | info | 1jh3qi0kiklu26 |     ctypes.CDLL(path)\n
+2026-04-04  02:47:48.378 | info | 1jh3qi0kiklu26 |   File "/usr/local/lib/python3.11/dist-packages/torch/_ops.py", line 1295, in load_library\n
+2026-04-04  02:47:48.378 | info | 1jh3qi0kiklu26 |     torch.ops.load_library(core_library_path)\n
+2026-04-04  02:47:48.378 | info | 1jh3qi0kiklu26 |   File "/usr/local/lib/python3.11/dist-packages/torchcodec/_internally_replaced_utils.py", line 93, in load_torchcodec_shared_libraries\n
+2026-04-04  02:47:48.378 | info | 1jh3qi0kiklu26 | Traceback (most recent call last):\n
+2026-04-04  02:47:48.378 | info | 1jh3qi0kiklu26 | FFmpeg version 6:\n
+2026-04-04  02:47:48.378 | info | 1jh3qi0kiklu26 | \n
+2026-04-04  02:47:48.378 | info | 1jh3qi0kiklu26 | OSError: libnvrtc.so.13: cannot open shared object file: No such file or directory\n
+2026-04-04  02:47:48.378 | info | 1jh3qi0kiklu26 |                    ^^^^^^^^^^^^^^^^^^^^^^^^^\n
+2026-04-04  02:47:48.378 | info | 1jh3qi0kiklu26 |     self._handle = _dlopen(self._name, mode)\n
+2026-04-04  02:47:48.378 | info | 1jh3qi0kiklu26 |   File "/usr/lib/python3.11/ctypes/__init__.py", line 376, in __init__\n
+2026-04-04  02:47:48.378 | info | 1jh3qi0kiklu26 |     ctypes.CDLL(path)\n
+2026-04-04  02:47:48.378 | info | 1jh3qi0kiklu26 |   File "/usr/local/lib/python3.11/dist-packages/torch/_ops.py", line 1295, in load_library\n
+2026-04-04  02:47:48.378 | info | 1jh3qi0kiklu26 |     torch.ops.load_library(core_library_path)\n
+2026-04-04  02:47:48.378 | info | 1jh3qi0kiklu26 |   File "/usr/local/lib/python3.11/dist-packages/torchcodec/_internally_replaced_utils.py", line 93, in load_torchcodec_shared_libraries\n
+2026-04-04  02:47:48.378 | info | 1jh3qi0kiklu26 | Traceback (most recent call last):\n
+2026-04-04  02:47:48.378 | info | 1jh3qi0kiklu26 | FFmpeg version 7:\n
+2026-04-04  02:47:48.378 | info | 1jh3qi0kiklu26 | \n
+2026-04-04  02:47:48.378 | info | 1jh3qi0kiklu26 | OSError: libnvrtc.so.13: cannot open shared object file: No such file or directory\n
+2026-04-04  02:47:48.378 | info | 1jh3qi0kiklu26 |                    ^^^^^^^^^^^^^^^^^^^^^^^^^\n
+2026-04-04  02:47:48.378 | info | 1jh3qi0kiklu26 |     self._handle = _dlopen(self._name, mode)\n
+2026-04-04  02:47:48.378 | info | 1jh3qi0kiklu26 |   File "/usr/lib/python3.11/ctypes/__init__.py", line 376, in __init__\n
+2026-04-04  02:47:48.378 | info | 1jh3qi0kiklu26 |     ctypes.CDLL(path)\n
+2026-04-04  02:47:48.378 | info | 1jh3qi0kiklu26 |   File "/usr/local/lib/python3.11/dist-packages/torch/_ops.py", line 1295, in load_library\n
+2026-04-04  02:47:48.378 | info | 1jh3qi0kiklu26 |     torch.ops.load_library(core_library_path)\n
+2026-04-04  02:47:48.378 | info | 1jh3qi0kiklu26 |   File "/usr/local/lib/python3.11/dist-packages/torchcodec/_internally_replaced_utils.py", line 93, in load_torchcodec_shared_libraries\n
+2026-04-04  02:47:48.378 | info | 1jh3qi0kiklu26 | Traceback (most recent call last):\n
+2026-04-04  02:47:48.378 | info | 1jh3qi0kiklu26 | FFmpeg version 8:\n
+2026-04-04  02:47:48.378 | info | 1jh3qi0kiklu26 | [start of libtorchcodec loading traceback]\n
+2026-04-04  02:47:48.378 | info | 1jh3qi0kiklu26 |         \n
+2026-04-04  02:47:48.378 | info | 1jh3qi0kiklu26 |         The following exceptions were raised as we tried to load libtorchcodec:\n
+2026-04-04  02:47:48.377 | info | 1jh3qi0kiklu26 | \n
+2026-04-04  02:47:48.377 | info | 1jh3qi0kiklu26 |           3. Another runtime dependency; see exceptions below.\n
+2026-04-04  02:47:48.377 | info | 1jh3qi0kiklu26 |              https://github.com/pytorch/torchcodec?tab=readme-ov-file#installing-torchcodec.\n
+2026-04-04  02:47:48.377 | info | 1jh3qi0kiklu26 |              table:\n
+2026-04-04  02:47:48.377 | info | 1jh3qi0kiklu26 |              this version of TorchCodec. Refer to the version compatibility\n
+2026-04-04  02:47:48.377 | info | 1jh3qi0kiklu26 |           2. The PyTorch version (2.4.0+cu124) is not compatible with\n
+2026-04-04  02:47:48.377 | info | 1jh3qi0kiklu26 |              "full-shared" version which ships DLLs.\n
+2026-04-04  02:47:48.377 | info | 1jh3qi0kiklu26 |              version is relevant. On Windows, ensure you've installed the\n
+2026-04-04  02:47:48.377 | info | 1jh3qi0kiklu26 |              your system are expected; only the error for your installed FFmpeg\n
+2026-04-04  02:47:48.377 | info | 1jh3qi0kiklu26 |              for each of those versions. Errors for versions not installed on\n
+2026-04-04  02:47:48.377 | info | 1jh3qi0kiklu26 |              versions 4, 5, 6, 7, and 8, and we attempt to load libtorchcodec\n
+2026-04-04  02:47:48.377 | info | 1jh3qi0kiklu26 |           1. FFmpeg is not properly installed in your environment. We support\n
+2026-04-04  02:47:48.377 | info | 1jh3qi0kiklu26 | Could not load libtorchcodec. Likely causes:\n
+2026-04-04  02:47:48.377 | info | 1jh3qi0kiklu26 | \n
+2026-04-04  02:47:48.377 | info | 1jh3qi0kiklu26 | * fix torchcodec installation. Error message was:\n
+2026-04-04  02:47:48.377 | info | 1jh3qi0kiklu26 | * use audio preloaded in-memory as a {'waveform': (channel, time) torch.Tensor, 'sample_rate': int} dictionary;\n
+2026-04-04  02:47:48.377 | info | 1jh3qi0kiklu26 | torchcodec is not installed correctly so built-in audio decoding will fail. Solutions are:\n
+2026-04-04  02:47:47.978 | info | 1jh3qi0kiklu26 | /usr/local/lib/python3.11/dist-packages/pyannote/audio/core/io.py:47: UserWarning: \n
+2026-04-04  02:47:45.371 | info | 1jh3qi0kiklu26 | font_manager.py     :1639 2026-04-03 18:47:45,370 generated new fontManager\n
+2026-04-04  02:47:45.371 | info | 1jh3qi0kiklu26 | Started.
+2026-04-04  02:47:45.371 | info | 1jh3qi0kiklu26 | Jobs in progress: 1
+2026-04-04  02:47:44.233 | info | 1jh3qi0kiklu26 | Jobs in queue: 1
+2026-04-04  02:47:44.233 | info | 1jh3qi0kiklu26 | Finished.
+2026-04-04  02:47:44.233 | info | 1jh3qi0kiklu26 | transcribe.py       :895  2026-04-03 18:47:31,755 VAD filter removed 00:21.532 of audio\n
+2026-04-04  02:47:44.233 | info | 1jh3qi0kiklu26 | transcribe.py       :881  2026-04-03 18:47:31,514 Processing audio with duration 01:22.268\n
+2026-04-04  02:47:44.233 | info | 1jh3qi0kiklu26 | _client.py          :1038 2026-04-03 18:47:27,483 HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-large-v3/revision/main "HTTP/1.1 200 OK"\n
+2026-04-04  02:12:00.560 | info | 1jh3qi0kiklu26 | Finished.
+2026-04-04  02:12:00.560 | error | 1jh3qi0kiklu26 | {\n    "error_type": "<class 'RuntimeError'>",\n    "error_message": "cuDNN error: CUDNN_STATUS_NOT_INITIALIZED",\n    "error_traceback": "Traceback (most recent call last):\n  File \"/usr/local/lib/python3.11/dist-packages/runpod/serverless/modules/rp_job.py\", line 182, in run_job\n    handler_return = handler(job)\n                     ^^^^^^^^^^^^\n  File \"/app/handler.py\", line 248, in handler\n    return handle_diarize(job_input)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/handler.py\", line 102, in handle_diarize\n    pipeline.to(device)\n  File \"/usr/local/lib/python3.11/dist-packages/pyannote/audio/core/pipeline.py\", line 496, in to\n    _ = inference.to(device)\n        ^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/dist-packages/pyannote/audio/core/inference.py\", line 177, in to\n    self.model.to(device)\n  File \"/usr/local/lib/python3.11/dist-packages/lightning/fabric/utilities/device_dtype_mixin.py\", line 59, in to\n    return super().to(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/dist-packages/torch/nn/modules/module.py\", line 1174, in to\n    return self._apply(convert)\n           ^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/dist-packages/torch/nn/modules/module.py\", line 780, in _apply\n    module._apply(fn)\n  File \"/usr/local/lib/python3.11/dist-packages/torch/nn/modules/rnn.py\", line 228, in _apply\n    self._init_flat_weights()\n  File \"/usr/local/lib/python3.11/dist-packages/torch/nn/modules/rnn.py\", line 163, in _init_flat_weights\n    self.flatten_parameters()\n  File \"/usr/local/lib/python3.11/dist-packages/torch/nn/modules/rnn.py\", line 215, in flatten_parameters\n    torch._cudnn_rnn_flatten_weight(\nRuntimeError: cuDNN error: CUDNN_STATUS_NOT_INITIALIZED\n",\n    "hostname": "1jh3qi0kiklu26-644117ed",\n    "worker_id": "1jh3qi0kiklu26",\n    "runpod_version": "1.8.2"\n}
+2026-04-04  02:12:00.268 | error | 1jh3qi0kiklu26 | Captured Handler Exception
+2026-04-04  02:11:58.882 | info | 1jh3qi0kiklu26 | _client.py          :1038 2026-04-03 18:11:58,882 HTTP Request: HEAD https://huggingface.co/pyannote/speaker-diarization-community-1/resolve/main/embedding/pytorch_model.bin "HTTP/1.1 302 Found"\n
+2026-04-04  02:11:58.508 | info | 1jh3qi0kiklu26 | _client.py          :1038 2026-04-03 18:11:58,507 HTTP Request: HEAD https://huggingface.co/pyannote/speaker-diarization-community-1/resolve/main/plda/plda.npz "HTTP/1.1 302 Found"\n
+2026-04-04  02:11:57.965 | info | 1jh3qi0kiklu26 | _client.py          :1038 2026-04-03 18:11:57,965 HTTP Request: HEAD https://huggingface.co/pyannote/speaker-diarization-community-1/resolve/main/plda/xvec_transform.npz "HTTP/1.1 302 Found"\n
+2026-04-04  02:11:56.344 | info | 1jh3qi0kiklu26 | _client.py          :1038 2026-04-03 18:11:56,344 HTTP Request: GET https://huggingface.co/api/models/pyannote/speaker-diarization-community-1/xet-read-token/3533c8cf8e369892e6b79ff1bf80f7b0286a54ee "HTTP/1.1 200 OK"\n
+2026-04-04  02:11:56.221 | info | 1jh3qi0kiklu26 | _client.py          :1038 2026-04-03 18:11:56,220 HTTP Request: HEAD https://huggingface.co/pyannote/speaker-diarization-community-1/resolve/main/segmentation/pytorch_model.bin "HTTP/1.1 302 Found"\n
+2026-04-04  02:11:55.690 | info | 1jh3qi0kiklu26 | _client.py          :1038 2026-04-03 18:11:55,690 HTTP Request: GET https://huggingface.co/pyannote/speaker-diarization-community-1/resolve/main/config.yaml "HTTP/1.1 200 OK"\n
+2026-04-04  02:11:55.574 | info | 1jh3qi0kiklu26 | _client.py          :1038 2026-04-03 18:11:55,571 HTTP Request: HEAD https://huggingface.co/pyannote/speaker-diarization-community-1/resolve/main/config.yaml "HTTP/1.1 200 OK"\n
+2026-04-04  02:11:55.574 | info | 1jh3qi0kiklu26 |   warnings.warn(\n
+2026-04-04  02:11:55.574 | info | 1jh3qi0kiklu26 | [end of libtorchcodec loading traceback].\n
+2026-04-04  02:11:55.574 | info | 1jh3qi0kiklu26 | OSError: libnvrtc.so.13: cannot open shared object file: No such file or directory\n
+2026-04-04  02:11:55.574 | info | 1jh3qi0kiklu26 |                    ^^^^^^^^^^^^^^^^^^^^^^^^^\n
+2026-04-04  02:11:55.574 | info | 1jh3qi0kiklu26 |     self._handle = _dlopen(self._name, mode)\n
+2026-04-04  02:11:55.574 | info | 1jh3qi0kiklu26 |   File "/usr/lib/python3.11/ctypes/__init__.py", line 376, in __init__\n
+2026-04-04  02:11:55.574 | info | 1jh3qi0kiklu26 |     ctypes.CDLL(path)\n
+2026-04-04  02:11:55.574 | info | 1jh3qi0kiklu26 |   File "/usr/local/lib/python3.11/dist-packages/torch/_ops.py", line 1295, in load_library\n
+2026-04-04  02:11:55.574 | info | 1jh3qi0kiklu26 |     torch.ops.load_library(core_library_path)\n
+2026-04-04  02:11:55.574 | info | 1jh3qi0kiklu26 |   File "/usr/local/lib/python3.11/dist-packages/torchcodec/_internally_replaced_utils.py", line 93, in load_torchcodec_shared_libraries\n
+2026-04-04  02:11:55.574 | info | 1jh3qi0kiklu26 | Traceback (most recent call last):\n
+2026-04-04  02:11:55.574 | info | 1jh3qi0kiklu26 | FFmpeg version 4:\n
+2026-04-04  02:11:55.573 | info | 1jh3qi0kiklu26 | \n
+2026-04-04  02:11:55.573 | info | 1jh3qi0kiklu26 | OSError: libnvrtc.so.13: cannot open shared object file: No such file or directory\n
+2026-04-04  02:11:55.573 | info | 1jh3qi0kiklu26 |                    ^^^^^^^^^^^^^^^^^^^^^^^^^\n
+2026-04-04  02:11:55.573 | info | 1jh3qi0kiklu26 |     self._handle = _dlopen(self._name, mode)\n
+2026-04-04  02:11:55.573 | info | 1jh3qi0kiklu26 |   File "/usr/lib/python3.11/ctypes/__init__.py", line 376, in __init__\n
+2026-04-04  02:11:55.573 | info | 1jh3qi0kiklu26 |     ctypes.CDLL(path)\n
+2026-04-04  02:11:55.573 | info | 1jh3qi0kiklu26 |   File "/usr/local/lib/python3.11/dist-packages/torch/_ops.py", line 1295, in load_library\n
+2026-04-04  02:11:55.573 | info | 1jh3qi0kiklu26 |     torch.ops.load_library(core_library_path)\n
+2026-04-04  02:11:55.573 | info | 1jh3qi0kiklu26 |   File "/usr/local/lib/python3.11/dist-packages/torchcodec/_internally_replaced_utils.py", line 93, in load_torchcodec_shared_libraries\n
+2026-04-04  02:11:55.573 | info | 1jh3qi0kiklu26 | Traceback (most recent call last):\n
+2026-04-04  02:11:55.573 | info | 1jh3qi0kiklu26 | FFmpeg version 5:\n
+2026-04-04  02:11:55.573 | info | 1jh3qi0kiklu26 | \n
+2026-04-04  02:11:55.573 | info | 1jh3qi0kiklu26 | OSError: libnvrtc.so.13: cannot open shared object file: No such file or directory\n
+2026-04-04  02:11:55.573 | info | 1jh3qi0kiklu26 |                    ^^^^^^^^^^^^^^^^^^^^^^^^^\n
+2026-04-04  02:11:55.573 | info | 1jh3qi0kiklu26 |     self._handle = _dlopen(self._name, mode)\n
+2026-04-04  02:11:55.573 | info | 1jh3qi0kiklu26 |   File "/usr/lib/python3.11/ctypes/__init__.py", line 376, in __init__\n
+2026-04-04  02:11:55.573 | info | 1jh3qi0kiklu26 |     ctypes.CDLL(path)\n
+2026-04-04  02:11:55.573 | info | 1jh3qi0kiklu26 |   File "/usr/local/lib/python3.11/dist-packages/torch/_ops.py", line 1295, in load_library\n
+2026-04-04  02:11:55.573 | info | 1jh3qi0kiklu26 |     torch.ops.load_library(core_library_path)\n
+2026-04-04  02:11:55.573 | info | 1jh3qi0kiklu26 |   File "/usr/local/lib/python3.11/dist-packages/torchcodec/_internally_replaced_utils.py", line 93, in load_torchcodec_shared_libraries\n
+2026-04-04  02:11:55.573 | info | 1jh3qi0kiklu26 | Traceback (most recent call last):\n
+2026-04-04  02:11:55.573 | info | 1jh3qi0kiklu26 | FFmpeg version 6:\n
+2026-04-04  02:11:55.573 | info | 1jh3qi0kiklu26 | \n
+2026-04-04  02:11:55.573 | info | 1jh3qi0kiklu26 | OSError: libnvrtc.so.13: cannot open shared object file: No such file or directory\n
+2026-04-04  02:11:55.573 | info | 1jh3qi0kiklu26 |                    ^^^^^^^^^^^^^^^^^^^^^^^^^\n
+2026-04-04  02:11:55.573 | info | 1jh3qi0kiklu26 |     self._handle = _dlopen(self._name, mode)\n
+2026-04-04  02:11:55.573 | info | 1jh3qi0kiklu26 |   File "/usr/lib/python3.11/ctypes/__init__.py", line 376, in __init__\n
+2026-04-04  02:11:55.573 | info | 1jh3qi0kiklu26 |     ctypes.CDLL(path)\n
+2026-04-04  02:11:55.573 | info | 1jh3qi0kiklu26 |   File "/usr/local/lib/python3.11/dist-packages/torch/_ops.py", line 1295, in load_library\n
+2026-04-04  02:11:55.573 | info | 1jh3qi0kiklu26 |     torch.ops.load_library(core_library_path)\n
+2026-04-04  02:11:55.573 | info | 1jh3qi0kiklu26 |   File "/usr/local/lib/python3.11/dist-packages/torchcodec/_internally_replaced_utils.py", line 93, in load_torchcodec_shared_libraries\n
+2026-04-04  02:11:55.573 | info | 1jh3qi0kiklu26 | Traceback (most recent call last):\n
+2026-04-04  02:11:55.573 | info | 1jh3qi0kiklu26 | FFmpeg version 7:\n
+2026-04-04  02:11:55.573 | info | 1jh3qi0kiklu26 | \n
+2026-04-04  02:11:55.572 | info | 1jh3qi0kiklu26 | OSError: libnvrtc.so.13: cannot open shared object file: No such file or directory\n
+2026-04-04  02:11:55.572 | info | 1jh3qi0kiklu26 |                    ^^^^^^^^^^^^^^^^^^^^^^^^^\n
+2026-04-04  02:11:55.572 | info | 1jh3qi0kiklu26 |     self._handle = _dlopen(self._name, mode)\n
+2026-04-04  02:11:55.572 | info | 1jh3qi0kiklu26 |   File "/usr/lib/python3.11/ctypes/__init__.py", line 376, in __init__\n
+2026-04-04  02:11:55.572 | info | 1jh3qi0kiklu26 |     ctypes.CDLL(path)\n
+2026-04-04  02:11:55.572 | info | 1jh3qi0kiklu26 |   File "/usr/local/lib/python3.11/dist-packages/torch/_ops.py", line 1295, in load_library\n
+2026-04-04  02:11:55.572 | info | 1jh3qi0kiklu26 |     torch.ops.load_library(core_library_path)\n
+2026-04-04  02:11:55.572 | info | 1jh3qi0kiklu26 |   File "/usr/local/lib/python3.11/dist-packages/torchcodec/_internally_replaced_utils.py", line 93, in load_torchcodec_shared_libraries\n
+2026-04-04  02:11:55.572 | info | 1jh3qi0kiklu26 | Traceback (most recent call last):\n
+2026-04-04  02:11:55.572 | info | 1jh3qi0kiklu26 | FFmpeg version 8:\n
+2026-04-04  02:11:55.572 | info | 1jh3qi0kiklu26 | [start of libtorchcodec loading traceback]\n
+2026-04-04  02:11:55.572 | info | 1jh3qi0kiklu26 |         \n
+2026-04-04  02:11:55.572 | info | 1jh3qi0kiklu26 |         The following exceptions were raised as we tried to load libtorchcodec:\n
+2026-04-04  02:11:55.572 | info | 1jh3qi0kiklu26 | \n
+2026-04-04  02:11:55.572 | info | 1jh3qi0kiklu26 |           3. Another runtime dependency; see exceptions below.\n
+2026-04-04  02:11:55.572 | info | 1jh3qi0kiklu26 |              https://github.com/pytorch/torchcodec?tab=readme-ov-file#installing-torchcodec.\n
+2026-04-04  02:11:55.572 | info | 1jh3qi0kiklu26 |              table:\n
+2026-04-04  02:11:55.572 | info | 1jh3qi0kiklu26 |              this version of TorchCodec. Refer to the version compatibility\n
+2026-04-04  02:11:55.572 | info | 1jh3qi0kiklu26 |           2. The PyTorch version (2.4.0+cu124) is not compatible with\n
+2026-04-04  02:11:55.572 | info | 1jh3qi0kiklu26 |              "full-shared" version which ships DLLs.\n
+2026-04-04  02:11:55.572 | info | 1jh3qi0kiklu26 |              version is relevant. On Windows, ensure you've installed the\n
+2026-04-04  02:11:55.572 | info | 1jh3qi0kiklu26 |              your system are expected; only the error for your installed FFmpeg\n
+2026-04-04  02:11:55.572 | info | 1jh3qi0kiklu26 |              for each of those versions. Errors for versions not installed on\n
+2026-04-04  02:11:55.572 | info | 1jh3qi0kiklu26 |              versions 4, 5, 6, 7, and 8, and we attempt to load libtorchcodec\n
+2026-04-04  02:11:55.572 | info | 1jh3qi0kiklu26 |           1. FFmpeg is not properly installed in your environment. We support\n
+2026-04-04  02:11:55.572 | info | 1jh3qi0kiklu26 | Could not load libtorchcodec. Likely causes:\n
+2026-04-04  02:11:55.572 | info | 1jh3qi0kiklu26 | \n
+2026-04-04  02:11:55.572 | info | 1jh3qi0kiklu26 | * fix torchcodec installation. Error message was:\n
+2026-04-04  02:11:55.572 | info | 1jh3qi0kiklu26 | * use audio preloaded in-memory as a {'waveform': (channel, time) torch.Tensor, 'sample_rate': int} dictionary;\n
+2026-04-04  02:11:55.571 | info | 1jh3qi0kiklu26 | torchcodec is not installed correctly so built-in audio decoding will fail. Solutions are:\n
+2026-04-04  02:11:55.214 | info | 1jh3qi0kiklu26 | /usr/local/lib/python3.11/dist-packages/pyannote/audio/core/io.py:47: UserWarning: \n
+2026-04-04  02:11:52.907 | info | 1jh3qi0kiklu26 | font_manager.py     :1639 2026-04-03 18:11:52,906 generated new fontManager\n
+2026-04-04  02:11:52.907 | info | 1jh3qi0kiklu26 | Started.
+2026-04-04  02:11:52.906 | info | 1jh3qi0kiklu26 | Jobs in progress: 1
+2026-04-04  02:11:51.891 | info | 1jh3qi0kiklu26 | Jobs in queue: 1
+2026-04-04  02:11:51.891 | info | 1jh3qi0kiklu26 | Finished.
+2026-04-04  02:11:51.891 | info | 1jh3qi0kiklu26 | transcribe.py       :895  2026-04-03 18:11:35,075 VAD filter removed 00:21.532 of audio\n
+2026-04-04  02:11:51.891 | info | 1jh3qi0kiklu26 | transcribe.py       :881  2026-04-03 18:11:34,835 Processing audio with duration 01:22.268\n
+2026-04-04  02:11:51.891 | info | 1jh3qi0kiklu26 | _client.py          :1038 2026-04-03 18:11:31,449 HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-large-v3/revision/main "HTTP/1.1 200 OK"\n
+2026-04-04  01:33:10.802 | info | rvomvpni6uhem2 | Finished.
+2026-04-04  01:33:10.801 | error | rvomvpni6uhem2 | {\n    "error_type": "<class 'AttributeError'>",\n    "error_message": "partially initialized module 'torchvision' has no attribute 'extension' (most likely due to a circular import)",\n    "error_traceback": "Traceback (most recent call last):\n  File \"/usr/local/lib/python3.11/dist-packages/runpod/serverless/modules/rp_job.py\", line 182, in run_job\n    handler_return = handler(job)\n                     ^^^^^^^^^^^^\n  File \"/app/handler.py\", line 248, in handler\n    return handle_diarize(job_input)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/handler.py\", line 82, in handle_diarize\n    from pyannote.audio import Pipeline, Inference\n  File \"/usr/local/lib/python3.11/dist-packages/pyannote/audio/__init__.py\", line 28, in <module>\n    from .core.inference import Inference\n  File \"/usr/local/lib/python3.11/dist-packages/pyannote/audio/core/inference.py\", line 32, in <module>\n    from lightning.pytorch.utilities.memory import is_oom_error\n  File \"/usr/local/lib/python3.11/dist-packages/lightning/__init__.py\", line 20, in <module>\n    from lightning.pytorch.callbacks import Callback  # noqa: E402\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/dist-packages/lightning/pytorch/__init__.py\", line 27, in <module>\n    from lightning.pytorch.callbacks import Callback  # noqa: E402\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/dist-packages/lightning/pytorch/callbacks/__init__.py\", line 14, in <module>\n    from lightning.pytorch.callbacks.batch_size_finder import BatchSizeFinder\n  File \"/usr/local/lib/python3.11/dist-packages/lightning/pytorch/callbacks/batch_size_finder.py\", line 26, in <module>\n    from lightning.pytorch.callbacks.callback import Callback\n  File \"/usr/local/lib/python3.11/dist-packages/lightning/pytorch/callbacks/callback.py\", line 22, in <module>\n    from lightning.pytorch.utilities.types import STEP_OUTPUT\n  File \"/usr/local/lib/python3.11/dist-packages/lightning/pytorch/utilities/types.py\", line 36, in <module>\n    from torchmetrics import Metric\n  File \"/usr/local/lib/python3.11/dist-packages/torchmetrics/__init__.py\", line 37, in <module>\n    from torchmetrics import functional  # noqa: E402\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/dist-packages/torchmetrics/functional/__init__.py\", line 56, in <module>\n    from torchmetrics.functional.image._deprecated import (\n  File \"/usr/local/lib/python3.11/dist-packages/torchmetrics/functional/image/__init__.py\", line 14, in <module>\n    from torchmetrics.functional.image.arniqa import arniqa\n  File \"/usr/local/lib/python3.11/dist-packages/torchmetrics/functional/image/arniqa.py\", line 31, in <module>\n    from torchvision import transforms\n  File \"/usr/local/lib/python3.11/dist-packages/torchvision/__init__.py\", line 10, in <module>\n    from torchvision import _meta_registrations, datasets, io, models, ops, transforms, utils  # usort:skip\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/dist-packages/torchvision/_meta_registrations.py\", line 25, in <module>\n    @register_meta(\"roi_align\")\n     ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/dist-packages/torchvision/_meta_registrations.py\", line 18, in wrapper\n    if torchvision.extension._has_ops():\n       ^^^^^^^^^^^^^^^^^^^^^\nAttributeError: partially initialized module 'torchvision' has no attribute 'extension' (most likely due to a circular import)\n",\n    "hostname": "rvomvpni6uhem2-64411019",\n    "worker_id": "rvomvpni6uhem2",\n    "runpod_version": "1.8.2"\n}
+2026-04-04  01:33:10.505 | error | rvomvpni6uhem2 | Captured Handler Exception
+2026-04-04  01:33:09.096 | info | rvomvpni6uhem2 | font_manager.py     :1639 2026-04-03 17:33:09,095 generated new fontManager\n
+2026-04-04  01:33:09.096 | info | rvomvpni6uhem2 | Started.
+2026-04-04  01:33:09.096 | info | rvomvpni6uhem2 | Jobs in progress: 1
+2026-04-04  01:33:08.197 | info | rvomvpni6uhem2 | Jobs in queue: 1
+2026-04-04  01:33:08.197 | info | rvomvpni6uhem2 | Finished.
+2026-04-04  01:33:08.197 | info | rvomvpni6uhem2 | transcribe.py       :895  2026-04-03 17:32:45,894 VAD filter removed 00:21.532 of audio\n
+2026-04-04  01:33:08.197 | info | rvomvpni6uhem2 | transcribe.py       :881  2026-04-03 17:32:45,670 Processing audio with duration 01:22.268\n
+2026-04-04  01:33:08.197 | info | rvomvpni6uhem2 | _client.py          :1038 2026-04-03 17:32:42,791 HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-large-v3/revision/main "HTTP/1.1 200 OK"\n
+2026-04-04  00:53:31.607 | info | shcr7w0aqjuhkd | Finished.
+2026-04-04  00:53:31.607 | error | shcr7w0aqjuhkd | {\n    "error_type": "<class 'AttributeError'>",\n    "error_message": "partially initialized module 'torchvision' has no attribute 'extension' (most likely due to a circular import)",\n    "error_traceback": "Traceback (most recent call last):\n  File \"/usr/local/lib/python3.11/dist-packages/runpod/serverless/modules/rp_job.py\", line 182, in run_job\n    handler_return = handler(job)\n                     ^^^^^^^^^^^^\n  File \"/app/handler.py\", line 248, in handler\n    return handle_diarize(job_input)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/handler.py\", line 82, in handle_diarize\n    from pyannote.audio import Pipeline, Inference\n  File \"/usr/local/lib/python3.11/dist-packages/pyannote/audio/__init__.py\", line 28, in <module>\n    from .core.inference import Inference\n  File \"/usr/local/lib/python3.11/dist-packages/pyannote/audio/core/inference.py\", line 32, in <module>\n    from lightning.pytorch.utilities.memory import is_oom_error\n  File \"/usr/local/lib/python3.11/dist-packages/lightning/__init__.py\", line 20, in <module>\n    from lightning.pytorch.callbacks import Callback  # noqa: E402\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/dist-packages/lightning/pytorch/__init__.py\", line 27, in <module>\n    from lightning.pytorch.callbacks import Callback  # noqa: E402\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/dist-packages/lightning/pytorch/callbacks/__init__.py\", line 14, in <module>\n    from lightning.pytorch.callbacks.batch_size_finder import BatchSizeFinder\n  File \"/usr/local/lib/python3.11/dist-packages/lightning/pytorch/callbacks/batch_size_finder.py\", line 26, in <module>\n    from lightning.pytorch.callbacks.callback import Callback\n  File \"/usr/local/lib/python3.11/dist-packages/lightning/pytorch/callbacks/callback.py\", line 22, in <module>\n    from lightning.pytorch.utilities.types import STEP_OUTPUT\n  File \"/usr/local/lib/python3.11/dist-packages/lightning/pytorch/utilities/types.py\", line 36, in <module>\n    from torchmetrics import Metric\n  File \"/usr/local/lib/python3.11/dist-packages/torchmetrics/__init__.py\", line 37, in <module>\n    from torchmetrics import functional  # noqa: E402\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/dist-packages/torchmetrics/functional/__init__.py\", line 56, in <module>\n    from torchmetrics.functional.image._deprecated import (\n  File \"/usr/local/lib/python3.11/dist-packages/torchmetrics/functional/image/__init__.py\", line 14, in <module>\n    from torchmetrics.functional.image.arniqa import arniqa\n  File \"/usr/local/lib/python3.11/dist-packages/torchmetrics/functional/image/arniqa.py\", line 31, in <module>\n    from torchvision import transforms\n  File \"/usr/local/lib/python3.11/dist-packages/torchvision/__init__.py\", line 10, in <module>\n    from torchvision import _meta_registrations, datasets, io, models, ops, transforms, utils  # usort:skip\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/dist-packages/torchvision/_meta_registrations.py\", line 25, in <module>\n    @register_meta(\"roi_align\")\n     ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/dist-packages/torchvision/_meta_registrations.py\", line 18, in wrapper\n    if torchvision.extension._has_ops():\n       ^^^^^^^^^^^^^^^^^^^^^\nAttributeError: partially initialized module 'torchvision' has no attribute 'extension' (most likely due to a circular import)\n",\n    "hostname": "shcr7w0aqjuhkd-6441138d",\n    "worker_id": "shcr7w0aqjuhkd",\n    "runpod_version": "1.8.2"\n}
+2026-04-04  00:53:31.607 | error | shcr7w0aqjuhkd | Captured Handler Exception
+2026-04-04  00:53:31.607 | info | shcr7w0aqjuhkd | font_manager.py     :1639 2026-04-03 16:53:17,620 generated new fontManager\n
+2026-04-04  00:53:31.607 | info | shcr7w0aqjuhkd | Started.
+2026-04-04  00:53:31.607 | info | shcr7w0aqjuhkd | Jobs in progress: 1
+2026-04-04  00:53:31.607 | info | shcr7w0aqjuhkd | Jobs in queue: 1
+2026-04-04  00:53:31.606 | info | shcr7w0aqjuhkd | --- Starting Serverless Worker |  Version 1.8.2 ---\n
+2026-04-04  00:52:34.468 | info | 5pflagb1da4wpv | Finished.
+2026-04-04  00:52:28.466 | info | 5pflagb1da4wpv | transcribe.py       :895  2026-04-03 16:52:28,466 VAD filter removed 00:21.532 of audio\n
+2026-04-04  00:52:28.205 | info | 5pflagb1da4wpv | transcribe.py       :881  2026-04-03 16:52:28,205 Processing audio with duration 01:22.268\n
+2026-04-04  00:52:21.520 | info | 5pflagb1da4wpv | _client.py          :1038 2026-04-03 16:52:21,519 HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-large-v3/revision/main "HTTP/1.1 200 OK"\n
+2026-04-04  00:52:21.520 | info | 5pflagb1da4wpv | Started.
+2026-04-04  00:52:21.520 | info | 5pflagb1da4wpv | Jobs in progress: 1
+2026-04-04  00:52:21.520 | info | 5pflagb1da4wpv | Jobs in queue: 1
+2026-04-04  00:52:21.520 | info | 5pflagb1da4wpv | --- Starting Serverless Worker |  Version 1.8.2 ---\n
+2026-04-04  00:52:21.520 | info | 5pflagb1da4wpv | \n
+2026-04-04  00:52:21.520 | info | 5pflagb1da4wpv | A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.\n
+2026-04-04  00:52:21.520 | info | 5pflagb1da4wpv | \n
+2026-04-04  00:52:21.520 | info | 5pflagb1da4wpv | https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license\n
+2026-04-04  00:52:21.520 | info | 5pflagb1da4wpv | By pulling and using the container, you accept the terms and conditions of this license:\n
+2026-04-04  00:52:21.519 | info | 5pflagb1da4wpv | This container image and its contents are governed by the NVIDIA Deep Learning Container License.\n
+2026-04-04  00:52:21.519 | info | 5pflagb1da4wpv | \n
+2026-04-04  00:52:21.519 | info | 5pflagb1da4wpv | Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.\n
+2026-04-04  00:52:21.519 | info | 5pflagb1da4wpv | \n
+2026-04-04  00:52:21.519 | info | 5pflagb1da4wpv | CUDA Version 12.4.1\n
+2026-04-04  00:52:21.519 | info | 5pflagb1da4wpv | \n
+2026-04-04  00:52:21.519 | info | 5pflagb1da4wpv | ==========\n
+2026-04-04  00:52:21.519 | info | 5pflagb1da4wpv | == CUDA ==\n
+2026-04-04  00:52:21.519 | info | 5pflagb1da4wpv | ==========\n
+2026-04-04  00:52:21.519 | info | 5pflagb1da4wpv | \n
+2026-04-04  00:21:00.254 | info | y41y3red1t2no0 | Finished.
+2026-04-04  00:21:00.254 | error | y41y3red1t2no0 | {\n    "error_type": "<class 'RuntimeError'>",\n    "error_message": "Library libcublas.so.12 is not found or cannot be loaded",\n    "error_traceback": "Traceback (most recent call last):\n  File \"/usr/local/lib/python3.10/dist-packages/runpod/serverless/modules/rp_job.py\", line 182, in run_job\n    handler_return = handler(job)\n  File \"/app/handler.py\", line 246, in handler\n    return handle_transcribe(job_input)\n  File \"/app/handler.py\", line 50, in handle_transcribe\n    for i, seg in enumerate(segments_iter):\n  File \"/usr/local/lib/python3.10/dist-packages/faster_whisper/transcribe.py\", line 1851, in restore_speech_timestamps\n    for segment in segments:\n  File \"/usr/local/lib/python3.10/dist-packages/faster_whisper/transcribe.py\", line 1190, in generate_segments\n    encoder_output = self.encode(segment)\n  File \"/usr/local/lib/python3.10/dist-packages/faster_whisper/transcribe.py\", line 1400, in encode\n    return self.model.encode(features, to_cpu=to_cpu)\nRuntimeError: Library libcublas.so.12 is not found or cannot be loaded\n",\n    "hostname": "y41y3red1t2no0-644110e9",\n    "worker_id": "y41y3red1t2no0",\n    "runpod_version": "1.8.2"\n}
+2026-04-04  00:21:00.254 | error | y41y3red1t2no0 | Captured Handler Exception
+2026-04-04  00:21:00.254 | info | y41y3red1t2no0 | transcribe.py       :895  2026-04-03 16:19:42,378 VAD filter removed 00:21.532 of audio\n
+2026-04-04  00:21:00.254 | info | y41y3red1t2no0 | transcribe.py       :881  2026-04-03 16:19:42,138 Processing audio with duration 01:22.268\n
+2026-04-04  00:21:00.254 | info | y41y3red1t2no0 | _client.py          :1025 2026-04-03 16:19:37,057 HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-large-v3/revision/main "HTTP/1.1 200 OK"\n
+2026-04-03  23:14:55.571 | info | y41y3red1t2no0 | Finished.
+2026-04-03  23:14:55.571 | error | y41y3red1t2no0 | {\n    "error_type": "<class 'RuntimeError'>",\n    "error_message": "Library libcublas.so.12 is not found or cannot be loaded",\n    "error_traceback": "Traceback (most recent call last):\n  File \"/usr/local/lib/python3.10/dist-packages/runpod/serverless/modules/rp_job.py\", line 182, in run_job\n    handler_return = handler(job)\n  File \"/app/handler.py\", line 246, in handler\n    return handle_transcribe(job_input)\n  File \"/app/handler.py\", line 50, in handle_transcribe\n    for i, seg in enumerate(segments_iter):\n  File \"/usr/local/lib/python3.10/dist-packages/faster_whisper/transcribe.py\", line 1851, in restore_speech_timestamps\n    for segment in segments:\n  File \"/usr/local/lib/python3.10/dist-packages/faster_whisper/transcribe.py\", line 1190, in generate_segments\n    encoder_output = self.encode(segment)\n  File \"/usr/local/lib/python3.10/dist-packages/faster_whisper/transcribe.py\", line 1400, in encode\n    return self.model.encode(features, to_cpu=to_cpu)\nRuntimeError: Library libcublas.so.12 is not found or cannot be loaded\n",\n    "hostname": "y41y3red1t2no0-644110e9",\n    "worker_id": "y41y3red1t2no0",\n    "runpod_version": "1.8.2"\n}
+2026-04-03  23:14:55.571 | error | y41y3red1t2no0 | Captured Handler Exception
+2026-04-03  23:14:55.092 | info | y41y3red1t2no0 | transcribe.py       :895  2026-04-03 15:14:55,092 VAD filter removed 00:21.532 of audio\n
+2026-04-03  23:14:54.804 | info | y41y3red1t2no0 | transcribe.py       :881  2026-04-03 15:14:54,803 Processing audio with duration 01:22.268\n
+2026-04-03  23:14:54.804 | info | y41y3red1t2no0 | _client.py          :1025 2026-04-03 15:14:49,587 HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-large-v3/revision/main "HTTP/1.1 200 OK"\n
+2026-04-03  23:14:54.804 | info | y41y3red1t2no0 | Started.
+2026-04-03  23:14:54.804 | info | y41y3red1t2no0 | Jobs in progress: 1
+2026-04-03  23:14:54.804 | info | y41y3red1t2no0 | Jobs in queue: 1
+2026-04-03  23:14:54.804 | info | y41y3red1t2no0 | --- Starting Serverless Worker |  Version 1.8.2 ---\n
+2026-04-03  23:14:54.804 | info | y41y3red1t2no0 | \n
+2026-04-03  23:14:54.804 | info | y41y3red1t2no0 | A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.\n
+2026-04-03  23:14:54.804 | info | y41y3red1t2no0 | \n
+2026-04-03  23:14:54.804 | info | y41y3red1t2no0 | https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license\n
+2026-04-03  23:14:54.804 | info | y41y3red1t2no0 | By pulling and using the container, you accept the terms and conditions of this license:\n
+2026-04-03  23:14:54.804 | info | y41y3red1t2no0 | This container image and its contents are governed by the NVIDIA Deep Learning Container License.\n
+2026-04-03  23:14:54.804 | info | y41y3red1t2no0 | \n
+2026-04-03  23:14:54.804 | info | y41y3red1t2no0 | Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.\n
+2026-04-03  23:14:54.804 | info | y41y3red1t2no0 | \n
+2026-04-03  23:14:54.804 | info | y41y3red1t2no0 | CUDA Version 11.8.0\n
+2026-04-03  23:14:54.804 | info | y41y3red1t2no0 | \n
+2026-04-03  23:14:54.804 | info | y41y3red1t2no0 | ==========\n
+2026-04-03  23:14:54.804 | info | y41y3red1t2no0 | == CUDA ==\n
+2026-04-03  23:14:54.804 | info | y41y3red1t2no0 | ==========\n
+2026-04-03  23:14:54.804 | info | y41y3red1t2no0 | \n

@@ -1,0 +1,500 @@
+2026-04-03T16:05:26.110Z [INFO] #15 3.276   Downloading transformers-stream-generator-0.0.5.tar.gz (13 kB)
+2026-04-03T16:05:26.110Z [INFO] #15 3.284   Preparing metadata (setup.py): started
+2026-04-03T16:05:26.180Z [INFO] #15 3.505   Preparing metadata (setup.py): finished with status 'done'
+2026-04-03T16:05:26.310Z [INFO] #15 3.552 Collecting unidecode (from f5-tts)
+2026-04-03T16:05:26.310Z [INFO] #15 3.590   Downloading Unidecode-1.4.0-py3-none-any.whl.metadata (13 kB)
+2026-04-03T16:05:26.310Z [INFO] #15 3.635 Collecting vocos (from f5-tts)
+2026-04-03T16:05:26.500Z [INFO] #15 3.674   Downloading vocos-0.1.0-py3-none-any.whl.metadata (4.8 kB)
+2026-04-03T16:05:26.562Z [INFO] #15 3.886 Collecting wandb (from f5-tts)
+2026-04-03T16:05:26.751Z [INFO] #15 3.925   Downloading wandb-0.25.1-py3-none-manylinux_2_28_x86_64.whl.metadata (11 kB)
+2026-04-03T16:05:26.813Z [INFO] #15 4.138 Collecting x_transformers>=1.31.14 (from f5-tts)
+2026-04-03T16:05:26.954Z [INFO] #15 4.178   Downloading x_transformers-2.17.9-py3-none-any.whl.metadata (99 kB)
+2026-04-03T16:05:26.954Z [INFO] #15 4.230 Requirement already satisfied: numpy>=1.17 in /usr/local/lib/python3.11/dist-packages (from accelerate>=0.33.0->f5-tts) (2.4.3)
+2026-04-03T16:05:26.954Z [INFO] #15 4.231 Requirement already satisfied: packaging>=20.0 in /usr/local/lib/python3.11/dist-packages (from accelerate>=0.33.0->f5-tts) (24.1)
+2026-04-03T16:05:26.954Z [INFO] #15 4.231 Requirement already satisfied: psutil in /usr/local/lib/python3.11/dist-packages (from accelerate>=0.33.0->f5-tts) (6.0.0)
+2026-04-03T16:05:26.954Z [INFO] #15 4.231 Requirement already satisfied: pyyaml in /usr/local/lib/python3.11/dist-packages (from accelerate>=0.33.0->f5-tts) (6.0.2)
+2026-04-03T16:05:26.955Z [INFO] #15 4.232 Requirement already satisfied: huggingface_hub>=0.21.0 in /usr/local/lib/python3.11/dist-packages (from accelerate>=0.33.0->f5-tts) (1.9.0)
+2026-04-03T16:05:26.955Z [INFO] #15 4.279 Collecting aiofiles<25.0,>=22.0 (from gradio>=6.0.0->f5-tts)
+2026-04-03T16:05:27.078Z [INFO] #15 4.317   Downloading aiofiles-24.1.0-py3-none-any.whl.metadata (10 kB)
+2026-04-03T16:05:27.078Z [INFO] #15 4.320 Requirement already satisfied: anyio<5.0,>=3.0 in /usr/local/lib/python3.11/dist-packages (from gradio>=6.0.0->f5-tts) (4.6.0)
+2026-04-03T16:05:27.079Z [INFO] #15 4.320 Requirement already satisfied: brotli>=1.1.0 in /usr/local/lib/python3.11/dist-packages (from gradio>=6.0.0->f5-tts) (1.2.0)
+2026-04-03T16:05:27.079Z [INFO] #15 4.321 Requirement already satisfied: fastapi<1.0,>=0.115.2 in /usr/local/lib/python3.11/dist-packages (from gradio>=6.0.0->f5-tts) (0.135.3)
+2026-04-03T16:05:27.079Z [INFO] #15 4.364 Collecting ffmpy (from gradio>=6.0.0->f5-tts)
+2026-04-03T16:05:27.079Z [INFO] #15 4.403   Downloading ffmpy-1.0.0-py3-none-any.whl.metadata (3.0 kB)
+2026-04-03T16:05:27.190Z [INFO] #15 4.476 Collecting gradio-client==2.4.0 (from gradio>=6.0.0->f5-tts)
+2026-04-03T16:05:27.190Z [INFO] #15 4.515   Downloading gradio_client-2.4.0-py3-none-any.whl.metadata (7.1 kB)
+2026-04-03T16:05:27.317Z [INFO] #15 4.561 Collecting groovy~=0.1 (from gradio>=6.0.0->f5-tts)
+2026-04-03T16:05:27.318Z [INFO] #15 4.600   Downloading groovy-0.1.2-py3-none-any.whl.metadata (6.1 kB)
+2026-04-03T16:05:27.318Z [INFO] #15 4.642 Collecting hf-gradio<1.0,>=0.3.0 (from gradio>=6.0.0->f5-tts)
+2026-04-03T16:05:27.510Z [INFO] #15 4.682   Downloading hf_gradio-0.3.0-py3-none-any.whl.metadata (404 bytes)
+2026-04-03T16:05:27.510Z [INFO] #15 4.683 Requirement already satisfied: httpx<1.0,>=0.24.1 in /usr/local/lib/python3.11/dist-packages (from gradio>=6.0.0->f5-tts) (0.27.2)
+2026-04-03T16:05:27.510Z [INFO] #15 4.684 Requirement already satisfied: jinja2<4.0 in /usr/local/lib/python3.11/dist-packages (from gradio>=6.0.0->f5-tts) (3.1.6)
+2026-04-03T16:05:27.510Z [INFO] #15 4.685 Requirement already satisfied: markupsafe<4.0,>=2.0 in /usr/local/lib/python3.11/dist-packages (from gradio>=6.0.0->f5-tts) (3.0.3)
+2026-04-03T16:05:27.790Z [INFO] #15 5.115 Collecting orjson~=3.0 (from gradio>=6.0.0->f5-tts)
+2026-04-03T16:05:27.920Z [INFO] #15 5.153   Downloading orjson-3.11.8-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (41 kB)
+2026-04-03T16:05:27.920Z [INFO] #15 5.161 Requirement already satisfied: pandas<4.0,>=1.0 in /usr/local/lib/python3.11/dist-packages (from gradio>=6.0.0->f5-tts) (3.0.2)
+2026-04-03T16:05:27.920Z [INFO] #15 5.162 Requirement already satisfied: pillow<13.0,>=8.0 in /usr/local/lib/python3.11/dist-packages (from gradio>=6.0.0->f5-tts) (12.1.1)
+2026-04-03T16:05:27.920Z [INFO] #15 5.162 Requirement already satisfied: pydantic<=3.0,>=2.0 in /usr/local/lib/python3.11/dist-packages (from gradio>=6.0.0->f5-tts) (2.12.5)
+2026-04-03T16:05:27.920Z [INFO] #15 5.163 Requirement already satisfied: python-multipart>=0.0.18 in /usr/local/lib/python3.11/dist-packages (from gradio>=6.0.0->f5-tts) (0.0.22)
+2026-04-03T16:05:27.920Z [INFO] #15 5.244 Collecting pytz>=2017.2 (from gradio>=6.0.0->f5-tts)
+2026-04-03T16:05:28.044Z [INFO] #15 5.284   Downloading pytz-2026.1.post1-py2.py3-none-any.whl.metadata (22 kB)
+2026-04-03T16:05:28.044Z [INFO] #15 5.329 Collecting safehttpx<0.2.0,>=0.1.7 (from gradio>=6.0.0->f5-tts)
+2026-04-03T16:05:28.045Z [INFO] #15 5.369   Downloading safehttpx-0.1.7-py3-none-any.whl.metadata (4.2 kB)
+2026-04-03T16:05:28.197Z [INFO] #15 5.418 Collecting semantic-version~=2.0 (from gradio>=6.0.0->f5-tts)
+2026-04-03T16:05:28.198Z [INFO] #15 5.457   Downloading semantic_version-2.10.0-py2.py3-none-any.whl.metadata (9.7 kB)
+2026-04-03T16:05:28.198Z [INFO] #15 5.460 Requirement already satisfied: starlette<2.0,>=0.40.0 in /usr/local/lib/python3.11/dist-packages (from gradio>=6.0.0->f5-tts) (1.0.0)
+2026-04-03T16:05:28.198Z [INFO] #15 5.522 Collecting tomlkit<0.14.0,>=0.12.0 (from gradio>=6.0.0->f5-tts)
+2026-04-03T16:05:28.317Z [INFO] #15 5.562   Downloading tomlkit-0.13.3-py3-none-any.whl.metadata (2.8 kB)
+2026-04-03T16:05:28.317Z [INFO] #15 5.563 Requirement already satisfied: typer<1.0,>=0.12 in /usr/local/lib/python3.11/dist-packages (from gradio>=6.0.0->f5-tts) (0.24.1)
+2026-04-03T16:05:28.317Z [INFO] #15 5.564 Requirement already satisfied: typing-extensions~=4.0 in /usr/local/lib/python3.11/dist-packages (from gradio>=6.0.0->f5-tts) (4.15.0)
+2026-04-03T16:05:28.317Z [INFO] #15 5.564 Requirement already satisfied: uvicorn>=0.14.0 in /usr/local/lib/python3.11/dist-packages (from gradio>=6.0.0->f5-tts) (0.42.0)
+2026-04-03T16:05:28.317Z [INFO] #15 5.566 Requirement already satisfied: fsspec in /usr/local/lib/python3.11/dist-packages (from gradio-client==2.4.0->gradio>=6.0.0->f5-tts) (2026.2.0)
+2026-04-03T16:05:28.317Z [INFO] #15 5.642 Collecting omegaconf<2.4,>=2.2 (from hydra-core>=1.3.0->f5-tts)
+2026-04-03T16:05:28.439Z [INFO] #15 5.680   Downloading omegaconf-2.3.0-py3-none-any.whl.metadata (3.9 kB)
+2026-04-03T16:05:28.439Z [INFO] #15 5.725 Collecting antlr4-python3-runtime==4.9.* (from hydra-core>=1.3.0->f5-tts)
+2026-04-03T16:05:28.439Z [INFO] #15 5.764   Downloading antlr4-python3-runtime-4.9.3.tar.gz (117 kB)
+2026-04-03T16:05:28.625Z [INFO] #15 5.799   Preparing metadata (setup.py): started
+2026-04-03T16:05:28.703Z [INFO] #15 6.028   Preparing metadata (setup.py): finished with status 'done'
+2026-04-03T16:05:28.818Z [INFO] #15 6.037 Requirement already satisfied: filelock in /usr/local/lib/python3.11/dist-packages (from torch>=2.0.0->f5-tts) (3.25.2)
+2026-04-03T16:05:28.818Z [INFO] #15 6.038 Requirement already satisfied: setuptools<82 in /usr/local/lib/python3.11/dist-packages (from torch>=2.0.0->f5-tts) (75.1.0)
+2026-04-03T16:05:28.818Z [INFO] #15 6.038 Requirement already satisfied: sympy>=1.13.3 in /usr/local/lib/python3.11/dist-packages (from torch>=2.0.0->f5-tts) (1.14.0)
+2026-04-03T16:05:28.818Z [INFO] #15 6.039 Requirement already satisfied: networkx>=2.5.1 in /usr/local/lib/python3.11/dist-packages (from torch>=2.0.0->f5-tts) (3.6.1)
+2026-04-03T16:05:28.819Z [INFO] #15 6.039 Requirement already satisfied: cuda-toolkit==13.0.2 in /usr/local/lib/python3.11/dist-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch>=2.0.0->f5-tts) (13.0.2)
+2026-04-03T16:05:28.819Z [INFO] #15 6.040 Requirement already satisfied: cuda-bindings<14,>=13.0.3 in /usr/local/lib/python3.11/dist-packages (from torch>=2.0.0->f5-tts) (13.2.0)
+2026-04-03T16:05:28.819Z [INFO] #15 6.040 Requirement already satisfied: nvidia-cudnn-cu13==9.19.0.56 in /usr/local/lib/python3.11/dist-packages (from torch>=2.0.0->f5-tts) (9.19.0.56)
+2026-04-03T16:05:28.819Z [INFO] #15 6.041 Requirement already satisfied: nvidia-cusparselt-cu13==0.8.0 in /usr/local/lib/python3.11/dist-packages (from torch>=2.0.0->f5-tts) (0.8.0)
+2026-04-03T16:05:28.819Z [INFO] #15 6.041 Requirement already satisfied: nvidia-nccl-cu13==2.28.9 in /usr/local/lib/python3.11/dist-packages (from torch>=2.0.0->f5-tts) (2.28.9)
+2026-04-03T16:05:28.819Z [INFO] #15 6.042 Requirement already satisfied: nvidia-nvshmem-cu13==3.4.5 in /usr/local/lib/python3.11/dist-packages (from torch>=2.0.0->f5-tts) (3.4.5)
+2026-04-03T16:05:28.819Z [INFO] #15 6.042 Requirement already satisfied: triton==3.6.0 in /usr/local/lib/python3.11/dist-packages (from torch>=2.0.0->f5-tts) (3.6.0)
+2026-04-03T16:05:28.819Z [INFO] #15 6.063 Requirement already satisfied: nvidia-cublas==13.1.0.3.* in /usr/local/lib/python3.11/dist-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch>=2.0.0->f5-tts) (13.1.0.3)
+2026-04-03T16:05:28.819Z [INFO] #15 6.063 Requirement already satisfied: nvidia-cuda-runtime==13.0.96.* in /usr/local/lib/python3.11/dist-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch>=2.0.0->f5-tts) (13.0.96)
+2026-04-03T16:05:28.819Z [INFO] #15 6.064 Requirement already satisfied: nvidia-cufft==12.0.0.61.* in /usr/local/lib/python3.11/dist-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch>=2.0.0->f5-tts) (12.0.0.61)
+2026-04-03T16:05:28.819Z [INFO] #15 6.064 Requirement already satisfied: nvidia-cufile==1.15.1.6.* in /usr/local/lib/python3.11/dist-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch>=2.0.0->f5-tts) (1.15.1.6)
+2026-04-03T16:05:28.819Z [INFO] #15 6.065 Requirement already satisfied: nvidia-cuda-cupti==13.0.85.* in /usr/local/lib/python3.11/dist-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch>=2.0.0->f5-tts) (13.0.85)
+2026-04-03T16:05:28.819Z [INFO] #15 6.066 Requirement already satisfied: nvidia-curand==10.4.0.35.* in /usr/local/lib/python3.11/dist-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch>=2.0.0->f5-tts) (10.4.0.35)
+2026-04-03T16:05:28.819Z [INFO] #15 6.066 Requirement already satisfied: nvidia-cusolver==12.0.4.66.* in /usr/local/lib/python3.11/dist-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch>=2.0.0->f5-tts) (12.0.4.66)
+2026-04-03T16:05:28.819Z [INFO] #15 6.067 Requirement already satisfied: nvidia-cusparse==12.6.3.3.* in /usr/local/lib/python3.11/dist-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch>=2.0.0->f5-tts) (12.6.3.3)
+2026-04-03T16:05:28.819Z [INFO] #15 6.067 Requirement already satisfied: nvidia-nvjitlink==13.0.88.* in /usr/local/lib/python3.11/dist-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch>=2.0.0->f5-tts) (13.0.88)
+2026-04-03T16:05:28.819Z [INFO] #15 6.068 Requirement already satisfied: nvidia-cuda-nvrtc==13.0.88.* in /usr/local/lib/python3.11/dist-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch>=2.0.0->f5-tts) (13.0.88)
+2026-04-03T16:05:28.819Z [INFO] #15 6.068 Requirement already satisfied: nvidia-nvtx==13.0.85.* in /usr/local/lib/python3.11/dist-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch>=2.0.0->f5-tts) (13.0.85)
+2026-04-03T16:05:28.819Z [INFO] #15 6.098 Requirement already satisfied: einops>=0.8.0 in /usr/local/lib/python3.11/dist-packages (from x_transformers>=1.31.14->f5-tts) (0.8.2)
+2026-04-03T16:05:28.820Z [INFO] #15 6.143 Collecting einx>=0.3.0 (from x_transformers>=1.31.14->f5-tts)
+2026-04-03T16:05:28.944Z [INFO] #15 6.182   Downloading einx-0.4.3-py3-none-any.whl.metadata (6.9 kB)
+2026-04-03T16:05:28.944Z [INFO] #15 6.229 Collecting fire>=0.7.1 (from x_transformers>=1.31.14->f5-tts)
+2026-04-03T16:05:28.944Z [INFO] #15 6.269   Downloading fire-0.7.1-py3-none-any.whl.metadata (5.8 kB)
+2026-04-03T16:05:29.161Z [INFO] #15 6.316 Collecting loguru (from x_transformers>=1.31.14->f5-tts)
+2026-04-03T16:05:29.161Z [INFO] #15 6.355   Downloading loguru-0.7.3-py3-none-any.whl.metadata (22 kB)
+2026-04-03T16:05:29.161Z [INFO] #15 6.486 Collecting python-fire>=0.1.0 (from x_transformers>=1.31.14->f5-tts)
+2026-04-03T16:05:29.338Z [INFO] #15 6.526   Downloading python_fire-0.1.0-py2.py3-none-any.whl.metadata (867 bytes)
+2026-04-03T16:05:29.338Z [INFO] #15 6.534 Requirement already satisfied: requests in /usr/local/lib/python3.11/dist-packages (from cached_path->f5-tts) (2.32.3)
+2026-04-03T16:05:29.338Z [INFO] #15 6.663 Collecting rich<14.0,>=12.1 (from cached_path->f5-tts)
+2026-04-03T16:05:29.511Z [INFO] #15 6.702   Downloading rich-13.9.4-py3-none-any.whl.metadata (18 kB)
+2026-04-03T16:05:29.511Z [INFO] #15 6.706 Requirement already satisfied: boto3<2.0,>=1.0 in /usr/local/lib/python3.11/dist-packages (from cached_path->f5-tts) (1.42.82)
+2026-04-03T16:05:29.511Z [INFO] #15 6.836 Collecting google-cloud-storage<4.0,>=1.32.0 (from cached_path->f5-tts)
+2026-04-03T16:05:29.695Z [INFO] #15 6.874   Downloading google_cloud_storage-3.10.1-py3-none-any.whl.metadata (15 kB)
+2026-04-03T16:05:29.695Z [INFO] #15 7.019 Collecting pyarrow>=21.0.0 (from datasets->f5-tts)
+2026-04-03T16:05:29.820Z [INFO] #15 7.059   Downloading pyarrow-23.0.1-cp311-cp311-manylinux_2_28_x86_64.whl.metadata (3.1 kB)
+2026-04-03T16:05:29.820Z [INFO] #15 7.106 Collecting dill<0.4.2,>=0.3.0 (from datasets->f5-tts)
+2026-04-03T16:05:29.820Z [INFO] #15 7.145   Downloading dill-0.4.1-py3-none-any.whl.metadata (10 kB)
+2026-04-03T16:05:29.959Z [INFO] #15 7.284 Collecting xxhash (from datasets->f5-tts)
+2026-04-03T16:05:30.095Z [INFO] #15 7.323   Downloading xxhash-3.6.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (13 kB)
+2026-04-03T16:05:30.096Z [INFO] #15 7.381 Collecting multiprocess<0.70.20 (from datasets->f5-tts)
+2026-04-03T16:05:30.096Z [INFO] #15 7.420   Downloading multiprocess-0.70.19-py311-none-any.whl.metadata (7.5 kB)
+2026-04-03T16:05:30.332Z [INFO] #15 7.468 Collecting audioread>=2.1.9 (from librosa->f5-tts)
+2026-04-03T16:05:30.333Z [INFO] #15 7.506   Downloading audioread-3.1.0-py3-none-any.whl.metadata (9.0 kB)
+2026-04-03T16:05:30.338Z [INFO] #15 7.663 Collecting numba>=0.51.0 (from librosa->f5-tts)
+2026-04-03T16:05:30.472Z [INFO] #15 7.702   Downloading numba-0.65.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (2.9 kB)
+2026-04-03T16:05:30.473Z [INFO] #15 7.704 Requirement already satisfied: scipy>=1.6.0 in /usr/local/lib/python3.11/dist-packages (from librosa->f5-tts) (1.17.1)
+2026-04-03T16:05:30.473Z [INFO] #15 7.704 Requirement already satisfied: scikit-learn>=1.1.0 in /usr/local/lib/python3.11/dist-packages (from librosa->f5-tts) (1.8.0)
+2026-04-03T16:05:30.473Z [INFO] #15 7.704 Requirement already satisfied: joblib>=1.0 in /usr/local/lib/python3.11/dist-packages (from librosa->f5-tts) (1.5.3)
+2026-04-03T16:05:30.473Z [INFO] #15 7.705 Requirement already satisfied: decorator>=4.3.0 in /usr/local/lib/python3.11/dist-packages (from librosa->f5-tts) (5.1.1)
+2026-04-03T16:05:30.473Z [INFO] #15 7.759 Collecting pooch>=1.1 (from librosa->f5-tts)
+2026-04-03T16:05:30.473Z [INFO] #15 7.797   Downloading pooch-1.9.0-py3-none-any.whl.metadata (10 kB)
+2026-04-03T16:05:30.576Z [INFO] #15 7.900 Collecting soxr>=0.3.2 (from librosa->f5-tts)
+2026-04-03T16:05:30.699Z [INFO] #15 7.940   Downloading soxr-1.0.0-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (5.6 kB)
+2026-04-03T16:05:30.699Z [INFO] #15 7.985 Collecting lazy_loader>=0.1 (from librosa->f5-tts)
+2026-04-03T16:05:30.699Z [INFO] #15 8.024   Downloading lazy_loader-0.5-py3-none-any.whl.metadata (5.9 kB)
+2026-04-03T16:05:30.809Z [INFO] #15 8.134 Collecting msgpack>=1.0 (from librosa->f5-tts)
+2026-04-03T16:05:31.011Z [INFO] #15 8.172   Downloading msgpack-1.1.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (8.1 kB)
+2026-04-03T16:05:31.011Z [INFO] #15 8.177 Requirement already satisfied: cffi>=1.0 in /usr/local/lib/python3.11/dist-packages (from soundfile->f5-tts) (2.0.0)
+2026-04-03T16:05:31.011Z [INFO] #15 8.183 Requirement already satisfied: contourpy>=1.0.1 in /usr/local/lib/python3.11/dist-packages (from matplotlib->f5-tts) (1.3.3)
+2026-04-03T16:05:31.011Z [INFO] #15 8.183 Requirement already satisfied: cycler>=0.10 in /usr/local/lib/python3.11/dist-packages (from matplotlib->f5-tts) (0.12.1)
+2026-04-03T16:05:31.011Z [INFO] #15 8.183 Requirement already satisfied: fonttools>=4.22.0 in /usr/local/lib/python3.11/dist-packages (from matplotlib->f5-tts) (4.62.1)
+2026-04-03T16:05:31.011Z [INFO] #15 8.184 Requirement already satisfied: kiwisolver>=1.3.1 in /usr/local/lib/python3.11/dist-packages (from matplotlib->f5-tts) (1.5.0)
+2026-04-03T16:05:31.011Z [INFO] #15 8.185 Requirement already satisfied: pyparsing>=3 in /usr/local/lib/python3.11/dist-packages (from matplotlib->f5-tts) (3.3.2)
+2026-04-03T16:05:31.011Z [INFO] #15 8.185 Requirement already satisfied: python-dateutil>=2.7 in /usr/local/lib/python3.11/dist-packages (from matplotlib->f5-tts) (2.9.0.post0)
+2026-04-03T16:05:31.415Z [INFO] #15 8.740 Collecting regex>=2025.10.22 (from transformers->f5-tts)
+2026-04-03T16:05:31.524Z [INFO] #15 8.779   Downloading regex-2026.3.32-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (40 kB)
+2026-04-03T16:05:31.524Z [INFO] #15 8.784 Requirement already satisfied: tokenizers<=0.23.0,>=0.22.0 in /usr/local/lib/python3.11/dist-packages (from transformers->f5-tts) (0.22.2)
+2026-04-03T16:05:31.524Z [INFO] #15 8.849 Collecting encodec==0.1.1 (from vocos->f5-tts)
+2026-04-03T16:05:31.715Z [INFO] #15 8.891   Downloading encodec-0.1.1.tar.gz (3.7 MB)
+2026-04-03T16:05:31.935Z [INFO] #15 9.040      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.7/3.7 MB 32.2 MB/s eta 0:00:00
+2026-04-03T16:05:31.935Z [INFO] #15 9.109   Preparing metadata (setup.py): started
+2026-04-03T16:05:32.003Z [INFO] #15 9.328   Preparing metadata (setup.py): finished with status 'done'
+2026-04-03T16:05:32.119Z [INFO] #15 9.406 Collecting gitpython!=3.1.29,>=1.0.0 (from wandb->f5-tts)
+2026-04-03T16:05:32.119Z [INFO] #15 9.444   Downloading gitpython-3.1.46-py3-none-any.whl.metadata (13 kB)
+2026-04-03T16:05:32.245Z [INFO] #15 9.448 Requirement already satisfied: platformdirs in /usr/local/lib/python3.11/dist-packages (from wandb->f5-tts) (4.3.6)
+2026-04-03T16:05:32.245Z [INFO] #15 9.449 Requirement already satisfied: protobuf!=5.28.0,!=5.29.0,<7,>4.21.0 in /usr/local/lib/python3.11/dist-packages (from wandb->f5-tts) (6.33.6)
+2026-04-03T16:05:32.245Z [INFO] #15 9.449 Requirement already satisfied: sentry-sdk>=2.0.0 in /usr/local/lib/python3.11/dist-packages (from wandb->f5-tts) (2.57.0)
+2026-04-03T16:05:32.245Z [INFO] #15 9.456 Requirement already satisfied: idna>=2.8 in /usr/local/lib/python3.11/dist-packages (from anyio<5.0,>=3.0->gradio>=6.0.0->f5-tts) (3.10)
+2026-04-03T16:05:32.245Z [INFO] #15 9.457 Requirement already satisfied: sniffio>=1.1 in /usr/local/lib/python3.11/dist-packages (from anyio<5.0,>=3.0->gradio>=6.0.0->f5-tts) (1.3.1)
+2026-04-03T16:05:32.246Z [INFO] #15 9.462 Requirement already satisfied: botocore<1.43.0,>=1.42.82 in /usr/local/lib/python3.11/dist-packages (from boto3<2.0,>=1.0->cached_path->f5-tts) (1.42.82)
+2026-04-03T16:05:32.246Z [INFO] #15 9.463 Requirement already satisfied: jmespath<2.0.0,>=0.7.1 in /usr/local/lib/python3.11/dist-packages (from boto3<2.0,>=1.0->cached_path->f5-tts) (1.1.0)
+2026-04-03T16:05:32.246Z [INFO] #15 9.463 Requirement already satisfied: s3transfer<0.17.0,>=0.16.0 in /usr/local/lib/python3.11/dist-packages (from boto3<2.0,>=1.0->cached_path->f5-tts) (0.16.0)
+2026-04-03T16:05:32.246Z [INFO] #15 9.468 Requirement already satisfied: pycparser in /usr/local/lib/python3.11/dist-packages (from cffi>=1.0->soundfile->f5-tts) (2.22)
+2026-04-03T16:05:32.246Z [INFO] #15 9.474 Requirement already satisfied: cuda-pathfinder~=1.1 in /usr/local/lib/python3.11/dist-packages (from cuda-bindings<14,>=13.0.3->torch>=2.0.0->f5-tts) (1.5.0)
+2026-04-03T16:05:32.246Z [INFO] #15 9.570 Collecting frozendict (from einx>=0.3.0->x_transformers>=1.31.14->f5-tts)
+2026-04-03T16:05:32.382Z [INFO] #15 9.610   Downloading frozendict-2.4.7-py3-none-any.whl.metadata (23 kB)
+2026-04-03T16:05:32.382Z [INFO] #15 9.619 Requirement already satisfied: typing-inspection>=0.4.2 in /usr/local/lib/python3.11/dist-packages (from fastapi<1.0,>=0.115.2->gradio>=6.0.0->f5-tts) (0.4.2)
+2026-04-03T16:05:32.382Z [INFO] #15 9.619 Requirement already satisfied: annotated-doc>=0.0.2 in /usr/local/lib/python3.11/dist-packages (from fastapi<1.0,>=0.115.2->gradio>=6.0.0->f5-tts) (0.0.4)
+2026-04-03T16:05:32.382Z [INFO] #15 9.667 Collecting termcolor (from fire>=0.7.1->x_transformers>=1.31.14->f5-tts)
+2026-04-03T16:05:32.382Z [INFO] #15 9.706   Downloading termcolor-3.3.0-py3-none-any.whl.metadata (6.5 kB)
+2026-04-03T16:05:32.517Z [INFO] #15 9.794 Requirement already satisfied: aiohttp!=4.0.0a0,!=4.0.0a1 in /usr/local/lib/python3.11/dist-packages (from fsspec[http]<=2026.2.0,>=2023.1.0->datasets->f5-tts) (3.13.5)
+2026-04-03T16:05:32.517Z [INFO] #15 9.841 Collecting gitdb<5,>=4.0.1 (from gitpython!=3.1.29,>=1.0.0->wandb->f5-tts)
+2026-04-03T16:05:32.679Z [INFO] #15 9.880   Downloading gitdb-4.0.12-py3-none-any.whl.metadata (1.2 kB)
+2026-04-03T16:05:32.679Z [INFO] #15 10.00 Collecting google-auth<3.0.0,>=2.26.1 (from google-cloud-storage<4.0,>=1.32.0->cached_path->f5-tts)
+2026-04-03T16:05:32.823Z [INFO] #15 10.04   Downloading google_auth-2.49.1-py3-none-any.whl.metadata (6.2 kB)
+2026-04-03T16:05:32.823Z [INFO] #15 10.15 Collecting google-api-core<3.0.0,>=2.27.0 (from google-cloud-storage<4.0,>=1.32.0->cached_path->f5-tts)
+2026-04-03T16:05:32.924Z [INFO] #15 10.19   Downloading google_api_core-2.30.2-py3-none-any.whl.metadata (3.1 kB)
+2026-04-03T16:05:32.925Z [INFO] #15 10.25 Collecting google-cloud-core<3.0.0,>=2.4.2 (from google-cloud-storage<4.0,>=1.32.0->cached_path->f5-tts)
+2026-04-03T16:05:33.063Z [INFO] #15 10.29   Downloading google_cloud_core-2.5.1-py3-none-any.whl.metadata (2.8 kB)
+2026-04-03T16:05:33.063Z [INFO] #15 10.35 Collecting google-resumable-media<3.0.0,>=2.7.2 (from google-cloud-storage<4.0,>=1.32.0->cached_path->f5-tts)
+2026-04-03T16:05:33.063Z [INFO] #15 10.39   Downloading google_resumable_media-2.8.2-py3-none-any.whl.metadata (2.2 kB)
+2026-04-03T16:05:33.191Z [INFO] #15 10.48 Collecting google-crc32c<2.0.0,>=1.1.3 (from google-cloud-storage<4.0,>=1.32.0->cached_path->f5-tts)
+2026-04-03T16:05:33.192Z [INFO] #15 10.52   Downloading google_crc32c-1.8.0-cp311-cp311-manylinux1_x86_64.manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_5_x86_64.whl.metadata (1.7 kB)
+2026-04-03T16:05:33.367Z [INFO] #15 10.54 Requirement already satisfied: certifi in /usr/local/lib/python3.11/dist-packages (from httpx<1.0,>=0.24.1->gradio>=6.0.0->f5-tts) (2024.8.30)
+2026-04-03T16:05:33.367Z [INFO] #15 10.54 Requirement already satisfied: httpcore==1.* in /usr/local/lib/python3.11/dist-packages (from httpx<1.0,>=0.24.1->gradio>=6.0.0->f5-tts) (1.0.5)
+2026-04-03T16:05:33.367Z [INFO] #15 10.54 Requirement already satisfied: h11<0.15,>=0.13 in /usr/local/lib/python3.11/dist-packages (from httpcore==1.*->httpx<1.0,>=0.24.1->gradio>=6.0.0->f5-tts) (0.14.0)
+2026-04-03T16:05:33.367Z [INFO] #15 10.55 Requirement already satisfied: hf-xet<2.0.0,>=1.4.3 in /usr/local/lib/python3.11/dist-packages (from huggingface_hub>=0.21.0->accelerate>=0.33.0->f5-tts) (1.4.3)
+2026-04-03T16:05:33.367Z [INFO] #15 10.69 Collecting llvmlite<0.48,>=0.47.0dev0 (from numba>=0.51.0->librosa->f5-tts)
+2026-04-03T16:05:33.469Z [INFO] #15 10.73   Downloading llvmlite-0.47.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (5.0 kB)
+2026-04-03T16:05:33.470Z [INFO] #15 10.78 Requirement already satisfied: annotated-types>=0.6.0 in /usr/local/lib/python3.11/dist-packages (from pydantic<=3.0,>=2.0->gradio>=6.0.0->f5-tts) (0.7.0)
+2026-04-03T16:05:33.470Z [INFO] #15 10.78 Requirement already satisfied: pydantic-core==2.41.5 in /usr/local/lib/python3.11/dist-packages (from pydantic<=3.0,>=2.0->gradio>=6.0.0->f5-tts) (2.41.5)
+2026-04-03T16:05:33.470Z [INFO] #15 10.79 Requirement already satisfied: six>=1.5 in /usr/lib/python3/dist-packages (from python-dateutil>=2.7->matplotlib->f5-tts) (1.16.0)
+2026-04-03T16:05:33.470Z [INFO] #15 10.79 Requirement already satisfied: pygments in /usr/local/lib/python3.11/dist-packages (from python-fire>=0.1.0->x_transformers>=1.31.14->f5-tts) (2.18.0)
+2026-04-03T16:05:33.601Z [INFO] #15 10.81 Requirement already satisfied: charset-normalizer<4,>=2 in /usr/local/lib/python3.11/dist-packages (from requests->cached_path->f5-tts) (3.3.2)
+2026-04-03T16:05:33.601Z [INFO] #15 10.81 Requirement already satisfied: urllib3<3,>=1.21.1 in /usr/local/lib/python3.11/dist-packages (from requests->cached_path->f5-tts) (2.2.3)
+2026-04-03T16:05:33.602Z [INFO] #15 10.81 Requirement already satisfied: markdown-it-py>=2.2.0 in /usr/local/lib/python3.11/dist-packages (from rich<14.0,>=12.1->cached_path->f5-tts) (4.0.0)
+2026-04-03T16:05:33.602Z [INFO] #15 10.83 Requirement already satisfied: threadpoolctl>=3.2.0 in /usr/local/lib/python3.11/dist-packages (from scikit-learn>=1.1.0->librosa->f5-tts) (3.6.0)
+2026-04-03T16:05:33.602Z [INFO] #15 10.87 Requirement already satisfied: mpmath<1.4,>=1.1.0 in /usr/local/lib/python3.11/dist-packages (from sympy>=1.13.3->torch>=2.0.0->f5-tts) (1.3.0)
+2026-04-03T16:05:33.602Z [INFO] #15 10.88 Requirement already satisfied: shellingham>=1.3.0 in /usr/local/lib/python3.11/dist-packages (from typer<1.0,>=0.12->gradio>=6.0.0->f5-tts) (1.5.4)
+2026-04-03T16:05:33.602Z [INFO] #15 10.93 Requirement already satisfied: aiohappyeyeballs>=2.5.0 in /usr/local/lib/python3.11/dist-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2026.2.0,>=2023.1.0->datasets->f5-tts) (2.6.1)
+2026-04-03T16:05:33.713Z [INFO] #15 10.93 Requirement already satisfied: aiosignal>=1.4.0 in /usr/local/lib/python3.11/dist-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2026.2.0,>=2023.1.0->datasets->f5-tts) (1.4.0)
+2026-04-03T16:05:33.713Z [INFO] #15 10.93 Requirement already satisfied: attrs>=17.3.0 in /usr/local/lib/python3.11/dist-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2026.2.0,>=2023.1.0->datasets->f5-tts) (24.2.0)
+2026-04-03T16:05:33.713Z [INFO] #15 10.93 Requirement already satisfied: frozenlist>=1.1.1 in /usr/local/lib/python3.11/dist-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2026.2.0,>=2023.1.0->datasets->f5-tts) (1.8.0)
+2026-04-03T16:05:33.713Z [INFO] #15 10.93 Requirement already satisfied: multidict<7.0,>=4.5 in /usr/local/lib/python3.11/dist-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2026.2.0,>=2023.1.0->datasets->f5-tts) (6.7.1)
+2026-04-03T16:05:33.713Z [INFO] #15 10.93 Requirement already satisfied: propcache>=0.2.0 in /usr/local/lib/python3.11/dist-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2026.2.0,>=2023.1.0->datasets->f5-tts) (0.4.1)
+2026-04-03T16:05:33.714Z [INFO] #15 10.93 Requirement already satisfied: yarl<2.0,>=1.17.0 in /usr/local/lib/python3.11/dist-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2026.2.0,>=2023.1.0->datasets->f5-tts) (1.23.0)
+2026-04-03T16:05:33.714Z [INFO] #15 11.00 Collecting smmap<6,>=3.0.1 (from gitdb<5,>=4.0.1->gitpython!=3.1.29,>=1.0.0->wandb->f5-tts)
+2026-04-03T16:05:33.714Z [INFO] #15 11.04   Downloading smmap-5.0.3-py3-none-any.whl.metadata (4.6 kB)
+2026-04-03T16:05:33.816Z [INFO] #15 11.04 Requirement already satisfied: googleapis-common-protos<2.0.0,>=1.63.2 in /usr/local/lib/python3.11/dist-packages (from google-api-core<3.0.0,>=2.27.0->google-cloud-storage<4.0,>=1.32.0->cached_path->f5-tts) (1.74.0)
+2026-04-03T16:05:33.817Z [INFO] #15 11.10 Collecting proto-plus<2.0.0,>=1.22.3 (from google-api-core<3.0.0,>=2.27.0->google-cloud-storage<4.0,>=1.32.0->cached_path->f5-tts)
+2026-04-03T16:05:33.817Z [INFO] #15 11.14   Downloading proto_plus-1.27.2-py3-none-any.whl.metadata (2.2 kB)
+2026-04-03T16:05:33.929Z [INFO] #15 11.22 Collecting pyasn1-modules>=0.2.1 (from google-auth<3.0.0,>=2.26.1->google-cloud-storage<4.0,>=1.32.0->cached_path->f5-tts)
+2026-04-03T16:05:33.930Z [INFO] #15 11.25   Downloading pyasn1_modules-0.4.2-py3-none-any.whl.metadata (3.5 kB)
+2026-04-03T16:05:34.220Z [INFO] #15 11.54 Collecting cryptography>=38.0.3 (from google-auth<3.0.0,>=2.26.1->google-cloud-storage<4.0,>=1.32.0->cached_path->f5-tts)
+2026-04-03T16:05:34.333Z [INFO] #15 11.58   Downloading cryptography-46.0.6-cp311-abi3-manylinux_2_34_x86_64.whl.metadata (5.7 kB)
+2026-04-03T16:05:34.333Z [INFO] #15 11.66 Requirement already satisfied: mdurl~=0.1 in /usr/local/lib/python3.11/dist-packages (from markdown-it-py>=2.2.0->rich<14.0,>=12.1->cached_path->f5-tts) (0.1.2)
+2026-04-03T16:05:34.483Z [INFO] #15 11.81 Collecting pyasn1<0.7.0,>=0.6.1 (from pyasn1-modules>=0.2.1->google-auth<3.0.0,>=2.26.1->google-cloud-storage<4.0,>=1.32.0->cached_path->f5-tts)
+2026-04-03T16:05:34.586Z [INFO] #15 11.85   Downloading pyasn1-0.6.3-py3-none-any.whl.metadata (8.4 kB)
+2026-04-03T16:05:34.586Z [INFO] #15 11.91 Downloading f5_tts-1.1.18-py3-none-any.whl (1.3 MB)
+2026-04-03T16:05:34.705Z [INFO] #15 11.92    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 114.8 MB/s eta 0:00:00
+2026-04-03T16:05:34.705Z [INFO] #15 11.96 Downloading accelerate-1.13.0-py3-none-any.whl (383 kB)
+2026-04-03T16:05:34.706Z [INFO] #15 12.03 Downloading bitsandbytes-0.49.2-py3-none-manylinux_2_24_x86_64.whl (60.7 MB)
+2026-04-03T16:05:35.386Z [INFO] #15 12.48    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 60.7/60.7 MB 135.9 MB/s eta 0:00:00
+2026-04-03T16:05:35.386Z [INFO] #15 12.52 Downloading ema_pytorch-0.7.9-py3-none-any.whl (11 kB)
+2026-04-03T16:05:35.386Z [INFO] #15 12.56 Downloading gradio-6.11.0-py3-none-any.whl (36.8 MB)
+2026-04-03T16:05:35.933Z [INFO] #15 13.14    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 36.8/36.8 MB 63.6 MB/s eta 0:00:00
+2026-04-03T16:05:35.933Z [INFO] #15 13.18 Downloading gradio_client-2.4.0-py3-none-any.whl (59 kB)
+2026-04-03T16:05:35.933Z [INFO] #15 13.22 Downloading hydra_core-1.3.2-py3-none-any.whl (154 kB)
+2026-04-03T16:05:35.933Z [INFO] #15 13.26 Downloading x_transformers-2.17.9-py3-none-any.whl (104 kB)
+2026-04-03T16:05:36.062Z [INFO] #15 13.30 Downloading cached_path-1.8.10-py3-none-any.whl (37 kB)
+2026-04-03T16:05:36.062Z [INFO] #15 13.34 Downloading datasets-4.8.4-py3-none-any.whl (526 kB)
+2026-04-03T16:05:36.062Z [INFO] #15 13.35    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 527.0/527.0 kB 364.5 MB/s eta 0:00:00
+2026-04-03T16:05:36.063Z [INFO] #15 13.39 Downloading librosa-0.11.0-py3-none-any.whl (260 kB)
+2026-04-03T16:05:36.210Z [INFO] #15 13.43 Downloading pypinyin-0.55.0-py2.py3-none-any.whl (840 kB)
+2026-04-03T16:05:36.210Z [INFO] #15 13.44    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 840.2/840.2 kB 398.9 MB/s eta 0:00:00
+2026-04-03T16:05:36.210Z [INFO] #15 13.48 Downloading rjieba-0.2.0-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.6 MB)
+2026-04-03T16:05:36.443Z [INFO] #15 13.54    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.6/3.6 MB 69.3 MB/s eta 0:00:00
+2026-04-03T16:05:36.444Z [INFO] #15 13.58 Downloading torchdiffeq-0.2.5-py3-none-any.whl (32 kB)
+2026-04-03T16:05:36.444Z [INFO] #15 13.62 Downloading transformers-5.5.0-py3-none-any.whl (10.2 MB)
+2026-04-03T16:05:36.656Z [INFO] #15 13.86    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.2/10.2 MB 43.0 MB/s eta 0:00:00
+2026-04-03T16:05:36.656Z [INFO] #15 13.90 Downloading Unidecode-1.4.0-py3-none-any.whl (235 kB)
+2026-04-03T16:05:36.656Z [INFO] #15 13.94 Downloading vocos-0.1.0-py3-none-any.whl (24 kB)
+2026-04-03T16:05:36.656Z [INFO] #15 13.98 Downloading wandb-0.25.1-py3-none-manylinux_2_28_x86_64.whl (25.6 MB)
+2026-04-03T16:05:36.952Z [INFO] #15 14.16    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 25.6/25.6 MB 149.6 MB/s eta 0:00:00
+2026-04-03T16:05:36.952Z [INFO] #15 14.20 Downloading aiofiles-24.1.0-py3-none-any.whl (15 kB)
+2026-04-03T16:05:36.952Z [INFO] #15 14.24 Downloading audioread-3.1.0-py3-none-any.whl (23 kB)
+2026-04-03T16:05:36.952Z [INFO] #15 14.28 Downloading dill-0.4.1-py3-none-any.whl (120 kB)
+2026-04-03T16:05:37.073Z [INFO] #15 14.32 Downloading einx-0.4.3-py3-none-any.whl (163 kB)
+2026-04-03T16:05:37.074Z [INFO] #15 14.36 Downloading fire-0.7.1-py3-none-any.whl (115 kB)
+2026-04-03T16:05:37.074Z [INFO] #15 14.40 Downloading gitpython-3.1.46-py3-none-any.whl (208 kB)
+2026-04-03T16:05:37.196Z [INFO] #15 14.44 Downloading google_cloud_storage-3.10.1-py3-none-any.whl (324 kB)
+2026-04-03T16:05:37.196Z [INFO] #15 14.48 Downloading groovy-0.1.2-py3-none-any.whl (14 kB)
+2026-04-03T16:05:37.196Z [INFO] #15 14.52 Downloading hf_gradio-0.3.0-py3-none-any.whl (4.2 kB)
+2026-04-03T16:05:37.321Z [INFO] #15 14.56 Downloading lazy_loader-0.5-py3-none-any.whl (8.0 kB)
+2026-04-03T16:05:37.321Z [INFO] #15 14.60 Downloading msgpack-1.1.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (426 kB)
+2026-04-03T16:05:37.321Z [INFO] #15 14.65 Downloading multiprocess-0.70.19-py311-none-any.whl (144 kB)
+2026-04-03T16:05:37.425Z [INFO] #15 14.69 Downloading numba-0.65.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (3.7 MB)
+2026-04-03T16:05:37.425Z [INFO] #15 14.71    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.7/3.7 MB 428.8 MB/s eta 0:00:00
+2026-04-03T16:05:37.425Z [INFO] #15 14.75 Downloading omegaconf-2.3.0-py3-none-any.whl (79 kB)
+2026-04-03T16:05:37.550Z [INFO] #15 14.79 Downloading orjson-3.11.8-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (133 kB)
+2026-04-03T16:05:37.550Z [INFO] #15 14.83 Downloading pooch-1.9.0-py3-none-any.whl (67 kB)
+2026-04-03T16:05:37.550Z [INFO] #15 14.87 Downloading pyarrow-23.0.1-cp311-cp311-manylinux_2_28_x86_64.whl (47.6 MB)
+2026-04-03T16:05:37.733Z [INFO] #15 15.06    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 47.6/47.6 MB 317.3 MB/s eta 0:00:00
+2026-04-03T16:05:37.850Z [INFO] #15 15.10 Downloading python_fire-0.1.0-py2.py3-none-any.whl (14 kB)
+2026-04-03T16:05:37.851Z [INFO] #15 15.13 Downloading pytz-2026.1.post1-py2.py3-none-any.whl (510 kB)
+2026-04-03T16:05:37.851Z [INFO] #15 15.18 Downloading regex-2026.3.32-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (798 kB)
+2026-04-03T16:05:37.982Z [INFO] #15 15.18    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 798.3/798.3 kB 411.9 MB/s eta 0:00:00
+2026-04-03T16:05:37.982Z [INFO] #15 15.22 Downloading rich-13.9.4-py3-none-any.whl (242 kB)
+2026-04-03T16:05:37.982Z [INFO] #15 15.27 Downloading safehttpx-0.1.7-py3-none-any.whl (9.0 kB)
+2026-04-03T16:05:37.982Z [INFO] #15 15.31 Downloading semantic_version-2.10.0-py2.py3-none-any.whl (15 kB)
+2026-04-03T16:05:38.105Z [INFO] #15 15.35 Downloading soxr-1.0.0-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (242 kB)
+2026-04-03T16:05:38.105Z [INFO] #15 15.39 Downloading tomlkit-0.13.3-py3-none-any.whl (38 kB)
+2026-04-03T16:05:38.105Z [INFO] #15 15.43 Downloading ffmpy-1.0.0-py3-none-any.whl (5.6 kB)
+2026-04-03T16:05:38.226Z [INFO] #15 15.47 Downloading loguru-0.7.3-py3-none-any.whl (61 kB)
+2026-04-03T16:05:38.226Z [INFO] #15 15.51 Downloading xxhash-3.6.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (193 kB)
+2026-04-03T16:05:38.226Z [INFO] #15 15.55 Downloading gitdb-4.0.12-py3-none-any.whl (62 kB)
+2026-04-03T16:05:38.347Z [INFO] #15 15.59 Downloading google_api_core-2.30.2-py3-none-any.whl (173 kB)
+2026-04-03T16:05:38.347Z [INFO] #15 15.63 Downloading google_auth-2.49.1-py3-none-any.whl (240 kB)
+2026-04-03T16:05:38.347Z [INFO] #15 15.67 Downloading google_cloud_core-2.5.1-py3-none-any.whl (29 kB)
+2026-04-03T16:05:38.470Z [INFO] #15 15.71 Downloading google_crc32c-1.8.0-cp311-cp311-manylinux1_x86_64.manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_5_x86_64.whl (33 kB)
+2026-04-03T16:05:38.470Z [INFO] #15 15.75 Downloading google_resumable_media-2.8.2-py3-none-any.whl (81 kB)
+2026-04-03T16:05:38.470Z [INFO] #15 15.80 Downloading llvmlite-0.47.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (56.3 MB)
+2026-04-03T16:05:39.022Z [INFO] #15 16.23    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 56.3/56.3 MB 133.4 MB/s eta 0:00:00
+2026-04-03T16:05:39.022Z [INFO] #15 16.27 Downloading frozendict-2.4.7-py3-none-any.whl (16 kB)
+2026-04-03T16:05:39.022Z [INFO] #15 16.31 Downloading termcolor-3.3.0-py3-none-any.whl (7.7 kB)
+2026-04-03T16:05:39.022Z [INFO] #15 16.35 Downloading cryptography-46.0.6-cp311-abi3-manylinux_2_34_x86_64.whl (4.5 MB)
+2026-04-03T16:05:39.157Z [INFO] #15 16.37    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.5/4.5 MB 271.9 MB/s eta 0:00:00
+2026-04-03T16:05:39.157Z [INFO] #15 16.40 Downloading proto_plus-1.27.2-py3-none-any.whl (50 kB)
+2026-04-03T16:05:39.157Z [INFO] #15 16.44 Downloading pyasn1_modules-0.4.2-py3-none-any.whl (181 kB)
+2026-04-03T16:05:39.157Z [INFO] #15 16.48 Downloading smmap-5.0.3-py3-none-any.whl (24 kB)
+2026-04-03T16:05:39.347Z [INFO] #15 16.52 Downloading pyasn1-0.6.3-py3-none-any.whl (83 kB)
+2026-04-03T16:05:39.512Z [INFO] #15 16.84 Building wheels for collected packages: antlr4-python3-runtime, transformers_stream_generator, encodec
+2026-04-03T16:05:39.663Z [INFO] #15 16.84   Building wheel for antlr4-python3-runtime (setup.py): started
+2026-04-03T16:05:39.866Z [INFO] #15 17.19   Building wheel for antlr4-python3-runtime (setup.py): finished with status 'done'
+2026-04-03T16:05:40.019Z [INFO] #15 17.19   Created wheel for antlr4-python3-runtime: filename=antlr4_python3_runtime-4.9.3-py3-none-any.whl size=144555 sha256=769f92190bbf24f41c261a45c168bf9ad25990fae414d496f79256b701034d28
+2026-04-03T16:05:40.019Z [INFO] #15 17.19   Stored in directory: /tmp/pip-ephem-wheel-cache-710s9kl6/wheels/1a/97/32/461f837398029ad76911109f07047fde1d7b661a147c7c56d1
+2026-04-03T16:05:40.019Z [INFO] #15 17.19   Building wheel for transformers_stream_generator (setup.py): started
+2026-04-03T16:05:40.182Z [INFO] #15 17.51   Building wheel for transformers_stream_generator (setup.py): finished with status 'done'
+2026-04-03T16:05:40.336Z [INFO] #15 17.51   Created wheel for transformers_stream_generator: filename=transformers_stream_generator-0.0.5-py3-none-any.whl size=12425 sha256=66777e76f37a5d8e87af273b04f993d8fccb5b93ec78221c30b2dbc5d87758d9
+2026-04-03T16:05:40.336Z [INFO] #15 17.51   Stored in directory: /tmp/pip-ephem-wheel-cache-710s9kl6/wheels/23/e8/f0/b3c58c12d1ffe60bcc8c7d121115f26b2c1878653edfca48db
+2026-04-03T16:05:40.336Z [INFO] #15 17.51   Building wheel for encodec (setup.py): started
+2026-04-03T16:05:40.512Z [INFO] #15 17.84   Building wheel for encodec (setup.py): finished with status 'done'
+2026-04-03T16:05:40.665Z [INFO] #15 17.84   Created wheel for encodec: filename=encodec-0.1.1-py3-none-any.whl size=45760 sha256=60ce0e15c068e5843925acf99f144318d298af29599e423fac72f2561b6d3c87
+2026-04-03T16:05:40.665Z [INFO] #15 17.84   Stored in directory: /tmp/pip-ephem-wheel-cache-710s9kl6/wheels/b4/a4/88/480018a664e58ca7ce6708759193ee51b017b3b72aa3df8a85
+2026-04-03T16:05:40.665Z [INFO] #15 17.84 Successfully built antlr4-python3-runtime transformers_stream_generator encodec
+2026-04-03T16:05:40.999Z [INFO] #15 18.32 Installing collected packages: rjieba, pytz, antlr4-python3-runtime, xxhash, unidecode, tomlkit, termcolor, soxr, smmap, semantic-version, regex, python-fire, pypinyin, pyasn1, pyarrow, proto-plus, orjson, omegaconf, msgpack, loguru, llvmlite, lazy_loader, groovy, google-crc32c, frozendict, ffmpy, dill, audioread, aiofiles, rich, pyasn1-modules, pooch, numba, multiprocess, hydra-core, google-resumable-media, gitdb, fire, einx, cryptography, safehttpx, librosa, google-auth, gitpython, wandb, google-api-core, torchdiffeq, gradio-client, google-cloud-core, encodec, ema_pytorch, datasets, bitsandbytes, accelerate, x_transformers, vocos, transformers, hf-gradio, google-cloud-storage, transformers_stream_generator, gradio, cached_path, f5-tts
+2026-04-03T16:05:41.367Z [INFO] #15 18.69   Attempting uninstall: tomlkit
+2026-04-03T16:05:41.530Z [INFO] #15 18.70     Found existing installation: tomlkit 0.14.0
+2026-04-03T16:05:41.530Z [INFO] #15 18.70     Uninstalling tomlkit-0.14.0:
+2026-04-03T16:05:41.531Z [INFO] #15 18.70       Successfully uninstalled tomlkit-0.14.0
+2026-04-03T16:05:44.071Z [INFO] #15 21.40   Attempting uninstall: rich
+2026-04-03T16:05:44.258Z [INFO] #15 21.40     Found existing installation: rich 14.3.3
+2026-04-03T16:05:44.258Z [INFO] #15 21.41     Uninstalling rich-14.3.3:
+2026-04-03T16:05:44.258Z [INFO] #15 21.43       Successfully uninstalled rich-14.3.3
+2026-04-03T16:05:46.873Z [INFO] #15 24.20   Attempting uninstall: cryptography
+2026-04-03T16:05:47.062Z [INFO] #15 24.21     Found existing installation: cryptography 3.4.8
+2026-04-03T16:05:47.062Z [INFO] #15 24.21     Uninstalling cryptography-3.4.8:
+2026-04-03T16:05:47.062Z [INFO] #15 24.24       Successfully uninstalled cryptography-3.4.8
+2026-04-03T16:05:56.949Z [INFO] #15 34.27 ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+2026-04-03T16:05:56.949Z [INFO] #15 34.27 runpod 1.8.2 requires cryptography<46.0.0, but you have cryptography 46.0.6 which is incompatible.
+2026-04-03T16:05:57.100Z [INFO] #15 34.27 Successfully installed accelerate-1.13.0 aiofiles-24.1.0 antlr4-python3-runtime-4.9.3 audioread-3.1.0 bitsandbytes-0.49.2 cached_path-1.8.10 cryptography-46.0.6 datasets-4.8.4 dill-0.4.1 einx-0.4.3 ema_pytorch-0.7.9 encodec-0.1.1 f5-tts-1.1.18 ffmpy-1.0.0 fire-0.7.1 frozendict-2.4.7 gitdb-4.0.12 gitpython-3.1.46 google-api-core-2.30.2 google-auth-2.49.1 google-cloud-core-2.5.1 google-cloud-storage-3.10.1 google-crc32c-1.8.0 google-resumable-media-2.8.2 gradio-6.11.0 gradio-client-2.4.0 groovy-0.1.2 hf-gradio-0.3.0 hydra-core-1.3.2 lazy_loader-0.5 librosa-0.11.0 llvmlite-0.47.0 loguru-0.7.3 msgpack-1.1.2 multiprocess-0.70.19 numba-0.65.0 omegaconf-2.3.0 orjson-3.11.8 pooch-1.9.0 proto-plus-1.27.2 pyarrow-23.0.1 pyasn1-0.6.3 pyasn1-modules-0.4.2 pypinyin-0.55.0 python-fire-0.1.0 pytz-2026.1.post1 regex-2026.3.32 rich-13.9.4 rjieba-0.2.0 safehttpx-0.1.7 semantic-version-2.10.0 smmap-5.0.3 soxr-1.0.0 termcolor-3.3.0 tomlkit-0.13.3 torchdiffeq-0.2.5 transformers-5.5.0 transformers_stream_generator-0.0.5 unidecode-1.4.0 vocos-0.1.0 wandb-0.25.1 x_transformers-2.17.9 xxhash-3.6.0
+2026-04-03T16:05:57.100Z [INFO] #15 34.27 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable.It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+2026-04-03T16:05:57.257Z [INFO] #15 34.58
+2026-04-03T16:05:57.257Z [INFO] #15 34.58 [notice] A new release of pip is available: 24.2 -> 26.0.1
+2026-04-03T16:05:57.257Z [INFO] #15 34.58 [notice] To update, run: python -m pip install --upgrade pip
+2026-04-03T16:05:58.650Z [INFO] #15 DONE 36.0s
+2026-04-03T16:05:58.803Z [INFO] #16 [ 9/10] RUN python -c "from faster_whisper import WhisperModel; WhisperModel('large-v3', device='cpu', compute_type='int8')"
+2026-04-03T16:06:01.815Z [INFO] #16 3.163 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-03T16:06:14.205Z [INFO] #16 DONE 15.6s
+2026-04-03T16:06:14.438Z [INFO] #17 [10/10] COPY handler.py /app/handler.py
+2026-04-03T16:06:14.438Z [INFO] #17 DONE 0.1s
+2026-04-03T16:06:14.438Z [INFO] #18 exporting to oci image format. This takes a little bit of time. Please be patient.
+2026-04-03T16:06:14.438Z [INFO] #18 exporting layers
+2026-04-03T16:10:01.172Z [INFO] #18 exporting layers 226.9s done
+2026-04-03T16:10:01.385Z [INFO] #18 exporting manifest sha256:6c0b7406d6b0e679a619a47dd9c5545d0e1852d954b58466efcc278597cd5954 0.0s done
+2026-04-03T16:10:01.385Z [INFO] #18 exporting config sha256:6f34c961e744ee8be372084aa5b00a8021ad3b7d38a8e14af18eabcc2e08bb3c 0.0s done
+2026-04-03T16:10:01.386Z [INFO] #18 sending tarball
+2026-04-03T16:10:50.950Z [INFO] #18 sending tarball 49.7s done
+2026-04-03T16:10:50.950Z [INFO] #18 DONE 276.7s
+2026-04-03T16:10:51.161Z [INFO] #19 exporting cache to client directory
+2026-04-03T16:10:51.161Z [INFO] #19 preparing build cache for export
+2026-04-03T16:10:51.161Z [INFO] #19 writing layer sha256:0a7674e3e8fe69dcd7f1424fa29aa033b32c42269aab46cbe9818f8dd7154754
+2026-04-03T16:10:51.666Z [INFO] #19 writing layer sha256:0a7674e3e8fe69dcd7f1424fa29aa033b32c42269aab46cbe9818f8dd7154754 0.7s done
+2026-04-03T16:10:51.667Z [INFO] #19 writing layer sha256:0d6448aff88945ea46a37cfe4330bdb0ada228268b80da6258a0fec63086f404
+2026-04-03T16:10:51.911Z [INFO] #19 writing layer sha256:0d6448aff88945ea46a37cfe4330bdb0ada228268b80da6258a0fec63086f404 0.1s done
+2026-04-03T16:10:51.911Z [INFO] #19 writing layer sha256:114117d8d4824264fe2a738b604095a4771346fb80edf403d13572d31456ddab
+2026-04-03T16:11:18.522Z [INFO] #19 writing layer sha256:114117d8d4824264fe2a738b604095a4771346fb80edf403d13572d31456ddab 26.8s done
+2026-04-03T16:11:18.522Z [INFO] #19 writing layer sha256:14a64fc1979950b873099d311fc6619976246aa87d71a5f4d7a21a3547cdc50d
+2026-04-03T16:11:18.729Z [INFO] #19 writing layer sha256:14a64fc1979950b873099d311fc6619976246aa87d71a5f4d7a21a3547cdc50d 0.1s done
+2026-04-03T16:11:18.729Z [INFO] #19 writing layer sha256:157e9d1a0f4a7ec3f207d88c9b46a2d60329cfc7456f09f56e0d2eda79a15d96
+2026-04-03T16:11:47.170Z [INFO] #19 writing layer sha256:157e9d1a0f4a7ec3f207d88c9b46a2d60329cfc7456f09f56e0d2eda79a15d96 28.6s done
+2026-04-03T16:11:47.170Z [INFO] #19 writing layer sha256:17999326705ba51d77d77672d20c67f74494b2c53e8215ee5f2f5f09e1b075d8
+2026-04-03T16:11:47.360Z [INFO] #19 writing layer sha256:17999326705ba51d77d77672d20c67f74494b2c53e8215ee5f2f5f09e1b075d8 0.2s done
+2026-04-03T16:11:47.360Z [INFO] #19 writing layer sha256:19ffe7be374b01e9df93f9403abd8d77ef90f28d054e9ddc14dd0be6c0a66c49
+2026-04-03T16:11:47.464Z [INFO] #19 writing layer sha256:19ffe7be374b01e9df93f9403abd8d77ef90f28d054e9ddc14dd0be6c0a66c49 0.1s done
+2026-04-03T16:11:47.464Z [INFO] #19 writing layer sha256:1c4b3950bb4228b8620c6549fb84ed0d45e6f3ab5566cfa1405f7fa23d0841ce 0.0s done
+2026-04-03T16:11:47.464Z [INFO] #19 writing layer sha256:1d7e2aed22e0516cab81ef2e2fb1baa205892a321550700999ddc0412753f3f4
+2026-04-03T16:11:47.574Z [INFO] #19 writing layer sha256:1d7e2aed22e0516cab81ef2e2fb1baa205892a321550700999ddc0412753f3f4 0.1s done
+2026-04-03T16:11:47.574Z [INFO] #19 writing layer sha256:2a6e84b0b71943e6357ba38835cc272a8de77a1e99209340df7464694bbbfe0f 0.0s done
+2026-04-03T16:11:47.574Z [INFO] #19 writing layer sha256:2a800d14030baa5fb12077cd6480379b71a4ce09be8e50ac60beb1df652a537d
+2026-04-03T16:11:47.677Z [INFO] #19 writing layer sha256:2a800d14030baa5fb12077cd6480379b71a4ce09be8e50ac60beb1df652a537d 0.0s done
+2026-04-03T16:11:47.677Z [INFO] #19 writing layer sha256:2aed4f85d3e1930776a9c2eb42a24f74ee427beac61ab1aade2564127a55b397 0.1s done
+2026-04-03T16:11:47.677Z [INFO] #19 writing layer sha256:2bbe48d84585e87c727db7a6c595c2812653a8de6294b3f8c6816416d69eaafa
+2026-04-03T16:11:47.832Z [INFO] #19 writing layer sha256:2bbe48d84585e87c727db7a6c595c2812653a8de6294b3f8c6816416d69eaafa 0.0s done
+2026-04-03T16:11:47.832Z [INFO] #19 writing layer sha256:312a542960e3345001fc709156a5139ff8a1d8cc21a51a50f83e87ec2982f579 0.0s done
+2026-04-03T16:11:47.832Z [INFO] #19 writing layer sha256:47b8539d532f561cac6d7fb8ee2f46c902b66e4a60b103d19701829742a0d11e 0.1s done
+2026-04-03T16:11:47.832Z [INFO] #19 writing layer sha256:4958cb46db18b8e256b167d19e790bcb5534a46d31da92108387997100851e3a
+2026-04-03T16:11:48.696Z [INFO] #19 writing layer sha256:4958cb46db18b8e256b167d19e790bcb5534a46d31da92108387997100851e3a 0.9s done
+2026-04-03T16:11:48.696Z [INFO] #19 writing layer sha256:55912a66e4234d62a1a409e40cb6734e0812fa559589a6aed3a582424a6a3dce
+2026-04-03T16:11:48.819Z [INFO] #19 writing layer sha256:55912a66e4234d62a1a409e40cb6734e0812fa559589a6aed3a582424a6a3dce 0.1s done
+2026-04-03T16:11:48.819Z [INFO] #19 writing layer sha256:56dc8550293751a1604e97ac949cfae82ba20cb2a28e034737bafd7382559609 0.1s done
+2026-04-03T16:11:48.819Z [INFO] #19 writing layer sha256:5bc641cf9f88c7c042143920c51e5aeb8e0ba5bded28158e5caa4d55011a7970
+2026-04-03T16:11:49.723Z [INFO] #19 writing layer sha256:5bc641cf9f88c7c042143920c51e5aeb8e0ba5bded28158e5caa4d55011a7970 0.9s done
+2026-04-03T16:11:49.723Z [INFO] #19 writing layer sha256:6294b219bdf047e4eb3a5c4e728473429cb9f6097c474c76a886ee38de8474e7
+2026-04-03T16:11:49.924Z [INFO] #19 writing layer sha256:6294b219bdf047e4eb3a5c4e728473429cb9f6097c474c76a886ee38de8474e7 0.1s done
+2026-04-03T16:11:49.925Z [INFO] #19 writing layer sha256:7021d1b70935851c95c45ed18156980b5024eda29b99564429025ea04f5ec109
+2026-04-03T16:11:50.140Z [INFO] #19 writing layer sha256:7021d1b70935851c95c45ed18156980b5024eda29b99564429025ea04f5ec109 0.4s done
+2026-04-03T16:11:50.140Z [INFO] #19 writing layer sha256:7ab45c47d19a2c110792b4ad7773f0d95d5dc45e751ed5b09dbdccea731679fc
+2026-04-03T16:11:53.054Z [INFO] #19 writing layer sha256:7ab45c47d19a2c110792b4ad7773f0d95d5dc45e751ed5b09dbdccea731679fc 2.9s done
+2026-04-03T16:11:53.054Z [INFO] #19 writing layer sha256:83525caeeb359731f869f1ee87a32acdfdd5efb8af4cab06d8f4fdcf1f317daa
+2026-04-03T16:11:53.256Z [INFO] #19 writing layer sha256:83525caeeb359731f869f1ee87a32acdfdd5efb8af4cab06d8f4fdcf1f317daa 0.1s done
+2026-04-03T16:11:53.256Z [INFO] #19 writing layer sha256:8805b728042ddb951df4924bbc31e05edb58493907d84322693cfc1c5113c1d7
+2026-04-03T16:11:54.171Z [INFO] #19 writing layer sha256:8805b728042ddb951df4924bbc31e05edb58493907d84322693cfc1c5113c1d7 1.1s done
+2026-04-03T16:11:54.171Z [INFO] #19 writing layer sha256:8e79813a7b9d5784bb880ca2909887465549de5183411b24f6de72fab0802bcd
+2026-04-03T16:12:19.440Z [INFO] #19 writing layer sha256:8e79813a7b9d5784bb880ca2909887465549de5183411b24f6de72fab0802bcd 25.3s done
+2026-04-03T16:12:19.440Z [INFO] #19 writing layer sha256:98dc5c9cc59166d3a3986df0ff9d23e6ae0195091dd3f8b22330fe665e59e91c
+2026-04-03T16:12:19.634Z [INFO] #19 writing layer sha256:98dc5c9cc59166d3a3986df0ff9d23e6ae0195091dd3f8b22330fe665e59e91c 0.0s done
+2026-04-03T16:12:19.634Z [INFO] #19 writing layer sha256:a78315347fb2e713ea19d98cd861402f72bf07040f13d68cf2486708dfe4c7b5
+2026-04-03T16:12:20.331Z [INFO] #19 writing layer sha256:a78315347fb2e713ea19d98cd861402f72bf07040f13d68cf2486708dfe4c7b5 0.8s done
+2026-04-03T16:12:20.331Z [INFO] #19 writing layer sha256:b71b637b97c5efb435b9965058ad414f07afa99d320cf05e89f10441ec1becf4
+2026-04-03T16:12:20.566Z [INFO] #19 writing layer sha256:b71b637b97c5efb435b9965058ad414f07afa99d320cf05e89f10441ec1becf4 0.0s done
+2026-04-03T16:12:20.566Z [INFO] #19 writing layer sha256:bfd86967a856004e446ea9aed4f0b17a3ddd25cbff7e30d033c6c9bb20845d01 0.0s done
+2026-04-03T16:12:20.566Z [INFO] #19 writing layer sha256:c49be2900325aa09458f92d4c94bcea23245a2c5f57fed99b05e9b86c3c3eef9
+2026-04-03T16:12:47.260Z [INFO] #19 writing layer sha256:c49be2900325aa09458f92d4c94bcea23245a2c5f57fed99b05e9b86c3c3eef9 26.8s done
+2026-04-03T16:12:47.260Z [INFO] #19 writing layer sha256:cb9a6a28c395d4af2ea4b31efe239a029f5157a93fea3809340535a916cc01d0
+2026-04-03T16:12:47.468Z [INFO] #19 writing layer sha256:cb9a6a28c395d4af2ea4b31efe239a029f5157a93fea3809340535a916cc01d0 0.1s done
+2026-04-03T16:12:47.468Z [INFO] #19 writing layer sha256:d3dcaf13a40d39fe63318c1b67571c380e1e42f6eea21b41ac3e4adeb62dee80
+2026-04-03T16:12:47.631Z [INFO] #19 writing layer sha256:d3dcaf13a40d39fe63318c1b67571c380e1e42f6eea21b41ac3e4adeb62dee80 0.3s done
+2026-04-03T16:12:47.631Z [INFO] #19 writing layer sha256:e3e33111744e9c84f353b18651f0295d096cc21be941f68e05ff8743c3c06789
+2026-04-03T16:12:47.934Z [INFO] #19 writing layer sha256:e3e33111744e9c84f353b18651f0295d096cc21be941f68e05ff8743c3c06789 0.3s done
+2026-04-03T16:12:47.935Z [INFO] #19 writing layer sha256:ec6d5f6c9ed94d2ee2eeaf048d90242af638325f57696909f1737b3158d838cf
+2026-04-03T16:13:01.655Z [INFO] #19 writing layer sha256:ec6d5f6c9ed94d2ee2eeaf048d90242af638325f57696909f1737b3158d838cf 13.7s done
+2026-04-03T16:13:01.655Z [INFO] #19 writing layer sha256:ed25aeb4b961686adef8f906c5d77883e40eb2a8ccd0d848a8df6d28ac300afd
+2026-04-03T16:13:30.930Z [INFO] #19 writing layer sha256:ed25aeb4b961686adef8f906c5d77883e40eb2a8ccd0d848a8df6d28ac300afd 29.3s done
+2026-04-03T16:13:30.930Z [INFO] #19 writing layer sha256:f2f482e465e0611b61c2a6da4293ae8740f809b2fe9949f4ee15281e5deaa730
+2026-04-03T16:13:34.025Z [INFO] #19 writing layer sha256:f2f482e465e0611b61c2a6da4293ae8740f809b2fe9949f4ee15281e5deaa730 3.1s done
+2026-04-03T16:13:34.025Z [INFO] #19 writing layer sha256:fd9cc1ad8dee47ca559003714d462f4eb79cb6315a2708927c240b84d022b55f
+2026-04-03T16:13:34.166Z [INFO] #19 preparing build cache for export 163.2s done
+2026-04-03T16:13:34.166Z [INFO] #19 writing layer sha256:fd9cc1ad8dee47ca559003714d462f4eb79cb6315a2708927c240b84d022b55f 0.0s done
+2026-04-03T16:13:34.166Z [INFO] #19 writing config sha256:702b01d30e0242b105cc961d9b45353ba9b406b2d4d72bf3b63bebf10764cb5f 0.1s done
+2026-04-03T16:13:34.166Z [INFO] #19 writing cache manifest sha256:bcc91b30eeecdc0fcede916f0266074187c130d510815149e77a38ff80756971 0.0s done
+2026-04-03T16:13:34.166Z [INFO] #19 DONE 163.2s
+2026-04-03T16:13:34.308Z [INFO] Build complete.
+2026-04-03T16:13:34.670Z [INFO] Pushing image to registry. This takes some time - please be patient.
+2026-04-03T16:13:34.675Z [INFO] Starting registry push
+2026-04-03T16:13:34.675Z [INFO] Extracting /app/registry-push/output.tar to /app/registry-push/.output-image
+2026-04-03T16:13:56.329Z [INFO] Extraction complete
+2026-04-03T16:13:56.329Z [INFO] Push registry.runpod.net/emporiosabo-ai-video-language-transformation-main-runpod-dockerfile:833b025e7
+2026-04-03T16:13:56.329Z [INFO] 38 layers, 15.60 GB total
+2026-04-03T16:13:56.329Z [INFO]   7021d1b70935  layer      29.0 MB
+2026-04-03T16:13:56.329Z [INFO]   0d6448aff889  layer       4.4 MB
+2026-04-03T16:13:56.329Z [INFO]   0a7674e3e8fe  layer      54.9 MB
+2026-04-03T16:13:56.329Z [INFO]   b71b637b97c5  layer        185 B
+2026-04-03T16:13:56.329Z [INFO]   56dc85502937  layer       6.7 KB
+2026-04-03T16:13:56.329Z [INFO]   ec6d5f6c9ed9  layer      1.28 GB
+2026-04-03T16:13:56.329Z [INFO]   47b8539d532f  layer      62.5 KB
+2026-04-03T16:13:56.329Z [INFO]   fd9cc1ad8dee  layer       1.6 KB
+2026-04-03T16:13:56.329Z [INFO]   83525caeeb35  layer       1.5 KB
+2026-04-03T16:13:56.329Z [INFO]   8e79813a7b9d  layer      2.46 GB
+2026-04-03T16:13:56.330Z [INFO]   312a542960e3  layer      86.8 KB
+2026-04-03T16:13:56.330Z [INFO]   6294b219bdf0  layer        156 B
+2026-04-03T16:13:56.330Z [INFO]   f2f482e465e0  layer     197.1 MB
+2026-04-03T16:13:56.330Z [INFO]   17999326705b  layer      11.7 MB
+2026-04-03T16:13:56.330Z [INFO]   2a6e84b0b719  layer         92 B
+2026-04-03T16:13:56.330Z [INFO]   157e9d1a0f4a  layer      2.77 GB
+2026-04-03T16:13:56.330Z [INFO]   5bc641cf9f88  layer      78.8 MB
+2026-04-03T16:13:56.330Z [INFO]   e3e33111744e  layer      22.9 MB
+2026-04-03T16:13:56.330Z [INFO]   d3dcaf13a40d  layer      22.2 MB
+2026-04-03T16:13:56.330Z [INFO]   2bbe48d84585  layer        241 B
+2026-04-03T16:13:56.330Z [INFO]   2a800d14030b  layer        787 B
+2026-04-03T16:13:56.330Z [INFO]   98dc5c9cc591  layer        752 B
+2026-04-03T16:13:56.330Z [INFO]   55912a66e423  layer        429 B
+2026-04-03T16:13:56.330Z [INFO]   cb9a6a28c395  layer       1.1 KB
+2026-04-03T16:13:56.330Z [INFO]   bfd86967a856  layer       1.1 KB
+2026-04-03T16:13:56.330Z [INFO]   14a64fc19799  layer        237 B
+2026-04-03T16:13:56.330Z [INFO]   19ffe7be374b  layer       1.5 KB
+2026-04-03T16:13:56.330Z [INFO]   2aed4f85d3e1  layer       1.6 KB
+2026-04-03T16:13:56.330Z [INFO]   1c4b3950bb42  layer         93 B
+2026-04-03T16:13:56.330Z [INFO]   4958cb46db18  layer      74.5 MB
+2026-04-03T16:13:56.330Z [INFO]   ed25aeb4b961  layer      2.85 GB
+2026-04-03T16:13:56.331Z [INFO]   a78315347fb2  layer      83.1 MB
+2026-04-03T16:13:56.331Z [INFO]   8805b728042d  layer     102.3 MB
+2026-04-03T16:13:56.331Z [INFO]   c49be2900325  layer      2.65 GB
+2026-04-03T16:13:56.331Z [INFO]   7ab45c47d19a  layer     280.0 MB
+2026-04-03T16:13:56.331Z [INFO]   114117d8d482  layer      2.65 GB
+2026-04-03T16:13:56.331Z [INFO]   1d7e2aed22e0  layer       2.7 KB
+2026-04-03T16:13:56.331Z [INFO]   6f34c961e744  config     26.6 KB
+2026-04-03T16:13:56.810Z [INFO] [direct-plan] 17999326705b single size=11.7 MB
+2026-04-03T16:13:56.820Z [INFO] [direct-plan] 7021d1b70935 single size=29.0 MB
+2026-04-03T16:13:56.822Z [INFO] [direct-plan] 5bc641cf9f88 single size=78.8 MB
+2026-04-03T16:13:56.822Z [INFO] [direct-plan] f2f482e465e0 single size=197.1 MB
+2026-04-03T16:13:56.913Z [INFO] [direct-plan] 4958cb46db18 single size=74.5 MB
+2026-04-03T16:13:56.929Z [INFO] [direct-plan] 157e9d1a0f4a multipart parts=6 part_size=512.0 MB total=2.77 GB
+2026-04-03T16:13:57.012Z [INFO] [direct-plan] ed25aeb4b961 multipart parts=6 part_size=512.0 MB total=2.85 GB
+2026-04-03T16:13:57.033Z [INFO] [direct-plan] 8e79813a7b9d multipart parts=5 part_size=512.0 MB total=2.46 GB
+2026-04-03T16:13:57.998Z [INFO]   uploaded cb9a6a28c395 1.1 KB
+2026-04-03T16:13:57.999Z [INFO]   uploaded 47b8539d532f 62.5 KB
+2026-04-03T16:13:58.002Z [INFO]   uploaded 98dc5c9cc591 752 B
+2026-04-03T16:13:58.019Z [INFO]   uploaded 6f34c961e744 26.6 KB
+2026-04-03T16:13:58.043Z [INFO]   uploaded 2a6e84b0b719 92 B
+2026-04-03T16:13:58.044Z [INFO]   uploaded 55912a66e423 429 B
+2026-04-03T16:13:58.047Z [INFO]   uploaded 6294b219bdf0 156 B
+2026-04-03T16:13:58.061Z [INFO]   uploaded 83525caeeb35 1.5 KB
+2026-04-03T16:13:58.081Z [INFO]   uploaded fd9cc1ad8dee 1.6 KB
+2026-04-03T16:13:58.176Z [INFO]   uploaded 312a542960e3 86.8 KB
+2026-04-03T16:13:58.186Z [INFO]   uploaded 14a64fc19799 237 B
+2026-04-03T16:13:58.279Z [INFO] [direct-plan] d3dcaf13a40d single size=22.2 MB
+2026-04-03T16:13:58.284Z [INFO] [direct-plan] a78315347fb2 single size=83.1 MB
+2026-04-03T16:13:58.305Z [INFO] [direct-plan] e3e33111744e single size=22.9 MB
+2026-04-03T16:13:58.305Z [INFO] [direct-plan] 8805b728042d single size=102.3 MB
+2026-04-03T16:13:58.319Z [INFO] [direct-plan] 7ab45c47d19a single size=280.0 MB
+2026-04-03T16:13:58.384Z [INFO]   uploaded 17999326705b 11.7 MB
+2026-04-03T16:13:58.434Z [INFO] [direct-plan] c49be2900325 multipart parts=6 part_size=512.0 MB total=2.65 GB
+2026-04-03T16:13:58.475Z [INFO] [direct-plan] 114117d8d482 multipart parts=6 part_size=512.0 MB total=2.65 GB
+2026-04-03T16:13:58.618Z [INFO]   uploaded 7021d1b70935 29.0 MB
+2026-04-03T16:13:58.698Z [INFO]   uploaded 0d6448aff889 4.4 MB
+2026-04-03T16:13:59.343Z [INFO]   uploaded 2bbe48d84585 241 B
+2026-04-03T16:13:59.348Z [INFO]   uploaded 2a800d14030b 787 B
+2026-04-03T16:13:59.602Z [INFO] [direct-plan] 0a7674e3e8fe single size=54.9 MB
+2026-04-03T16:13:59.630Z [INFO]   uploaded 2aed4f85d3e1 1.6 KB
+2026-04-03T16:13:59.696Z [INFO]   uploaded 5bc641cf9f88 78.8 MB
+2026-04-03T16:13:59.740Z [INFO]   uploaded e3e33111744e 22.9 MB
+2026-04-03T16:13:59.746Z [INFO]   uploaded 1d7e2aed22e0 2.7 KB
+2026-04-03T16:13:59.880Z [INFO]   uploaded d3dcaf13a40d 22.2 MB
+2026-04-03T16:13:59.901Z [INFO]   uploaded 19ffe7be374b 1.5 KB
+2026-04-03T16:13:59.920Z [INFO]   uploaded bfd86967a856 1.1 KB
+2026-04-03T16:14:00.023Z [INFO]   uploaded b71b637b97c5 185 B
+2026-04-03T16:14:00.075Z [INFO] [direct-plan] ec6d5f6c9ed9 multipart parts=3 part_size=512.0 MB total=1.28 GB
+2026-04-03T16:14:00.178Z [INFO]   uploaded 4958cb46db18 74.5 MB
+2026-04-03T16:14:00.663Z [INFO]   uploaded 56dc85502937 6.7 KB
+2026-04-03T16:14:00.939Z [INFO]   uploaded 1c4b3950bb42 93 B
+2026-04-03T16:14:00.973Z [INFO]   uploaded a78315347fb2 83.1 MB
+2026-04-03T16:14:01.338Z [INFO] [status] 28/38 layers 322.3 MB in 5.01s @ 64.4 MB/s
+2026-04-03T16:14:01.527Z [INFO]   uploaded 0a7674e3e8fe 54.9 MB
+2026-04-03T16:14:03.634Z [INFO]   uploaded 8805b728042d 102.3 MB
+2026-04-03T16:14:03.902Z [INFO]   uploaded f2f482e465e0 197.1 MB
+2026-04-03T16:14:06.329Z [INFO] [status] 31/38 layers 984.3 MB in 10.00s @ 98.4 MB/s
+2026-04-03T16:14:07.989Z [INFO]   uploaded 7ab45c47d19a 280.0 MB
+2026-04-03T16:14:11.332Z [INFO] [status] 32/38 layers 4.50 GB in 15.00s @ 307.3 MB/s
+2026-04-03T16:14:13.699Z [INFO]   uploaded 157e9d1a0f4a 2.77 GB
+2026-04-03T16:14:13.913Z [INFO]   uploaded ed25aeb4b961 2.85 GB
+2026-04-03T16:14:14.772Z [INFO]   uploaded ec6d5f6c9ed9 1.28 GB
+2026-04-03T16:14:16.330Z [INFO] [status] 35/38 layers 14.10 GB in 20.00s @ 721.8 MB/s
+2026-04-03T16:14:16.619Z [INFO]   uploaded 8e79813a7b9d 2.46 GB
+2026-04-03T16:14:18.330Z [INFO]   uploaded c49be2900325 2.65 GB
+2026-04-03T16:14:19.035Z [INFO]   uploaded 114117d8d482 2.65 GB
+2026-04-03T16:14:19.035Z [INFO] [status] 38/38 layers 15.60 GB in 22.71s @ 703.5 MB/s
+2026-04-03T16:14:21.393Z [INFO] ✓ Pushed 15.60 GB in 25.1s (637.5 MB/s)
+2026-04-03T16:14:21.397Z [INFO] Successfully pushed image to registry.

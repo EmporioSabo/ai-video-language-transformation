@@ -1,0 +1,10 @@
+{
+  "job_id": "80dc624b",
+  "filename": "videoplayback.mp4",
+  "stage": "failed",
+  "progress": 15,
+  "error": "RunPod job 3ee489b6-9a41-4ddf-934e-f1d3641df4f2-u1 failed: {\"error_type\": \"<class 'RuntimeError'>\", \"error_message\": \"Library libcublas.so.12 is not found or cannot be loaded\", \"error_traceback\": \"Traceback (most recent call last):\\n  File \\\"/usr/local/lib/python3.10/dist-packages/runpod/serverless/modules/rp_job.py\\\", line 182, in run_job\\n    handler_return = handler(job)\\n  File \\\"/app/handler.py\\\", line 246, in handler\\n    return handle_transcribe(job_input)\\n  File \\\"/app/handler.py\\\", line 50, in handle_transcribe\\n    for i, seg in enumerate(segments_iter):\\n  File \\\"/usr/local/lib/python3.10/dist-packages/faster_whisper/transcribe.py\\\", line 1851, in restore_speech_timestamps\\n    for segment in segments:\\n  File \\\"/usr/local/lib/python3.10/dist-packages/faster_whisper/transcribe.py\\\", line 1190, in generate_segments\\n    encoder_output = self.encode(segment)\\n  File \\\"/usr/local/lib/python3.10/dist-packages/faster_whisper/transcribe.py\\\", line 1400, in encode\\n    return self.model.encode(features, to_cpu=to_cpu)\\nRuntimeError: Library libcublas.so.12 is not found or cannot be loaded\\n\", \"hostname\": \"y41y3red1t2no0-644110e9\", \"worker_id\": \"y41y3red1t2no0\", \"runpod_version\": \"1.8.2\"}",
+  "result_path": null,
+  "created_at": 1775228456.67213,
+  "updated_at": 1775229303.5680628
+}
