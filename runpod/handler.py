@@ -225,8 +225,14 @@ def handle_synthesize(job_input):
                 seg["tts_file"] = seg_filename
                 seg["tts_duration"] = round(len(wav) / sr, 3)
             except Exception as e:
+                print(f"[TTS ERROR] Segment {seg.get('id')}: {e}", flush=True)
                 seg["tts_file"] = None
                 seg["tts_duration"] = 0
+                seg["tts_error"] = str(e)
+
+        if not tts_results:
+            errors = [s.get("tts_error", "unknown") for s in segments if s.get("tts_file") is None]
+            raise RuntimeError(f"All {len(segments)} TTS segments failed. First error: {errors[0] if errors else 'unknown'}")
 
         # Package TTS segments as a ZIP (base64-encoded)
         zip_buf = io.BytesIO()
