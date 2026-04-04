@@ -93,7 +93,11 @@ def handle_diarize(job_input):
         audio_path = f.name
 
     try:
-        device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        # Force CPU for diarization: pyannote's LSTM/RNN layers need cuDNN,
+        # which conflicts with the base image's CUDA stack. Transcription
+        # (cuBLAS) and synthesis (transformers) work fine on GPU.
+        # CPU diarization takes ~3-5 min for a 10-min video — acceptable.
+        device = torch.device("cpu")
 
         # Load diarization pipeline
         pipeline = Pipeline.from_pretrained(
