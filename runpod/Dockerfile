@@ -31,6 +31,11 @@ RUN pip install --no-cache-dir --force-reinstall --no-deps \
     torchaudio==2.4.0+cu124 \
     --index-url https://download.pytorch.org/whl/cu124
 
+# f5-tts (line above) upgrades huggingface_hub to 0.24+ which removed
+# use_auth_token — a parameter pyannote 3.x uses internally.
+# Force it back after all installs so nothing can override it.
+RUN pip install --no-cache-dir "huggingface_hub==0.23.5"
+
 # Pre-download Whisper large-v3 weights (~3GB)
 RUN python -c "from faster_whisper import WhisperModel; WhisperModel('large-v3', device='cpu', compute_type='int8')"
 
