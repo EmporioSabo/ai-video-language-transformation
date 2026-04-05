@@ -1,72 +1,19 @@
-"""AI Video Language Transformation — Streamlit Interface."""
+"""AI Video Language Transformation — Admin Interface (local)."""
 
 import streamlit as st
 import sys
 from pathlib import Path
 
-# Add scripts/ and project root to path
+# Add scripts/ to path
 SCRIPTS_DIR = Path(__file__).resolve().parent.parent / "scripts"
-PROJECT_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(SCRIPTS_DIR))
-sys.path.insert(0, str(PROJECT_ROOT))
-
-import auth
 
 st.set_page_config(
-    page_title="AI Video Language Transformation",
+    page_title="AI Video Language Transformation — Admin",
     page_icon="🎬",
     layout="wide",
     initial_sidebar_state="expanded",
 )
-
-# ── Auth gate ─────────────────────────────────────────────────────────────────
-
-if "logged_in" not in st.session_state:
-    st.session_state.logged_in = False
-
-if not st.session_state.logged_in:
-    st.title("🎬 AI Video Language Transformation")
-    st.write("Please sign in or create an account to continue.")
-    st.divider()
-
-    tab_login, tab_signup = st.tabs(["Log In", "Sign Up"])
-
-    with tab_login:
-        login_email = st.text_input("Email", key="login_email")
-        login_password = st.text_input("Password", type="password", key="login_password")
-        if st.button("Log In", type="primary", use_container_width=True):
-            ok, msg = auth.log_in(login_email, login_password)
-            if ok:
-                st.session_state.logged_in = True
-                st.session_state.user_email = login_email
-                st.rerun()
-            else:
-                st.error(msg)
-
-    with tab_signup:
-        signup_email = st.text_input("Email", key="signup_email")
-        signup_password = st.text_input("Password", type="password", key="signup_password")
-        signup_password2 = st.text_input("Confirm password", type="password", key="signup_password2")
-        if st.button("Create Account", type="primary", use_container_width=True):
-            if signup_password != signup_password2:
-                st.error("Passwords do not match.")
-            else:
-                ok, msg = auth.sign_up(signup_email, signup_password)
-                if ok:
-                    st.success(msg + " You can now log in.")
-                else:
-                    st.error(msg)
-
-    st.stop()
-
-# ── Logged-in UI ──────────────────────────────────────────────────────────────
-
-with st.sidebar:
-    st.write(f"Logged in as **{st.session_state.user_email}**")
-    if st.button("Log Out"):
-        st.session_state.logged_in = False
-        st.session_state.user_email = None
-        st.rerun()
 
 st.title("AI Video Language Transformation")
 st.markdown("Transform Chinese-language videos into English with AI-powered dubbing.")
@@ -80,6 +27,7 @@ st.markdown("""
 2. **Pipeline** — Run each stage (extract, transcribe, translate, synthesize, align, merge)
 3. **Review** — Listen to segments, edit translations, check quality
 4. **Metrics** — View overflow stats, LUFS levels, speaker distribution
+5. **Full Pipeline** — One-click end-to-end processing via RunPod GPU
 
 Use the **sidebar** to navigate between pages.
 """)

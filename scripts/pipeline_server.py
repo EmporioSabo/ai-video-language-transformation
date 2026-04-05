@@ -3,7 +3,8 @@ Server-side pipeline orchestrator.
 
 Runs the full Chinese → English video transformation pipeline using:
 - Local CPU for: audio extraction, translation, alignment, merging, subtitles
-- RunPod serverless GPU for: transcription, diarization, TTS synthesis
+- RunPod serverless GPU for: transcription, TTS synthesis
+- Local CPU for: diarization (pyannote — avoids Docker/CUDA conflicts on RunPod)
 
 Designed to run in a background thread, updating job status as it progresses.
 """
@@ -26,6 +27,7 @@ from translate import translate_with_deepl, review_with_gemini
 from align_audio import align_segments
 from merge_video import merge_audio_video
 from generate_subtitles import generate_srt
+from diarize_local import diarize as diarize_local
 
 
 STAGES = [
@@ -65,10 +67,10 @@ def run_pipeline(job_id: str):
         transcript_path.write_text(json.dumps(segments, ensure_ascii=False, indent=2))
         job_manager.update_job_status(job_id, stage="transcribe", progress=25)
 
-        # ── 3. Diarize (RunPod GPU) ───────────────────────────────────────
+        # ── 3. Diarize (local CPU — avoids RunPod Docker/CUDA issues) ────
         job_manager.update_job_status(job_id, stage="diarize", progress=30)
         hf_token = os.getenv("HF_TOKEN", "")
-        result = runpod_client.diarize(whisper_audio, segments, hf_token=hf_token)
+        result = diarize_local(str(whisper_audio), segments, hf_token=hf_token)
         segments = result["segments"]
         voice_refs_b64 = result["voice_refs"]
 

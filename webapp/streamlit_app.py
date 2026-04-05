@@ -1,4 +1,4 @@
-"""Page 6: Full Pipeline — upload a video, server handles everything via RunPod GPU."""
+"""AI Video Language Transformation — User-facing webapp (deployed on server)."""
 
 import sys
 import time
@@ -6,34 +6,94 @@ from pathlib import Path
 
 import streamlit as st
 
-SCRIPTS_DIR = Path(__file__).resolve().parent.parent.parent / "scripts"
+# Add scripts/ and project root to path
+SCRIPTS_DIR = Path(__file__).resolve().parent.parent / "scripts"
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(SCRIPTS_DIR))
+sys.path.insert(0, str(PROJECT_ROOT))
 
+import auth
 import job_manager
 import runpod_client
 from pipeline_server import start_pipeline_async
 
-st.header("Full Pipeline")
-st.caption(
-    "Upload a Chinese video and the server will handle the entire pipeline: "
-    "transcription, diarization, translation, voice cloning, and merging."
+st.set_page_config(
+    page_title="AI Video Language Transformation",
+    page_icon="🎬",
+    layout="wide",
 )
 
-# ── Cost warning ──────────────────────────────────────────────────────────────
+# ── Auth gate ────────────────────────────────────────────────────────────────
+
+if "logged_in" not in st.session_state:
+    st.session_state.logged_in = False
+
+if not st.session_state.logged_in:
+    st.title("🎬 AI Video Language Transformation")
+    st.write("Please sign in or create an account to continue.")
+    st.divider()
+
+    tab_login, tab_signup = st.tabs(["Log In", "Sign Up"])
+
+    with tab_login:
+        login_email = st.text_input("Email", key="login_email")
+        login_password = st.text_input("Password", type="password", key="login_password")
+        if st.button("Log In", type="primary", use_container_width=True):
+            ok, msg = auth.log_in(login_email, login_password)
+            if ok:
+                st.session_state.logged_in = True
+                st.session_state.user_email = login_email
+                st.rerun()
+            else:
+                st.error(msg)
+
+    with tab_signup:
+        signup_email = st.text_input("Email", key="signup_email")
+        signup_password = st.text_input("Password", type="password", key="signup_password")
+        signup_password2 = st.text_input("Confirm password", type="password", key="signup_password2")
+        if st.button("Create Account", type="primary", use_container_width=True):
+            if signup_password != signup_password2:
+                st.error("Passwords do not match.")
+            else:
+                ok, msg = auth.sign_up(signup_email, signup_password)
+                if ok:
+                    st.success(msg + " You can now log in.")
+                else:
+                    st.error(msg)
+
+    st.stop()
+
+# ── Logged-in UI ─────────────────────────────────────────────────────────────
+
+with st.sidebar:
+    st.write(f"Logged in as **{st.session_state.user_email}**")
+    if st.button("Log Out"):
+        st.session_state.logged_in = False
+        st.session_state.user_email = None
+        st.rerun()
+
+st.title("🎬 AI Video Language Transformation")
+st.markdown(
+    "Upload a Chinese video and the server will handle everything automatically: "
+    "transcription, speaker detection, translation, voice cloning, and merging."
+)
+
+st.divider()
+
+# ── Cost warning ─────────────────────────────────────────────────────────────
 
 st.warning(
     "GPU processing costs ~$0.05-0.10 per video (RunPod serverless). "
     "A daily job limit is enforced to prevent runaway costs."
 )
 
-# Show today's usage
 usage = runpod_client.get_daily_usage()
 st.caption(
     f"Today: {usage['job_count']}/{usage['limit']} jobs, "
     f"{usage['total_gpu_seconds']:.0f}s GPU time"
 )
 
-# ── Upload ────────────────────────────────────────────────────────────────────
+# ── Upload ───────────────────────────────────────────────────────────────────
 
 uploaded_video = st.file_uploader(
     "Upload a Chinese video",
@@ -45,7 +105,7 @@ if uploaded_video:
     with st.expander("Preview"):
         st.video(uploaded_video)
 
-# ── Launch pipeline ───────────────────────────────────────────────────────────
+# ── Launch pipeline ──────────────────────────────────────────────────────────
 
 if "active_job_id" not in st.session_state:
     st.session_state.active_job_id = None
@@ -57,7 +117,7 @@ if uploaded_video and st.session_state.active_job_id is None:
         start_pipeline_async(job_id)
         st.rerun()
 
-# ── Progress dashboard ────────────────────────────────────────────────────────
+# ── Progress dashboard ───────────────────────────────────────────────────────
 
 STAGE_LABELS = {
     "created": "Initializing...",
@@ -137,7 +197,7 @@ if st.session_state.active_job_id:
             time.sleep(3)
             st.rerun()
 
-# ── Job history ───────────────────────────────────────────────────────────────
+# ── Job history ──────────────────────────────────────────────────────────────
 
 st.divider()
 with st.expander("Job History"):
@@ -149,5 +209,4 @@ with st.expander("Job History"):
             jid = job.get("job_id", "?")
             jstage = job.get("stage", "?")
             jfile = job.get("filename", "?")
-            icon = {"complete": "done", "failed": "error"}.get(jstage, "hourglass_flowing_sand")
             st.write(f"**{jid}** — {jfile} — {STAGE_LABELS.get(jstage, jstage)}")

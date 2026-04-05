@@ -42,9 +42,16 @@ def sign_up(email: str, password: str) -> tuple[bool, str]:
     users = _load()
     if email in users:
         return False, "An account already exists with this email."
-    users[email] = {"password": _hash(password)}
+    # First user gets admin role, subsequent users are regular users
+    role = "admin" if len(users) == 0 else "user"
+    users[email] = {"password": _hash(password), "role": role}
     _save(users)
     return True, "Account created successfully!"
+
+
+def get_role(email: str) -> str:
+    users = _load()
+    return users.get(email, {}).get("role", "user")
 
 
 def log_in(email: str, password: str) -> tuple[bool, str]:

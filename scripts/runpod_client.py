@@ -17,7 +17,7 @@ RUNPOD_ENDPOINT_ID = ""
 # Safety limits
 MAX_JOB_SECONDS = 1800  # 30 minutes max per job
 POLL_INTERVAL = 10  # seconds between status checks
-MAX_DAILY_JOBS = 20  # max jobs per day
+MAX_DAILY_JOBS = 40  # max jobs per day
 
 # Usage tracking file
 USAGE_FILE = ROOT / "data" / "runpod_usage.json"
