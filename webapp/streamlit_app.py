@@ -23,6 +23,33 @@ st.set_page_config(
     layout="wide",
 )
 
+# ── Supported languages ─────────────────────────────────────────────────────
+
+SUPPORTED_LANGUAGES = {
+    "Chinese": "zh",
+    "Arabic": "ar",
+    "French": "fr",
+    "Spanish": "es",
+    "German": "de",
+    "Italian": "it",
+    "Portuguese": "pt",
+    "Russian": "ru",
+    "Japanese": "ja",
+    "Korean": "ko",
+    "Hindi": "hi",
+    "Dutch": "nl",
+    "Turkish": "tr",
+    "Polish": "pl",
+    "Swedish": "sv",
+    "Danish": "da",
+    "Finnish": "fi",
+    "Greek": "el",
+    "Czech": "cs",
+    "Romanian": "ro",
+    "Hungarian": "hu",
+    "Indonesian": "id",
+}
+
 # ── Auth gate ────────────────────────────────────────────────────────────────
 
 if "logged_in" not in st.session_state:
@@ -74,16 +101,26 @@ with st.sidebar:
 
 st.title("🎬 AI Video Language Transformation")
 st.markdown(
-    "Upload a Chinese video and the server will handle everything automatically: "
-    "transcription, speaker detection, translation, voice cloning, and merging."
+    "Upload a video in any supported language and the server will dub it into English automatically."
 )
 
 st.divider()
 
+# ── Language selection ───────────────────────────────────────────────────────
+
+lang_names = sorted(SUPPORTED_LANGUAGES.keys())
+selected_lang_name = st.selectbox(
+    "Source language",
+    lang_names,
+    index=lang_names.index("Chinese"),
+    help="Language spoken in the video.",
+)
+selected_lang_code = SUPPORTED_LANGUAGES[selected_lang_name]
+
 # ── Cost warning ─────────────────────────────────────────────────────────────
 
 st.warning(
-    "GPU processing costs ~$0.05-0.10 per video (RunPod serverless). "
+    "Processing costs ~$0.05-0.15 per video (RunPod GPU for transcription + Voxtral API for voice synthesis). "
     "A daily job limit is enforced to prevent runaway costs."
 )
 
@@ -96,7 +133,7 @@ st.caption(
 # ── Upload ───────────────────────────────────────────────────────────────────
 
 uploaded_video = st.file_uploader(
-    "Upload a Chinese video",
+    f"Upload a {selected_lang_name} video",
     type=["mp4", "mkv", "avi", "mov"],
     key="full_pipeline_video",
 )
@@ -112,7 +149,9 @@ if "active_job_id" not in st.session_state:
 
 if uploaded_video and st.session_state.active_job_id is None:
     if st.button("Start Full Pipeline", type="primary", use_container_width=True):
-        job_id = job_manager.create_job(uploaded_video.getvalue(), uploaded_video.name)
+        job_id = job_manager.create_job(
+            uploaded_video.getvalue(), uploaded_video.name, language=selected_lang_code
+        )
         st.session_state.active_job_id = job_id
         start_pipeline_async(job_id)
         st.rerun()
@@ -122,10 +161,10 @@ if uploaded_video and st.session_state.active_job_id is None:
 STAGE_LABELS = {
     "created": "Initializing...",
     "extract": "Extracting audio",
-    "transcribe": "Transcribing Chinese (GPU)",
-    "diarize": "Identifying speakers (GPU)",
+    "transcribe": "Transcribing audio (GPU)",
+    "diarize": "Identifying speakers",
     "translate": "Translating to English",
-    "synthesize": "Synthesizing English speech (GPU)",
+    "synthesize": "Synthesizing English speech (Voxtral)",
     "align": "Aligning audio segments",
     "merge": "Merging audio into video",
     "subtitles": "Generating subtitles",
@@ -209,4 +248,5 @@ with st.expander("Job History"):
             jid = job.get("job_id", "?")
             jstage = job.get("stage", "?")
             jfile = job.get("filename", "?")
-            st.write(f"**{jid}** — {jfile} — {STAGE_LABELS.get(jstage, jstage)}")
+            jlang = job.get("language", "zh")
+            st.write(f"**{jid}** — {jfile} ({jlang}) — {STAGE_LABELS.get(jstage, jstage)}")
