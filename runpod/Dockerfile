@@ -44,6 +44,6 @@ subprocess.run(['find', '/usr/local/lib/python3.11/dist-packages/nvidia', '-name
 # Pre-download Whisper large-v3 weights (~3GB)
 RUN python -c "from faster_whisper import WhisperModel; WhisperModel('large-v3', device='cpu', compute_type='int8')"
 
-COPY handler.py /app/handler.py
+COPY runpod/handler.py /app/handler.py
 
 CMD ["python", "-u", "handler.py"]
