@@ -5,7 +5,7 @@
 set -euo pipefail
 
 APP_DIR="/opt/aivlt"
-REPO_URL="https://github.com/emporiosabo/AIVideoLanguageTransformation.git"
+REPO_URL="https://github.com/EmporioSabo/ai-video-language-transformation.git"
 BRANCH="feature/multilang-voxtral"
 
 echo "=== [1/5] Installing Docker ==="
