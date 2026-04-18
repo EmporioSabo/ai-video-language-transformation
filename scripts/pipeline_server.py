@@ -132,8 +132,16 @@ def run_pipeline(job_id: str):
                 voice_refs_for_runpod[fname] = b64_data
             result = runpod_client.synthesize(segments, voice_refs_for_runpod)
             tts_dir.mkdir(parents=True, exist_ok=True)
-            for fname, b64_wav in result.get("tts_files", {}).items():
-                (tts_dir / fname).write_bytes(base64.b64decode(b64_wav))
+
+            import io
+            import zipfile
+            tts_zip_b64 = result.get("tts_zip_b64", "")
+            if tts_zip_b64:
+                zip_bytes = base64.b64decode(tts_zip_b64)
+                with zipfile.ZipFile(io.BytesIO(zip_bytes)) as zf:
+                    for name in zf.namelist():
+                        (tts_dir / name).write_bytes(zf.read(name))
+
             segments = result.get("segments", segments)
         else:
             # Voxtral API (no GPU needed, voice cloning via ref_audio)
