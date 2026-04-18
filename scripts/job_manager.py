@@ -11,8 +11,16 @@ from config import ROOT
 JOBS_DIR = ROOT / "data" / "jobs"
 
 
-def create_job(video_bytes: bytes, filename: str) -> str:
-    """Create a new job directory and save the uploaded video. Returns job_id."""
+def create_job(video_bytes: bytes, filename: str, language: str = "zh",
+               tts_model: str = "voxtral") -> str:
+    """Create a new job directory and save the uploaded video. Returns job_id.
+
+    Args:
+        video_bytes: Raw video file bytes.
+        filename: Original filename (used for output naming).
+        language: BCP-47 source language code.
+        tts_model: TTS engine — "voxtral" (API) or "f5tts" (RunPod GPU).
+    """
     job_id = str(uuid.uuid4())[:8]
     job_dir = JOBS_DIR / job_id
     job_dir.mkdir(parents=True, exist_ok=True)
@@ -25,6 +33,8 @@ def create_job(video_bytes: bytes, filename: str) -> str:
     status = {
         "job_id": job_id,
         "filename": filename,
+        "language": language,
+        "tts_model": tts_model,
         "stage": "created",
         "progress": 0,
         "error": None,

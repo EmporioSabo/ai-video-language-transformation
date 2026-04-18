@@ -15,14 +15,45 @@ from pipeline_server import start_pipeline_async
 
 st.header("Full Pipeline")
 st.caption(
-    "Upload a Chinese video and the server will handle the entire pipeline: "
-    "transcription, diarization, translation, voice cloning, and merging."
+    "Upload a video in any supported language and the server will handle the entire pipeline: "
+    "transcription, diarization, translation, TTS synthesis, and merging."
 )
+
+# ── Language selection ────────────────────────────────────────────────────────
+
+SUPPORTED_LANGUAGES = {
+    "Chinese": "zh", "Arabic": "ar", "French": "fr", "Spanish": "es",
+    "German": "de", "Italian": "it", "Portuguese": "pt", "Russian": "ru",
+    "Japanese": "ja", "Korean": "ko", "Hindi": "hi", "Dutch": "nl",
+    "Turkish": "tr", "Polish": "pl",
+}
+
+lang_names = sorted(SUPPORTED_LANGUAGES.keys())
+selected_lang_name = st.selectbox(
+    "Source language", lang_names, index=lang_names.index("Chinese"),
+)
+selected_lang_code = SUPPORTED_LANGUAGES[selected_lang_name]
+
+# ── TTS model selection ──────────────────────────────────────────────────────
+
+TTS_MODELS = {
+    "Voxtral (Mistral API — fast, no GPU)": "voxtral",
+    "F5-TTS (RunPod GPU — better voice cloning)": "f5tts",
+}
+
+selected_tts_label = st.selectbox(
+    "TTS Model",
+    list(TTS_MODELS.keys()),
+    index=0,
+    help="Voxtral uses Mistral's API (fast, $0.016/1K chars). "
+         "F5-TTS runs on RunPod GPU (better cross-lingual voice cloning).",
+)
+selected_tts_model = TTS_MODELS[selected_tts_label]
 
 # ── Cost warning ──────────────────────────────────────────────────────────────
 
 st.warning(
-    "GPU processing costs ~$0.05-0.10 per video (RunPod serverless). "
+    "Processing costs ~$0.05-0.15 per video (RunPod GPU + Voxtral API). "
     "A daily job limit is enforced to prevent runaway costs."
 )
 
@@ -36,7 +67,7 @@ st.caption(
 # ── Upload ────────────────────────────────────────────────────────────────────
 
 uploaded_video = st.file_uploader(
-    "Upload a Chinese video",
+    f"Upload a {selected_lang_name} video",
     type=["mp4", "mkv", "avi", "mov"],
     key="full_pipeline_video",
 )
@@ -52,7 +83,10 @@ if "active_job_id" not in st.session_state:
 
 if uploaded_video and st.session_state.active_job_id is None:
     if st.button("Start Full Pipeline", type="primary", use_container_width=True):
-        job_id = job_manager.create_job(uploaded_video.getvalue(), uploaded_video.name)
+        job_id = job_manager.create_job(
+            uploaded_video.getvalue(), uploaded_video.name,
+            language=selected_lang_code, tts_model=selected_tts_model,
+        )
         st.session_state.active_job_id = job_id
         start_pipeline_async(job_id)
         st.rerun()
@@ -62,10 +96,10 @@ if uploaded_video and st.session_state.active_job_id is None:
 STAGE_LABELS = {
     "created": "Initializing...",
     "extract": "Extracting audio",
-    "transcribe": "Transcribing Chinese (GPU)",
-    "diarize": "Identifying speakers (GPU)",
+    "transcribe": "Transcribing audio (GPU)",
+    "diarize": "Identifying speakers",
     "translate": "Translating to English",
-    "synthesize": "Synthesizing English speech (GPU)",
+    "synthesize": "Synthesizing English speech",
     "align": "Aligning audio segments",
     "merge": "Merging audio into video",
     "subtitles": "Generating subtitles",

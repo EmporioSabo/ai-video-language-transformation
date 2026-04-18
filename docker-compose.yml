@@ -1,11 +1,30 @@
 services:
   webapp:
     build: .
-    ports:
-      - "8501:8501"
+    restart: unless-stopped
+    expose:
+      - "8501"
     volumes:
       - ./data:/app/data
-      - ./.streamlit:/app/.streamlit
+      - ./output:/app/output
+      - ./users.json:/app/users.json
+      - hf_cache:/root/.cache/huggingface
     env_file:
       - .env
+    environment:
+      - STREAMLIT_SERVER_HEADLESS=true
+
+  nginx:
+    image: nginx:alpine
     restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./nginx/certs:/etc/nginx/certs:ro
+    depends_on:
+      - webapp
+
+volumes:
+  hf_cache:

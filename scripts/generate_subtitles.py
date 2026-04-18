@@ -27,7 +27,8 @@ def generate_srt(translation_path: Path, output_path: Path, bilingual: bool = Fa
         text_en = seg.get("text_en", seg.get("text_en_deepl", ""))
 
         if bilingual:
-            text = f"{seg['text_zh']}\n{text_en}"
+            text_src = seg.get("text_zh", seg.get("text_src", ""))
+            text = f"{text_src}\n{text_en}"
         else:
             text = text_en
 
