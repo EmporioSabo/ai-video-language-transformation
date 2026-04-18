@@ -59,6 +59,7 @@ def run_pipeline(job_id: str):
     status = job_manager.get_job_status(job_id)
     video_path = job_dir / status["filename"]
     language = status.get("language", "zh")
+    tts_model = status.get("tts_model", "voxtral")
     lang_name = _LANG_NAMES.get(language, language)
 
     try:
@@ -120,10 +121,23 @@ def run_pipeline(job_id: str):
         translation_path.write_text(json.dumps(segments, ensure_ascii=False, indent=2))
         job_manager.update_job_status(job_id, stage="translate", progress=55)
 
-        # ── 5. Synthesize TTS (Voxtral API — no GPU needed) ──────────────
+        # ── 5. Synthesize TTS ─────────────────────────────────────────────
         job_manager.update_job_status(job_id, stage="synthesize", progress=60)
         tts_dir = job_dir / "tts_segments"
-        segments = synthesize_voxtral(segments, voice_ref_dir, tts_dir)
+
+        if tts_model == "f5tts":
+            # F5-TTS via RunPod GPU (voice cloning, works cross-lingually)
+            voice_refs_for_runpod = {}
+            for fname, b64_data in voice_refs_b64.items():
+                voice_refs_for_runpod[fname] = b64_data
+            result = runpod_client.synthesize(segments, voice_refs_for_runpod)
+            tts_dir.mkdir(parents=True, exist_ok=True)
+            for fname, b64_wav in result.get("tts_files", {}).items():
+                (tts_dir / fname).write_bytes(base64.b64decode(b64_wav))
+            segments = result.get("segments", segments)
+        else:
+            # Voxtral API (no GPU needed, voice cloning via ref_audio)
+            segments = synthesize_voxtral(segments, voice_ref_dir, tts_dir)
 
         # Update translation with TTS metadata
         translation_path.write_text(json.dumps(segments, ensure_ascii=False, indent=2))

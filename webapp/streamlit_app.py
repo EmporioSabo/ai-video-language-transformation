@@ -117,10 +117,26 @@ selected_lang_name = st.selectbox(
 )
 selected_lang_code = SUPPORTED_LANGUAGES[selected_lang_name]
 
+# ── TTS model selection ─────────────────────────────────────────────────────
+
+TTS_MODELS = {
+    "Voxtral (Mistral API — fast, no GPU)": "voxtral",
+    "F5-TTS (RunPod GPU — better voice cloning)": "f5tts",
+}
+
+selected_tts_label = st.selectbox(
+    "TTS Model",
+    list(TTS_MODELS.keys()),
+    index=0,
+    help="Voxtral uses Mistral's API (fast, $0.016/1K chars). "
+         "F5-TTS runs on RunPod GPU (better cross-lingual voice cloning).",
+)
+selected_tts_model = TTS_MODELS[selected_tts_label]
+
 # ── Cost warning ─────────────────────────────────────────────────────────────
 
 st.warning(
-    "Processing costs ~$0.05-0.15 per video (RunPod GPU for transcription + Voxtral API for voice synthesis). "
+    "Processing costs ~$0.05-0.15 per video (RunPod GPU + TTS API). "
     "A daily job limit is enforced to prevent runaway costs."
 )
 
@@ -150,7 +166,8 @@ if "active_job_id" not in st.session_state:
 if uploaded_video and st.session_state.active_job_id is None:
     if st.button("Start Full Pipeline", type="primary", use_container_width=True):
         job_id = job_manager.create_job(
-            uploaded_video.getvalue(), uploaded_video.name, language=selected_lang_code
+            uploaded_video.getvalue(), uploaded_video.name,
+            language=selected_lang_code, tts_model=selected_tts_model,
         )
         st.session_state.active_job_id = job_id
         start_pipeline_async(job_id)
@@ -164,7 +181,7 @@ STAGE_LABELS = {
     "transcribe": "Transcribing audio (GPU)",
     "diarize": "Identifying speakers",
     "translate": "Translating to English",
-    "synthesize": "Synthesizing English speech (Voxtral)",
+    "synthesize": "Synthesizing English speech",
     "align": "Aligning audio segments",
     "merge": "Merging audio into video",
     "subtitles": "Generating subtitles",
