@@ -189,11 +189,11 @@ def handle_synthesize(job_input):
             speaker = filename.replace("_ref.wav", "")
             ref_paths[speaker] = str(ref_path)
 
-        # Trim voice refs to 8s max (F5-TTS overflow avoidance)
+        # Trim voice refs to 6s max (shorter = fewer tensor size mismatches)
         for speaker, ref_path in ref_paths.items():
             data, sr = sf.read(ref_path)
-            if len(data) / sr > 8:
-                data = data[:int(8 * sr)]
+            if len(data) / sr > 6:
+                data = data[:int(6 * sr)]
                 sf.write(ref_path, data, sr)
 
         default_ref = list(ref_paths.values())[0] if ref_paths else None
@@ -206,6 +206,28 @@ def handle_synthesize(job_input):
         # Load F5-TTS
         from f5_tts.api import F5TTS
         tts = F5TTS()
+
+        def _infer_with_retry(ref_path: str, text: str) -> tuple:
+            """Try synthesis, retrying with shorter ref clips on tensor size mismatch."""
+            ref_data, ref_sr = sf.read(ref_path)
+            for clip_secs in (6, 4, 3, 2):
+                clip_samples = int(clip_secs * ref_sr)
+                if len(ref_data) > clip_samples:
+                    clipped = ref_data[:clip_samples]
+                    with tempfile.NamedTemporaryFile(suffix=".wav", delete=False) as tf:
+                        sf.write(tf.name, clipped, ref_sr)
+                        clip_path = tf.name
+                else:
+                    clip_path = ref_path
+                try:
+                    result = tts.infer(ref_file=clip_path, ref_text="", gen_text=text)
+                    return result
+                except RuntimeError as e:
+                    if "Sizes of tensors must match" in str(e) and clip_secs > 2:
+                        print(f"[TTS RETRY] tensor mismatch at {clip_secs}s ref, retrying shorter", flush=True)
+                        continue
+                    raise
+            raise RuntimeError("All clip lengths failed with tensor size mismatch")
 
         # Synthesize each segment
         tts_results = {}
@@ -220,11 +242,7 @@ def handle_synthesize(job_input):
                 continue
 
             try:
-                wav, sr, _ = tts.infer(
-                    ref_file=ref_path,
-                    ref_text="",
-                    gen_text=text,
-                )
+                wav, sr, _ = _infer_with_retry(ref_path, text)
                 buf = io.BytesIO()
                 sf.write(buf, wav, sr, format="WAV")
                 seg_filename = f"segment_{seg['id']:04d}.wav"
