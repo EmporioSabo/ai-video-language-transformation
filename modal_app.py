@@ -229,7 +229,7 @@ def synthesize(segments: list, voice_refs_b64: dict) -> dict:
     volumes={"/root/.cache/huggingface": whisper_cache},
     secrets=[modal.Secret.from_name("ai-video")],
 )
-@modal.web_endpoint(method="POST")
+@modal.fastapi_endpoint(method="POST")
 def transcribe_http(item: dict) -> dict:
     return transcribe.local(item["audio_b64"], item.get("language", "zh"))
 
@@ -241,6 +241,6 @@ def transcribe_http(item: dict) -> dict:
     volumes={"/root/.cache/huggingface": f5tts_cache},
     secrets=[modal.Secret.from_name("ai-video")],
 )
-@modal.web_endpoint(method="POST")
+@modal.fastapi_endpoint(method="POST")
 def synthesize_http(item: dict) -> dict:
     return synthesize.local(item["segments"], item["voice_refs"])
