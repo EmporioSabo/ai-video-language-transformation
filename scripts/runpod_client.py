@@ -136,7 +136,16 @@ def cancel_job(job_id: str):
 
 def transcribe(audio_path: Path, language: str = "zh") -> dict:
     """Submit transcription job and return result."""
-    audio_b64 = base64.b64encode(audio_path.read_bytes()).decode()
+    import subprocess, tempfile
+    # Downsample to 16kHz mono WAV (Whisper only needs 16kHz; reduces payload ~3x)
+    with tempfile.NamedTemporaryFile(suffix=".wav", delete=False) as tmp:
+        tmp_path = tmp.name
+    subprocess.run(
+        ["ffmpeg", "-y", "-i", str(audio_path), "-ar", "16000", "-ac", "1", tmp_path],
+        check=True, capture_output=True,
+    )
+    audio_b64 = base64.b64encode(Path(tmp_path).read_bytes()).decode()
+    Path(tmp_path).unlink(missing_ok=True)
     job_id = submit_job({
         "stage": "transcribe",
         "audio_b64": audio_b64,
