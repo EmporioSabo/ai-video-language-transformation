@@ -31,7 +31,9 @@ def handle_transcribe(job_input):
     language = job_input.get("language", "zh")
     beam_size = job_input.get("beam_size", 5)
 
-    with tempfile.NamedTemporaryFile(suffix=".wav", delete=False) as f:
+    # Accept mp3 or wav — faster-whisper handles both
+    suffix = ".mp3" if (audio_bytes[:3] == b"ID3" or audio_bytes[:2] in (b"\xff\xfb", b"\xff\xf3", b"\xff\xfa")) else ".wav"
+    with tempfile.NamedTemporaryFile(suffix=suffix, delete=False) as f:
         f.write(audio_bytes)
         audio_path = f.name
 
