@@ -1,3 +1,14 @@
+---
+title: AI Video Language Transformation
+emoji: 🎬
+colorFrom: blue
+colorTo: purple
+sdk: streamlit
+sdk_version: "1.41.0"
+app_file: webapp/streamlit_app.py
+pinned: false
+---
+
 # AI Video Language Transformation
 
 Pipeline for transforming Chinese-language videos into English audio versions using AI-powered transcription, translation, voice cloning, and audio alignment. Includes a Streamlit web interface for managing the pipeline, reviewing results, and monitoring quality metrics.
