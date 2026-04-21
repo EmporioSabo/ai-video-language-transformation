@@ -10,7 +10,7 @@ SCRIPTS_DIR = Path(__file__).resolve().parent.parent.parent / "scripts"
 sys.path.insert(0, str(SCRIPTS_DIR))
 
 import job_manager
-import runpod_client
+import modal_client as gpu_client
 from pipeline_server import start_pipeline_async
 
 st.header("Full Pipeline")
@@ -58,7 +58,7 @@ st.warning(
 )
 
 # Show today's usage
-usage = runpod_client.get_daily_usage()
+usage = gpu_client.get_daily_usage()
 st.caption(
     f"Today: {usage['job_count']}/{usage['limit']} jobs, "
     f"{usage['total_gpu_seconds']:.0f}s GPU time"

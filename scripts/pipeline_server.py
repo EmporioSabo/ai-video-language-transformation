@@ -3,7 +3,7 @@ Server-side pipeline orchestrator.
 
 Runs the full video → English dubbing pipeline using:
 - Local CPU for: audio extraction, translation, alignment, merging, subtitles
-- RunPod serverless GPU for: transcription (Whisper, all languages)
+- Modal serverless GPU for: transcription (Whisper, all languages)
 - Local CPU for: diarization (pyannote)
 - Voxtral API for: TTS synthesis (voice cloning, multilingual, no GPU needed)
 
@@ -17,7 +17,7 @@ import threading
 from pathlib import Path
 
 import job_manager
-import runpod_client
+import modal_client as gpu_client
 from config import (
     DEEPL_API_KEY, GEMINI_API_KEY,
     TARGET_LANGUAGE, OUTPUT_VIDEO_SUFFIX,
@@ -70,9 +70,9 @@ def run_pipeline(job_id: str):
         whisper_audio = extract_audio(video_path, audio_dir)
         job_manager.update_job_status(job_id, stage="extract", progress=10)
 
-        # ── 2. Transcribe (RunPod GPU — Whisper supports all languages) ──
+        # ── 2. Transcribe (Modal GPU — Whisper supports all languages) ───
         job_manager.update_job_status(job_id, stage="transcribe", progress=15)
-        result = runpod_client.transcribe(whisper_audio, language=language)
+        result = gpu_client.transcribe(whisper_audio, language=language)
         segments = result["segments"]
 
         # For non-Chinese, rename text_zh → text_src for compatibility
@@ -130,7 +130,7 @@ def run_pipeline(job_id: str):
             voice_refs_for_runpod = {}
             for fname, b64_data in voice_refs_b64.items():
                 voice_refs_for_runpod[fname] = b64_data
-            result = runpod_client.synthesize(segments, voice_refs_for_runpod)
+            result = gpu_client.synthesize(segments, voice_refs_for_runpod)
             tts_dir.mkdir(parents=True, exist_ok=True)
 
             import io

@@ -14,7 +14,7 @@ sys.path.insert(0, str(PROJECT_ROOT))
 
 import auth
 import job_manager
-import runpod_client
+import modal_client as gpu_client
 from pipeline_server import start_pipeline_async
 
 st.set_page_config(
@@ -140,7 +140,7 @@ st.warning(
     "A daily job limit is enforced to prevent runaway costs."
 )
 
-usage = runpod_client.get_daily_usage()
+usage = gpu_client.get_daily_usage()
 st.caption(
     f"Today: {usage['job_count']}/{usage['limit']} jobs, "
     f"{usage['total_gpu_seconds']:.0f}s GPU time"
