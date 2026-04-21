@@ -1,15 +1,12 @@
 """
-Modal serverless GPU app — replaces RunPod handler.
-
-Stages:
-  - transcribe: faster-whisper large-v3 ASR with word timestamps
-  - synthesize: F5-TTS voice cloning + per-segment synthesis
+Modal serverless GPU app — web endpoints for transcribe + synthesize.
 
 Deploy:
   modal deploy modal_app.py
 
-Environment secrets (Modal dashboard → Secrets → "ai-video"):
-  HF_TOKEN — HuggingFace token for pyannote models
+After deploy, copy the printed URLs to HF Spaces secrets:
+  MODAL_TRANSCRIBE_URL
+  MODAL_SYNTHESIZE_URL
 """
 
 import base64
@@ -21,7 +18,7 @@ from pathlib import Path
 
 import modal
 
-# ── Image ─────────────────────────────────────────────────────────────────────
+# ── Images ────────────────────────────────────────────────────────────────────
 
 transcribe_image = (
     modal.Image.debian_slim(python_version="3.11")
@@ -50,16 +47,13 @@ synthesize_image = (
     )
 )
 
-# ── App ────────────────────────────────────────────────────────────────────────
-
 app = modal.App("ai-video-language-transformation")
 
-# Model cache volumes (avoids re-downloading on every cold start)
 whisper_cache = modal.Volume.from_name("whisper-cache", create_if_missing=True)
 f5tts_cache = modal.Volume.from_name("f5tts-cache", create_if_missing=True)
 
 
-# ── Transcribe ────────────────────────────────────────────────────────────────
+# ── Transcribe endpoint ───────────────────────────────────────────────────────
 
 @app.function(
     image=transcribe_image,
@@ -68,9 +62,14 @@ f5tts_cache = modal.Volume.from_name("f5tts-cache", create_if_missing=True)
     volumes={"/root/.cache/huggingface": whisper_cache},
     secrets=[modal.Secret.from_name("ai-video")],
 )
-def transcribe(audio_b64: str, language: str = "zh", beam_size: int = 5) -> dict:
+@modal.fastapi_endpoint(method="POST")
+def transcribe_http(item: dict) -> dict:
     """Transcribe audio with faster-whisper large-v3."""
     from faster_whisper import WhisperModel
+
+    audio_b64 = item["audio_b64"]
+    language = item.get("language", "zh")
+    beam_size = item.get("beam_size", 5)
 
     audio_bytes = base64.b64decode(audio_b64)
     suffix = ".mp3" if (
@@ -120,7 +119,7 @@ def transcribe(audio_b64: str, language: str = "zh", beam_size: int = 5) -> dict
         os.unlink(audio_path)
 
 
-# ── Synthesize ────────────────────────────────────────────────────────────────
+# ── Synthesize endpoint ───────────────────────────────────────────────────────
 
 @app.function(
     image=synthesize_image,
@@ -129,17 +128,20 @@ def transcribe(audio_b64: str, language: str = "zh", beam_size: int = 5) -> dict
     volumes={"/root/.cache/huggingface": f5tts_cache},
     secrets=[modal.Secret.from_name("ai-video")],
 )
-def synthesize(segments: list, voice_refs_b64: dict) -> dict:
+@modal.fastapi_endpoint(method="POST")
+def synthesize_http(item: dict) -> dict:
     """Synthesize English speech with F5-TTS voice cloning."""
     import soundfile as sf
     import torch
 
     torch.backends.cudnn.enabled = False
 
+    segments = item["segments"]
+    voice_refs_b64 = item["voice_refs"]
+
     with tempfile.TemporaryDirectory() as tmp_dir:
         tmp = Path(tmp_dir)
 
-        # Write voice references to disk
         ref_paths = {}
         for filename, b64_data in voice_refs_b64.items():
             ref_path = tmp / filename
@@ -147,7 +149,6 @@ def synthesize(segments: list, voice_refs_b64: dict) -> dict:
             speaker = filename.replace("_ref.wav", "")
             ref_paths[speaker] = str(ref_path)
 
-        # Trim voice refs to 6s max
         for speaker, ref_path in ref_paths.items():
             data, sr = sf.read(ref_path)
             if len(data) / sr > 6:
@@ -174,7 +175,6 @@ def synthesize(segments: list, voice_refs_b64: dict) -> dict:
                     return tts.infer(ref_file=clip_path, ref_text="", gen_text=text)
                 except RuntimeError as e:
                     if "Sizes of tensors must match" in str(e) and clip_secs > 2:
-                        print(f"[TTS RETRY] tensor mismatch at {clip_secs}s, retrying shorter", flush=True)
                         continue
                     raise
             raise RuntimeError("All clip lengths failed with tensor size mismatch")
@@ -184,12 +184,10 @@ def synthesize(segments: list, voice_refs_b64: dict) -> dict:
             text = seg.get("text_en", seg.get("text_en_deepl", ""))
             if not text.strip():
                 continue
-
             speaker = seg.get("speaker", "")
             ref_path = ref_paths.get(speaker, default_ref)
             if not ref_path:
                 continue
-
             try:
                 wav, sr, _ = _infer_with_retry(ref_path, text)
                 buf = io.BytesIO()
@@ -220,29 +218,3 @@ def synthesize(segments: list, voice_refs_b64: dict) -> dict:
             "segments": segments,
             "tts_zip_b64": base64.b64encode(zip_buf.getvalue()).decode(),
         }
-
-
-# ── Web endpoints (called via plain HTTP — no modal package needed on client) ─
-
-@app.function(
-    image=transcribe_image,
-    gpu="T4",
-    timeout=600,
-    volumes={"/root/.cache/huggingface": whisper_cache},
-    secrets=[modal.Secret.from_name("ai-video")],
-)
-@modal.fastapi_endpoint(method="POST")
-def transcribe_http(item: dict) -> dict:
-    return transcribe.local(item["audio_b64"], item.get("language", "zh"))
-
-
-@app.function(
-    image=synthesize_image,
-    gpu="T4",
-    timeout=1200,
-    volumes={"/root/.cache/huggingface": f5tts_cache},
-    secrets=[modal.Secret.from_name("ai-video")],
-)
-@modal.fastapi_endpoint(method="POST")
-def synthesize_http(item: dict) -> dict:
-    return synthesize.local(item["segments"], item["voice_refs"])
