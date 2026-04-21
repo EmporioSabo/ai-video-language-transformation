@@ -23,7 +23,7 @@ import modal
 transcribe_image = (
     modal.Image.debian_slim(python_version="3.11")
     .apt_install("ffmpeg")
-    .pip_install("fastapi[standard]")
+    .pip_install("fastapi[standard]", "requests")
     .pip_install(
         "faster-whisper==1.1.1",
         "torch==2.3.1",
