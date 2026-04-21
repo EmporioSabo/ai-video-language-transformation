@@ -35,7 +35,7 @@ transcribe_image = (
 synthesize_image = (
     modal.Image.debian_slim(python_version="3.11")
     .apt_install("ffmpeg", "libsndfile1")
-    .pip_install("fastapi[standard]")
+    .pip_install("fastapi[standard]", "requests")
     .pip_install(
         "torch==2.3.1",
         "torchaudio==2.3.1",
