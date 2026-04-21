@@ -218,3 +218,29 @@ def synthesize(segments: list, voice_refs_b64: dict) -> dict:
             "segments": segments,
             "tts_zip_b64": base64.b64encode(zip_buf.getvalue()).decode(),
         }
+
+
+# ── Web endpoints (called via plain HTTP — no modal package needed on client) ─
+
+@app.function(
+    image=transcribe_image,
+    gpu="T4",
+    timeout=600,
+    volumes={"/root/.cache/huggingface": whisper_cache},
+    secrets=[modal.Secret.from_name("ai-video")],
+)
+@modal.web_endpoint(method="POST")
+def transcribe_http(item: dict) -> dict:
+    return transcribe.local(item["audio_b64"], item.get("language", "zh"))
+
+
+@app.function(
+    image=synthesize_image,
+    gpu="T4",
+    timeout=1200,
+    volumes={"/root/.cache/huggingface": f5tts_cache},
+    secrets=[modal.Secret.from_name("ai-video")],
+)
+@modal.web_endpoint(method="POST")
+def synthesize_http(item: dict) -> dict:
+    return synthesize.local(item["segments"], item["voice_refs"])

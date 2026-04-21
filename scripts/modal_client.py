@@ -1,15 +1,26 @@
-"""Modal GPU client — replaces runpod_client.py for transcribe + synthesize."""
+"""Modal GPU client — calls Modal web endpoints via plain HTTP (no modal package needed)."""
 
 import base64
+import os
 import subprocess
 import tempfile
 import time
 from pathlib import Path
 
+import requests
+
+# Set these as HF Spaces secrets: MODAL_TRANSCRIBE_URL, MODAL_SYNTHESIZE_URL
+# Obtain URLs by running: modal deploy modal_app.py  (printed at the end)
+TRANSCRIBE_URL = os.getenv("MODAL_TRANSCRIBE_URL", "")
+SYNTHESIZE_URL = os.getenv("MODAL_SYNTHESIZE_URL", "")
+
+TIMEOUT = 1800  # 30 min max per call
+
 
 def transcribe(audio_path: Path, language: str = "zh") -> dict:
-    """Submit transcription to Modal and return result."""
-    import modal
+    """Compress audio and call Modal transcribe web endpoint."""
+    if not TRANSCRIBE_URL:
+        raise RuntimeError("MODAL_TRANSCRIBE_URL secret not set on HF Spaces.")
 
     with tempfile.NamedTemporaryFile(suffix=".mp3", delete=False) as tmp:
         tmp_path = tmp.name
@@ -20,16 +31,27 @@ def transcribe(audio_path: Path, language: str = "zh") -> dict:
     audio_b64 = base64.b64encode(Path(tmp_path).read_bytes()).decode()
     Path(tmp_path).unlink(missing_ok=True)
 
-    fn = modal.Function.from_name("ai-video-language-transformation", "transcribe")
-    return fn.remote(audio_b64, language)
+    resp = requests.post(
+        TRANSCRIBE_URL,
+        json={"audio_b64": audio_b64, "language": language},
+        timeout=TIMEOUT,
+    )
+    resp.raise_for_status()
+    return resp.json()
 
 
 def synthesize(segments: list, voice_refs_b64: dict) -> dict:
-    """Submit TTS synthesis to Modal and return result with tts_zip_b64."""
-    import modal
+    """Call Modal synthesize web endpoint."""
+    if not SYNTHESIZE_URL:
+        raise RuntimeError("MODAL_SYNTHESIZE_URL secret not set on HF Spaces.")
 
-    fn = modal.Function.from_name("ai-video-language-transformation", "synthesize")
-    return fn.remote(segments, voice_refs_b64)
+    resp = requests.post(
+        SYNTHESIZE_URL,
+        json={"segments": segments, "voice_refs": voice_refs_b64},
+        timeout=TIMEOUT,
+    )
+    resp.raise_for_status()
+    return resp.json()
 
 
 def get_daily_usage() -> dict:
