@@ -37,8 +37,8 @@ synthesize_image = (
     .apt_install("ffmpeg", "libsndfile1")
     .pip_install("fastapi[standard]", "requests")
     .pip_install(
-        "torch==2.3.1",
-        "torchaudio==2.3.1",
+        "torch==2.4.1",
+        "torchaudio==2.4.1",
         extra_index_url="https://download.pytorch.org/whl/cu121",
     )
     .pip_install(
