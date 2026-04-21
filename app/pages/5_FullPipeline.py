@@ -37,8 +37,8 @@ selected_lang_code = SUPPORTED_LANGUAGES[selected_lang_name]
 # ── TTS model selection ──────────────────────────────────────────────────────
 
 TTS_MODELS = {
-    "Voxtral (Mistral API — fast, no GPU)": "voxtral",
     "F5-TTS (RunPod GPU — better voice cloning)": "f5tts",
+    "Voxtral (Mistral API — fast, no GPU)": "voxtral",
 }
 
 selected_tts_label = st.selectbox(
