@@ -16,11 +16,11 @@ That was the main project. But by the end of the project, we had also taken a de
 
 ## The Pipeline
 
-The main pipeline chains together several AI components, each handling a distinct task:
+The main pipeline chains together several components, each handling a distinct task:
 
 1. **Transcription** — [faster-whisper](https://github.com/SYSTRAN/faster-whisper) (large-v3) converts the Chinese audio into timed text segments
-2. **Speaker Diarization** — [pyannote.audio](https://github.com/pyannote/pyannote-audio) identifies who is speaking and when, enabling per-speaker voice cloning
-3. **Translation** — [DeepL](https://www.deepl.com/) translates Chinese segments to English, with a [Gemini](https://deepmind.google/technologies/gemini/) review pass for technical terminology (GitHub-specific vocabulary like "pull request", "commit", "branch")
+2. **Translation** — [DeepL](https://www.deepl.com/) translates Chinese segments to English, with a [Gemini](https://deepmind.google/technologies/gemini/) review pass for technical terminology (GitHub-specific vocabulary like "pull request", "commit", "branch")
+3. **Speaker Diarization** — [pyannote.audio](https://github.com/pyannote/pyannote-audio) identifies who is speaking and when, enabling per-speaker voice cloning
 4. **Speech Synthesis** — [F5-TTS](https://github.com/SWivid/F5-TTS) and [Voxtral](https://mistral.ai/news/voxtral) generate English audio in the original speaker's voice
 5. **Audio Alignment** — [pyrubberband](https://github.com/bmcfee/pyrubberband) time-stretches segments that are too long, preserving pitch; [pyloudnorm](https://github.com/csteinmetz1/pyloudnorm) normalizes loudness to broadcast standard (-14 LUFS)
 6. **Video Merge** — [FFmpeg](https://ffmpeg.org/) replaces the original audio track with the new English one
@@ -51,27 +51,7 @@ That question pointed directly at Darija — Moroccan Arabic — for reasons tha
 
 On the personal side: Darija is the language of everyday life in Morocco. It is the language of family conversations, street markets, and voice messages between friends. The idea that AI speech systems largely do not support it — while supporting dozens of European languages with far fewer speakers — felt worth pushing against.
 
-On the technical side: Darija is a genuine research challenge. It is a low-resource dialect with deep structural differences from Modern Standard Arabic (MSA) — different phonology, a vocabulary that borrows heavily from Amazigh, French, and Spanish, and a rapid consonant-heavy rhythm that standard Arabic models are not built to handle.
-
-But there is an added layer of complexity that makes Darija uniquely difficult, even by the standards of low-resource languages: **there is no standardized way to write it**.
-
----
-
-## The Writing Problem
-
-Depending on who is typing — and on what platform — Darija might appear as:
-
-- Arabic script: **عفاك** ("Please" / "excuse me")
-- Latin script with numbers substituting for sounds that have no Latin equivalent: **3afak** (the number 3 represents the Arabic letter ع, a pharyngeal consonant with no equivalent in French or English)
-- A mix of both, sometimes within the same sentence
-
-This is not a niche phenomenon. Arabizi — the Latin-numeric hybrid — is the dominant register for Darija on WhatsApp, Instagram, and most social media. Arabic script is used in more formal contexts. Neither is standardized. Neither has agreed-upon spelling rules. Two people writing the same Darija sentence might produce completely different character sequences.
-
-For a TTS model, this is a fundamental problem. Before you can train a model to speak a word, you need to know how that word is spelled — consistently, across thousands of training examples. Arabic script at least gives you a consistent character set. But even in Arabic, Darija adds another layer: **the vowel problem**.
-
-Written Arabic omits short vowels. The consonant skeleton is written; the reader fills in the vowels from morphological knowledge and context. A native speaker can do this automatically. A TTS model cannot — it needs either explicit vowel markings (called *shakl* or *tashkeel* in Arabic) or a separate system that infers pronunciation from the written form.
-
-These two problems — no standardized orthography, and unvocalized text even when Arabic script is used — are the core reasons why Darija TTS lags so far behind MSA.
+On the technical side: Darija is a genuine research challenge. It is a low-resource dialect with deep structural differences from Modern Standard Arabic (MSA) — different phonology, a vocabulary that borrows heavily from Amazigh, French, and Spanish, and a rapid consonant-heavy rhythm. It can be written in Arabic script or in Arabizi (a Latin-numeric hybrid where, for example, **3afak** represents **عفاك** — the 3 standing for the Arabic letter ع). Neither form is standardized. When Arabic script is used, short vowels are omitted, as is standard in Arabic writing; vowel diacritics (tashkeel) would help a TTS model but are rarely used in practice and hard to collect at scale.
 
 ---
 
@@ -79,11 +59,11 @@ These two problems — no standardized orthography, and unvocalized text even wh
 
 Before describing our experiment, it is worth situating it within what already exists.
 
-Commercial services like SpeechGen.io and ElevenLabs have launched Moroccan Arabic voices — "Mouna", "Jamal", "Ghizlane" — that capture the cadence of Casablanca or Rabat convincingly. These work well for marketing videos or radio promotions. But they use predefined voices. You cannot clone an arbitrary speaker with them.
+Commercial services like SpeechGen.io offer native Moroccan Arabic voices — "Mouna" (female) and "Jamal" (male) — explicitly tuned to Darija. These work well for marketing videos or radio promotions. But they use predefined voices. You cannot clone an arbitrary speaker with them.
 
 The open-source landscape is more recent and more interesting. Hugging Face spaces like [medmac01/Darija-Arabic-TTS](https://huggingface.co/spaces/medmac01/Darija-Arabic-TTS) fine-tune XTTS checkpoints for Darija. HAMMALE's speecht5-darija adapts Microsoft's SpeechT5 for Moroccan Arabic. Most recently, the "Habibi" framework (2026) adapted F5-TTS itself to cover 12 regional Arabic dialects using a curriculum training strategy — starting from MSA data and gradually shifting to dialect-specific speech.
 
-The datasets remain the bottleneck. The premier open-source TTS corpus for Darija is DODa (AtlasIA): roughly 9 hours of speech across 7 speakers, with text in Arabic, Latin, and English. High quality — but no vowel diacritics. Most other large Darija corpora (MGB-5, MoulSot, Casablanca) were built for speech recognition, not synthesis, and lack the standardized orthography synthesis models need. The one corpus designed for TTS that includes proper diacritization — lahgtna-chatterbox — remains relatively small.
+The datasets remain the bottleneck. The premier open-source TTS corpus for Darija is DODa (AtlasIA): roughly 9 hours of speech across 7 speakers, with text in Arabic, Latin, and English. Most other large Darija corpora (MGB-5, MoulSot, Casablanca) were built for speech recognition, not synthesis, and lack the standardized orthography synthesis models need.
 
 This data situation shapes everything that follows.
 
@@ -113,35 +93,28 @@ The acoustic architecture — the flow-matching model, the voice cloning mechani
 
 ## What Happened
 
-The fine-tuned model produced gibberish.
+The fine-tuned model did not produce intelligible Darija. The output had structure — rhythm, voice, the shape of speech — but no recognizable phonemes. The model was clearly generating something, but it had not learned to map the input to actual pronunciation. This was our first fine-tuning attempt, and the results reflect that.
 
-Not noise — structured audio that sounded like an attempt at speech, with rhythm and voice, but no recognizable phonemes. The model was generating *something*, but not Darija.
+The failure very likely stems from a combination of 2 factors :
 
-The culprit, we believe, is exactly the problem described above: unvocalized text. DarijaTTS-clean uses Arabic script without shakl. The model was trying to learn a mapping from ambiguous consonant skeletons to speech, with no consistent signal for how vowels should be realized. Given that Darija also systematically drops short vowels compared to MSA (for example, "he wrote" is /kteb/ in Darija versus /kataba/ in MSA), the training signal was doubly ambiguous. The model collapsed.
-
-This is not a failure unique to us. It mirrors what the broader literature reports: every serious Darija TTS effort has had to confront the vocalization problem one way or another. The "Habibi" framework sidestepped it through curriculum learning from diacritized MSA. Others have explored grapheme-to-phoneme (G2P) models that infer pronunciation without explicit diacritics. Both are real paths — and neither is trivial.
-
-We found the lahgtna-chatterbox corpus, which supports diacritized text, but ran out of time to run a second experiment.
+- **Not enough data, spread across too many voices**: Teaching F5-TTS an entirely new language typically requires 50 to 100+ hours of audio. DarijaTTS-clean contains around 15–20 hours — already short of that threshold. More importantly, that audio is spread across many different speakers. A multi-speaker dataset forces the model to simultaneously learn the language and adapt to speaker variation, which makes convergence harder. A single-voice dataset of the same size would likely have given the model a much better chance, since it could focus entirely on learning Darija phonetics without the added complexity.
+- **Unvocalized text**: DarijaTTS-clean uses Arabic script without tashkeel. Tashkeel would give the model an explicit pronunciation target, but Moroccans do not write Darija with it in everyday life, making a diacritized dataset very hard to build — you cannot scrape it from real-world sources and manual annotation is costly. This alone definitely didn't caused the failure, but it is a known source of input ambiguity for any TTS model trained on Arabic-script Darija data.
 
 ---
 
 ## What We Learned
 
-**The text input matters as much as the model.** Getting the acoustic architecture right is necessary but not sufficient. If the text representation cannot fully specify pronunciation, the model cannot learn the mapping. For Arabic dialects, that means either diacritized training data or a dedicated G2P preprocessing step.
+**Data quantity and speaker diversity matter as much as the model.** Teaching F5-TTS a new language requires significantly more data than we had — and ideally from a single speaker or a small consistent set, so the model can focus on learning the language rather than simultaneously adapting to many different voices. DarijaTTS-clean's 15–20 hours spread across multiple speakers was not enough for convergence.
 
-**Darija's writing chaos is itself a research problem.** Before you can train a model, you need clean, consistently-formatted text. For a language with no agreed-upon orthography, that normalization step is non-trivial and probably deserves its own model.
+**The text input matters as much as the model.** Getting the acoustic architecture right is necessary but not sufficient. If the text representation cannot fully specify pronunciation, the model cannot learn the mapping. For Darija, the missing piece is a G2P layer that handles how the language is actually written — unvocalized Arabic or Arabizi — rather than expecting a sanitized, diacritized input that no one produces in practice.
 
 **A negative result is still a result.** We know exactly where DarijaTTS-clean fails for F5-TTS fine-tuning. We know what a better dataset looks like. The vocabulary extension and embedding resize procedures work correctly — those are reusable building blocks. The failure is localized and diagnosable.
-
-**Zero-shot voice cloning is the right goal for Darija.** Commercial Darija TTS exists, but it gives you fixed voices. A zero-shot system would let anyone clone their own voice — for accessibility tools, for education, for content creation in their own dialect. That capability, which works well for English and Chinese, is worth bringing to Darija.
 
 ---
 
 ## What Is Next
 
-The most direct next step: repeat the experiment with a diacritized dataset. The lahgtna-chatterbox corpus was designed for this purpose and is the obvious candidate.
-
-A longer-term direction: a grapheme-to-phoneme model for Darija — one that handles both Arabic script and Arabizi — which would normalize any Darija text into a phoneme sequence before passing it to the synthesis model. This would make the system robust to the orthographic variation that is a fact of life for anyone writing Darija.
+A longer-term direction could be a grapheme-to-phoneme model for Darija, which would normalize written text into a phoneme sequence before passing it to the synthesis model. This is harder than it sounds: Arabic script and Arabizi are structurally different enough that a single G2P model covering both would be noisy and complex to train — separate models per script are probably more realistic, and each one is already a non-trivial task on its own. That said, the payoff would be significant, especially for loanwords: French words like "voiture" or "problème", Amazigh terms, and proper names all get transliterated inconsistently in Arabic script, and a G2P layer would resolve them to the correct Moroccan-inflected pronunciation rather than a broken Arabic reading.
 
 ---
 
